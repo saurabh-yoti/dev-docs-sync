@@ -1,0 +1,929 @@
+---
+type: page
+title: Understanding the report
+listed: true
+slug: understanding-the-report
+description: 
+index_title: Understanding the report
+hidden: 
+keywords: 
+tags: 
+---
+
+The Yoti Doc Scan SDK allows you to tailor your report and response. Below we explain a more detailed version of what each report shows. 
+
+{% html %}
+<div class="alert-BYS">
+   <div class="alert-title" id="BYS">
+      Before you start
+   </div>
+   <div class="alert-text" >
+     Please have the Retrieve results section.
+   </div>
+   <div class="alert-links"> 
+         <a href="https://developers.yoti.com/yoti/results">Retrieve results </a>
+   </div>
+</div>
+{% /html %}
+
+## Result of the session
+
+Below is the session result in more detail, please see explanation of the values below.
+
+{% code %}
+{% tab language="javascript" %}
+const {
+DocScanClient,
+} = require('yoti');
+  const docScanClient = new DocScanClient(
+    process.env.YOTI_CLIENT_SDK_ID,
+    fs.readFileSync('pem.pem')
+  )
+  
+  
+  docScanClient.getSession('your_session_id').then(session => {
+    const sessionId = session.getSessionId();
+    const clientSessionTokenTtl = session.getClientSessionTokenTtl();
+    const state = session.getState();
+    const clientSessionToken = session.getClientSessionToken();
+    const userTrackingId = session.getUserTrackingId();
+
+    const checks = session.getChecks();
+    const authenticityChecks = session.getAuthenticityChecks();
+    const faceMatchChecks = session.getFaceMatchChecks();
+    const textDataChecks = session.getTextDataChecks();
+    const livenessChecks = session.getLivenessChecks();
+
+    const resources = session.getResources();
+}).catch(error => {
+    // handle error
+})
+{% /tab %}
+{% tab language="java" %}
+DocScanClient docScanClient = DocScanClientBuilder.newInstance()
+        .withClientSdkId(YOTI_CLIENT_SDK_ID)
+        .withKeyPairSource(ClassPathKeySource.fromClasspath(PEM_PATH))
+        .build();
+
+GetSessionResult sessionResult = docScanClient.getSession(sessionId);
+
+Long clientSessionTokenttl = sessionResult.getClientSessionTokenTtl();
+String state = sessionResult.getState();
+String clientSessionToken = sessionResult.getClientSessionToken();
+String userTrackingId = sessionResult.getUserTrackingId();
+
+List<? extends CheckResponse> checks = sessionResult.getChecks();
+List<AuthenticityCheckResponse> authenticityChecks = sessionResult.getAuthenticityChecks();
+List<FaceMatchCheckResponse> faceMatchChecks = sessionResult.getFaceMatchChecks();
+List<TextDataCheckResponse> textDataChecks = sessionResult.getTextDataChecks();
+List<LivenessCheckResponse> livenessChecks = sessionResult.getLivenessChecks();
+
+ResourceContainer resources = sessionResult.getResources();
+{% /tab %}
+{% tab language="php" %}
+<?php
+
+use Yoti\DocScan\DocScanClient;
+
+$YOTI_CLIENT_SDK_ID = 'YOUR_SDK_ID';
+$YOTI_PEM = '/path/to/pem';
+
+// Create Doc Scan Client
+$docScanClient = new DocScanClient($YOTI_CLIENT_SDK_ID, $YOTI_PEM);
+// Returns a session result
+$sessionResult = $docScanClient->getSession('DOC_SCAN_SESSION_ID');
+// Returns the session state
+$sessionState = $sessionResult->getState();
+// Returns the session Id
+$sessionId = $sessionResult->getSessionId();
+// Returns the user tracking Id
+$userTrackingId = $sessionResult->getUserTrackingId();
+// Returns the client session token
+$clientSessionToken = $sessionResult->getClientSessionToken();
+// Returns the client session token ttl
+$clientSessionTokenTtl = $sessionResult->getClientSessionTokenTtl();
+
+// Returns all sessions checks
+$checks = $sessionResult->getChecks();
+// Returns all Document Authenticity Checks
+$authenticityChecks = $sessionResult->getAuthenticityChecks();
+// Returns all Text Data Checks
+$textDataChecks = $sessionResult->getTextDataChecks();
+// Returns all Liveness Checks
+$livenessChecks = $sessionResult->getLivenessChecks();
+// Returns all Face Match Checks
+$faceMatchChecks = $sessionResult->getFaceMatchChecks();
+
+// Returns all resources
+$resources = $sessionResult->getResources();
+{% /tab %}
+{% tab language="python" %}
+from yoti_python_sdk.doc_scan import (
+    DocScanClient
+)
+
+YOTI_CLIENT_SDK_ID = 'YOUR_SDK_ID'
+YOTI_PEM = '/path/to/pem'
+
+doc_scan_client = DocScanClient(YOTI_CLIENT_SDK_ID, YOTI_PEM)
+
+session_result = doc_scan_client.get_session('your_session_id')
+
+client_session_token_ttl = session_result.client_session_token_ttl
+state = session_result.state
+client_session_token = session_result.client_session_token
+user_tracking_id = session_result.user_tracking_id
+
+checks = session_result.checks
+authenticity_checks = session_result.authenticity_checks
+face_match_checks = session_result.face_match_checks
+text_data_checks = session_result.text_data_checks
+liveness_checks = session_result.liveness_checks
+
+resources = session_result.resources
+{% /tab %}
+{% tab language="csharp" %}
+var docScanClient = new DocScanClient(YOTI_CLIENT_SDK_ID, key, new HttpClient());
+
+GetSessionResult sessionResult = docScanClient.GetSession(sessionId);
+
+int clientSessionTokenTtl = sessionResult.ClientSessionTokenTtl;
+string state = sessionResult.State;
+string clientSessionToken = sessionResult.ClientSessionToken;
+string user_tracking_id = sessionResult.UserTrackingId;
+
+List<CheckResponse> checks = sessionResult.Checks;
+List<AuthenticityCheckResponse> authenticityChecks = sessionResult.GetAuthenticityChecks();
+List<FaceMatchCheckResponse> faceMatchChecks = sessionResult.GetFaceMatchChecks();
+List<TextDataCheckResponse> textDataChecks = sessionResult.GetTextDataChecks();
+List<LivenessCheckResponse> livenessChecks = sessionResult.GetLivenessChecks();
+
+ResourceContainer resources = sessionResult.Resources;
+{% /tab %}
+{% /code %}
+
+{% table %}
+| Value | Response | Description | 
+| ---- | ---- | ---- | 
+| Session ID | uuid | The session ID | 
+| Client session token | uuid | Returns the client session token | 
+| Session state | ONGOING COMPLETED EXPIRED | Yoti is still working on tasks and checks for the user's ID. \n\nYoti has completed checks and tasks.\n\nYoti could not complete the checks and tasks. | 
+| Client session token ttl | seconds | Returns the time left in seconds until the session expires. | 
+| User tracking ID | user ID | The user ID you set in your backend | 
+| Client session token | uuid | Returns the client session token | 
+| Checks | N/A | To return the results of the checks in an array. | 
+| Authenticity checks | See below | Returns all authenticity checks for that session with ID's and state. | 
+| Text data checks | See below | Returns all extraction checks for that session with ID's and state. | 
+| Liveness checks | See below | Returns all liveness checks for that session with ID's and state. | 
+| Face match  checks | See below | Returns all face match checks for that session with ID's and state. | 
+{% /table %}
+
+---
+
+## Retrieve user information
+
+Depending on the configuration of your sessions, you will need to retrieve either ID Document resources, Liveness resources or both.
+
+{% code %}
+{% tab language="javascript" %}
+//get all the resources
+resources = session.getResources();
+
+// get the ID document resources
+idDocResources = resources.getIdDocuments();
+
+// get the liveness resources
+livenessResources = resources.getLivenessCapture();
+{% /tab %}
+{% tab language="java" %}
+// Get all the resources
+ResourceContainer resources = sessionResult.getResources();
+
+// Get the ID document resources
+List<? extends  IdDocumentResourceResponse> idDocumentResources = resources.getIdDocuments();
+
+// Get the liveness resources
+List<? extends LivenessResourceResponse> livenessResources = resources.getLivenessCapture();
+{% /tab %}
+{% tab language="php" %}
+<?php
+
+// get all the resources
+$resources = $session->getResources();
+
+// get the ID document resources
+$idDocResources = $resources->getIdDocuments();
+
+// get the liveness resources
+$livenessResources = $resources->getLivenessCapture();
+{% /tab %}
+{% tab language="python" %}
+# Returns all resources
+resources = session_result.resources
+
+# Returns ID Document resources
+id_document_resources = resources.id_documents
+
+# Returns liveness resources
+liveness_resources = resources.liveness_capture
+
+# Returns zoom liveness resources
+zoom_liveness_resources = resources.zoom_liveness_resources
+{% /tab %}
+{% tab language="csharp" %}
+// Returns all resources
+ResourceContainer resources = sessionResult.Resources;
+
+// Returns ID Document resources
+List<IdDocumentResourceResponse> idDocumentResources = resources.IdDocuments;
+
+// Returns liveness resources
+List<LivenessResourceResponse> livenessResources = resources.LivenessCapture;
+
+// Returns zoom liveness resources
+List<ZoomLivenessResourceResponse> zoomLivenessResources = resources.ZoomLivenessResources;
+{% /tab %}
+{% /code %}
+
+### **ID Document resources**
+
+{% code %}
+{% tab language="javascript" %}
+idDocResources.forEach((document) => {
+  // Get the document id
+  id = document.getId();
+
+  // Get the document tasks
+  tasks = document.getTasks();
+
+  // Get the document type
+  documentType = document.getDocumentType();
+
+  // Get the document issuing country
+  issuingCountry = document.getIssuingCountry();
+
+  // Get the document pages
+  pages = document.getPages();
+
+  // Get the document fields
+  documentFields = document.getDocumentFields();
+});
+{% /tab %}
+{% tab language="java" %}
+for (IdDocumentResourceResponse idDocumentResource : idDocumentResources) {
+
+    // Get the document id
+    String id = idDocumentResource.getId();
+
+    // Get the document tasks
+    List<? extends TaskResponse> tasks = idDocumentResource.getTasks();
+
+    // Get the document type
+    String documentType = idDocumentResource.getDocumentType();
+
+    // Get the document issuing country
+    String issuingCountry = idDocumentResource.getIssuingCountry();
+
+    // Get the document pages
+    List<? extends PageResponse> pages = idDocumentResource.getPages();
+
+    // Get the document fields
+    DocumentFieldsResponse documentFields = idDocumentResource.getDocumentFields();
+}
+{% /tab %}
+{% tab language="php" %}
+<?php
+
+foreach ($idDocResources as $document) {
+
+  // Get the document id
+  $id = $document->getId();
+
+  // Get the document tasks
+  $tasks = $document->getTasks();
+
+  // Get the document type
+  $documentType = $document->getDocumentType();
+
+  // Get the document issuing country
+  $issuingCountry = $document->getIssuingCountry();
+
+  // Get the document pages
+  $pages = $document->getPages();
+
+  // Get the document fields
+  $documentFields = $document->getDocumentFields();
+}
+{% /tab %}
+{% tab language="python" %}
+for id_document_resource in id_document_resources:
+
+    # Returns the Document ID
+    id_document_resource_id = id_document_resource.id
+
+    # Returns the document tasks
+    tasks = id_document_resource.tasks
+
+    # Returns the document type
+    document_type = id_document_resource.document_type
+
+    # Returns the document issuing country
+    issuing_country = id_document_resource.issuing_country
+
+    # Returns the document pages
+    pages = id_document_resource.pages
+
+    # Returns the document fields
+    document_fields = id_document_resource.document_fields
+{% /tab %}
+{% tab language="csharp" %}
+foreach (IdDocumentResourceResponse idDocumentResource in idDocumentResources)
+{
+    // Returns the document unique id
+    string document_uuid = idDocumentResource.Id;
+
+    // Returns the document tasks
+    List<TaskResponse> tasks = idDocumentResource.Tasks;
+
+    // Returns the document type
+    string documentType = idDocumentResource.DocumentType;
+
+    // Returns the document issuing country
+    string issuingCountry = idDocumentResource.IssuingCountry;
+
+    // Returns the document pages
+    List<PageResponse> pages = idDocumentResource.Pages;
+
+    // Returns the document fields
+    DocumentFieldsResponse documentFields = idDocumentResource.DocumentFields;
+}
+{% /tab %}
+{% /code %}
+
+{% table %}
+| Value | Response | Decription | 
+| ---- | ---- | ---- | 
+| id | UUID | ID unique to that resource | 
+| tasks | array | any tasks that are performed on the resource | 
+| Document Type | eg PASSPORT | The type of document that the user selected before uploading their document images | 
+| issuing country | eg GBR | The country the document was issued from | 
+| pages | array of media objects | Array of the images taken of the document. Can be retrieved using the [getMedia](https://developers.yoti.com/yoti/results#retrieve-images) endpoint | 
+| Document fields | media object | The extracted text as a JSON object. Can be retrieved using the [getMedia](https://developers.yoti.com/yoti/results#retrieve-user-information) endpoint | 
+{% /table %}
+
+### **Liveness Resources**
+
+{% code %}
+{% tab language="javascript" %}
+livenessResources.forEach((liveness) => {
+  // Get the liveness id
+  id = liveness.getId();
+
+  // Get the liveness tasks
+  tasks = liveness.getTasks();
+
+  // Get the liveness facemap
+  facemap = liveness.getFaceMap();
+
+  // Get the liveness frames
+  frames = liveness.getFrames();
+});
+{% /tab %}
+{% tab language="java" %}
+for (ZoomLivenessResourceResponse livenessResource : livenessResources) {
+    // Get the liveness id
+    String id = livenessResource.getId();
+
+    // Get the liveness tasks
+    List<? extends TaskResponse> tasks = livenessResource.getTasks();
+
+    // Get the liveness facemap
+    FaceMapResponse = livenessResource.getFaceMap();
+    
+    // Get the liveness frames
+    List<? extends FrameResponse> frames = livenessResource.getFrames();
+}
+{% /tab %}
+{% tab language="php" %}
+<?php
+
+foreach ($livenessResources as $liveness) {
+  // Get the liveness id
+  $id = $liveness->getId();
+
+  // Get the liveness tasks
+  $tasks = $liveness->getTasks();
+
+  // Get the liveness facemap
+  $facemap = $liveness->getFaceMap();
+
+  // Get the liveness frames
+  $frames = $liveness->getFrames();
+});
+{% /tab %}
+{% tab language="python" %}
+for liveness_resource in liveness_resources:
+    
+    # Returns liveness resource id
+    liveness_resource_id = liveness_resource.id
+
+    # Returns liveness tasks
+    tasks = liveness_resource.tasks
+
+    # Returns liveness facemap
+    facemap = liveness_resource.facemap
+
+    # Returns liveness frames
+    frames = liveness_resource.frames
+{% /tab %}
+{% tab language="csharp" %}
+foreach (ZoomLivenessResourceResponse livenessResource in livenessResources)
+{
+    // Returns the liveness id
+    string livenessId = livenessResource.Id;
+
+    // Returns the liveness tasks
+    List<TaskResponse> tasks = livenessResource.Tasks;
+
+    // Returns the liveness facemap
+    FaceMapResponse faceMap = livenessResource.FaceMap;
+
+    // Returns the liveness frames
+    List<FrameResponse> frames = livenessResource.Frames;
+}
+{% /tab %}
+{% /code %}
+
+{% table %}
+| Value | Response | Decription | 
+| ---- | ---- | ---- | 
+| id | UUID | ID unique to that resource | 
+| tasks | array | Any tasks that are performed on the resource | 
+| facemap | media object | A media object of the binary facemap. Can be retrieved using the getMedia endpoint | 
+| frames | array of media objects | Array of the images taken during the liveness check. Can be retrieved using the [getMedia](https://developers.yoti.com/yoti/results#retrieve-images) endpoint | 
+{% /table %}
+
+---
+
+## Result of the checks
+
+Below is an example of the result of each check in more detail. 
+
+{% code %}
+{% tab language="javascript" %}
+// Can be checks, documentAuthenticityChecks, livenessChecks faceMatchChecks or textDataChecks
+
+checks.forEach((check) => {
+  // Get the check type
+  type = check.getType();
+
+  // Get the check id
+  id = check.getId();
+
+  // Get the state of the check
+  state = check.getState();
+
+  // Get the check report
+  report = check.getReport();
+
+  // Get the created time
+  created = check.getCreated();
+
+  // Get the updated time
+  lastUpdated = check.getLastUpdated();
+
+  // Get the resource IDs which have been used when performing this check
+  resourcesUsed = check.getResourcesUsed();
+
+  // Get the generated media
+  generatedMedia = check.getGeneratedMedia();
+});
+{% /tab %}
+{% tab language="java" %}
+// Can be checks, documentAuthenticityChecks, livenessChecks, faceMatchChecks or textDataChecks
+for (CheckResponse check : checks) {
+
+    // Get the check type
+    String type = check.getType();
+
+    // Get the check id
+    String id = check.getId();
+    
+    // Get the state of the check
+    String state = check.getState();
+    
+    // Get the check report
+    ReportResponse report = check.getReport();
+    
+    // Get the created time
+    String created = check.getCreated();
+    
+    // Get the updated time
+    String lastUpdated = check.getLastUpdated();
+    
+    // Get the resource IDs which have been used when performing this check
+    List<String> resourcedUsed = check.getResourcesUsed();
+    
+    // Get the generated media
+    List<? extends GeneratedMedia> generatedMedia = check.getGeneratedMedia();
+}
+{% /tab %}
+{% tab language="php" %}
+<?php
+
+// Can be checks, documentAuthenticityChecks, livenessChecks faceMatchChecks or textDataChecks
+foreach ($checks as $check) {
+    // Get the check type
+    $type = $check->getType();
+
+    // Get the check id
+    $id = $check->getId();
+
+    // Get the state of the Document Authenticity check
+    $state = $check->getState();
+
+    // Get the document authenticity report
+    $report = $check->getReport();
+
+    // Get the created time
+    $created = $check->getCreated();
+
+    // Get the updated time
+    $lastUpdated = $check->getLastUpdated();
+
+    // Get the resource IDs which have been used when performing this check
+    $resourcesUsed = $check->getResourcesUsed();
+
+    // Get the generated media
+    $generatedMedia = $check->getGeneratedMedia();
+}
+{% /tab %}
+{% tab language="python" %}
+# Can be checks, documentAuthenticityChecks, livenessChecks faceMatchChecks or textDataChecks
+for check in checks:
+    
+    # Returns check type
+    check_type = check.type
+
+    # Returns check id
+    check_id = check.id
+    
+    # Returns state of check
+    state = check.state
+
+    # Returns check report
+    report = check.report
+
+    # Returns created time
+    created = check.created
+
+    # Returns updated time
+    last_updated = check.last_updated
+
+    # Returns resource IDs which have been used when performing this check
+    resources_used = check.resources_used
+
+    # Returns generated media
+    generated_media = check.generated_media
+{% /tab %}
+{% tab language="csharp" %}
+// Can be checks, documentAuthenticityChecks, livenessChecks faceMatchChecks or textDataChecks
+foreach (CheckResponse check in checks)
+{
+    // Returns check type
+    string check_type = check.Type;
+
+    // Returns check id
+    string check_id = check.Id;
+
+    // Returns state of check
+    string check_state = check.State;
+
+    // Returns check report
+    ReportResponse report = check.Report;
+
+    // Returns created time
+    DateTime created = check.Created;
+
+    // Returns updated time
+    DateTime lastUpdated = check.LastUpdated;
+
+    // Returns the resource IDs which have been used when performing this check
+    List<String> resources_used = check.ResourcesUsed;
+
+    // Returns the generated media
+    List<GeneratedMedia> generatedMedia = check.GeneratedMedia;
+}
+{% /tab %}
+{% /code %}
+
+{% table %}
+| Value | Response | Description | 
+| ---- | ---- | ---- | 
+| Type | e.g. LivenessCheck | Which type of check was carried out | 
+| ID | uuid | The ID of the check | 
+| State | e.g. APPROVED | Status of the check | 
+| Report | N/A | Report of the check | 
+| Created | Date, Time and Seconds | When the check was created | 
+| Last Updated | Date, Time and Seconds | When the check was last updated | 
+| Resources used | uuid | The ID of the resources | 
+| Generated media | uuid and type | An array of type of media and their ID's. | 
+{% /table %}
+
+### Document Authenticity Report
+
+Yoti performs a numerous amount of sub checks on the document submitted, in order to view this report request. Yoti will provide a recommendation for the authenticity of the document:
+
+{% table %}
+| Recommendation | Explained | 
+| ---- | ---- | 
+| APPROVE | The document has passed all of Yoti's checks | 
+| REJECT | The document has failed multiple sub checks | 
+| NOT_AVAILABLE | The check was unable to complete. | 
+{% /table %}
+
+For the list of rejection suggestions please see below which will allow you to provide to give the user a correction attempt:
+
+{% table %}
+| Response | Yoti Reason | Description | 
+| ---- | ---- | ---- | 
+| NOT_AVAILABLE | PHOTO_OVEREXPOSED | The photo is overexposed | 
+| NOT_AVAILABLE | PHOTO_TOO_DARK | The photo is dark | 
+| NOT_AVAILABLE | PHOTO_TOO_BLURRY | The photo is blurry | 
+| NOT_AVAILABLE | DOCUMENT_TOO_DAMAGED | Document is too damaged (at the point we cannot check) | 
+| NOT_AVAILABLE | GLARE_OBSTRUCTION | The photo has a glare | 
+| NOT_AVAILABLE | OBJECT_OBSTRUCTION | Object in the way | 
+| NOT_AVAILABLE | UNABLE_TO_LOAD | Unable to load file a document in the frame | 
+| NOT_AVAILABLE | PARTIAL_PHOTO | The photo is partially taken | 
+| NOT_AVAILABLE | IMAGE_RESOLUTION_TOO_LOW | The image resolution is too low | 
+| NOT_AVAILABLE | COUNTRY_NOT_SUPPORTED | The country is not supported | 
+| NOT_AVAILABLE | DOCUMENT_NOT_SUPPORTED | Yoti does not support this document | 
+| NOT_AVAILABLE | INCORRECT_DOCUMENT_TYPE | The document type is incorrect | 
+| NOT_AVAILABLE | INCORRECT_MRZ | MRZ on passport is incorrect | 
+| NOT_AVAILABLE | DOCUMENT_VERSION_NOT_SUPPORTED | Yoti does not support this document template | 
+| NOT_AVAILABLE | MISSING_DOCUMENT_SIDE | The full document was not sent | 
+| NOT_AVAILABLE | BLACK_AND_WHITE_IMAGE | Black and white photo | 
+| NOT_AVAILABLE | MISUSE | The photo has been misused | 
+| NOT_AVAILABLE | INVALID | The photo is not a valid photo | 
+| REJECT | DOCUMENT_COPY | The photo has been photocopied | 
+| REJECT | NO_HOLOGRAM_MOVEMENT | There is no hologram movement detected | 
+| REJECT | TAMPERED | The photo seems to be tampered with | 
+| REJECT | MISSING_HOLOGRAM | There is no hologram on the photo | 
+| REJECT | OTHER_SECURITY_FEATURES | Expected data present or data in correct position failed. This will vary document to document, an example of features checked:\n\nMicroprint, watermarks, optically variable ink, presence of fingerprint / other notable (non-text) features and any visible embossing / engraving | 
+| REJECT | EXPIRED_DOCUMENT | The document has expired | 
+| REJECT | FRAUD_LIST_MATCH | The fraud match list check failed | 
+{% /table %}
+
+### Liveness Report
+
+Liveness checks can be retried if failed, depending on specified limited set when generating the session. Each try will generate a new breakdown in the response. The check will either be approved or rejected based on the result of the liveness check which is a pass/fail result.
+
+{% table %}
+| Response | Yoti score | Description | 
+| ---- | ---- | ---- | 
+| APPROVE | PASS | The user has passed the liveness test | 
+| REJECT | FAIL | The user is not a real person. Ensure you have reviewed the document response, if this is approved you can ask your users to try a new session. | 
+{% /table %}
+
+### Face match Report
+
+Yoti performs an automated check first to match the user's face matches the face on the ID document. If the automated check is not successful, at session created there is an option to fallback to manual face match whereby the image is reviewed by one of our processing experts.The face match check will give a recommendation based on these as either APPROVE or REJECT.
+
+If an automated AI face match is performed, a pass/fail result is returned, along with a confidence score (between 0 and 1) depending on how successful the match is, Yoti offers a PASS score if the confidence score is over 0.7.
+
+{% table %}
+| Recommendation | Automated / Manual | Yoti score | Explained | 
+| ---- | ---- | ---- | ---- | 
+| APPROVE | Automated | PASS | The face match was successfully matched and the confidence score is &gt; 0.7. | 
+| REJECT | Automated | FAIL | The face match was not successfully matched and the confidence score is &lt; 0.7. | 
+| APPROVE | Manual | PASS | The face match was successfully matched. | 
+| REJECT | Manual | FAIL | The face match was not successfully matched. | 
+| NOT_AVAILABLE | Manual | FAIL | The face match was unable to cpmplete. | 
+{% /table %}
+
+For the list of recommendation suggestions please see below which will allow you to provide to give the user a correction attempt:
+
+{% table %}
+| Recommendation | Yoti Response | Description | 
+| ---- | ---- | ---- | 
+| NOT_AVAILABLE | PHOTO_OVEREXPOSED | The photo is overexposed | 
+| NOT_AVAILABLE | PHOTO_TOO_DARK | The photo is dark | 
+| NOT_AVAILABLE | PHOTO_TOO_BLURRY | The photo is blurry | 
+| NOT_AVAILABLE | FACE_NOT_FOUND | No face detected | 
+| NOT_AVAILABLE | GLARE_OBSTRUCTION | The photo has a glare | 
+| NOT_AVAILABLE | OBJECT_OBSTRUCTION | Object in the way | 
+| NOT_AVAILABLE | DOCUMENT_NOT_FOUND | No photo detected | 
+| NOT_AVAILABLE | PARTIAL_PHOTO | Only part of the photo was shown | 
+| NOT_AVAILABLE | FACE_PHOTO_LOW_RESOLUTION | The photo had low resolution | 
+| NOT_AVAILABLE | MISUSE | The photo is misused | 
+| NOT_AVAILABLE | INVALID | The photo is invalid | 
+| REJECT | FACE_NOT_GENUINE | The face shown is not genuine | 
+| REJECT | LARGE_AGE_GAP | The age gap looks unrealistic | 
+| REJECT | DOCUMENT_COPY | The document has been photocopied | 
+| REJECT | TAMPERED | The photo has been tampered | 
+| REJECT | PHOTO_OF_MASK | The user is wearing a mask | 
+| REJECT | PHOTO_OF_PHOTO | The photo has been photocopied | 
+| REJECT | DIFFERENT_PERSON | Different person is detected from ID. | 
+{% /table %}
+
+### Text extraction Report
+
+If this check is successfully approved, the generated media array will contain the extracted text media ID, which can be used to retrieve the JSON object with the extracted data.
+
+This media will replace the "document_fields" media in the resources. Details of this can be found [here.](https://developers.yoti.com/yoti/results#retrieve-user-information)
+
+If machine data extraction is not successful, at session created there is an option to fallback to manual data extraction. This generates a ‘text data check’ automatically, and the document is reviewed by one of our document processing experts.
+
+Yoti will provide a recommendation for the text data extraction which will contain the sub-check text_data_readable which will either be a PASS or a FAIL.
+
+{% table %}
+| Response | Yoti score | Description | 
+| ---- | ---- | ---- | 
+| APPROVE | PASS | The data was successfully extracted from the image | 
+| REJECT | FAIL | The data was not successfully extracted from the image | 
+| NOT_AVAILABLE | FAIL | Yoti was unable extract the data from the image | 
+{% /table %}
+
+If a manual check is completed please see below for list of recommendation suggestions which will allow you to provide to give the user a correction attempt:
+
+{% table %}
+| Recommendation | Yoti response | Description | 
+| ---- | ---- | ---- | 
+| NOT_AVAILABLE | PHOTO_OVEREXPOSED | The photo is overexposed | 
+| NOT_AVAILABLE | PHOTO_TOO_DARK | The photo is dark | 
+| NOT_AVAILABLE | PHOTO_TOO_BLURRY | The photo is blurry | 
+| NOT_AVAILABLE | DOCUMENT_TOO_DAMAGED | Document is too damaged (at the point we cannot check) | 
+| NOT_AVAILABLE | GLARE_OBSTRUCTION | The photo has a glare | 
+| NOT_AVAILABLE | OBJECT_OBSTRUCTION | Object in the way | 
+| NOT_AVAILABLE | UNABLE_TO_LOAD | Unable to load file | 
+| NOT_AVAILABLE | PARTIAL_PHOTO | The photo is partially taken | 
+| NOT_AVAILABLE | IMAGE_RESOLUTION_TOO_LOW | The image resolution is too low | 
+| NOT_AVAILABLE | COUNTRY_NOT_SUPPORTED | The country is not supported | 
+| NOT_AVAILABLE | DOCUMENT_NOT_SUPPORTED | Yoti does not support this document | 
+| NOT_AVAILABLE | INCORRECT_DOCUMENT_TYPE | The document type is incorrect | 
+| NOT_AVAILABLE | INCORRECT_MRZ | MRZ on passport is incorrect | 
+| NOT_AVAILABLE | DOCUMENT_VERSION_NOT_SUPPORTED | Yoti does not support this document template | 
+| NOT_AVAILABLE | MISSING_DOCUMENT_SIDE | The full document was not sent | 
+| NOT_AVAILABLE | BLACK_AND_WHITE_IMAGE | Black and white photo | 
+| NOT_AVAILABLE | MISUSE | The photo has been misused | 
+| NOT_AVAILABLE | INVALID | The photo is not a valid photo | 
+{% /table %}
+
+---
+
+## Session Recommendation
+
+Below is an example of the report and recommendation of each result.
+
+{% code %}
+{% tab language="javascript" %}
+// Get the report recommendation
+reportRecommendation = report.getRecommendation();
+// Get the report recommendation value
+reportRecommendationValue = reportRecommendation.getValue();
+
+// Get the report recommendation reason
+reportRecommendationReason = reportRecommendation.getReason();
+
+//Get the report recommendation recovery suggestion
+reportRecommendationRecoverySuggestion = reportRecommendation.getRecoverySuggestion();
+
+reportBreakdown = report.getBreakdown();
+// Get result of each sub check from breakdown
+
+reportBreakdown.forEach((breakdown) => {
+  // Get the report breakdown sub check
+  subcheck = breakdown.getSubCheck();
+
+  // Get the report breakdown result
+  result = breakdown.getResult();
+
+  // Get the report breakdown details
+  details = breakdown.getDetails();
+});
+{% /tab %}
+{% tab language="java" %}
+// Get the report recommendation
+RecommendationResponse reportRecommendation = report.getRecommendation();
+
+// Get the report recommendation value
+String reportRecommendationValue = reportRecommendation.getValue();
+
+// Get the report recommendation reason
+String reportRecommendationReason = reportRecommendation.getReason();
+
+// Get the report recommendation recovery suggestion
+String reportRecommendationRecoverySuggestion = reportRecommendation.getRecoverySuggestion();
+
+List<? extends BreakdownResponse> reportBreakdown = report.getBreakdown();
+
+// Get result of each sub check from breakdown
+for (BreakdownResponse breakdown : reportBreakdown) {
+    // Get the report breakdown sub check
+    String subcheck = breakdown.getSubCheck();
+    
+    // Get the report breakdown result
+    String result = breakdown.getResult();
+    
+    // Get the report breakdown details
+    List<? extends DetailsResponse> details = breakdown.getDetails();
+}
+{% /tab %}
+{% tab language="php" %}
+<?php
+// Get the report recommendation
+$reportRecommendation = $report->getRecommendation();
+// Get the report recommendation value
+$reportRecommendationValue = $reportRecommendation->getValue();
+
+// Get the report recommendation reason
+$reportRecommendationReason = $reportRecommendation->getReason();
+
+//Get the report recommendation recovery suggestion
+$reportRecommendationRecoverySuggestion = $reportRecommendation->getRecoverySuggestion();
+
+$reportBreakdown = $report->getBreakdown();
+// Get result of each sub check from breakdown
+foreach ($reportBreakdown as $breakdown) {
+
+    // Get the report breakdown sub check
+    $subcheck = $breakdown->getSubCheck();
+  
+    // Get the report breakdown result
+    $result = $breakdown->getResult();
+  
+    // Get the report breakdown details
+    $details = $breakdown->getDetails();
+{% /tab %}
+{% tab language="python" %}
+# Returns report recommendation
+report_recommendation = report.recommendation
+
+# Returns report recommendation value
+report_recommendation_value = report_recommendation.value
+
+# Returns report recommendation reason
+report_recommendation_reason = report_recommendation.reason
+
+# Returns report recommendation recovery suggestion
+report_recommendation_recovery_suggestion = report_recommendation.recovery_suggestion
+
+# Returns report breakdown
+report_breakdown = report.breakdown
+
+# Return result of each sub check from breakdown
+for breakdown in report_breakdown:
+    
+    # Returns report breakdown sub check
+    subcheck = breakdown.sub_check
+
+    # Returns report breakdown result
+    result = breakdown.result
+
+    # Returns report breakdown details
+    details = breakdown.details
+{% /tab %}
+{% tab language="csharp" %}
+// Returns the report recommendation
+RecommendationResponse reportRecommendation = report.Recommendation;
+
+// Returns the report recommendation value
+String reportRecommendationValue = reportRecommendation.Value;
+
+// Returns the report recommendation reason
+String reportRecommendationReason = reportRecommendation.Reason;
+
+// Returns the report recommendation recovery suggestion
+String reportRecommendationRecoverySuggestion = reportRecommendation.RecoverySuggestion;
+
+List <BreakdownResponse> reportBreakdown = report.Breakdown;
+
+// Returns result of each sub check from breakdown
+foreach (BreakdownResponse breakdown in reportBreakdown)
+{
+    // Returns the report breakdown sub check
+    String subcheck = breakdown.SubCheck;
+
+    // Returns the report breakdown result
+    String result = breakdown.Result;
+
+    // Returns the report breakdown details
+    List <DetailsResponse> details = breakdown.Details;
+}
+{% /tab %}
+{% /code %}
+
+{% table %}
+| Object | Response | Description | 
+| ---- | ---- | ---- | 
+| Report recommendation | N/A | A recommendation value, and recovery suggestion | 
+| Report recommendation value | e.g. REJECT | Returns only the recommendation value | 
+| Report recommendation reason | e.g. PHOTO_TOO_BLURRY | Returns only the reason of the value. If approved the value will be null. | 
+| Report recommendation recovery suggestion | N/A | Returns only the recovery suggestion. If approved the value will be null. | 
+| Report breakdown | N/A | A breakdown report on the session that has been completed including, sub checks, results and details. | 
+| Report breakdown sub check | e.g. data_in_correct_position | The sub check completed | 
+| Report breakdown result | e.g PASS | The result of the sub check completed | 
+| Report breakdown details | N/A | Extra information on the check if required. | 
+{% /table %}
+
+---
