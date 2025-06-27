@@ -197,6 +197,127 @@ attributes.forEach(attribute => {
   }));
 });
 {% /tab %}
+{% tab language="java" %}
+// Get full name attribute and its sources/verifiers
+Attribute<String> fullNameAttr = profile.getFullName();
+
+List<Source> fullNameSources = fullNameAttr.getSources();
+for (Source source : fullNameSources) {
+    String value = source.getValue();
+    String subType = source.getSubType();
+    // process source value and subType
+}
+
+List<Verifier> fullNameVerifiers = fullNameAttr.getVerifiers();
+for (Verifier verifier : fullNameVerifiers) {
+    String value = verifier.getValue();
+    String subType = verifier.getSubType();
+    // process verifier value and subType
+}
+
+// Get all attributes and their sources/verifiers
+List<Attribute<?>> attributes = profile.getAttributes();
+for (Attribute<?> attribute : attributes) {
+    String name = attribute.getName();
+    Object value = attribute.getValue();
+    List<Source> sources = attribute.getSources();
+    List<Verifier> verifiers = attribute.getVerifiers();
+    // process sources and verifiers
+}
+{% /tab %}
+{% tab language="php" %}
+// Get full name attribute and its sources/verifiers
+$fullNameAttr = $profile->getFullName();
+
+$fullNameSources = $fullNameAttr->getSources();
+foreach ($fullNameSources as $source) {
+    $value = $source->getValue();
+    $subType = $source->getSubType();
+    // process $value and $subType
+}
+
+$fullNameVerifiers = $fullNameAttr->getVerifiers();
+foreach ($fullNameVerifiers as $verifier) {
+    $value = $verifier->getValue();
+    $subType = $verifier->getSubType();
+    // process $value and $subType
+}
+
+// Get all attributes and their sources/verifiers
+$attributes = $profile->getAttributes();
+foreach ($attributes as $attribute) {
+    $name = $attribute->getName();
+    $value = $attribute->getValue();
+    $sources = $attribute->getSources();
+    $verifiers = $attribute->getVerifiers();
+    // process $sources and $verifiers
+}
+{% /tab %}
+{% tab language="csharp" %}
+// Get full name attribute and its sources/verifiers
+var fullNameAttr = profile.FullName;
+
+var fullNameSources = fullNameAttr?.Sources;
+if (fullNameSources != null)
+{
+    foreach (var source in fullNameSources)
+    {
+        var value = source.Value;
+        var subType = source.SubType;
+        // process value and subType
+    }
+}
+
+var fullNameVerifiers = fullNameAttr?.Verifiers;
+if (fullNameVerifiers != null)
+{
+    foreach (var verifier in fullNameVerifiers)
+    {
+        var value = verifier.Value;
+        var subType = verifier.SubType;
+        // process value and subType
+    }
+}
+
+// Get all attributes and their sources/verifiers
+var attributes = profile.Attributes;
+foreach (var attribute in attributes)
+{
+    var name = attribute.Name;
+    var value = attribute.Value;
+    var sources = attribute.Sources;
+    var verifiers = attribute.Verifiers;
+    // process sources and verifiers
+}
+{% /tab %}
+{% tab language="go" %}
+// Get full name attribute and its sources/verifiers
+fullNameAttr := userProfile.FullName()
+
+fullNameSources := fullNameAttr.Sources()
+for _, source := range fullNameSources {
+    value := source.Value()
+    subType := source.SubType()
+    // process value and subType
+}
+
+fullNameVerifiers := fullNameAttr.Verifiers()
+for _, verifier := range fullNameVerifiers {
+    value := verifier.Value()
+    subType := verifier.SubType()
+    // process value and subType
+}
+
+// Get all attributes and their sources/verifiers
+attributes := userProfile.Attributes()
+for _, attribute := range attributes {
+    name := attribute.Name()
+    value := attribute.Value()
+    sources := attribute.Sources()
+    verifiers := attribute.Verifiers()
+    // process sources and verifiers
+}
+{% /tab %}
 {% /code %}
 
 ## Webhook notifications
