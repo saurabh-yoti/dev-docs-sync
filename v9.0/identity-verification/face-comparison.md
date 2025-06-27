@@ -46,12 +46,8 @@ const faceComparisonCheck = new RequestedFaceComparisonCheckBuilder()
 
 // Configuration for the client SDK (Frontend)
 const sdkConfig = new SdkConfigBuilder()
-		.withAllowsCameraAndUpload()
-		.withLocale("en-GB")
-    .withPresetIssuingCountry('GBR')
     .withSuccessUrl('/success')
     .withErrorUrl('/error')
-    .withPrivacyPolicyUrl('/privacy-policy')
 		.withAllowHandoff(true)
     .build();
 
@@ -89,12 +85,8 @@ SessionSpec sessionSpec = SessionSpec.builder()
   	)
     .withSdkConfig(
         SdkConfig.builder()
-            .withAllowsCameraAndUpload()
-            .withLocale("en-GB")
-            .withPresetIssuingCountry("GBR")
             .withSuccessUrl("https://localhost:8443/success")
             .withErrorUrl("https://localhost:8443/error")
-            .withPrivacyPolicyUrl("https://localhost:8443/privacy-policy")
             .withAllowHandoff(true)
             .build();
 		)
@@ -124,12 +116,8 @@ $sessionSpec = (new SessionSpecificationBuilder())
     )
     ->withSdkConfig(
         (new SdkConfigBuilder())
-            ->withAllowsCameraAndUpload()
-            ->withLocale('en-GB')
-            ->withPresetIssuingCountry('GBR')
             ->withSuccessUrl(config('app.url') . '/success')
             ->withErrorUrl(config('app.url') . '/error')
-            ->withPrivacyPolicyUrl(config('app.url') . '/privacy-policy')
             ->withAllowHandoff(true)
             ->build()
     )
@@ -161,12 +149,8 @@ var sessionSpec = new SessionSpecificationBuilder()
     )
     .WithSdkConfig(
         new SdkConfigBuilder()
-        .WithAllowsCameraAndUpload()
-        .WithLocale("en-GB")
-        .WithPresetIssuingCountry("GBR")
         .WithSuccessUrl(Path.Combine("/success"))
         .WithErrorUrl(Path.Combine("/error"))
-        .PrivacyPolicyUrl(Path.Combine("/privacy-policy"))
         .WithAllowHandoff(true)
         .Build()
     )
@@ -174,7 +158,58 @@ var sessionSpec = new SessionSpecificationBuilder()
 ...
 {% /tab %}
 {% tab language="go" %}
-// Coming soon
+package main
+
+import (
+    "os"
+    "github.com/getyoti/yoti-go-sdk/v3/docscan"
+    "github.com/getyoti/yoti-go-sdk/v3/docscan/session/create"
+    "github.com/getyoti/yoti-go-sdk/v3/docscan/session/create/check"
+)
+
+func buildSessionSpec() (sessionSpec *create.SessionSpecification, err error) {
+
+    var livenessCheck *check.RequestedLivenessCheck
+    livenessCheck, err = check.NewRequestedLivenessCheckBuilder().
+        ForStaticLiveness().
+        WithMaxRetries(3).
+        Build()
+    if err != nil {
+        panic(err)
+    }
+
+    var faceComparisonCheck *check.RequestedFaceComparisonCheck
+    faceComparisonCheck, err = check.NewRequestedFaceComparisonCheckBuilder().
+        WithManualCheckNever().
+        Build()
+    if err != nil {
+        panic(err)
+    }
+
+    var sdkConfig *create.SDKConfig
+    sdkConfig, err = create.NewSdkConfigBuilder().
+        WithSuccessUrl("https://localhost:8080/success").
+        WithErrorUrl("https://localhost:8080/error").
+        WithAllowHandOff(true).
+        Build()
+    if err != nil {
+          panic(err)
+    }
+
+    var sessionSpec *create.SessionSpecification
+    sessionSpec, err = create.NewSessionSpecificationBuilder().
+        WithClientSessionTokenTTL(600).
+        WithResourcesTTL(90000).
+        WithUserTrackingID("some-tracking-id").
+        WithRequestedCheck(faceComparisonCheck).
+        WithRequestedCheck(livenessCheck).
+        WithSDKConfig(sdkConfig).
+        Build()
+    if err != nil {
+        panic(err)
+    }
+    return sessionSpec, nil
+}
 {% /tab %}
 {% /code %}
 
@@ -234,7 +269,36 @@ var docScanClient = new DocScanClient(YOTI_CLIENT_SDK_ID, key, new HttpClient())
 ...
 {% /tab %}
 {% tab language="go" %}
-// Coming soon
+package main
+
+import (
+    "os"
+
+    "github.com/getyoti/yoti-go-sdk/v3/docscan"
+    "github.com/getyoti/yoti-go-sdk/v3/docscan/session/create"
+    "github.com/getyoti/yoti-go-sdk/v3/docscan/session/create/check"
+)
+
+var (
+    sdkId               string
+    key                 []byte
+)
+
+func main() {
+    var err error
+
+    sdkId = "YOTI_CLIENT_SDK_ID"
+    key, err = os.ReadFile("/path/to/pem")
+    if err != nil {
+        panic(err)
+    }
+
+    var client *docscan.Client
+    client, err = docscan.NewClient(sdkId, key)
+    if err != nil {
+        panic(err)
+    }
+}
 {% /tab %}
 {% /code %}
 
@@ -295,7 +359,19 @@ SessionConfigurationResponse sessionConfig = docScanClient.GetSessionConfigurati
 ...
 {% /tab %}
 {% tab language="go" %}
-// Coming soon
+var createSessionResult *create.SessionResult
+    createSessionResult, err = client.CreateSession(sessionSpec)
+    if err != nil {
+        panic(err)
+    }
+
+    sessionId := createSessionResult.SessionID
+    clientSessionToken := createSessionResult.ClientSessionToken
+    
+    sessionConfig, err := client.GetSessionConfiguration(sessionId)
+    if err != nil {
+        panic(err)
+    }
 {% /tab %}
 {% /code %}
 
@@ -380,13 +456,36 @@ string resourceId = faceCaptureResource.Id;
 ...
 {% /tab %}
 {% tab language="go" %}
-// Coming soon
+import (
+    "os"
+
+    "github.com/getyoti/yoti-go-sdk/v3/docscan"
+    "github.com/getyoti/yoti-go-sdk/v3/docscan/session/create"
+    "github.com/getyoti/yoti-go-sdk/v3/docscan/session/create/facecapture"
+)
+
+func main() {
+    var err error
+
+    resourceRequirements := sessionConfig.GetCapture().GetFaceCaptureResourceRequirements()[0]
+    requirementId := resourceRequirements.GetID()
+
+    faceCapturePayload := facecapture.NewCreateFaceCaptureResourcePayload(requirementId)
+ 
+    faceCaptureResource, err := client.CreateFaceCaptureResource(sessionId, faceCapturePayload)
+    if err != nil {
+        panic(err)
+    }
+
+    resourceId := faceCaptureResource.GetID()
+    _ = resourceId // Use resourceId as needed
+}
 {% /tab %}
 {% /code %}
 
 ### Upload a reference image
 
-To do accurate face comparison, a reference facial image of the user is required. You have to get the contents of this image which can then be uploaded using the Doc Scan Client. You also have to pass in the Resource Id retrieved earlier.
+To do accurate face comparison, a reference facial image of the user is required. You have to get the contents of this image which can then be uploaded using the Doc Scan Client. You also have to pass in the Resource Id retrieved earlier
 
 {% code %}
 {% tab language="javascript" title="Node.js" %}
@@ -455,7 +554,22 @@ docScanClient.UploadFaceCaptureImage(sessionId, resourceId, faceCaptureImagePayl
 ...
 {% /tab %}
 {% tab language="go" %}
-// Coming soon
+import (
+		"encoding/base64"
+    "os"
+
+    "github.com/getyoti/yoti-go-sdk/v3/docscan/session/create/facecapture"
+)
+
+func main() {
+   imgBytes, err := os.ReadFile("face.png")
+    if err != nil {
+        panic(err)
+    }
+    base64Str := base64.StdEncoding.EncodeToString(imgBytes)
+    }
+
+	addResource := client.AddFaceCaptureResourceToSession(sessionId, base64Str)
 {% /tab %}
 {% /code %}
 
@@ -634,7 +748,45 @@ foreach (CheckResponse check in livenessChecks)
 }
 {% /tab %}
 {% tab language="go" %}
-// Coming soon
+var sessionResults *retrieve.GetSessionResult
+sessionResults, err = client.GetSession(sessionId)
+if err != nil {
+    panic(err)
+    }
+
+state := sessionResults.State
+
+livenessChecks := sessionResults.LivenessChecks()
+for _, check := range livenessChecks {
+    id := check.GetID()
+    state := check.GetState()
+    resourcesUsed := check.GetResourcesUsed()
+
+    report := check.GetReport()
+    recommendation := report.GetRecommendation().GetValue()
+    breakdown := report.GetBreakdown()
+
+    for _, breakdown := range breakdown {
+        subCheck := breakdown.GetSubCheck()
+        subCheckResult := breakdown.GetResult()
+    }
+}
+
+faceComparisonChecks := sessionResults.FaceComparisonChecks()
+for _, check := range faceComparisonChecks {
+    id := check.GetID()
+    state := check.GetState()
+    resourcesUsed := check.GetResourcesUsed()
+
+    report := check.GetReport()
+    recommendation := report.GetRecommendation().GetValue()
+    breakdown := report.GetBreakdown()
+
+    for _, breakdown := range breakdown {
+        subCheck := breakdown.GetSubCheck()
+        subCheckResult := breakdown.GetResult()
+    }
+}
 {% /tab %}
 {% /code %}
 
@@ -650,7 +802,7 @@ idvClient.getSession(sessionId).then(sessionResult => {
   	const staticLivenessResources = resources.getStaticLivenessResources();
   
   	staticLivenessResources.map(resource => {
-        const id = resource.getId();
+        const id = resource.getId();m
         const type = resource.getLivenessType();
         const mediaId = check.getImage().getId();
     })
@@ -706,7 +858,15 @@ foreach (StaticLivenessResourceResponse resource in staticLivenessResources)
 }
 {% /tab %}
 {% tab language="go" %}
-// Coming soon
+resources := sessionResults.GetResources()
+faceCaptureResources := resources.GetFaceCaptureResources()
+staticLivenessResources := resources.GetStaticLivenessResources()
+
+for _, resource := range staticLivenessResources {
+    id := resource.GetID()
+    livenessType := resource.GetLivenessType()
+    mediaId := resource.GetImage().GetID()
+}
 {% /tab %}
 {% /code %}
 
@@ -741,6 +901,13 @@ string mimeType = media->GetMIMEType();
 string base64Content = $media->GetBase64URI();
 {% /tab %}
 {% tab language="go" %}
+media, err := client.GetMediaContent(sessionId, mediaID)
+if err != nil {
+    panic(err)
+    }
 
+mimeType := media.MIME()
+content := media.Data()
+base64URL := media.Base64URL()
 {% /tab %}
 {% /code %}
