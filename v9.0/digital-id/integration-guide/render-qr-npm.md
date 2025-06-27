@@ -1,7 +1,7 @@
 ---
 type: page
 title: Render QR via NPM
-listed: true
+listed: false
 slug: render-qr-npm
 description: 
 index_title: Render QR via NPM
