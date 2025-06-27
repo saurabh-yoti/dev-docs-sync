@@ -14,20 +14,25 @@ To create your application you will need to ensure you are logged into the hub a
 
 You will need to create an service in the hub to obtain your API keys. You can do this two ways either:
 
-- Head to the left hand nav bar and **select services** &gt; **create a service.**
+- Head to the left hand nav bar and **select Services** &gt; C**reate a service.**
 - Or select the blue button labelled **CREATE**.
 
 {% image url="https://uploads.developerhub.io/prod/kvAX/zhedcu0j2xmfxxfsgdlqrw3suwq2kfvs5xo5y6xcc0ahl39ks711scnqfi1g4fg0.png" mode="responsive" height="408" width="2878" %}
 {% /image %}
 
-- Then pick which product you are integrating, in this case - **Age checks**.
+- Pick which product you are integrating, in this case - **Age checks**.
 
-{% image url="https://uploads.developerhub.io/prod/kvAX/0blc5lvzi49l0yttegz2h43lz9nzy7l9elrd3nt65ds8xiq3qmwn4invg12hnvtc.png" mode="responsive" height="1208" width="2274" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/wokcs57cst59rb6846vfe5b7yr53ul205sga16w8e32ll4e9ne48c9i96ex5xqni.png" mode="responsive" height="1428" width="2398" %}
 {% /image %}
 
-Then select the **Age verification** option.
+- Then select the **Age verification** option.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1639911864/v2_2762/squv027ar50r7law0cdg.png" caption="Create an Age verification application" mode="responsive" height="988" width="1832" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/tupdo942hw1dw4naazyydcvx0ssy2mgdgl5c2uehijob6mjxqvtv4lbimm76bme8.png" mode="responsive" height="1218" width="2398" %}
+{% /image %}
+
+- Specify the service name and click on 'CREATE'.
+
+{% image url="https://uploads.developerhub.io/prod/kvAX/5oq6bi63qm22pa2bp0eujkqocgkks8iu6d7ltkpo28tgkq0p2wyxhg3zvb64mymx.png" caption="Create an Age verification service" mode="responsive" height="1192" width="2398" %}
 {% /image %}
 
 ---
@@ -36,7 +41,7 @@ Then select the **Age verification** option.
 
 The next stage is to collect various IDs for your application.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1639911985/v2_2762/ppjjd7eniejekaveooeg.png" caption="Generating keys and settings" mode="responsive" height="931" width="940" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1639911985/v2_2762/ppjjd7eniejekaveooeg.png" caption="Generating keys and settings" mode="set" height="741.828125" width="749" %}
 {% /image %}
 
 If you want to add premium services please tick the boxes in the blue box to enable. You can always change this later.
