@@ -22,7 +22,9 @@ Failures may include:
 - Requirements not met: Occurs when an identity profile _can_ be returned, however scheme compliance couldn't be met
 - Requirements not met details: Additional information around the failure, explaining which checks were involved, and why they may have failed
 
-{% badge type="info" text="Info" /%} When Right to Work is solely requested for a check. The result will only be `requirements_met`: `true`, or `ABORTED`. 
+{% callout type="info" title="Info" %}
+When Right to Work is solely requested for a check. The result will only be `requirements_met`: `true`, or `ABORTED`.
+{% /callout %}
 
 A DBS only scheme may return `requirements_met`: `false`, in the event the candidate identity was verified, but the current address could not be verified. In this scenario scheme compliance has not been reached, as DBS scheme compliance is made up of Identity & Verified Current Address.
 
