@@ -10,15 +10,18 @@ keywords:
 tags: 
 ---
 
-Please see below for supported documents for our IDV service. 
+
+Please see below for supported documents for our IDV service.
 
 This list can also be requested by API through the following endpoint:
+
 
 {% code %}
 {% tab language="http" %}
 GET https://api.yoti.com/idverify/v1/supported-documents?includeNonLatin=true
 {% /tab %}
 {% /code %}
+
 
 ## Supported Document Types
 
@@ -52,257 +55,231 @@ Yoti supports some non-latin character documents. These are not enabled by defau
 
 Yoti will attempt to perform automated text extraction only on these documents and a document authenticity check. We cannot perform manual data entry.
 
+
 {% synced id="non-latin-documents-table" %}
 {% /synced %}
+
 
 ## All documents
 
 {% table %}
-| Region | Issuing Country | Passport | National ID | Driving Licence | BRP | Other document type(s) | 
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
-| South America | Aruba |  |  |  |  |  | 
-| Asia | Afghanistan | X | X | X |  |  | 
-| Africa | Angola | X | X | X |  |  | 
-| North America & Caribbean | Anguilla | X |  |  |  |  | 
-| Europe | Åland Islands |  |  |  |  |  | 
-| Europe | Albania | X | X | X |  |  | 
-| Europe | Andorra | X |  | X |  |  | 
-| Asia | United Arab Emirates | X | X | X |  |  | 
-| South America | Argentina | X | X | X |  |  | 
-| Asia | Armenia | X | X | X |  |  | 
-| Asia | American Samoa | X | X | X |  |  | 
-| North America & Caribbean | Antigua and Barbuda | X |  |  |  |  | 
-| Oceania | Australia | X |  | X |  |  | 
-| Europe | Austria | X | X | X | X |  | 
-| Asia | Azerbaijan | X | X | X |  |  | 
-| Africa | Burundi | X |  |  |  |  | 
-| Europe | Belgium | X | X | X | X |  | 
-| Africa | Benin | X |  | X |  |  | 
-| South America | Caribbean Netherlands |  |  |  |  |  | 
-| Africa | Burkina Faso | X | X | X |  |  | 
-| Asia | Bangladesh | X | X | X |  |  | 
-| Europe | Bulgaria | X | X | X | X |  | 
-| Asia | Bahrain | X | X | X |  |  | 
-| North America & Caribbean | Bahamas | X |  | X |  |  | 
-| Europe | Bosnia and Herzegovina | X | X | X |  |  | 
-| South America | St. Barthélemy |  |  |  |  |  | 
-| Europe | Belarus | X | X | X |  |  | 
-| North America & Caribbean | Belize | X |  |  |  |  | 
-| North America & Caribbean | Bermuda | X |  | X |  |  | 
-| South America | Bolivia | X | X | X |  |  | 
-| South America | Brazil | X | X | X |  |  | 
-| North America & Caribbean | Barbados | X |  | X |  |  | 
-| Asia | Brunei | X | X | X |  |  | 
-| Asia | Bhutan | X | X |  |  |  | 
-| Africa | Botswana | X | X | X |  |  | 
-| Africa | Central African Republic | X |  | X |  |  | 
-| North America & Caribbean | Canada | X | X | X | X | X | 
-| Asia | Cocos (Keeling) Islands |  |  |  |  |  | 
-| Europe | Switzerland | X | X | X | X |  | 
-| South America | Chile | X | X |  |  |  | 
-| Asia | China | X | X | X |  |  | 
-| Africa | Ivory Coast Côte d'Ivoire | X | X | X |  |  | 
-| Africa | Cameroon | X | X | X |  |  | 
-| Africa | Democratic Republic of the Congo | X |  | X |  |  | 
-| Africa | Republic of the Congo | X |  |  |  |  | 
-| Asia | Cook Islands |  |  |  |  |  | 
-| South America | Colombia | X | X | X | X |  | 
-| Africa | Comoros | X | X |  |  |  | 
-| Africa | Cape Verde | X | X | X |  |  | 
-| North America & Caribbean | Costa Rica | X | X | X |  |  | 
-| North America & Caribbean | Cuba | X |  | X |  |  | 
-| South America | Curaçao |  |  |  |  |  | 
-| Asia | Christmas Island |  |  |  |  |  | 
-| North America & Caribbean | Cayman Islands | X |  |  |  |  | 
-| Europe | Cyprus | X | X | X | X |  | 
-| Europe | Czechia | X | X | X | X |  | 
-| Europe | Germany | X | X | X | X |  | 
-| Africa | Djibouti | X |  |  |  |  | 
-| North America & Caribbean | Dominica | X |  |  |  |  | 
-| Europe | Denmark | X |  | X | X |  | 
-| North America & Caribbean | Dominican Republic | X | X | X |  |  | 
-| Africa | Algeria | X | X | X |  |  | 
-| South America | Ecuador | X | X | X |  |  | 
-| Africa | Egypt | X | X |  |  |  | 
-| Africa | Eritrea | X |  |  |  |  | 
-| Africa | Western Sahara |  |  |  |  |  | 
-| Europe | Spain | X | X | X | X |  | 
-| Europe | Estonia | X | X | X | X |  | 
-| Africa | Ethiopia | X | X | X |  |  | 
-| Europe | Finland | X | X | X | X |  | 
-| Oceania | Fiji | X |  | X |  |  | 
-| South America | Falkland Islands |  |  |  |  |  | 
-| Europe | France | X | X | X | X |  | 
-| Europe | Faroe Islands | X |  |  |  |  | 
-| Oceania | Micronesia | X |  |  |  |  | 
-| Africa | Gabon | X | X |  |  |  | 
-| Europe | United Kingdom | X |  | X | X | X | 
-| Europe | Georgia | X | X | X |  |  | 
-| Europe | Guernsey | X |  | X |  |  | 
-| Africa | Ghana | X | X | X |  |  | 
-| Europe | Gibraltar | X | X | X |  |  | 
-| Africa | Guinea | X |  | X |  |  | 
-| South America | Guadeloupe |  |  |  |  |  | 
-| Africa | Gambia | X |  |  |  |  | 
-| Africa | Guinea Bissau | X | X |  |  |  | 
-| Africa | Equatorial Guinea | X |  |  |  |  | 
-| Europe | Greece | X | X | X | X |  | 
-| North America & Caribbean | Grenada | X |  |  |  |  | 
-| North America & Caribbean | Greenland | X |  |  |  |  | 
-| South America | Guatemala | X | X | X |  |  | 
-| South America | French Guiana |  |  |  |  |  | 
-| Asia | Guam | X | X | X |  |  | 
-| South America | Guyana | X | X |  |  |  | 
-| Asia | Hong Kong | X | X |  |  |  | 
-| North America & Caribbean | Honduras | X | X | X |  |  | 
-| Europe | Croatia | X | X | X | X |  | 
-| North America & Caribbean | Haiti | X | X |  |  |  | 
-| Europe | Hungary | X | X | X | X |  | 
-| Asia | Indonesia | X | X | X |  |  | 
-| Europe | Isle of Man | X |  | X |  |  | 
-| Asia | India | X | X | X |  | X | 
-| Asia | British Indian Ocean Territory |  |  |  |  |  | 
-| Europe | Ireland | X | X | X | X |  | 
-| Asia | Iran | X |  |  |  |  | 
-| Asia | Iraq | X |  |  |  |  | 
-| Europe | Iceland | X |  | X | X |  | 
-| Asia | Israel | X | X | X |  |  | 
-| Europe | Italy | X | X | X | X |  | 
-| North America & Caribbean | Jamaica | X |  | X |  |  | 
-| Europe | Jersey | X |  | X |  |  | 
-| Asia | Jordan | X | X | X |  |  | 
-| Asia | Japan | X | X | X |  |  | 
-| Asia | Kazakhstan | X | X | X |  |  | 
-| Africa | Kenya | X | X |  |  |  | 
-| Asia | Kyrgyzstan | X | X | X |  |  | 
-| Asia | Cambodia | X | X | X |  |  | 
-| Oceania | Kiribati | X |  |  |  |  | 
-| North America & Caribbean | Saint Kitts and Nevis | X |  |  |  |  | 
-| Asia | South Korea | X |  |  |  |  | 
-| Asia | Kuwait | X | X | X |  |  | 
-| Asia | Laos | X |  |  |  |  | 
-| Asia | Lebanon | X |  | X |  |  | 
-| Africa | Liberia | X |  |  |  |  | 
-| Africa | Libya | X |  | X |  |  | 
-| North America & Caribbean | Saint Lucia | X | X |  |  |  | 
-| Europe | Liechtenstein | X | X | X |  |  | 
-| Asia | Sri Lanka | X | X | X |  |  | 
-| Africa | Lesotho | X | X |  |  |  | 
-| Europe | Lithuania | X | X | X | X |  | 
-| Europe | Luxembourg | X | X | X | X |  | 
-| Europe | Latvia | X | X | X | X |  | 
-| Asia | Macau | X | X |  |  |  | 
-| South America | St. Martin |  |  |  |  |  | 
-| Africa | Morocco | X | X | X |  |  | 
-| Europe | Monaco | X | X | X |  |  | 
-| Europe | Moldova | X | X | X |  |  | 
-| Africa | Madagascar | X |  | X |  |  | 
-| Asia | Maldives | X |  |  |  |  | 
-| North America & Caribbean | Mexico | X | X | X |  |  | 
-| Oceania | Marshall Islands | X |  |  |  |  | 
-| Europe | Macedonia | X | X | X |  |  | 
-| Africa | Mali | X | X |  |  |  | 
-| Europe | Malta | X | X | X | X |  | 
-| Asia | Myanmar | X |  |  |  |  | 
-| Europe | Montenegro | X | X | X |  |  | 
-| Asia | Mongolia | X | X | X |  |  | 
-| Asia | Northern Mariana Islands | X |  |  |  |  | 
-| Africa | Mozambique | X | X |  |  |  | 
-| Africa | Mauritania | X | X |  |  |  | 
-| North America & Caribbean | Montserrat | X |  |  |  |  | 
-| South America | Martinique |  |  |  |  |  | 
-| Africa | Mauritius | X | X |  |  |  | 
-| Africa | Malawi | X | X | X |  |  | 
-| Asia | Malaysia | X |  | X |  | X | 
-| Africa | Mayotte |  |  |  |  |  | 
-| Africa | Namibia | X | X | X |  |  | 
-| Asia | New Caledonia |  |  |  |  |  | 
-| Africa | Niger | X |  |  |  |  | 
-| Asia | Norfolk Island |  |  |  |  |  | 
-| Africa | Nigeria | X | X | X |  |  | 
-| North America & Caribbean | Nicaragua | X | X | X |  |  | 
-| Asia | Niue |  |  |  |  |  | 
-| Europe | Netherlands | X | X | X | X |  | 
-| Europe | Norway | X | X | X | X |  | 
-| Asia | Nepal | X |  | X |  |  | 
-| Oceania | Nauru | X |  |  |  |  | 
-| Oceania | New Zealand | X |  | X |  |  | 
-| Arab States | Oman | X | X |  |  |  | 
-| Asia | Pakistan | X | X |  |  |  | 
-| North America & Caribbean | Panama | X | X | X |  |  | 
-| South America | Peru | X | X | X |  |  | 
-| Asia | Philippines | X |  | X |  | X | 
-| Oceania | Palau | X |  |  |  |  | 
-| Oceania | Papua New Guinea | X |  |  |  |  | 
-| Europe | Poland | X | X | X | X |  | 
-| South America | Puerto Rico | X | X | X |  |  | 
-| Asia | North Korea | X |  |  |  |  | 
-| Europe | Portugal | X | X | X | X |  | 
-| South America | Paraguay | X | X | X |  |  | 
-| Arab States | Palestine | X |  | X |  |  | 
-| Asia | French Polynesia |  |  |  |  |  | 
-| Asia | Qatar | X | X | X |  |  | 
-| Asia | Réunion |  |  |  |  |  | 
-| Europe | Romania | X | X | X | X |  | 
-| Europe | Russia | X | X | X |  |  | 
-| Africa | Rwanda | X | X | X |  |  | 
-| Asia | Saudi Arabia | X |  | X |  |  | 
-| Africa | Sudan | X |  |  |  |  | 
-| Africa | Senegal | X | X | X |  |  | 
-| Asia | Singapore | X | X | X |  |  | 
-| Europe | St. Helena |  |  |  |  |  | 
-| Asia | Ascension Island |  |  |  |  |  | 
-| Africa | Tristan da Cunha |  |  |  |  |  | 
-| Europe | Svalbard & Jan Mayen |  |  |  |  |  | 
-| Oceania | Solomon Islands | X |  |  |  |  | 
-| Africa | Sierra Leone | X | X | X |  |  | 
-| South America | El Salvador | X | X | X |  |  | 
-| Europe | San Marino | X | X | X |  |  | 
-| Arab States | Somalia | X |  |  |  |  | 
-| North America | St. Pierre & Miquelon |  |  |  |  |  | 
-| Europe | Serbia | X | X | X |  |  | 
-| Africa | South Sudan | X | X |  |  |  | 
-| Africa | São Tomé and Príncipe | X |  |  |  |  | 
-| South America | Suriname | X |  | X |  |  | 
-| Europe | Slovakia | X | X | X | X |  | 
-| Europe | Slovenia | X | X | X | X |  | 
-| Europe | Sweden | X | X | X | X |  | 
-| Africa | Swaziland | X |  |  |  |  | 
-| South America | Sint Maarten |  |  |  |  |  | 
-| Africa | Seychelles | X |  |  |  |  | 
-| Asia | Syria | X |  |  |  |  | 
-| North America & Caribbean | Turks and Caicos Islands | X |  |  |  |  | 
-| Africa | Chad | X | X |  |  |  | 
-| Africa | Togo | X |  | X |  |  | 
-| Asia | Thailand | X | X | X |  |  | 
-| Asia | Tajikistan | X | X | X |  |  | 
-| Asia | Tokelau |  |  |  |  |  | 
-| Asia | Turkmenistan | X |  | X |  |  | 
-| Asia | East Timor | X | X |  |  |  | 
-| Oceania | Tonga | X |  |  |  |  | 
-| North America & Caribbean | Trinidad and Tobago | X |  | X |  |  | 
-| Africa | Tunisia | X |  | X |  |  | 
-| Asia | Turkey | X | X | X |  |  | 
-| Oceania | Tuvalu | X |  |  |  |  | 
-| Asia | Taiwan | X |  |  | X |  | 
-| Africa | Tanzania | X | X | X |  |  | 
-| Africa | Uganda | X | X | X |  |  | 
-| Europe | Ukraine | X | X | X |  |  | 
-| South America | Uruguay | X | X | X |  |  | 
-| North America & Caribbean | United States | X |  | X |  | X | 
-| Asia | Uzbekistan | X |  |  |  |  | 
-| Europe | Vatican | X |  |  |  |  | 
-| North America & Caribbean | Saint Vincent and the Grenadines | X |  |  |  |  | 
-| South America | Venezuela | X | X | X |  |  | 
-| North America & Caribbean | British Virgin Islands | X |  |  |  |  | 
-| South America | U.S. Virgin Islands | X | X | X |  |  | 
-| Asia | Vietnam | X | X | X |  |  | 
-| Oceania | Vanuatu | X |  | X |  |  | 
-| Asia | Wallis & Futuna |  |  |  |  |  | 
-| Oceania | Samoa | X |  |  |  |  | 
-| Europe | Kosovo | X | X | X |  |  | 
-| Asia | Yemen | X |  | X |  |  | 
-| Africa | South Africa | X | X | X |  |  | 
-| Africa | Zambia | X |  | X |  |  | 
-| Africa | Zimbabwe | X | X |  |  |  | 
+| Issuing Country | Country Code | Passport | National ID | Driving Licence | BRP | Travel Document | Other document type(s) | 
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
+| Afghanistan | AFG | X | X | X |  | X |  | 
+| Angola | AGO | X | X | X |  | X |  | 
+| Anguilla | AIA | X |  |  |  | X |  | 
+| Albania | ALB | X | X | X |  | X |  | 
+| Andorra | AND | X |  | X | X | X |  | 
+| United Arab Emirates | ARE | X | X | X | X | X |  | 
+| Argentina | ARG | X | X | X |  | X |  | 
+| Armenia | ARM | X | X | X |  | X |  | 
+| American Samoa | ASM | X | X | X |  | X |  | 
+| Antigua and Barbuda | ATG | X |  |  |  | X |  | 
+| Australia | AUS | X |  | X |  | X |  | 
+| Austria | AUT | X | X | X | X | X |  | 
+| Azerbaijan | AZE | X | X | X |  | X |  | 
+| Burundi | BDI | X |  |  |  | X |  | 
+| Belgium | BEL | X | X | X | X | X |  | 
+| Benin | BEN | X |  | X |  | X |  | 
+| Burkina Faso | BFA | X | X | X |  | X |  | 
+| Bangladesh | BGD | X | X | X |  | X |  | 
+| Bulgaria | BGR | X | X | X | X | X |  | 
+| Bahrain | BHR | X | X | X |  | X |  | 
+| Bahamas | BHS | X |  | X |  | X |  | 
+| Bosnia and Herzegovina | BIH | X | X | X |  | X |  | 
+| Belarus | BLR | X | X | X |  | X |  | 
+| Belize | BLZ | X |  |  |  | X |  | 
+| Bermuda | BMU | X |  | X |  | X |  | 
+| Bolivia, Plurinational State of | BOL | X | X | X |  | X |  | 
+| Brazil | BRA | X | X | X |  | X |  | 
+| Barbados | BRB | X |  | X |  | X |  | 
+| Brunei Darussalam | BRN | X | X | X |  | X |  | 
+| Bhutan | BTN | X | X |  |  | X |  | 
+| Botswana | BWA | X | X | X |  | X |  | 
+| Central African Republic | CAF | X |  | X |  | X |  | 
+| Canada | CAN | X | X | X | X | X | X | 
+| Switzerland | CHE | X | X | X | X | X |  | 
+| Chile | CHL | X | X |  |  | X |  | 
+| China | CHN | X | X* | X* |  | X |  | 
+| Côte d'Ivoire | CIV | X | X | X |  | X |  | 
+| Cameroon | CMR | X | X | X |  | X |  | 
+| Congo, Democratic Republic of the | COD | X |  | X |  | X |  | 
+| Congo | COG | X |  |  |  | X |  | 
+| Colombia | COL | X | X | X | X | X |  | 
+| Comoros | COM | X | X |  |  | X |  | 
+| Cabo Verde | CPV | X | X | X |  | X |  | 
+| Costa Rica | CRI | X | X | X |  | X |  | 
+| Cuba | CUB | X | X | X |  | X |  | 
+| Cayman Islands | CYM | X |  | X |  | X |  | 
+| Cyprus | CYP | X | X | X | X | X |  | 
+| Czechia | CZE | X | X | X | X | X |  | 
+| Germany | DEU | X | X | X | X | X |  | 
+| Djibouti | DJI | X | X |  |  | X |  | 
+| Dominica | DMA | X |  |  |  | X |  | 
+| Denmark | DNK | X |  | X | X | X |  | 
+| Dominican Republic | DOM | X | X | X |  | X |  | 
+| Algeria | DZA | X | X | X |  | X |  | 
+| Ecuador | ECU | X | X | X |  | X |  | 
+| Egypt | EGY | X | X* |  | X* | X |  | 
+| Eritrea | ERI | X |  |  |  | X |  | 
+| Spain | ESP | X | X | X | X | X |  | 
+| Estonia | EST | X | X | X | X | X |  | 
+| Ethiopia | ETH | X | X | X |  | X |  | 
+| Finland | FIN | X | X | X | X | X |  | 
+| Fiji | FJI | X |  | X |  | X |  | 
+| France | FRA | X | X | X | X | X |  | 
+| Faroe Islands | FRO | X |  |  |  | X |  | 
+| Micronesia, Federated States of | FSM | X |  |  |  | X |  | 
+| Gabon | GAB | X | X |  |  | X |  | 
+| United Kingdom of Great Britain and Northern Ireland | GBR | X |  | X | X | X | X | 
+| Georgia | GEO | X | X | X |  | X |  | 
+| Guernsey | GGY | X |  | X |  | X |  | 
+| Ghana | GHA | X | X | X |  | X |  | 
+| Gibraltar | GIB | X | X | X |  | X |  | 
+| Guinea | GIN | X | X | X |  | X |  | 
+| Gambia | GMB | X | X |  |  | X |  | 
+| Guinea-Bissau | GNB | X | X |  |  | X |  | 
+| Equatorial Guinea | GNQ | X |  |  |  | X |  | 
+| Greece | GRC | X | X | X | X | X |  | 
+| Grenada | GRD | X |  |  |  | X |  | 
+| Greenland | GRL | X |  |  |  | X |  | 
+| Guatemala | GTM | X | X | X |  | X |  | 
+| Guam | GUM | X | X | X |  | X |  | 
+| Guyana | GUY | X | X |  |  | X |  | 
+| Hong Kong | HKG | X | X |  |  | X |  | 
+| Honduras | HND | X | X | X |  | X |  | 
+| Croatia | HRV | X | X | X | X | X |  | 
+| Haiti | HTI | X | X |  |  | X |  | 
+| Hungary | HUN | X | X | X | X | X |  | 
+| Indonesia | IDN | X | X | X |  | X |  | 
+| Isle of Man | IMN | X |  | X |  | X |  | 
+| India | IND | X |  | X |  | X | X | 
+| Ireland | IRL | X | X | X | X | X |  | 
+| Iran, Islamic Republic of | IRN | X |  |  |  | X |  | 
+| Iraq | IRQ | X | X* | X* |  | X |  | 
+| Iceland | ISL | X | X | X | X | X |  | 
+| Israel | ISR | X | X* | X* |  | X |  | 
+| Italy | ITA | X | X | X | X | X |  | 
+| Jamaica | JAM | X |  | X |  | X |  | 
+| Jersey | JEY | X |  | X |  | X |  | 
+| Jordan | JOR | X | X | X |  | X |  | 
+| Japan | JPN | X | X* | X* | X* | X |  | 
+| Kazakhstan | KAZ | X | X* | X* |  | X |  | 
+| Kenya | KEN | X | X |  |  | X |  | 
+| Kyrgyzstan | KGZ | X | X | X |  | X |  | 
+| Cambodia | KHM | X | X | X |  | X |  | 
+| Kiribati | KIR | X |  |  |  | X |  | 
+| Saint Kitts and Nevis | KNA | X |  |  |  | X |  | 
+| Korea, Republic of | KOR | X | X* | X* |  | X |  | 
+| Kuwait | KWT | X | X | X |  | X |  | 
+| Lao People's Democratic Republic | LAO | X |  |  |  | X |  | 
+| Lebanon | LBN | X | X* | X* | X* | X |  | 
+| Liberia | LBR | X |  |  |  | X |  | 
+| Libya | LBY | X |  | X |  | X |  | 
+| Saint Lucia | LCA | X | X |  |  | X |  | 
+| Liechtenstein | LIE | X | X | X |  | X |  | 
+| Sri Lanka | LKA | X | X | X |  | X |  | 
+| Lesotho | LSO | X | X |  |  | X |  | 
+| Lithuania | LTU | X | X | X | X | X |  | 
+| Luxembourg | LUX | X | X | X | X | X |  | 
+| Latvia | LVA | X | X | X | X | X |  | 
+| Macao | MAC | X | X |  |  | X |  | 
+| Morocco | MAR | X | X | X | X | X |  | 
+| Monaco | MCO | X | X | X |  | X |  | 
+| Moldova, Republic of | MDA | X | X | X |  | X |  | 
+| Madagascar | MDG | X |  | X |  | X |  | 
+| Maldives | MDV | X |  |  |  | X |  | 
+| Mexico | MEX | X | X | X |  | X |  | 
+| Marshall Islands | MHL | X |  |  |  | X |  | 
+| North Macedonia | MKD | X | X | X |  | X |  | 
+| Mali | MLI | X | X |  |  | X |  | 
+| Malta | MLT | X | X | X | X | X |  | 
+| Myanmar | MMR | X |  |  |  | X |  | 
+| Montenegro | MNE | X | X | X |  | X |  | 
+| Mongolia | MNG | X | X | X |  | X |  | 
+| Northern Mariana Islands | MNP | X |  |  |  | X |  | 
+| Mozambique | MOZ | X | X |  |  | X |  | 
+| Mauritania | MRT | X | X |  |  | X |  | 
+| Montserrat | MSR | X |  |  |  | X |  | 
+| Mauritius | MUS | X | X |  |  | X |  | 
+| Malawi | MWI | X | X | X |  | X |  | 
+| Malaysia | MYS | X |  | X |  | X | X | 
+| Namibia | NAM | X | X | X |  | X |  | 
+| Niger | NER | X |  |  |  | X |  | 
+| Nigeria | NGA | X | X | X |  | X |  | 
+| Nicaragua | NIC | X | X | X |  | X |  | 
+| Netherlands, Kingdom of the | NLD | X | X | X | X | X |  | 
+| Norway | NOR | X | X | X | X | X |  | 
+| Nepal | NPL | X | X | X |  | X |  | 
+| Nauru | NRU | X |  |  |  | X |  | 
+| New Zealand | NZL | X |  | X |  | X |  | 
+| Oman | OMN | X | X |  | X | X |  | 
+| Pakistan | PAK | X | X |  |  | X |  | 
+| Panama | PAN | X | X | X |  | X |  | 
+| Peru | PER | X | X | X | X | X |  | 
+| Philippines | PHL | X |  | X |  | X | X | 
+| Palau | PLW | X |  |  |  | X |  | 
+| Papua New Guinea | PNG | X |  |  |  | X |  | 
+| Poland | POL | X | X | X | X | X |  | 
+| Puerto Rico | PRI | X | X | X |  | X |  | 
+| Korea, Democratic People's Republic of | PRK | X |  |  |  | X |  | 
+| Portugal | PRT | X | X | X | X | X |  | 
+| Paraguay | PRY | X | X | X |  | X |  | 
+| Palestine, State of | PSE | X |  | X |  | X |  | 
+| Qatar | QAT | X | X | X | X | X |  | 
+| Romania | ROU | X | X | X | X | X |  | 
+| Russian Federation | RUS | X | X* | X* |  | X |  | 
+| Rwanda | RWA | X | X | X |  | X |  | 
+| Saudi Arabia | SAU | X | X* | X* | X* | X |  | 
+| Sudan | SDN | X |  |  |  | X |  | 
+| Senegal | SEN | X | X | X |  | X |  | 
+| Singapore | SGP | X | X | X | X | X |  | 
+| Solomon Islands | SLB | X |  |  |  | X |  | 
+| Sierra Leone | SLE | X | X | X |  | X |  | 
+| El Salvador | SLV | X | X | X |  | X |  | 
+| San Marino | SMR | X | X | X |  | X |  | 
+| Somalia | SOM | X | X |  |  | X |  | 
+| Serbia | SRB | X | X | X |  | X |  | 
+| South Sudan | SSD | X | X |  |  | X |  | 
+| Sao Tome and Principe | STP | X |  |  |  | X |  | 
+| Suriname | SUR | X | X | X |  | X |  | 
+| Slovakia | SVK | X | X | X | X | X |  | 
+| Slovenia | SVN | X | X | X | X | X |  | 
+| Sweden | SWE | X | X | X | X | X |  | 
+| Eswatini | SWZ | X |  |  |  | X |  | 
+| Seychelles | SYC | X |  |  |  | X |  | 
+| Syrian Arab Republic | SYR | X | X* | X* |  | X |  | 
+| Turks and Caicos Islands | TCA | X |  |  |  | X |  | 
+| Chad | TCD | X | X |  |  | X |  | 
+| Togo | TGO | X |  | X |  | X |  | 
+| Thailand | THA | X | X | X |  | X |  | 
+| Tajikistan | TJK | X | X | X |  | X |  | 
+| Turkmenistan | TKM | X |  | X |  | X |  | 
+| Timor-Leste | TLS | X | X |  |  | X |  | 
+| Tonga | TON | X |  |  |  | X |  | 
+| Trinidad and Tobago | TTO | X | X | X |  | X |  | 
+| Tunisia | TUN | X | X* | X* |  | X |  | 
+| Türkiye | TUR | X | X | X | X | X |  | 
+| Tuvalu | TUV | X |  |  |  | X |  | 
+| Taiwan, Province of China | TWN | X | X* |  | X* | X |  | 
+| Tanzania, United Republic of | TZA | X | X | X |  | X |  | 
+| Uganda | UGA | X | X | X |  | X |  | 
+| Ukraine | UKR | X | X | X |  | X |  | 
+| Uruguay | URY | X | X | X |  | X |  | 
+| United States of America | USA | X | X | X | X | X | X | 
+| Uzbekistan | UZB | X | X | X |  | X |  | 
+| Holy See | VAT | X |  |  |  | X |  | 
+| Saint Vincent and the Grenadines | VCT | X |  |  |  | X |  | 
+| Venezuela, Bolivarian Republic of | VEN | X | X | X |  | X |  | 
+| Virgin Islands (British) | VGB | X |  |  |  | X |  | 
+| Virgin Islands (U.S.) | VIR | X | X | X |  | X |  | 
+| Viet Nam | VNM | X | X | X |  | X |  | 
+| Vanuatu | VUT | X |  | X |  | X |  | 
+| Samoa | WSM | X |  |  |  | X |  | 
+| Kosovo | XKX | X | X | X |  | X |  | 
+| Yemen | YEM | X |  | X |  | X |  | 
+| South Africa | ZAF | X | X | X |  | X |  | 
+| Zambia | ZMB | X |  | X |  | X |  | 
+| Zimbabwe | ZWE | X | X |  |  | X |  | 
 {% /table %}
+
