@@ -1,7 +1,7 @@
 ---
 type: page
 title: Render QR button
-listed: true
+listed: false
 slug: render-qr-button-new
 description: 
 index_title: Render QR button
