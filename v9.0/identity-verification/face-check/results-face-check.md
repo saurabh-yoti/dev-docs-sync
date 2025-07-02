@@ -27,7 +27,7 @@ When the above endpoint is hit you will receive the results of all checks config
 #### Response body
 
 {% code %}
-{% tab language="json" %}
+{% tab language="json" title="Full JSON" %}
 {
     "client_session_token_ttl": 0,
     "session_id": "7938ac1e-0a4a-49b7-953f-08cfa764358f",
@@ -222,6 +222,56 @@ When the above endpoint is hit you will receive the results of all checks config
     "biometric_consent": "2025-06-04T08:50:43Z"
 }
 {% /tab %}
+{% tab language="json" title="MATCH" %}
+{
+      "type": "FAMILIAR_FACE_SEARCH",
+      "id": "bc3caac1-e091-4958-8f05-8763076a6976",
+      "state": "DONE",
+      "resources_used": [
+        "34590c66-0099-4521-b1d7-391bd5ec4e98"
+      ],
+      "generated_media": [],
+      "report": {
+        "recommendation": {
+          "value": "APPROVE"
+        },
+        "breakdown": [
+          {
+            "sub_check": "face_found_in_pool",
+            "result": "PASS",
+            "details": [
+              {
+                "name": "matching_pool",
+                "value": "a8b2e5de-a31f-4e82-b2ac-557a492fa88e"
+              },
+              {
+                "name": "matching_applicant",
+                "value": "b1ac68ca-c692-449f-b6cc-1ee7c0d366ea"
+              }
+            ],
+            "process": "AUTOMATED"
+          }
+        ]
+      },
+      "created": "2025-06-25T14:17:29Z",
+      "last_updated": "2025-06-25T14:17:32Z",
+      "config": {
+        "pool_id": "a8b2e5de-a31f-4e82-b2ac-557a492fa88e",
+        "pool_label": "Test Pool2",
+        "approval_criteria": "MATCH"
+      }
+    }
+{% /tab %}
 {% /code %}
 
 Within the **Familiar Face Search** check object you will details regarding the result of the check. The recommendation value will depend upon what has been configured in the "approval_criteria"_._ If the approval criteria is set to "MATCH" the recommendation value will be APPROVE if there is a match and if approval_criteria is set to "NO MATCH" the recommendation value will be APPROVE if there is not a match. The Familiar Face Search check object will also detail the applicant pool id that is being searched against as well as a list of applicant ids.
+
+{% table widths="" %}
+| Field | Description | 
+| ---- | ---- | 
+| value | The value will either be "REJECT" or "APPROVE" based on what your approval criteria is and if a match has been found. | 
+| reason | The reason tells you why the check was rejected or approved. The reason can either be "MATCH" or "NO_MATCH", and will depend on what you have set as the approval criteria. | 
+| breakdown | gives further insight into why the check was approved or rejected. | 
+| sub_check | The sub check just identifies if the users face matches any in the applicant pool you are searching against. And will have a fail or pass result associated to it. | 
+| details | The details object will display the applicant id of the applicant that matched with the user as well as the pool id of which the matched applicant is a part of. | 
+{% /table %}
