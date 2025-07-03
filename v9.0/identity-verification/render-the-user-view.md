@@ -245,7 +245,7 @@ Jump to
 | 5005 | Mobile | Unexpected document scanning error. | No | 
 | 5006 | Mobile/Web | Unexpected liveness error. | No | 
 | 5007 | Web | iOS browser in use other than Safari. Only Safari on iOS may access camera. | No | 
-| 5008 | Web | Unsupported configuration | No | 
+| 5008 | Mobile/Web | Unsupported configuration | No | 
 | 5009 | Mobile | There was not enough storage available to write to the device | No | 
 | 5010 | Web | Camera access failed and no alternative capture method available | No | 
 | 5011 | Web | The camera does not meet the minimum required resolution | No | 
