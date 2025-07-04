@@ -99,7 +99,7 @@ The JSON structure for the API response:
 | method | The age verification method performed. | 
 | created_at | A timestamp for when the age verification method was attempted. | 
 | attempts | Attempt count for given method (for email age estimation through API, this is expected to be '1'). | 
-| status | COMPLETE - The email address has been associated with an Over 18 individual.\n\n\nERROR - We could not provide an email age estimation result, because we didn't have enough info associated with that email address.\n\n\nFAIL - The email address has been associated with an Under 18 individual.\n\n\nINSUFFICIENT_DATA - Insufficient data on this email address to verify the users age. | 
+| status | COMPLETE - The email address has been associated with an Over 18 individual.\n\n\nERROR - The check has been performed, but the email cannot be progressed.\n\n\nFAIL - The email address has been associated with an Under 18 individual.\n\n\nINSUFFICIENT_DATA - Check performed, however this is insufficient data to verify the user age. | 
 | result | Returns true if the threshold (18) has been met. Returns false if not met, or on error. | 
 | age | The threshold of the check (18). | 
 | type | Whether an OVER/UNDER or AGE type has been requested. Only OVER is supported for Email. | 
