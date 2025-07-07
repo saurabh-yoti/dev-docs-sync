@@ -14,13 +14,13 @@ Yoti provides a portal that allows you to view the results of your checks.
 
 To get set up you will need to follow these steps:
 
-1. Set up an account on the [Hub](https://hub.yoti.com)
-2. Add yourself as a portal user to your age verification application
-3. Log on to the [portal](https://identity.yoti.com/iam/login)
+1. Set up an account on the [Hub](https://hub.yoti.com).
+2. Add yourself as a portal user to your age verification application.
+3. Log on to the P[ortal](https://identity.yoti.com/iam/login).
 
 The below will guide you through step by step on how to get set up.
 
-{% badge type="warning" text="Help" /%} If you need any help please contact us through our [support form](https://support.yoti.com/yotisupport/s/contactsupport)
+{% badge type="warning" text="Help" /%} If you need any help please contact us through our [support form](https://support.yoti.com/yotisupport/s/contactsupport).
 
 ---
 
@@ -28,9 +28,9 @@ The below will guide you through step by step on how to get set up.
 
 To add a user to your portal:
 
-- Login to the Yoti hub
+- Login to the Yoti Hub
 - Select your age verification application
-- Go to the **portal users** tab
+- Go to the **Portal Users** tab
 
 {% image url="https://uploads.developerhub.io/prod/kvAX/0y5fwksx8hwhytuy2beanfig4vzsgacz2ueu4px0e29g4aalsc970qypcjquyj34.png" mode="responsive" height="918" width="1920" %}
 {% /image %}
@@ -91,5 +91,5 @@ The statuses are related to the below reasons:
 
 You can get a breakdown of the result by clicking into the tab:
 
-{% image url="https://uploads.developerhub.io/prod/kvAX/f8zj6jcqp5cnq4qpsymt0c138wy3x6f2jaef2nbyisr997xk6zhm7643w2g0ucyb.png" mode="responsive" height="980" width="1920" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/f8zj6jcqp5cnq4qpsymt0c138wy3x6f2jaef2nbyisr997xk6zhm7643w2g0ucyb.png" mode="responsive" height="980" %}
 {% /image %}
