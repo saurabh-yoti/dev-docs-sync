@@ -16,7 +16,7 @@ To get set up you will need to follow these steps:
 
 1. Set up an account on the [Hub](https://hub.yoti.com).
 2. Add yourself as a portal user to your age verification application.
-3. Log on to the P[ortal](https://identity.yoti.com/iam/login).
+3. Log on to the [Portal](https://identity.yoti.com/iam/login).
 
 The below will guide you through step by step on how to get set up.
 
