@@ -18,6 +18,8 @@ Notifications require HTTPS and will be reattempt if a 200 status code is not re
 
 Notifications will be sent multiple times for cases where retries or the resume flow is enabled. It may be possible for a user to initially 'fail' a check type, but subsequently pass on a retry.
 
+Notifications will be sent out for each age verification attempt that a user undergoes.
+
 Below is an example payload:
 
 {% code %}
@@ -44,7 +46,7 @@ Below is an example payload:
 | Field | Value | Description | 
 | ---- | ---- | ---- | 
 | method | AGE_ESTIMATION\n\n\n\nDOC_SCAN\n\n\n\nDIGITAL_ID | The method used to complete the Age verification session. | 
-| result* | true\n\n\n\nfalse | The result is true if the user met the OVER or UNDER criteria, false if not. The result is always true for type of AGE when an age is returned.\n\n\n\n*This field is is marked for deprecation. Please use the **state** instead | 
+| result* | true\n\n\n\nfalse | The result is true if the user met the OVER or UNDER criteria, false if not. The result is always true for type of AGE when an age is returned.\n\n\n\n_This field is is marked for deprecation. Please use the *_state** instead | 
 | age | integer | Returns the actual age if type AGE. Otherwise returns the threshold value. | 
 | session_key | uuid | The Age verification session ID. | 
 | reference_id | string | The reference_id submitted to the session create endpoint is returned in this field. | 
