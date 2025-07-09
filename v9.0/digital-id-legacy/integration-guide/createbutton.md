@@ -1235,10 +1235,11 @@ try {
 
 Once you have your share URL you can send it to the frontend for it to be rendered in a Yoti QR code. Please see example below using the modal QR code.
 
+Once you have your share URL, you can send it to the frontend for it to be rendered in a Yoti QR code. You can provide the `shareUrl` directly, or use `shareUrlProvider` to fetch it dynamically from your backend. Please see the examples below using the modal QR code.
+
 {% code %}
 {% tab language="html" %}
-<!-- Simple Button Generation -->
-
+<!-- QR Generation with Share URL -->
 <head>
   <script src="https://www.yoti.com/share/client/"></script>
 </head>
@@ -1254,6 +1255,35 @@ Once you have your share URL you can send it to the frontend for it to be render
         {
           domId: "xxx",
           shareUrl: "shareURL",
+          clientSdkId: "xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+          displayLearnMoreLink: true,
+        }
+      ]
+    });
+  </script>
+</body>
+{% /tab %}
+{% tab language="html" %}
+<!-- QR Generation with Share URL Provider -->
+<head>
+  <script src="https://www.yoti.com/share/client/"></script>
+</head>
+
+<body>
+  <!-- Yoti element will be rendered inside this DOM node -->
+  <div id="xxx"></div>
+
+  <!-- This script snippet will also be required in your HTML body -->
+  <script>
+    window.Yoti.Share.init({
+      elements: [
+        {
+          domId: "xxx",
+          shareUrlProvider: async () => {
+            const response = await fetch('/your-backend-endpoint');
+            const data = await response.json();
+            return data.shareUrl;
+          },
           clientSdkId: "xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
           displayLearnMoreLink: true,
         }
