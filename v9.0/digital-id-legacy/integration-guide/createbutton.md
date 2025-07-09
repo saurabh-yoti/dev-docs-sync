@@ -63,7 +63,7 @@ Finally, the domain port pair where the button is deployed (i.e. [https://localh
 
 Yoti offers the ability to force a language locale for the front end client - see list here:
 
-{% table %}
+{% table widths="" %}
 | Language | Parameter | 
 | ---- | ---- | 
 | English | en-GB (default) | 
@@ -289,7 +289,7 @@ ngOnDestroy(): void { this.YotiButton.destroy(); }
 
 The inline QR code option has a button which when clicked opens just the QR code. You will need to provide more context as to what Yoti is for this. See [auto$](/digital-id-legacy/scenario-examples) for more detail.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585935832/20477/vwoytddmqogp7sjjrblk.jpg" caption="Inline qr code" mode="300" height="312" width="468" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585935832/20477/vwoytddmqogp7sjjrblk.jpg" caption="Inline qr code" mode="300" height="312" width="300" %}
 {% /image %}
 
 {% code %}
@@ -332,7 +332,7 @@ The inline QR code option has a button which when clicked opens just the QR code
 
 The instant QR code option is just the QR code with no button. You will need to provide more context as to what Yoti is for this. Example below:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1588180782/20477/bifs7i78su52yjcwsbyl.png" caption="Instant QR code" mode="300" height="365" width="296" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1588180782/20477/bifs7i78su52yjcwsbyl.png" caption="Instant QR code" mode="300" height="365" width="300" %}
 {% /image %}
 
 {% code %}
@@ -433,13 +433,13 @@ Requesting a QR code is broken down into the following steps:
 
 In order to request a QR code from Yoti Servers the client must create a `GET HTTPS` request to the following `Retrieve a QR Code`endpoint:
 
-{% table %}
+{% table widths="" %}
 | Retrieve a QR code endpoint | 
 | ---- | 
 | GET `https://api.yoti.com/api/v1.1/sessions/apps/<sdkId>/scenarios/<scenarioId>` | 
 {% /table %}
 
-{% table %}
+{% table widths="" %}
 | Parameter | Description | 
 | ---- | ---- | 
 | sdkId | sdkId is the SDK_ID found with your Yoti Hub Application | 
@@ -478,7 +478,7 @@ The important section of the URL is the string that follows https://code.yoti.co
 
 This URL must be transformed into a QR code before it can be scanned with the Yoti app. Yoti provides a simple API to transform this URL into an official Yoti QR - This is important to establish trust between your user base and Yoti.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603982953/72646/m7faajiso8zh5tjsccrf.png" caption="Static QR code example" mode="300" height="582" width="580" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603982953/72646/m7faajiso8zh5tjsccrf.png" caption="Static QR code example" mode="300" height="582" width="300" %}
 {% /image %}
 
 {% code %}
@@ -506,7 +506,7 @@ The request body should be formed as JSON, specifying a URL (mandatory) and an i
 {% /tab %}
 {% /code %}
 
-{% table %}
+{% table widths="" %}
 | Field | Value | 
 | ---- | ---- | 
 | url | This is the URL returned from requesting a Yoti QR | 
@@ -514,7 +514,7 @@ The request body should be formed as JSON, specifying a URL (mandatory) and an i
 
 **Error codes**
 
-{% table %}
+{% table widths="" %}
 | Code | Description | Resolution | 
 | ---- | ---- | ---- | 
 | 400 | Missing url field in the request body | Ensure to POST a JSON body containing a url | 
@@ -592,7 +592,7 @@ https://api.yoti.com/api/v1.1/qrcodes/refs/<ref_id>
 {% /tab %}
 {% /code %}
 
-{% table %}
+{% table widths="" %}
 | Parameter | Description | 
 | ---- | ---- | 
 | ref_id | This is the UTF-8 string representation of the ref_id field obtained from the proto buffer data structure. | 
@@ -632,7 +632,7 @@ wss://api.yoti.com/api/v1.1/connect-sessions/<session_data>
 {% /tab %}
 {% /code %}
 
-{% table %}
+{% table widths="" %}
 | Parameter | Description | 
 | ---- | ---- | 
 | session_data | The session_data obtained from the call to _retrieve QR code_ endpoint | 
@@ -816,34 +816,33 @@ const selfBuiltAttribute = new Yoti.WantedAttributeBuilder()
     .withAcceptSelfAsserted()
     .build();
 
-  const dynamicPolicy = new Yoti.DynamicPolicyBuilder()
-  //using an attribute you build
+const dynamicPolicy = new Yoti.DynamicPolicyBuilder()
+    // using an attribute you build
     .withWantedAttribute(selfBuiltAttribute)
-  //using an attribute by name
+    // using an attribute by name
     .withWantedAttributeByName("full_name")
-  //using a predefined method to add an attribute
+    // using a predefined method to add an attribute
     .withFullName()
-  //if you wish the user to prove it's them by taking a selfie on share
+    // if you wish the user to prove it's them by taking a selfie on share
     .withSelfieAuthentication()
     .build();
 {% /tab %}
 {% tab language="java" %}
 WantedAttribute selfBuiltAttribute = new SimpleWantedAttributeBuilder()
-               .withName("full_name")
-               .withAcceptSelfAsserted()
-               .build();
+        .withName("full_name")
+        .withAcceptSelfAsserted()
+        .build();
 
-
-       DynamicPolicy dynamicPolicy = new SimpleDynamicPolicyBuilder()
-              //using an attribute you build
-               .withWantedAttribute(givenNamesWantedAttribute)
-              //using an attribute by name
-               .withWantedAttribute(true,"full_name")
-               //using a predefined method to add an attribute
-               .withFullName()
-               //if you wish the user to prove it's them by taking a selfie on share
-               .withSelfieAuthorisation(true)
-               .build();
+DynamicPolicy dynamicPolicy = new SimpleDynamicPolicyBuilder()
+        //using an attribute you build
+        .withWantedAttribute(givenNamesWantedAttribute)
+        //using an attribute by name
+        .withWantedAttribute(true,"full_name")
+        //using a predefined method to add an attribute
+        .withFullName()
+        //if you wish the user to prove it's them by taking a selfie on share
+        .withSelfieAuthorisation(true)
+        .build();
 {% /tab %}
 {% tab language="php" %}
 <?php
@@ -952,19 +951,18 @@ See [auto$](/digital-id-legacy/yoti-attributes) section for more details.
 {% code %}
 {% tab language="javascript" %}
 const sourceConstraint = new Yoti.SourceConstraintBuilder()
-   //passport
+    // Passport
     .withPassport()
-   //Driving Licence
+    // Driving Licence
     .withDrivingLicence()
-   //National ID
+    // National ID
     .withNationalId()
-   //Passcard
+    // Passcard
     .withPasscard()
- 
     .withSoftPreference(false)
     .build();
 
-  const constraints = new Yoti.ConstraintsBuilder()
+const constraints = new Yoti.ConstraintsBuilder()
     .withSourceConstraint(sourceConstraint)
     .build();
 
@@ -1211,7 +1209,7 @@ dynamicScenario = := (
 
 Using the dynamic scenario you need to get a shareURL which will be used by the Yoti scripts to generate a Yoti QR code.
 
-{% table %}
+{% table widths="" %}
 | Example | 
 | ---- | 
 | [https://code.yoti.com/CAEaJDI5ZjEyZmI4LTMyNTYtNDI0NS05OTg3LTBkMTA0ZTQ2N2JkYjAC](https://code.yoti.com/CAEaJDI5ZjEyZmI4LTMyNTYtNDI0NS05OTg3LTBkMTA0ZTQ2N2JkYjAC) | 
@@ -1221,17 +1219,17 @@ Using the dynamic scenario you need to get a shareURL which will be used by the 
 {% tab language="javascript" %}
 yotiClient.createShareUrl(dynamicScenario)
     .then((shareUrlResult) => {
-     const shareURL =  shareUrlResult.getShareUrl();
+        const shareURL = shareUrlResult.getShareUrl();
     }).catch((error) => {
-      console.error(error.message);
+        console.error(error.message);
     });
 {% /tab %}
 {% tab language="java" %}
 try {
-        String shareUrl = client.createShareUrl(dynamicScenario).getUrl();
-        } catch (DynamicShareException e) {
-            LOG.error(e.getMessage());
-        }
+    String shareUrl = client.createShareUrl(dynamicScenario).getUrl();
+} catch (DynamicShareException e) {
+    LOG.error(e.getMessage());
+}
 {% /tab %}
 {% /code %}
 
