@@ -170,7 +170,8 @@ Please do not open the pem file as this might corrupt the key and you will need 
 
 {% code %}
 {% tab language="javascript" %}
-// Point the IDV Client at the sandbox by setting environment variable YOTI_IDV_API_URL to https://api.yoti.com/sandbox/idverify/v1
+// Point the IDV Client at the sandbox by setting environment variable 
+// YOTI_IDV_API_URL to https://api.yoti.com/sandbox/idverify/v1
 
 const { IDVClient } = require('yoti');
 const fs = require('fs');
@@ -2015,7 +2016,7 @@ HttpResponseMessage response = ageScanRequest.Execute(httpClient).Result;
 {% /tab %}
 {% /code %}
 
-{% table %}
+{% table widths="" %}
 | **Field** | **Details** | 
 | ---- | ---- | 
 | Session ID | The UUID String returned when creating the session | 
@@ -2027,7 +2028,7 @@ HttpResponseMessage response = ageScanRequest.Execute(httpClient).Result;
 
 ### Responses
 
-{% table %}
+{% table widths="" %}
 | **Code** | **Desciption** | 
 | ---- | ---- | 
 | 204 | OK, completed with no content | 
