@@ -170,7 +170,8 @@ Please do not open the pem file as this might corrupt the key and you will need 
 
 {% code %}
 {% tab language="javascript" title="Node.js" %}
-// Point the IDV Client at the sandbox by setting environment variable YOTI_IDV_API_URL to https://api.yoti.com/sandbox/idverify/v1
+// Point the IDV Client at the sandbox by setting environment variable 
+// YOTI_IDV_API_URL to https://api.yoti.com/sandbox/idverify/v1
 
 const { IDVClient } = require('yoti');
 const fs = require('fs');
