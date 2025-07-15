@@ -27,7 +27,9 @@ Adding a payload is **optional** in this request. But if you do opt to send a pa
 {% code %}
 {% tab language="json" %}
 {
-    "face": "<base64 encoded image>"
+  "face": {
+    "data": "base64 encoded image",
+  }
 }
 {% /tab %}
 {% /code %}
