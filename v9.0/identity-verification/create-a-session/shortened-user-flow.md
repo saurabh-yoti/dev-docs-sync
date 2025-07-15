@@ -1,7 +1,7 @@
 ---
 type: page
 title: Shortened Flow
-listed: true
+listed: false
 slug: shortened-user-flow
 description: 
 index_title: Shortened Flow
