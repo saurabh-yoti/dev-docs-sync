@@ -12,7 +12,7 @@ tags:
 
 Welcome to the developer documentation for integrating the In-Branch verification service.
 
-The documentation has recently been revised. Should you need the earlier version, it's available here. Please note, there have been no modifications to the API.
+The documentation has recently been revised. Should you need the earlier version, it's available [here](https://developers.yoti.com/v8.0/in-branch-verification-legacy/uk-dbs-overview). Please note, there have been no modifications to the API.
 
 You can integrate this service by API.
 
@@ -23,9 +23,9 @@ The overview below details the entities and data flows.
 {% callout type="warning" title="Before you start" %}
 You will need to have registered your business with Yoti.
 
-[View Onboarding with Yoti](/in-branch-verification/getting-started)
+[Onboarding with Yoti](/in-branch-verification/getting-started)
 
-View Generate API Keys
+[Generate API Keys](/in-branch-verification/production-keys)
 {% /callout %}
 
 In-Branch Verification is a service for organisations who require In-person identity verification and document validation. This service will use Yoti's Identity verification capability combined with a face-to-face transaction to provide identity and proof of address document validation and identity verification to clients who require additional assurance to meet business risk or regulatory obligations, or to customers who require the additional assistance that a branch can provide.
@@ -65,7 +65,7 @@ Please note that our in-branch service might not support all document types and 
 For 'Supplementary Document' support, refer to the table provided below.
 {% /callout %}
 
-{% table %}
+{% table widths="" %}
 | Document | Backend name | Yoti type | 
 | ---- | ---- | ---- | 
 | Passport | PASSPORT | ID | 
@@ -99,7 +99,7 @@ For 'Supplementary Document' support, refer to the table provided below.
 
 ### User Journey (Diagram)
 
-{% image url="https://uploads.developerhub.io/prod/kvAX/qikgilulq51rzhaozgsyqb36v6nsj70wnzrbdb2waowcgmukgrlai4914jtvozl5.jpeg" mode="responsive" height="2513" width="1634" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/qikgilulq51rzhaozgsyqb36v6nsj70wnzrbdb2waowcgmukgrlai4914jtvozl5.jpeg" mode="responsive" height="2513" %}
 {% /image %}
 
 ---
