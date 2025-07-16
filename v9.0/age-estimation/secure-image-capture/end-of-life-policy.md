@@ -14,18 +14,13 @@ This page provides information on the released versions of our Secure Face Captu
 
 You should migrate to a supported version before the end of its deprecation period.
 
-The following table lists the released versions and their support timeline:
+The tables below list the released versions and their support timeline.
+
+### Supported versions
 
 {% table widths="" %}
 | Module version | Deprecation date | Expiration date | 
 | ---- | ---- | ---- | 
-| SICAP 1.0 | 2024-12-20 | 2025-06-20 | 
-| SICAP 1.1 | 2024-12-20 | 2025-06-20 | 
-| SICAP 1.2 | 2024-12-20 | 2025-06-20 | 
-| SICAP 1.3 | 2024-12-20 | 2025-06-20 | 
-| SICAP 1.4 | 2024-12-20 | 2025-06-20 | 
-| SICAP 2.0-beta.1 * | 2024-02-20 | 2024-04-20 | 
-| SICAP 2.0 | 2024-12-20 | 2025-06-20 | 
 | SICAP 2.1.0 | 2025-02-21 | 2025-08-21 | 
 | SICAP 2.2.0 | 2025-04-11 | 2025-10-11 | 
 | SICAP 2.2.1 | 2025-05-23 | 2025-11-22 | 
@@ -40,4 +35,16 @@ The following table lists the released versions and their support timeline:
 | SICAP 2.6.2 | 2026-05-27 | 2026-11-26 | 
 {% /table %}
 
-{% badge type="warning" text="Note:" /%} * SICAP 2.0-beta.1 has reached end of life, and we recommend no longer using this version. Please upgrade to a supported version.
+### Unsupported versions
+
+{% table widths="" %}
+| Module version | Deprecation date | Expiration date | 
+| ---- | ---- | ---- | 
+| SICAP 1.0 | 2024-12-20 | 2025-06-20 | 
+| SICAP 1.1 | 2024-12-20 | 2025-06-20 | 
+| SICAP 1.2 | 2024-12-20 | 2025-06-20 | 
+| SICAP 1.3 | 2024-12-20 | 2025-06-20 | 
+| SICAP 1.4 | 2024-12-20 | 2025-06-20 | 
+| SICAP 2.0-beta.1 * | 2024-02-20 | 2024-04-20 | 
+| SICAP 2.0 | 2024-12-20 | 2025-06-20 | 
+{% /table %}
