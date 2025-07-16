@@ -37,6 +37,7 @@ The following table lists the released versions and their support timeline:
 | SICAP 2.5.1 | 2026-02-18 | 2026-08-20 | 
 | SICAP 2.6.0 | 2026-04-03 | 2026-10-03 | 
 | SICAP 2.6.1 | 2026-04-30 | 2026-10-30 | 
+| SICAP 2.6.2 | 2026-05-27 | 2026-11-26 | 
 {% /table %}
 
 {% badge type="warning" text="Note:" /%} * SICAP 2.0-beta.1 has reached end of life, and we recommend no longer using this version. Please upgrade to a supported version.
