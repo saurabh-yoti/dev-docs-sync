@@ -16,7 +16,7 @@ You should migrate to a supported version before the end of its deprecation peri
 
 The tables below list the released versions and their support timeline.
 
-### Supported versions
+## Supported versions
 
 {% table widths="" %}
 | Module version | Deprecation date | Expiration date | 
@@ -32,7 +32,7 @@ The tables below list the released versions and their support timeline.
 | SICAP 2.3.0 | 2025-08-13 | 2026-02-12 | 
 {% /table %}
 
-### Deprecated/expired versions
+## Deprecated/expired versions
 
 {% table widths="" %}
 | Module version | Deprecation date | Expiration date | 
