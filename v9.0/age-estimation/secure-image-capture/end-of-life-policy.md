@@ -49,4 +49,4 @@ The tables below list the released versions and their support timeline.
 | SICAP 1.0 | 2024-12-20 | 2025-06-20 | 
 {% /table %}
 
-{% badge type="warning" text="Note:" /%} Versions with a asterisk (*) are expiring soon. We recommend you to upgrade.
+{% badge type="warning" text="Note:" /%} Versions with an asterisk (*) are expiring soon. We recommend you to upgrade.
