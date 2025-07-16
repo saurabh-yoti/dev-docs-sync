@@ -30,16 +30,16 @@ The tables below list the released versions and their support timeline.
 | SICAP 2.3.2 | 2025-09-11 | 2026-03-13 | 
 | SICAP 2.3.1 | 2025-08-14 | 2026-02-13 | 
 | SICAP 2.3.0 | 2025-08-13 | 2026-02-12 | 
-| SICAP 2.2.1 | 2025-05-23 | 2025-11-22 | 
-| SICAP 2.2.0 | 2025-04-11 | 2025-10-11 | 
-| SICAP 2.1.0 | 2025-02-21 | 2025-08-21 | 
 {% /table %}
 
-### Unsupported versions
+### Deprecated/expired versions
 
 {% table widths="" %}
 | Module version | Deprecation date | Expiration date | 
 | ---- | ---- | ---- | 
+| **SICAP 2.2.1** | **2025-05-23** | **2025-11-22** | 
+| **SICAP 2.2.0** | **2025-04-11** | **2025-10-11** | 
+| **SICAP 2.1.0** | **2025-02-21** | **2025-08-21** | 
 | SICAP 2.0 | 2024-12-20 | 2025-06-20 | 
 | SICAP 2.0-beta.1 * | 2024-02-20 | 2024-04-20 | 
 | SICAP 1.4 | 2024-12-20 | 2025-06-20 | 
