@@ -289,7 +289,7 @@ ngOnDestroy(): void { this.YotiButton.destroy(); }
 
 The inline QR code option has a button which when clicked opens just the QR code. You will need to provide more context as to what Yoti is for this. See [auto$](/digital-id-legacy/scenario-examples) for more detail.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585935832/20477/vwoytddmqogp7sjjrblk.jpg" caption="Inline qr code" mode="300" height="312" width="300" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/r5u3kfe0hp1bv9s6eb155h6svjr6btvg2hvx5m8hmat0h2zzc5sd7gpxej99lvzz.jpg" caption="Inline qr code" mode="300" height="312" width="300" %}
 {% /image %}
 
 {% code %}
@@ -332,7 +332,7 @@ The inline QR code option has a button which when clicked opens just the QR code
 
 The instant QR code option is just the QR code with no button. You will need to provide more context as to what Yoti is for this. Example below:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1588180782/20477/bifs7i78su52yjcwsbyl.png" caption="Instant QR code" mode="300" height="365" width="300" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/aeuphqod3rzo6spk8bav9sdpy9l1d4g1yn5id3fl688id066w7wxis32fq5tpn2v.png" caption="Instant QR code" mode="300" height="365" width="300" %}
 {% /image %}
 
 {% code %}
@@ -478,7 +478,7 @@ The important section of the URL is the string that follows https://code.yoti.co
 
 This URL must be transformed into a QR code before it can be scanned with the Yoti app. Yoti provides a simple API to transform this URL into an official Yoti QR - This is important to establish trust between your user base and Yoti.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603982953/72646/m7faajiso8zh5tjsccrf.png" caption="Static QR code example" mode="300" height="582" width="300" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/xk6ua2y8ittvegbwfy3ovzw5eokdm3kkz4pd9zo2847h40h8a1wpisd4ywn9xk97.png" caption="Static QR code example" mode="300" height="582" width="300" %}
 {% /image %}
 
 {% code %}
@@ -714,7 +714,7 @@ If the transaction times out, the server will send the following message:
 {% /tab %}
 {% /code %}
 
-If any of the last two messages occur, you should restart the process by requesting a new QR code. 
+If any of the last two messages occur, you should restart the process by requesting a new QR code.
 
 Let's finally see what happens when a transaction is successfully completed. In this case the server will send the following message:
 
@@ -1233,7 +1233,7 @@ try {
 {% /tab %}
 {% /code %}
 
-Once you have your share URL, you can send it to the frontend for it to be rendered in a Yoti QR code. You can provide the `shareUrl` directly, or use `shareUrlProvider` to fetch it dynamically from your backend. Please see the examples below using the modal QR code.
+Once you have your share URL, you can send it to the frontend for it to be rendered in a Yoti QR code. You can provide the `shareUrl` directly, or use `shareUrlProvider` to fetch it dynamically from your backend. Please see the examples below using the modal QR code. You can add it to your site using either the JavaScript approach or the NPM module method.
 
 {% code %}
 {% tab language="html" %}
