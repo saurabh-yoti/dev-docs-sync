@@ -18,7 +18,7 @@ We suggest you read through the step by step integration guide to understand the
       Before you start
    </div>
    <div class="alert-text" >
-			You will need to access your Yoti Hub account with an e-mail & password or using the Yoti mobile app and to have registered your business with Yoti. Click below for more info.
+      You will need to access your Yoti Hub account with an e-mail & password or using the Yoti mobile app and to have registered your business with Yoti. Click below for more info.
    </div>
    <div class="alert-links"> 
       <a target="_self"  href="https://developers.yoti.com/yoti/getting-started"> View Onboarding with Yoti </a>
@@ -176,9 +176,9 @@ YotiClient client = YotiClientBuilder.newInstance()
 {% /tab %}
 {% /code %}
 
-**Yoti button**
+**Yoti QR button**
 
-In this example we use the modal button but please feel free to look at our other [button](/digital-id-legacy/createbutton) examples.
+You can add the Yoti QR button to your site using either the  JavaScript (JS) approach or the NPM module method. The JS method uses a script tag and global object, while the new approach lets you install the package via NPM and use imports. See below for both examples, and feel free to look at our other [button](/digital-id-legacy/createbutton) examples.
 
 {% code %}
 {% tab language="csharp" title="HTML" %}
@@ -207,6 +207,23 @@ In this example we use the modal button but please feel free to look at our othe
   </script>
 </body>
 {% /tab %}
+{% tab language="javascript" title="Node.js" %}
+// Install the Yoti Share Client Core module
+npm install @getyoti/share-client-core
+
+// Import and use in your JavaScript/TypeScript project
+import { startYotiModalShare } from '@getyoti/share-client-core';
+
+await startYotiModalShare({
+  clientSdkId: 'xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
+  domId: 'xxx',
+  controls: {
+    scenarioId: 'xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
+    shareUrlProvider,
+  },
+});
+// Make sure to have a <div id="xxx"></div> in your HTML
+{% /tab %}
 {% /code %}
 
 **Retrieve profile**
@@ -219,11 +236,11 @@ yotiClient.getActivityDetails(oneTimeUseToken)
     const parentRememberMeId = activityDetails.getParentRememberMeId();
     const receiptId = activityDetails.getReceiptId();
     const timestamp = activityDetails.getTimestamp();
-  	const profile = activityDetails.getProfile();
+    const profile = activityDetails.getProfile();
     const applicationProfile = activityDetails.getApplicationProfile();
   
     const selfieImageData = profile.getSelfie().getValue();
-  	const base64SelfieUri = profile.getSelfie().getValue().getBase64Content();
+    const base64SelfieUri = profile.getSelfie().getValue().getBase64Content();
     const fullName = profile.getFullName().getValue();
     const familyName = profile.getFamilyName().getValue();
     const givenNames = profile.getGivenNames().getValue();
@@ -419,55 +436,55 @@ string value = givenNamesFirstSource.GetValue();
 {% tab language="go" %}
 activityDetails, err := client.GetActivityDetails(yotiOneTimeUseToken)
 
-	rememberMeID := activityDetails.RememberMeID()
-	parentRememberMeID := activityDetails.ParentRememberMeID()
+  rememberMeID := activityDetails.RememberMeID()
+  parentRememberMeID := activityDetails.ParentRememberMeID()
 
-	userProfile := activityDetails.UserProfile
-	selfie := userProfile.Selfie().Value().Data()
-	givenNames := userProfile.GivenNames().Value()
-	familyName := userProfile.FamilyName().Value()
-	fullName := userProfile.FullName().Value()
-	mobileNumber := userProfile.MobileNumber().Value()
-	emailAddress := userProfile.EmailAddress().Value()
-	address := userProfile.Address().Value()
-	gender := userProfile.Gender().Value()
-	nationality := userProfile.Nationality().Value()
-	var dateOfBirth *time.Time
-	dobAttr, err := userProfile.DateOfBirth()
+  userProfile := activityDetails.UserProfile
+  selfie := userProfile.Selfie().Value().Data()
+  givenNames := userProfile.GivenNames().Value()
+  familyName := userProfile.FamilyName().Value()
+  fullName := userProfile.FullName().Value()
+  mobileNumber := userProfile.MobileNumber().Value()
+  emailAddress := userProfile.EmailAddress().Value()
+  address := userProfile.Address().Value()
+  gender := userProfile.Gender().Value()
+  nationality := userProfile.Nationality().Value()
+  var dateOfBirth *time.Time
+  dobAttr, err := userProfile.DateOfBirth()
 
-	if err != nil {
-		// handle error
-	} else {
-		dateOfBirth = dobAttr.Value()
-	}
+  if err != nil {
+    // handle error
+  } else {
+    dateOfBirth = dobAttr.Value()
+  }
 
-	var structuredPostalAddress map[string]interface{}
-	structuredPostalAddressAttribute, err := userProfile.StructuredPostalAddress()
+  var structuredPostalAddress map[string]interface{}
+  structuredPostalAddressAttribute, err := userProfile.StructuredPostalAddress()
 
-	if err != nil {
-		// handle error
-	} else {
-		structuredPostalAddress = structuredPostalAddressAttribute.Value()
-	}
+  if err != nil {
+    // handle error
+  } else {
+    structuredPostalAddress = structuredPostalAddressAttribute.Value()
+  }
 
-	// If you have chosen Verify Condition on the Yoti Dashboard with the age condition of "Over 18",
-	// you can retrieve the user information with the generic .GetAttribute method, which requires the
-	// result to be cast to the original type:
-	age_over := userProfile.GetAttribute("age_over:18").Value().(string)
+  // If you have chosen Verify Condition on the Yoti Dashboard with the age condition of "Over 18",
+  // you can retrieve the user information with the generic .GetAttribute method, which requires the
+  // result to be cast to the original type:
+  age_over := userProfile.GetAttribute("age_over:18").Value().(string)
 
-	// GetAttribute returns an interface, the value can be acquired through a type assertion.
-	// From each attribute you can retrieve the Anchors, and subsets Sources and Verifiers
-	// (all as []*anchor.Anchor) as follows:
-	givenNamesAnchors := userProfile.GivenNames().Anchors()
-	givenNamesSources := userProfile.GivenNames().Sources()
-	givenNamesVerifiers := userProfile.GivenNames().Verifiers()
+  // GetAttribute returns an interface, the value can be acquired through a type assertion.
+  // From each attribute you can retrieve the Anchors, and subsets Sources and Verifiers
+  // (all as []*anchor.Anchor) as follows:
+  givenNamesAnchors := userProfile.GivenNames().Anchors()
+  givenNamesSources := userProfile.GivenNames().Sources()
+  givenNamesVerifiers := userProfile.GivenNames().Verifiers()
 
-	// You can also retrieve further properties from these respective anchors in the following way:
-	var givenNamesFirstAnchor *anchor.Anchor = givenNamesAnchors[0]
-	var anchorType anchor.Type = givenNamesFirstAnchor.Type()
-	var signedTimestamp *time.Time = givenNamesFirstAnchor.SignedTimestamp().Timestamp()
-	var subType string = givenNamesFirstAnchor.SubType()
-	var value string = givenNamesFirstAnchor.Value()
+  // You can also retrieve further properties from these respective anchors in the following way:
+  var givenNamesFirstAnchor *anchor.Anchor = givenNamesAnchors[0]
+  var anchorType anchor.Type = givenNamesFirstAnchor.Type()
+  var signedTimestamp *time.Time = givenNamesFirstAnchor.SignedTimestamp().Timestamp()
+  var subType string = givenNamesFirstAnchor.SubType()
+  var value string = givenNamesFirstAnchor.Value()
 {% /tab %}
 {% tab language="ruby" %}
 yoti_activity_details = Yoti::Client.get_activity_details(oneTimeUseToken)
