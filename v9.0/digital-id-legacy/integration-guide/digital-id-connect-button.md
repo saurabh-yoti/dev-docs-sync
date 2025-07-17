@@ -82,4 +82,5 @@ await startYotiModalShare({
 });
 
 // Note: Make sure to have a <div id="xxx"></div> in your HTML
+{% /tab %}
 {% /code %}
