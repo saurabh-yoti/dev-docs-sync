@@ -21,6 +21,7 @@ The tables below list the released versions and their support timeline.
 {% table widths="" %}
 | Module version | Deprecation date | Expiration date | 
 | ---- | ---- | ---- | 
+| SICAP 2.7.0 | 2026-07-16 | 2027-01-15 | 
 | SICAP 2.6.2 | 2026-05-27 | 2026-11-26 | 
 | SICAP 2.6.1 | 2026-04-30 | 2026-10-30 | 
 | SICAP 2.6.0 | 2026-04-03 | 2026-10-03 | 
@@ -49,4 +50,4 @@ The tables below list the released versions and their support timeline.
 | SICAP 1.0 | 2024-12-20 | 2025-06-20 | 
 {% /table %}
 
-{% badge type="warning" text="Note:" /%} Versions with an asterisk (*) are expiring soon. We recommend you to upgrade.
+{% badge type="warning" text="Note:" /%} Versions highlighted with an asterisk (*) are expiring soon. We recommend you to upgrade.
