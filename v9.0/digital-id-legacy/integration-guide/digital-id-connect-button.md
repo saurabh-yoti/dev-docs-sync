@@ -16,6 +16,8 @@ The network is built by Yoti, Post Office and Lloyds Bank to make the digital wo
 
 Digital ID Connect buttons and QR code styles use the client-side JavaScript library provided by Yoti and follow the same structure as described [here](/digital-id/createbutton).
 
+You can add the Digital ID Connect button using either the JavaScript approach or the NPM module. See below for both examples.
+
 The configuration of the element `skinId` determines the button and QR code styles. An example is shown below:
 
 {% table widths="326" %}
@@ -31,7 +33,7 @@ To use the Digital ID Connect skin, your organisation must operate in the United
 
 {% code %}
 {% tab language="json" title="Simple button" %}
-<!-- Simple Button Generation -->
+<!-- Simple Modal Button Generation -->
 
 <head>
   <script src="https://www.yoti.com/share/client/"></script>
@@ -57,4 +59,27 @@ To use the Digital ID Connect skin, your organisation must operate in the United
   </script>
 </body>
 {% /tab %}
+{% tab language="javascript" title="Node.js / NPM Module" %}
+// Install the Yoti Share Client Core module
+npm install @getyoti/share-client-core
+
+// Import and use in your JavaScript/TypeScript project
+import { startYotiModalShare } from '@getyoti/share-client-core';
+
+await startYotiModalShare({
+  clientSdkId: 'xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
+  domId: 'xxx',
+  controls: {
+    scenarioId: 'xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
+  },
+  options: {
+    skin: 'digital-id-uk',
+    displayLearnMoreLink: true,
+    button: {
+      width: 'full'
+    },
+  },
+});
+
+// Note: Make sure to have a <div id="xxx"></div> in your HTML
 {% /code %}
