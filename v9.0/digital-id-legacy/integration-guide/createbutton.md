@@ -1290,6 +1290,35 @@ Once you have your share URL, you can send it to the frontend for it to be rende
   </script>
 </body>
 {% /tab %}
+{% tab language="javascript" title="NPM Module" %}
+<!-- Dynamic QR Generation with NPM Module -->
+
+// Install the Yoti Share Client Core module
+npm install @getyoti/share-client-core
+
+// Import and use in your JavaScript/TypeScript project
+import { startYotiModalShare } from '@getyoti/share-client-core';
+
+await startYotiModalShare({
+  clientSdkId: 'xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
+  domId: 'xxx',
+  controls: {
+    shareUrlProvider: async () => {
+      // Fetch the dynamic share URL from your backend
+      const response = await fetch('/your-backend-endpoint');
+      const data = await response.json();
+      return data.shareUrl;
+    },
+  },
+  options: {
+    skin: 'digital-id-uk', // or other skin as needed
+    button: {
+      width: 'full',
+    },
+  },
+});
+// Make sure to have a <div id="xxx"></div> in your HTML
+{% /tab %}
 {% /code %}
 
 **Examples**
