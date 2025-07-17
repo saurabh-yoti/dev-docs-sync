@@ -989,6 +989,6 @@ token_request = Yoti::Sandbox::Profile::TokenRequestBuilder.new
 
 Once you have tested our sandbox please return to our integration guide.
 
-If you have any other questions please do not hesitate to contact us through our [support form](https://support.yoti.com/yotisupport/s/contactsupport)
+If you have any other questions please do not hesitate to contact us through our [support form](https://support.yoti.com/yotisupport/s/contactsupport).
 
 _Once we have answered your question we may contact you again to discuss Yoti products and services. If you’d prefer us not to do this, please let us know when you e-mail._
