@@ -10,7 +10,7 @@ keywords:
 tags: 
 ---
 
-We suggest you read through the step by step integration guide to understand the integration in detail. Please see below for example code snippets and example projects. 
+We suggest you read through the step by step integration guide to understand the integration in detail. Please see below for example code snippets and example projects.
 
 {% html %}
 <div class="alert-BYS">
@@ -31,7 +31,7 @@ We suggest you read through the step by step integration guide to understand the
 
 ## Example code
 
-Below is an example complete request snippet in different languages. 
+Below is an example complete request snippet in different languages.
 
 {% badge type="info" text="Hint" /%} We suggest you read through the full documentation first.
 
@@ -178,11 +178,11 @@ YotiClient client = YotiClientBuilder.newInstance()
 
 **Yoti QR button**
 
-You can add the Yoti QR button to your site using either the  JavaScript (JS) approach or the NPM module method. The JS method uses a script tag and global object, while the new approach lets you install the package via NPM and use imports. See below for both examples, and feel free to look at our other [button](/digital-id-legacy/createbutton) examples.
+You can add the Yoti QR button to your site using either the  JavaScript (JS) approach or the NPM module method. The JS method uses a script tag and global object, while the NPM approach lets you install the package and use imports. See below for both examples, and feel free to look at our other [examples](/digital-id-legacy/createbutton).
 
 {% code %}
 {% tab language="csharp" title="HTML" %}
-<!-- Simple Button Generation -->
+<!-- Simple Modal Button Generation -->
 
 <head>
   <script src="https://www.yoti.com/share/client/"></script>
@@ -219,10 +219,11 @@ await startYotiModalShare({
   domId: 'xxx',
   controls: {
     scenarioId: 'xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
-    shareUrlProvider,
-  },
+    shareUrlProvider
+  }
 });
-// Make sure to have a <div id="xxx"></div> in your HTML
+
+// Note: Make sure to have a <div id="xxx"></div> in your HTML
 {% /tab %}
 {% /code %}
 
@@ -538,7 +539,7 @@ origin_server_certs = given_names_sources[0].origin_server_certs # list of X509 
 
 Our GitHub pages are listed below for the Digital ID Integration. Please select your preferred language to continue.
 
-{% table %}
+{% table widths="" %}
 | Production | Sandbox | 
 | ---- | ---- | 
 | [Javascript](https://github.com/getyoti/yoti-node-sdk/tree/master#running-the-examples) | [Javascript](https://github.com/getyoti/yoti-node-sdk-sandbox) | 
