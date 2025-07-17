@@ -20,6 +20,15 @@ POST https://api.yoti.com/idverify/v1/applicants
 {% /tab %}
 {% /code %}
 
+### Headers
+
+{% table widths="" %}
+| Headers | Value | 
+| ---- | ---- | 
+| Content-Type | application/json | 
+| Accept | application/json | 
+{% /table %}
+
 ### Request body
 
 Adding a payload is **optional** in this request. But if you do opt to send a payload, you can directly add a face to the applicant upon creation of the applicant.
