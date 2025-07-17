@@ -14,9 +14,7 @@ Digital ID Connect is a UK network of reusable Digital ID apps that allow busine
 
 The network is built by Yoti, Post Office and Lloyds Bank to make the digital world easier and safer for everybody.
 
-Digital ID Connect buttons and QR code styles use the client-side JavaScript library provided by Yoti and follow the same structure as described [here](/digital-id/createbutton).
-
-You can add the Digital ID Connect button using either the JavaScript approach or the NPM module. See below for both examples.
+Digital ID Connect buttons and QR code styles use the client-side JavaScript library provided by Yoti and follow the same structure as described [here](/digital-id-legacy/createbutton). You can add the Digital ID Connect button using either the JavaScript approach or the NPM module. See below for both examples.
 
 The configuration of the element `skinId` determines the button and QR code styles. An example is shown below:
 
@@ -32,8 +30,8 @@ To use the Digital ID Connect skin, your organisation must operate in the United
 {% /callout %}
 
 {% code %}
-{% tab language="json" title="Simple button" %}
-<!-- Simple Modal Button Generation -->
+{% tab language="html" title="HTML" %}
+<!-- Digital ID Connect Button Generation -->
 
 <head>
   <script src="https://www.yoti.com/share/client/"></script>
@@ -59,7 +57,7 @@ To use the Digital ID Connect skin, your organisation must operate in the United
   </script>
 </body>
 {% /tab %}
-{% tab language="javascript" title="Node.js / NPM Module" %}
+{% tab language="javascript" title="Node.js" %}
 // Install the Yoti Share Client Core module
 npm install @getyoti/share-client-core
 
