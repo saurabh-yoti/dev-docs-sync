@@ -207,7 +207,7 @@ You can add the Yoti QR button to your site using either the  JavaScript (JS) ap
   </script>
 </body>
 {% /tab %}
-{% tab language="javascript" title="Node.js" %}
+{% tab language="javascript" title="NPM Module" %}
 // Install the Yoti Share Client Core module
 npm install @getyoti/share-client-core
 
