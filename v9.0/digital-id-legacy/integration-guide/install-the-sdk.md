@@ -162,7 +162,7 @@ YotiClient client = YotiClientBuilder.newInstance()
 {% /tab %}
 {% /code %}
 
-{% callout type="info" title="Sandbox" %}
+{% callout type="warning" title="Sandbox" %}
 To see how to do this using our sandbox, please head over to the link below.
 
 [Sandbox integration](/digital-id-legacy/sandbox)
