@@ -57,7 +57,7 @@ To use the Digital ID Connect skin, your organisation must operate in the United
   </script>
 </body>
 {% /tab %}
-{% tab language="javascript" title="Node.js" %}
+{% tab language="javascript" title="NPM Module" %}
 // Install the Yoti Share Client Core module
 npm install @getyoti/share-client-core
 
