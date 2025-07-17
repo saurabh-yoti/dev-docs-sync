@@ -282,6 +282,40 @@ ngOnDestroy(): void { this.YotiButton.destroy(); }
 </body>
 {% /tab %}
 {% /code %}
+{% code %}
+{% tab language="javascript" title="NPM Module" %}
+<!-- Dynamic QR Generation with NPM Module -->
+
+// Install the Yoti Share Client Core module
+npm install @getyoti/share-client-core
+
+// Import and use in your JavaScript/TypeScript project
+import { startYotiModalShare } from '@getyoti/share-client-core';
+
+await startYotiModalShare({
+  clientSdkId: 'xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
+  domId: 'xxx',
+  controls: {
+    shareUrlProvider: async () => {
+      // Fetch the dynamic share URL from your backend
+      const response = await fetch('/your-backend-endpoint');
+      const data = await response.json();
+      return data.shareUrl;
+    },
+  },
+  options: {
+    skin: 'digital-id-uk', // or other skin as needed
+    button: {
+      width: 'full',
+    },
+  },
+});
+// Make sure to have a <div id="xxx"></div> in your HTML
+{% /tab %}
+{% /code %}
+---
+
+You can also render a Dynamic QR code using the official Yoti NPM module. This approach allows you to use modern JavaScript/TypeScript imports and easily integrate with your backend to fetch the share URL dynamically.
 
 ---
 
@@ -501,7 +535,7 @@ The request body should be formed as JSON, specifying a URL (mandatory) and an i
 {% code %}
 {% tab language="json" %}
 {
-	"url": "https://code.yoti.com/<YotiCode>"
+  "url": "https://code.yoti.com/<YotiCode>"
 }
 {% /tab %}
 {% /code %}
@@ -656,7 +690,7 @@ Once the connection is established, you will need to send an initial subscriptio
 {% code %}
 {% tab language="json" %}
 {
-	"subscription": <session_data>
+  "subscription": <session_data>
 }
 {% /tab %}
 {% /code %}
@@ -914,30 +948,30 @@ var dynamicPolicy = new DynamicPolicyBuilder()
 package main
 
 import (
-	"github.com/getyoti/yoti-go-sdk/v3"
-	"github.com/getyoti/yoti-go-sdk/v3/dynamic"
+  "github.com/getyoti/yoti-go-sdk/v3"
+  "github.com/getyoti/yoti-go-sdk/v3/dynamic"
 )
 
 
 selfBuiltAttribute := (
-	&dynamic.PolicyBuilder{})
-	.WithName("full_name")
+  &dynamic.PolicyBuilder{})
+  .WithName("full_name")
     .WithConstraints(constraints)
     .WithAcceptSelfAsserted()
     .Build();
 )
 
 dynamicPolicy := (
-	&dynamic.WantedAttributeBuilder{})
-	//using an attribute you build
-	.WithWantedAttribute(selfBuiltAttribute)
-	//using an attribute by name
-	.withWantedAttributeByName("full_name")
-	//using a predefined method to add an attribute
-	.WithFullName()
-	//if you wish the user to prove it's them by taking a selfie on share
-	.WithSelfieAuth()
-	.Build()
+  &dynamic.WantedAttributeBuilder{})
+  //using an attribute you build
+  .WithWantedAttribute(selfBuiltAttribute)
+  //using an attribute by name
+  .withWantedAttributeByName("full_name")
+  //using a predefined method to add an attribute
+  .WithFullName()
+  //if you wish the user to prove it's them by taking a selfie on share
+  .WithSelfieAuth()
+  .Build()
 )
 {% /tab %}
 {% /code %}
@@ -1096,37 +1130,37 @@ WantedAttribute wantedAttribute = new WantedAttributeBuilder()
 package main
 
 import (
-	"github.com/getyoti/yoti-go-sdk/v3"
-	"github.com/getyoti/yoti-go-sdk/v3/dynamic"
+  "github.com/getyoti/yoti-go-sdk/v3"
+  "github.com/getyoti/yoti-go-sdk/v3/dynamic"
 )
 
 sourceConstraint := (
-	&dynamic.SourceConstraintBuilder()
-	//passport
-	 .WithPassport()
-	//Driving Licence
-	 .WithDrivingLicence()
-	//National ID
-	 .WithNationalId()
-	//Passcard
-	 .WithPasscard()
+  &dynamic.SourceConstraintBuilder()
+  //passport
+   .WithPassport()
+  //Driving Licence
+   .WithDrivingLicence()
+  //National ID
+   .WithNationalId()
+  //Passcard
+   .WithPasscard()
   
-	 .WithSoftPreference(false)
-	 .Build();
+   .WithSoftPreference(false)
+   .Build();
 )
 
 constraints := (
-	&dynamic.ConstraintsBuilder()
-	 .WithSourceConstraint(sourceConstraint)
-	 .Build();
+  &dynamic.ConstraintsBuilder()
+   .WithSourceConstraint(sourceConstraint)
+   .Build();
 )
  
 selfBuiltAttribute := (
-	&dynamic.WantedAttributeBuilder()
-	 .WithName("full_name")
-	 .WithConstraints(constraints)
-	 .WithAcceptSelfAsserted()
-	 .Build();
+  &dynamic.WantedAttributeBuilder()
+   .WithName("full_name")
+   .WithConstraints(constraints)
+   .WithAcceptSelfAsserted()
+   .Build();
 )
 {% /tab %}
 {% /code %}
@@ -1172,7 +1206,7 @@ $dynamicScenario = (new DynamicScenarioBuilder())
 {% /tab %}
 {% tab language="python" %}
 from yoti_python_sdk.dynamic_sharing_service.policy import (
-		DynamicScenarioBuilder
+    DynamicScenarioBuilder
 )
 
 dynamicScenario = (DynamicScenarioBuilder()
@@ -1194,13 +1228,13 @@ var dynamicScenario = new DynamicScenarioBuilder()
 {% /tab %}
 {% tab language="go" %}
 dynamicScenario = := (
-	&dynamic.DynamicScenarioBuilder()
-  		.WithCallbackEndpoint("/your-callback")
-  		.WithPolicy(dynamicPolicy)
-  		//if using an extension
-  		.WithExtension(extension)
+  &dynamic.DynamicScenarioBuilder()
+      .WithCallbackEndpoint("/your-callback")
+      .WithPolicy(dynamicPolicy)
+      //if using an extension
+      .WithExtension(extension)
 
-		  .Build();
+      .Build();
 )
 {% /tab %}
 {% /code %}
@@ -1233,7 +1267,6 @@ try {
 {% /tab %}
 {% /code %}
 
-Once you have your share URL you can send it to the frontend for it to be rendered in a Yoti QR code. Please see example below using the modal QR code.
 
 Once you have your share URL, you can send it to the frontend for it to be rendered in a Yoti QR code. You can provide the `shareUrl` directly, or use `shareUrlProvider` to fetch it dynamically from your backend. Please see the examples below using the modal QR code.
 
