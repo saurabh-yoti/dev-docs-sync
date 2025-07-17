@@ -162,16 +162,8 @@ YotiClient client = YotiClientBuilder.newInstance()
 {% /tab %}
 {% /code %}
 
-{% html %}
-<div class="alert-SAND">
-    <div class="alert-title" id="SAND">
-      Sandbox
-    </div>
-    <div class="alert-text">
-       To see how to do this using our sandbox, please head over to the link below.
-    </div>
-    <div class="alert-links"> 
-        <a target="_self" href="https://developers.yoti.com/digital-id/sandbox">Creating a sandbox request</a>
-    </div>
-</div>
-{% /html %}
+{% callout type="info" title="Sandbox" %}
+To see how to do this using our sandbox, please head over to the link below.
+
+[Sandbox integration](/digital-id-legacy/sandbox)
+{% /callout %}
