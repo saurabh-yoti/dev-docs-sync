@@ -144,7 +144,6 @@ const request = new RequestBuilder()
     .withMethod('POST')
     .withHeader('X-Yoti-Auth-Id', '<YOTI_CLIENT_SDK_ID>')
     .withQueryParam('secure', true)
-    .withQueryParam('multiframe', true) // REQUIRED IF MULTIFRAME IS ENABLED ON FCM
     .build();
 
 const response = request.execute();
@@ -328,12 +327,6 @@ puts body
 
 The JSON string for the payload must be in the following format. This is sent with the `withPayload` method provided in the SDK. The face capture module will automatically return “img” and “secure” on success. Do not modify these fields manually.
 
-{% callout type="info" title="Multiframe" %}
-If you're using [Multiframe](https://www.npmjs.com/package/@getyoti/react-face-capture) within the FCM - you must include the query parameter `multiframe=true` 
-
-If there is a mismatch between the Face Capture's multiframe setting and the multiframe query parameter in the request, the response will always be `UNTRUSTED_SECURE_SESSION`
-{% /callout %}
-
 {% code %}
 {% tab language="json" %}
 {
@@ -355,6 +348,14 @@ If there is a mismatch between the Face Capture's multiframe setting and the mul
 `metadata` is an optional parameter but is strongly recommended for better results. It is used to specify what type of device is being used. You can choose between mobile or laptop.
 
 `secure` is a mandatory parameter that is returned by the face capture module.
+
+#### Multiframe
+
+If you're using [Multiframe](https://www.npmjs.com/package/@getyoti/react-face-capture) within the FCM - you must include the query parameter `multiframe=true` 
+
+The payload size will increase when using Multiframe
+
+If there is a mismatch between the Face Capture's multiframe setting and the multiframe query parameter in the request, the response will always be `UNTRUSTED_SECURE_SESSION`
 
 ### Retrieve the results
 
