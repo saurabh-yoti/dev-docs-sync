@@ -144,6 +144,7 @@ const request = new RequestBuilder()
     .withMethod('POST')
     .withHeader('X-Yoti-Auth-Id', '<YOTI_CLIENT_SDK_ID>')
     .withQueryParam('secure', true)
+    .withQueryParam('multiframe', true) // REQUIRED IF MULTIFRAME IS ENABLED ON FCM
     .build();
 
 const response = request.execute();
@@ -326,6 +327,12 @@ puts body
 {% /code %}
 
 The JSON string for the payload must be in the following format. This is sent with the `withPayload` method provided in the SDK. The face capture module will automatically return “img” and “secure” on success. Do not modify these fields manually.
+
+{% callout type="info" title="Multiframe" %}
+If you're using [Multiframe](https://www.npmjs.com/package/@getyoti/react-face-capture) within the FCM - you must include the query parameter `multiframe=true` 
+
+If there is a mismatch between the Face Capture's multiframe setting and the multiframe query parameter in the request, the response will always be `UNTRUSTED_SECURE_SESSION`
+{% /callout %}
 
 {% code %}
 {% tab language="json" %}
