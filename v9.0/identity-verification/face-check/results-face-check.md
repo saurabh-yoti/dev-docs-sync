@@ -14,7 +14,108 @@ tags:
 
 The response will detail the session results information including check and task completion status, resource and media data, along with the associated media identifiers.
 
-### Endpoint
+{% code %}
+{% tab language="javascript" %}
+const { RequestBuilder, Payload } = require("yoti");
+
+const request = new RequestBuilder()
+  .withBaseUrl("https://api.yoti.com/idverify/v1")
+  .withPemFilePath("<YOTI_KEY_FILE_PATH>") // file path to PEM file
+  .withEndpoint("/sessions/<session_id>")
+  .withMethod("GET")
+  .withQueryParam("sdkId", "<YOTI_CLIENT_SDK_ID>")
+  .build();
+
+// get Yoti response
+const response = await request.execute();
+{% /tab %}
+{% tab language="php" %}
+<?php
+use Yoti\Http\RequestBuilder;
+use Yoti\Http\Payload;
+
+$request = (new RequestBuilder())
+    ->withBaseUrl('https://api.yoti.com/idverify/v1')
+    ->withPemFilePath('<YOTI_KEY_FILE_PATH>')
+    ->withEndpoint('/sessions/<SESSION_ID>')
+    ->withMethod('GET')
+    ->withQueryParam('sdkId', '<YOTI_CLIENT_SDK_ID>')
+    ->build()
+    // get Yoti Response
+    ->execute();
+{% /tab %}
+{% tab language="python" %}
+from yoti_python_sdk.http import SignedRequest, RequestHandler
+import json
+import requests
+
+def execute(request):
+    response = requests.request(
+        url=request.url, data=request.data, headers=request.headers, method=request.method)
+    return response.content
+
+def generate_session():
+    
+    signed_request = (
+        SignedRequest
+        .builder()
+        .with_pem_file("<YOTI_KEY_FILE_PATH>")
+        .with_base_url("https://api.yoti.com/idverify/v1")
+        .with_endpoint("/sessions/<SESSION_ID>")
+        .with_http_method("GET")
+        .with_param("sdkId", "<YOTI_CLIENT_SDK_ID>")
+        .build()
+    )
+
+	# get Yoti response
+    response = signed_request.execute()
+    response_payload = json.loads(response.text)
+{% /tab %}
+{% tab language="java" %}
+try {
+    SignedRequest signedRequest = SignedRequestBuilder.newInstance()
+        .withKeyPair(<YOTI_KEY_FILE_PATH>)
+        .withBaseUrl("https://api.yoti.com/idverify/v1")
+        .withEndpoint("/sessions/<SESSION_ID>")
+        .withHttpMethod("GET")
+        .withQueryParameter("sdkId", "<YOTI_CLIENT_SDK_ID>")
+        .build();
+
+    YourPojo yourPojo = signedRequest.execute(YourPojo.class);
+
+}  catch (GeneralSecurityException | URISyntaxException | IOException | ResourceException ex) {
+    ex.printStackTrace();
+}
+{% /tab %}
+{% tab language="go" %}
+import (
+    "io/ioutil"
+    "net/http"
+    "github.com/getyoti/yoti-go-sdk/v2/requests"
+)
+
+key, _ := ioutil.ReadFile("<YOTI_KEY_FILE_PATH>")
+
+request, _ := requests.SignedRequest{
+    HTTPMethod: http.MethodGet,
+    BaseURL:    "https://api.yoti.com/idverify/v1",
+    Endpoint:   "/sessions/<SESSION_ID>",
+    Params: map[string]string{
+        "sdkId": "<YOTI_CLIENT_SDK_ID>"
+    },
+    Headers: map[string][]string{
+        "Content-Type": {"application/json"},
+        "Accept":       {"application/json"}
+    },
+    Body: func(data []byte, _ error) []byte {
+        return data
+    }(json.Marshal(jsonobj{ data })),
+}.WithPemFile(key).Request()
+
+//  get Yoti response
+response, _ := http.DefaultClient.Do(request)
+{% /tab %}
+{% /code %}
 
 {% code %}
 {% tab language="http" %}
@@ -262,6 +363,47 @@ When the above endpoint is hit you will receive the results of all checks config
       }
     }
 {% /tab %}
+{% tab language="json" title="NO MATCH" %}
+{
+  "type": "FAMILIAR_FACE_SEARCH",
+  "id": "c9f2b0c0-df4d-472a-93cb-3f93c7ad9196",
+  "state": "DONE",
+  "resources_used": [
+    "e3d4ce28-4291-4dd4-a650-33fd5c3b0e0f"
+  ],
+  "generated_media": [],
+  "report": {
+    "recommendation": {
+      "value": "REJECT",
+      "reason": "MATCH_FOUND"
+    },
+    "breakdown": [
+      {
+        "sub_check": "face_not_found_in_pool",
+        "result": "FAIL",
+        "details": [
+          {
+            "name": "matching_pool",
+            "value": "a8b2e5de-a31f-4e82-b2ac-557a492fa88e"
+          },
+          {
+            "name": "matching_applicant",
+            "value": "b1ac68ca-c692-449f-b6cc-1ee7c0d366ea"
+          }
+        ],
+        "process": "AUTOMATED"
+      }
+    ]
+  },
+  "created": "2025-06-04T08:51:03Z",
+  "last_updated": "2025-06-04T08:51:05Z",
+  "config": {
+    "pool_id": "a8b2e5de-a31f-4e82-b2ac-557a492fa88e",
+    "pool_label": "POOL EXAMPLE",
+    "approval_criteria": "NO_MATCH"
+  }
+}
+{% /tab %}
 {% /code %}
 
 Within the **Familiar Face Search** check object you will details regarding the result of the check. The recommendation value will depend upon what has been configured in the "approval_criteria"_._ If the approval criteria is set to "MATCH" the recommendation value will be APPROVE if there is a match and if approval_criteria is set to "NO MATCH" the recommendation value will be APPROVE if there is not a match. The Familiar Face Search check object will also detail the applicant pool id that is being searched against as well as a list of applicant ids.
@@ -271,7 +413,60 @@ Within the **Familiar Face Search** check object you will details regarding the 
 | ---- | ---- | 
 | value | The value will either be "REJECT" or "APPROVE" based on what your approval criteria is and if a match has been found. | 
 | reason | The reason tells you why the check was rejected or approved. The reason can either be "MATCH" or "NO_MATCH", and will depend on what you have set as the approval criteria. | 
-| breakdown | gives further insight into why the check was approved or rejected. | 
+| breakdown | gives further insight into why the check was approved or rejected. The breakdown will also contain the applicant id of a matching applicant, which can then be used to retrieve the face of that applicant. | 
 | sub_check | The sub check just identifies if the users face matches any in the applicant pool you are searching against. And will have a fail or pass result associated to it. | 
 | details | The details object will display the applicant id of the applicant that matched with the user as well as the pool id of which the matched applicant is a part of. | 
 {% /table %}
+
+---
+
+## Retrieve Face
+
+Integrators also have the ability to retrieve the face associated with the matching applicant. The matching applicant id will need to be used in a GET request to retrieve applicant details including a UUID which can be used to retrieve the image of the users face.
+
+{% code %}
+{% tab language="http" %}
+GET https://api.yoti.com/idverify/v1/applicant/<applicant_id>
+{% /tab %}
+{% /code %}
+
+#### Response body
+
+{% code %}
+{% tab language="json" %}
+{
+  "id": "db59ddde-ca99-48aa-ac77-e59be74fc0d1",
+  "faces": {
+    "archetype_face": "8b9c3ea5-ebd4-436b-836d-ba8dbc80b57e",
+    "faces": []
+  },
+  "pools": [
+    {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "label": "Test Pool2"
+    }
+  ]
+}
+{% /tab %}
+{% /code %}
+
+To retrieve the image of a users face the below endpoint will need to be called using the UUID linked to the applicants face. This will return the image in it's base64 encoded format. 
+
+{% code %}
+{% tab language="http" %}
+GET https://api.yoti.com/idverify/v1/applicant/<applicant_id>/faces/<face_id>
+{% /tab %}
+{% /code %}
+
+#### Response body
+
+{% code %}
+{% tab language="json" %}
+{
+  "face": {
+    "data": "base64 string",
+    "content_type": "image/jpeg"
+  }
+}
+{% /tab %}
+{% /code %}
