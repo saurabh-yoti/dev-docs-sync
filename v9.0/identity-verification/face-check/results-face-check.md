@@ -15,7 +15,7 @@ tags:
 The response will detail the session results information including check and task completion status, resource and media data, along with the associated media identifiers.
 
 {% code %}
-{% tab language="javascript" %}
+{% tab language="javascript" title="Node.js" %}
 const { RequestBuilder, Payload } = require("yoti");
 
 const request = new RequestBuilder()
