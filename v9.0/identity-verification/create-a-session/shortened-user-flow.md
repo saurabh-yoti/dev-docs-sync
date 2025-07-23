@@ -1,7 +1,7 @@
 ---
 type: page
 title: Configurable Flow
-listed: false
+listed: true
 slug: shortened-user-flow
 description: 
 index_title: Configurable Flow
