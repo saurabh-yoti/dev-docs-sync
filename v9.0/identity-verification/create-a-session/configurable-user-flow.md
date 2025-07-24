@@ -10,9 +10,9 @@ keywords:
 tags: 
 ---
 
-Integrators have the ability to Shorten the Yoti user interface by skipping certain screens. This can improve the user experience by not duplicating information that integrators may have already shared with users.
+It's also possible to streamline the Yoti IDV flow by omitting specific UI screens. This enhances the user experience in cases where the relying party (RP) has already provided certain information to their users.
 
-The ability to skip screens can be configured in the "sdk config" by including the specific screens that you want to be skipped as outlined below:
+You can configure this in the `sdk_config` by specifying which screens to omit, as described below:
 
 {% code %}
 {% tab language="java" %}
