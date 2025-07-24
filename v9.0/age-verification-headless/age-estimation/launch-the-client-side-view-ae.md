@@ -12,23 +12,9 @@ tags:
 
 ## Overview
 
-We have developed a Face capture module (FCM) for both Web and Native integrations to aid in capturing images that closely meet the age estimation and anti-spoofing API requirements.
+We have developed a Face capture module (FCM) to aid in capturing images that closely meet the age estimation and anti-spoofing API requirements.
 
 The Face capture module provides a simplified way to capture a face and provides an image output. However, it does not handle transactions with the age estimation API; these calls should be made separately and are documented in the next section.
-
----
-
-## Native SDK
-
-The native clients are on our Github, with platform-specific instructions for launching the module.
-
-These native clients offer no UI but instead emit a series of callbacks around the state of the capture, which we suggest using to present real-time feedback to the end user.
-
-[Android](https://github.com/getyoti/yoti-face-capture-android)
-
-[iOS](https://github.com/getyoti/yoti-face-capture-ios)
-
-[React Native](https://github.com/getyoti/react-native-yoti-face-capture)
 
 ---
 
