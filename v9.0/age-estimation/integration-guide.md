@@ -209,19 +209,18 @@ from yoti_python_sdk.http import SignedRequest, RequestHandler
 import json
 import requests
 
-def generate_session():
-
+def yoti_age_estimation():
     data = {
-    "img": "base64_image",
-    "metadata": {
-        "device": "mobile | laptop"
-    },
-    "secure": {
-        "version": "<module version>",
-        "token": "<session jwt>",
-        "signature": "<payload>"
+        "img": "base64_image",
+        "metadata": {
+            "device": "mobile | laptop"
+        },
+        "secure": {
+            "version": "<module version>",
+            "token": "<session jwt>",
+            "signature": "<payload>"
+        }
     }
-};
     payload_string = json.dumps(data).encode()
 
     signed_request = (
@@ -232,13 +231,12 @@ def generate_session():
         .with_endpoint("/age-antispoofing")
         .with_http_method("POST")
         .with_header("X-Yoti-Auth-Id", "<YOTI_CLIENT_SDK_ID>")
-        .with_param("secure", true),
+        .with_param("secure", True)
         .with_payload(payload_string)
         .build()
-
     )
 
-	# get Yoti response
+    # get Yoti response
     response = signed_request.execute()
     response_payload = json.loads(response.text)
 {% /tab %}
