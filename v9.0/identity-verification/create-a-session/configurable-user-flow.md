@@ -78,5 +78,5 @@ The flow will look as follows with all screens skipped:
 {% /image %}
 
 {% callout type="warning" title="Important" %}
-Please [contact us](https://support.yoti.com/yotisupport/s/contactsupport) in order to use this feature as we will have to review your UX.
+Please [contact us](https://support.yoti.com/yotisupport/s/contactsupport) in order to use this feature as our team will need to review your UX.
 {% /callout %}
