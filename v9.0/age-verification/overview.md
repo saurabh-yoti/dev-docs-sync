@@ -14,7 +14,9 @@ Welcome to the developer documentation for integrating our Age verification as a
 
 Yoti Age Verification gives people simple ways to prove their age, using things like a selfie or a mobile number. Designed to only share the result of the age check with a business, it’s an easy way to deliver age-appropriate services without collecting user data.
 
-This section will guide you through the implementation steps for our age verification service API on mobile or web, and leverages our hosted web user interface. This product incorporates multiple Yoti products and provides all user interaction.
+This section will guide you through the implementation steps for our age verification service API on mobile or web, and leverages our hosted web user interface. This s incorporates multiple Yoti products and provides all user interaction.
+
+If you are looking to implement checks without using our UI including email address check, please refer to [Age Verification Headless](/age-verification-headless/overview) instead. 
 
 {% html %}
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/647389673?h=f636f24ed1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&dnt=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Yoti Age Portal"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
@@ -83,14 +85,14 @@ The Age verification service is very adaptable, please see below for features av
 
 The user will be asked to prove their age and is taken through the Yoti verification steps where they will be presented with the options you have selected. You will then need to redirect them to a success or error URL, alternatively you can listen to post messaging from the iframe.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1632336092/v2_2762/f2s1by8zdu85fc6xcqzt.png" caption="Age verification options" mode="responsive" height="1148" width="1910" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1632336092/v2_2762/f2s1by8zdu85fc6xcqzt.png" caption="Age verification options" mode="responsive" height="1148" %}
 {% /image %}
 
 {% badge type="info" text="Hint" /%} Yoti offers customisation of this page. See [auto$](/age-verification/launch-the-user-view).
 
 Our product will walk the user through their chosen option of age verification. 
 
-{% image url="https://uploads.developerhub.io/prod/kvAX/15s7yteht954dqgrdh38brisd7kv5hbc13efku6n44pc2faqdm1pljqt8b3h1z00.png" mode="responsive" height="490" width="1181" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/15s7yteht954dqgrdh38brisd7kv5hbc13efku6n44pc2faqdm1pljqt8b3h1z00.png" mode="responsive" height="490" %}
 {% /image %}
 
 ---
