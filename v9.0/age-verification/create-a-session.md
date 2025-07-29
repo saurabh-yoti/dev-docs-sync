@@ -147,8 +147,9 @@ If the request is successful and a session is generated the API will send a resp
 {% code %}
 {% tab language="json" %}
 {
-  "id": "uuid",
-  "expires_at": "2020-10-19T16:06:25.080Z"
+    "id": "uuid",
+    "status": "PENDING",
+    "expires_at": "2025-08-08T23:41:39Z"
 }
 {% /tab %}
 {% /code %}
