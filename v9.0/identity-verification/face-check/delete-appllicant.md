@@ -1,10 +1,10 @@
 ---
 type: page
-title: Delete applicant
+title: Delete applicant data
 listed: true
 slug: delete-appllicant
 description: 
-index_title: Delete applicant
+index_title: Delete applicant data
 hidden: 
 keywords: 
 tags: 
