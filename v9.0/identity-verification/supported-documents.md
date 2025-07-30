@@ -70,7 +70,7 @@ Yoti will attempt to perform automated text extraction only on these documents a
 | Armenia | ARM | X | X | X |  | X |  | 
 | American Samoa | ASM | X | X | X |  | X |  | 
 | Antigua and Barbuda | ATG | X |  |  |  | X |  | 
-| Australia | AUS | X |  | X |  | X |  | 
+| Australia | AUS | X | X | X | X | X |  | 
 | Austria | AUT | X | X | X | X | X |  | 
 | Azerbaijan | AZE | X | X | X |  | X |  | 
 | Burundi | BDI | X |  |  |  | X |  | 
@@ -82,11 +82,11 @@ Yoti will attempt to perform automated text extraction only on these documents a
 | Bahrain | BHR | X | X | X |  | X |  | 
 | Bahamas | BHS | X |  | X |  | X |  | 
 | Bosnia and Herzegovina | BIH | X | X | X |  | X |  | 
-| Belarus | BLR | X | X | X |  | X |  | 
+| Belarus | BLR | X | X | X | X | X |  | 
 | Belize | BLZ | X |  |  |  | X |  | 
 | Bermuda | BMU | X |  | X |  | X |  | 
 | Bolivia, Plurinational State of | BOL | X | X | X |  | X |  | 
-| Brazil | BRA | X | X | X |  | X |  | 
+| Brazil | BRA | X | X | X | X | X |  | 
 | Barbados | BRB | X |  | X |  | X |  | 
 | Brunei Darussalam | BRN | X | X | X |  | X |  | 
 | Bhutan | BTN | X | X |  |  | X |  | 
@@ -123,11 +123,11 @@ Yoti will attempt to perform automated text extraction only on these documents a
 | Finland | FIN | X | X | X | X | X |  | 
 | Fiji | FJI | X |  | X |  | X |  | 
 | France | FRA | X | X | X | X | X |  | 
-| Faroe Islands | FRO | X |  |  |  | X |  | 
+| Faroe Islands | FRO | X |  | X |  | X |  | 
 | Micronesia, Federated States of | FSM | X |  |  |  | X |  | 
 | Gabon | GAB | X | X |  |  | X |  | 
 | United Kingdom of Great Britain and Northern Ireland | GBR | X |  | X | X | X | X | 
-| Georgia | GEO | X | X | X |  | X |  | 
+| Georgia | GEO | X | X | X | X | X |  | 
 | Guernsey | GGY | X |  | X |  | X |  | 
 | Ghana | GHA | X | X | X |  | X |  | 
 | Gibraltar | GIB | X | X | X |  | X |  | 
@@ -150,7 +150,7 @@ Yoti will attempt to perform automated text extraction only on these documents a
 | Isle of Man | IMN | X |  | X |  | X |  | 
 | India | IND | X |  | X |  | X | X | 
 | Ireland | IRL | X | X | X | X | X |  | 
-| Iran, Islamic Republic of | IRN | X |  |  |  | X |  | 
+| Iran, Islamic Republic of | IRN | X | X |  |  | X |  | 
 | Iraq | IRQ | X | X* | X* |  | X |  | 
 | Iceland | ISL | X | X | X | X | X |  | 
 | Israel | ISR | X | X* | X* |  | X |  | 
@@ -172,16 +172,16 @@ Yoti will attempt to perform automated text extraction only on these documents a
 | Liberia | LBR | X |  |  |  | X |  | 
 | Libya | LBY | X |  | X |  | X |  | 
 | Saint Lucia | LCA | X | X |  |  | X |  | 
-| Liechtenstein | LIE | X | X | X |  | X |  | 
+| Liechtenstein | LIE | X | X | X | X | X |  | 
 | Sri Lanka | LKA | X | X | X |  | X |  | 
 | Lesotho | LSO | X | X |  |  | X |  | 
 | Lithuania | LTU | X | X | X | X | X |  | 
 | Luxembourg | LUX | X | X | X | X | X |  | 
 | Latvia | LVA | X | X | X | X | X |  | 
-| Macao | MAC | X | X |  |  | X |  | 
+| Macao | MAC | X | X |  | X | X |  | 
 | Morocco | MAR | X | X | X | X | X |  | 
 | Monaco | MCO | X | X | X |  | X |  | 
-| Moldova, Republic of | MDA | X | X | X |  | X |  | 
+| Moldova, Republic of | MDA | X | X | X | X | X |  | 
 | Madagascar | MDG | X |  | X |  | X |  | 
 | Maldives | MDV | X |  |  |  | X |  | 
 | Mexico | MEX | X | X | X |  | X |  | 
@@ -259,7 +259,7 @@ Yoti will attempt to perform automated text extraction only on these documents a
 | Taiwan, Province of China | TWN | X | X* |  | X* | X |  | 
 | Tanzania, United Republic of | TZA | X | X | X |  | X |  | 
 | Uganda | UGA | X | X | X |  | X |  | 
-| Ukraine | UKR | X | X | X |  | X |  | 
+| Ukraine | UKR | X | X | X | X | X |  | 
 | Uruguay | URY | X | X | X |  | X |  | 
 | United States of America | USA | X | X | X | X | X | X | 
 | Uzbekistan | UZB | X | X | X |  | X |  | 
@@ -271,7 +271,7 @@ Yoti will attempt to perform automated text extraction only on these documents a
 | Viet Nam | VNM | X | X | X |  | X |  | 
 | Vanuatu | VUT | X |  | X |  | X |  | 
 | Samoa | WSM | X |  |  |  | X |  | 
-| Kosovo | XKX | X | X | X |  | X |  | 
+| Kosovo | XKX | X | X | X | X | X |  | 
 | Yemen | YEM | X |  | X |  | X |  | 
 | South Africa | ZAF | X | X | X |  | X |  | 
 | Zambia | ZMB | X |  | X |  | X |  | 
