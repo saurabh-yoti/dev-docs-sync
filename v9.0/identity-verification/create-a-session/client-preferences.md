@@ -132,6 +132,7 @@ Yoti offers the ability to force a language locale for the front end client - se
 | Language | Parameter | 
 | ---- | ---- | 
 | Arabic (العربية) | ar | 
+| Bosnian (bosanski) | bs | 
 | Brazilian Portuguese (português brasileiro) | pt | 
 | Canadian English (en-CA) | en-CA | 
 | Czech (čeština) | cs | 
@@ -141,43 +142,21 @@ Yoti offers the ability to force a language locale for the front end client - se
 | Finnish (Suomi) | fi | 
 | French (Français) | fr | 
 | German (Deutsch) | de | 
+| Greece (el-GR) | el-GR | 
+| Hindi (हिंदी) | hi | 
 | Italian (Italiano) | it | 
 | Japan (日本) | ja | 
+| Netherlands (Nederlands) | nl | 
 | Norwegian (Norsk) | nb | 
 | Polish (polski) | pl | 
 | Romanian (România) | ro | 
 | Russian (русский) | ru | 
+| Serbia (српски) | sr | 
 | Spanish (Español) | es | 
+| Spanish (es-419) | es-419 | 
 | Swedish (Svenska) | sv | 
 | Thai (ภาษาไทย) | th | 
-| Turkish (Türkçe) | tr | 
-| Vietnamese (Tiếng Việt) | vi | 
-{% /table %}
-
-{% table widths="396" %}
-| Language | Parameter | 
-| ---- | ---- | 
-| Arabic (العربية) | ar | 
-| Brazilian Portuguese (português brasileiro) | pt | 
-| Canadian English | en-CA | 
-| American English | en-US | 
-| English | en | 
-| Czech (čeština) | cs | 
-| Danish (Dansk) | da | 
-| Dutch (Dutch) | nl | 
-| Finnish (Suomi) | fi | 
-| French (Français) | fr | 
-| German (Deutsch) | de | 
-| Hindi (हिन्दी) | hi | 
-| Italian (Italiano) | it | 
-| Japanese (日本語) | ja | 
-| Norwegian (Norsk) | nb | 
-| Polish (polski) | pl | 
-| Romanian (România) | ro | 
-| Russian (русский) | ru | 
-| Latin American Spanish (Español latinoamericano) | es-419 | 
-| Swedish (Svenska) | sv | 
-| Thai (ภาษาไทย) | th | 
+| American English (en-US) | en-US | 
 | Turkish (Türkçe) | tr | 
 | Vietnamese (Tiếng Việt) | vi | 
 {% /table %}
