@@ -27,8 +27,8 @@ The following document types are supported across various countries:
 - Passport (universal)
 - National ID
 - Driving Licence
-- Residence Permit (BRP)
-- Citizencard (UK specific)
+- Residence Permit
+- CitizenCard (UK specific)
 - Post Office card (UK specific)
 - Young Scot National Entitlement Card (UK specific)
 - Health Card (Canada specific)
