@@ -10,18 +10,15 @@ keywords:
 tags: 
 ---
 
-
 Please see below for supported documents for our IDV service.
 
 This list can also be requested by API through the following endpoint:
-
 
 {% code %}
 {% tab language="http" %}
 GET https://api.yoti.com/idverify/v1/supported-documents?includeNonLatin=true
 {% /tab %}
 {% /code %}
-
 
 ## Supported Document Types
 
@@ -30,7 +27,7 @@ The following document types are supported across various countries:
 - Passport (universal)
 - National ID
 - Driving Licence
-- Biometric Residence Permit (BRP)
+- Residence Permit (BRP)
 - Citizencard (UK specific)
 - Post Office card (UK specific)
 - Young Scot National Entitlement Card (UK specific)
@@ -55,15 +52,13 @@ Yoti supports some non-latin character documents. These are not enabled by defau
 
 Yoti will attempt to perform automated text extraction only on these documents and a document authenticity check. We cannot perform manual data entry.
 
-
 {% synced id="non-latin-documents-table" %}
 {% /synced %}
 
-
 ## All documents
 
-{% table %}
-| Issuing Country | Country Code | Passport | National ID | Driving Licence | BRP | Travel Document | Other document type(s) | 
+{% table widths="" %}
+| Issuing Country | Country Code | Passport | National ID | Driving Licence | Residence Permit | Travel Document | Other document type(s) | 
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
 | Afghanistan | AFG | X | X | X |  | X |  | 
 | Angola | AGO | X | X | X |  | X |  | 
@@ -282,4 +277,3 @@ Yoti will attempt to perform automated text extraction only on these documents a
 | Zambia | ZMB | X |  | X |  | X |  | 
 | Zimbabwe | ZWE | X | X |  |  | X |  | 
 {% /table %}
-
