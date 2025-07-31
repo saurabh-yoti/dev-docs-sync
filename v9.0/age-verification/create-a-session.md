@@ -122,10 +122,10 @@ This is where you define what preference you want to set for the age of the user
 ### Configuration parameter
 
 {% table widths="0,251" %}
-| Parameter | Types | Description | 
+| Parameter | Type | Description | 
 | ---- | ---- | ---- | 
 | reference_id | string | Reference ID is an optional string. Yoti returns this same string in the session result. | 
-| ttl | seconds (60) | How long the session is valid for, the user will need to complete this before the ttl expires. This must be at least 60 seconds (1 minute). And can't be longer than 1 month. | 
+| ttl | seconds | How long the session is valid for, the user will need to complete it before the ttl expires. This must be at least 60 seconds (1 minute). And can't be longer than 1 month. | 
 | callback_url | [https://yourdomain.example](https://yourdomain.example/) | Where to send your user after they have finished age verification. Redirects appending the sessionId as a query parameter.\n\nYou can enable this by, `auto: true` | 
 | notification_url | [https://yourdomain.example/updates](https://yourdomain.example/updates) | To state where the results of an age verification should be sent. This endpoint must be HTTPS and must accept a POST notification. | 
 | block_biometric_consent | true / false | For several American states (currently Texas, Illinois and Washington US states*), the law mandates that you must collect the user’s specific consent to collect their biometric details for our liveness or face matching feature to be compliant with the US legislation.\n\n\n\n*and any other countries or states within countries\n\nIf you choose to only request specific consent in the above "territories" you must provide details of the effective geo location software you use to prevent any individuals located in one of these territories accessing the Yoti service without prior giving specific consent.\n\n\n\nSetting to true bypasses this screen. We recommend keeping this value to default (false) to enable consent for all users. | 
