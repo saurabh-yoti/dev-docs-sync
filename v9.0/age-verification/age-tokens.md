@@ -1,10 +1,10 @@
 ---
 type: page
-title: Reusable age checks
-listed: false
+title: Reusable checks (Yoti keys)
+listed: true
 slug: age-tokens
 description: 
-index_title: Reusable age checks
+index_title: Reusable checks (Yoti keys)
 hidden: 
 keywords: 
 tags: 
@@ -19,195 +19,81 @@ Tokens are flexible and are accepted entirely at the discretion of the integrati
 
 When the user lands on your site there will be a token request, a check is performed to see if the user has an age claim that matches your requirements.
 
-If a user doesn’t have a token that meets the requirements, they’ll be sent to your age portal to prove their age again. If a claim is present a record of the claim's use is made and both the claim and receipt is sent to you. You can then:
+If a user doesn’t have a token that meets the requirements, they’ll be sent to your age portal to prove their age again.
 
-- Verify a signature in the claim, proving it was issued by a legitimate Age Provider.
-- Confirm that the receipt is unique and that the claim is not being re-used.
-
-An age token will open the ability to:
-
-{% table widths="" %}
-| Feature | Description | 
-| ---- | ---- | 
-| Seamless access to participating websites | When the user visits another site that’s integrated with this service, that site will check for an age token to make sure they’re old enough to enter. \n\n\n\nIf the token meets the requirements of the website, they can enter without having to prove their age again | 
-| Authenticate new browsers and devices | To access your site on another device, users can create an age account and pass their tokens across to a new browser. | 
-{% /table %}
-
-If a user doesn’t have a token that meets your requirements, they’ll be sent to your age portal to prove their age again. You will need to add rules to your configuration e.g. 
+If a user doesn’t have a token that meets your requirements, they’ll be sent through the age verification process to prove their age again. You will need to add rules to your configuration e.g. 
 
 - The maximum **time** that a token can be considered valid.
 - The **method** of age verification used.
 - The **type of age** recorded (an “Over/Under Age” or date of birth)
 - The **age threshold** a user must fall within.
 - The **type of liveness check** performed.
-- The *_type of authenticity check *_performed.
-
-Integrating age tokens into the Age verification flow can be broken down into the following steps:
-
-1. Create an Age Token rule.
-2. Request a Client Key
-3. Request Token Check
-
-{% badge type="info" text="Hint" /%} An Age Token will only be issued if a user successfully passes an AV flow.
+- The **type of authenticity check** performed.
 
 To test out the flow of an age token please [try this demo](https://yoti.world/glamour-demo/). You will need the first tile: Visitor access.
+
+There are two steps that need to take place in order to use age tokens:
+
+- Create age token rule
+- Configure yoti_keys method
 
 ---
 
 {% synced id="create-age-rule" %}
 {% /synced %}
 
-## 
-
 ---
 
-## Request a Client Key
+## Configure Yoti Key Method
 
-{% callout type="warning" title="Warning" %}
-The following way of checking for an age token is no longer recommended. The rule_id can now be specified as part of the session creation payload for the token check to be performed on redirect to age.yoti.com.
-
-If a token is present and meets your criteria, the user will automatically be redirected to your callback_url.
-{% /callout %}
-
-The age token rule ID can be specified as part of a create session request for a seamless integration. However you may also check the age token without an Age verification session.
-
-For each new user session, a client key must be requested prior to performing an age token check. This prevents un-registered sites requesting age tokens from users.
-
-{% code %}
-{% tab language="http" %}
-POST https://age.yoti.com/api/v1/client-key
-{% /tab %}
-{% /code %}
-
-{% table widths="" %}
-| Header | Description | 
-| ---- | ---- | 
-| Authorization | API Key to call the Yoti Age API. This must be sent as a Bearer token | 
-| Yoti-Sdk-Id | Your unique Yoti-Sdk-Id (UUID) | 
-{% /table %}
-
-#### Body
+Now that a rule id has been generated, it can be used in the session creation configuration to understand what conditions the age token needs to satisfy. You will also need to configure the `yoti_key` method, to enable the age token functionality.
 
 {% code %}
 {% tab language="json" %}
 {
-  "redirect_url": "https://someurl.com/"
+    "type": "OVER",
+    "age_estimation": {
+        "allowed": true,
+        "threshold": 25,
+        "level": "PASSIVE",
+        "retry_limit": 1
+    },
+    "digital_id": {
+        "allowed": true,
+        "threshold": 18,
+        "level": "NONE",
+        "retry_limit": 1
+    },
+    "doc_scan": {
+        "allowed": true,
+        "threshold": 18,
+        "authenticity": "AUTO",
+        "level": "PASSIVE",
+        "retry_limit": 1
+    },
+    "yoti_key": {
+      "allowed": true,
+      "authentication": false
+    },
+    "rule_id": "your_rule_id",
+    "ttl": 900,
+    "reference_id": "over_18_example",
+    "callback": {
+       "auto": true,
+       "url": "https://www.yoti.com"
+    },
+    "notification_url": "https://yourdomain.example/webhook",
+    "cancel_url": "https://www.yoti.com",
+    "retry_enabled": false,
+    "resume_enabled": false,
+    "synchronous_checks": true
 }
 {% /tab %}
 {% /code %}
 
-#### Responses
-
-{% code %}
-{% tab language="http" title="Success" %}
-Success response
-statusCode: 200
-body: { "id": "<string>", "client_key": "<string>" }
-{% /tab %}
-{% /code %}
-
-{% code %}
-{% tab language="http" title="Error" %}
-Error responses
-statusCode: 4xx - 5xx
-body: { "error_message": "<string>", "error_code": "<string>"}
-{% /tab %}
-{% /code %}
-
----
-
-## Request Token Check
-
-The client’s device (browser) requests Yoti to provide a proof of an age token.
-
-{% code %}
-{% tab language="http" %}
-GET https://age.yoti.com/api/v1/credentials?sdkId=<sdkId>&ruleId=<ruleId>&clientId=<id>&clientKey=<client_key>&referenceId=<somereferenceid>&returnUrl=<encodedUriComponent_of_where_the_user_should_be returned>
-{% /tab %}
-{% /code %}
-
 {% table widths="" %}
-| Parameter | Description | 
-| ---- | ---- | 
-| sdkId | Your Yoti SdkId | 
-| ruleId | The rule ID returned from creating an age token rule | 
-| clientId | The id returned from requesting a client key | 
-| clientKey | The client_key returned from requesting a client key | 
-| referenceId | A reference Id, can be any string | 
-| returnUrl | This should be a page within your control. The user will be redirected with a query parameter of either **error** or **claim**, depending on the result of the Age Token check. | 
-{% /table %}
-
-### Return URL states explained.
-
-The two states are described below:
-
-{% table widths="" %}
-| State | Description | 
-| ---- | ---- | 
-| Error | This means the user does not have an age token. The value is base64 encoded. Decoding the value will provide an error code and context to explain why no age token was found. | 
-| Claim | This means the user does have an age token. The value is base64 encoded. Decoding the value will provide a json object of the claim, including a signature in the proof segment, the original reference id and the rule id used. | 
-{% /table %}
-
----
-
-## Verify a claim
-
-If the user does have an age token, then complete the following: 
-
-1. Make sure the referenceId has not been returned by a different user.
-2. Validate the `credentialProof.signature` has been generated using Yoti Age’s public key.
-    1. Base64 decode the signature to bytes
-    2. Create msg that consists of 
-        1. `claim.reference_id|id|issuance_date|claim.rule_id|claim.evidence_id|claim.method`
-
-    3. Use the public key listed below to verify the message and signature are correct
-        1. If the values are equal, this is a valid response
-
-{% code %}
-{% tab language="markdown" title="Public key" %}
------BEGIN PUBLIC KEY-----
-MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAune8+8vPz/pQD6IzdWvX
-Q66nh/RcywopCI01Wjo6i7vlH2iVOP1oCkgbObe12iMmVXKRiXgMNT6aXIGe6Ggw
-dodzAmt3vT1fmrgub7Of6MgJ56ri2uH1O54DTjbnEbEcLXX13teOusZavntrkNpp
-x1c8L0Ol41mRvImJeMHM6I16rLhqB/w1m7USMvof/K6GaP+VmmciZTPyZ6IsXxvB
-k0ZoqWqrt2xENlg4O6LXMo7eHEiG+edm9uDpbZK1RhiCd6hyDZ/t4bBQNg4misFF
-WezQSiUlPwBLRg1AJ3CNrtBzs49BZ30U7WSPUS0Gsq1lhhDtUtJUt4CdkDAfkVY6
-2C6aaqKV940GcPFN7MjOeFus3VNJE3zyHVLT8DStuLMXHY+gQBGFOyxN6heZbm7a
-Sl9fi7VXlDTlv1jpk4DFMQYF2fpAyomm95GavhllJnDxC2t8ebu0O23B88hPGI3K
-kyLtPA8ie6UNmwNqLYpOEN/pwayYw75FcENBDxnWhoe9AgMBAAE=
------END PUBLIC KEY-----
-{% /tab %}
-{% /code %}
-
-{% callout type="info" title="Good to know" %}
-The client’s device needs to have a session with Yoti Age. If no session is present the subsequent request will return a E400003 error.
-
-To obtain a session with Yoti Age complete an age verification, in the response to any age verification there will be two ‘Set-Cookie’ headers. The values of these headers must be included in requests to /api/v1/credentials. Typically this happens when you navigate to the url in a browser.
-{% /callout %}
-
----
-
-## Token Error Codes
-
-{% table widths="" %}
-| Error Code | Description | Resolution | 
+| Field | Types | Description | 
 | ---- | ---- | ---- | 
-| E400002 | The current user does not have any valid tokens | User will have to verify their age using an appropriate method | 
-| E400003 | No cookie found to determine whether user has an age token | User needs to verify their age, using an appropriate method and then request their token in the same browser session. | 
-| E400004 | The origin header is missing from the request to token-api | Use the browser to request the token include the origin header in your http client’s request | 
-| E400005 | Bad request | A missing or malformed request was sent. Check the context field in the error response for details. | 
-| E800002 | Bad request | A missing or malformed request was sent. Check the context field in the error response for details. | 
-| E800003 | The credentials provided have not been verified | Check your header or query parameters to ensure your id and key are correct. Perhaps you are missing or have an extra character. | 
+| allowed | true / false | Enable the verification method to be available for the user to use. | 
+| authentication | true / false | False:  When the Yoti user interface is launched we immediately check if the user has a token that matches the requirements set in the rule. If it matches, the user is immediately directed to the callback url.\n\n\n\nTrue: When users finish any of the Yoti age verification methods, they have the option to create a Yoti age key. They can then use this age key to quickly pass any future age verification sessions that they need to undergo. If authentication is set to true, The Yoti user interface will be shown, the user can then select the yoti_key method to verify their age, or they can use another method in the UI. | 
 {% /table %}
-
----
-
-### Privacy
-
-To minimise the data collected about a user’s browsing behaviour, we only use first-party cookies.
-
-As browser vendors move away from third-party cookies, Yoti is ahead of the changing technological landscape. An age token isn’t a cookie, but it does rely on a first-party cookie being dropped in the browser. This allows us to understand if a visitor’s device has previously been used to verify an age without collecting more identifiable data through third-party cookies.
-
-Third-party cookies are used by multiple websites to ascertain information about user behaviour or age without their knowledge or consent. By choosing to only use first party cookies, we don’t share information unless there is a direct interaction with the portal that can be observed by the user.
-
-Age tokens are stored inside our infrastructure and do not get passed on to any relying parties or consumer.
