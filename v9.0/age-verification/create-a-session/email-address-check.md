@@ -14,18 +14,6 @@ If you already have a verified email address for a user, you can ask Yoti to che
 
 Yoti checks the email source, if it is linked to an employer and for any financial transactions tied to it.
 
-{% badge type="warning" text="Note:" /%} To use this service, please contact our [support team](https://support.yoti.com/yotisupport/s/contactsupport) as the integration has to be whitelisted. The check should be only done on users who have verified ownership of their email address.
-
-### Endpoint
-
-The API endpoint to request the email address check for age:
-
-{% code %}
-{% tab language="http" %}
-POST /api/v2/non-interactive
-{% /tab %}
-{% /code %}
-
 ### Request
 
 The JSON structure for the API request (payload):
@@ -33,14 +21,24 @@ The JSON structure for the API request (payload):
 {% code %}
 {% tab language="json" %}
 {
-    "type": "OVER",
-    "threshold": 18,
-    "evidence": {
-        "email": {
-            "address": "<email address>"
-        },
-        "country": "<country code>"
+  "callback": {
+    "url": "https://www.yoti.com",
+    "auto": true
+  },
+  "ttl": 9000, 
+  "type": "OVER",
+  "age_estimation": { 
+    "allowed": true,
+    "threshold": 23,
+    "level": "PASSIVE"
+  },
+  "email": {
+    "data": {
+        "verified_email": "melissa.peterson@yoti.com",
+        "country_code": "gb"
     }
+  },
+  "resume_enabled": true
 }
 {% /tab %}
 {% /code %}
@@ -48,41 +46,36 @@ The JSON structure for the API request (payload):
 {% table widths="" %}
 | Field | Value | Description | 
 | ---- | ---- | ---- | 
-| type | OVER | To determine the user is OVER the threshold. | 
-| threshold | 18 | Age threshold for over age check. | 
-| evidence | email, country | User's verified email address and country code. | 
+| verified_email | email | Verified email address of the user. | 
+| country_code | country code | Two letter ISO country code. | 
 {% /table %}
 
 - All the values are required.
-- US check is based on databases and has the greatest coverage.
-- Non-US is based on heuristics about the type of email address and has limited coverage.
 - We will attempt to filter out bad emails.
+
+If the email check is enabled, we will automatically run it when an age verification session is created. If the check passes you will receive the status of "COMPLETE" in the API response, however if it fails we will return "INSUFFICENT_DATA". In which case integrators can launch the Yoti user interface to allow the user to try a different method.
+
+{% callout type="warning" title="Warning" %}
+resume_enabled must be set to "true" to allow a user to try a different method.
+{% /callout %}
 
 ### Response
 
 The JSON structure for the API response:
 
 {% code %}
-{% tab language="json" %}
+{% tab language="json" title="COMPLETE" %}
 {
-    "type": "OVER",
-    "age": 18,
+    "id": "cbe1df01-5868-4470-951e-5eb07ff76ab7",
     "status": "COMPLETE",
-    "method": "EMAIL",
-    "attempts": 0,
-    "created_at": "2025-04-09T10:54:28.843Z",
-    "evidence_id": "string"
+    "expires_at": "2025-08-09T23:27:58Z"
+}
+{% /tab %}
+{% tab language="json" title="PENDING" %}
+{
+    "id": "cbe1df01-5868-4470-951e-5eb07ff76ab7",
+    "status": "INSUFFICENT_DATA",
+    "expires_at": "2025-08-09T23:27:58Z"
 }
 {% /tab %}
 {% /code %}
-
-{% table widths="142,266" %}
-| Field | Value | Description | 
-| ---- | ---- | ---- | 
-| type | OVER | Configured type property. | 
-| age | 18 | Configure age threshold. | 
-| status | ERROR, FAIL, \n\nCOMPLETE, PENDING | Status of the check. | 
-| method | EMAIL | The method used to run the check. | 
-| created_at | Timestamp (UTC) | Timestamp of the request. | 
-| evidence_id | String | Unique evidence ID for the check. | 
-{% /table %}
