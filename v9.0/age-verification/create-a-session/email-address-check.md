@@ -1,7 +1,7 @@
 ---
 type: page
 title: Email address check
-listed: false
+listed: true
 slug: email-address-check
 description: 
 index_title: Email address check
