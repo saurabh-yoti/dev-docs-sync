@@ -55,7 +55,7 @@ The JSON structure for the API request (payload):
 
 If the email check is enabled, we will automatically run it when an age verification session is created. If the check passes you will receive the status of "COMPLETE" in the API response, however if it fails we will return "INSUFFICENT_DATA". In which case integrators can launch the Yoti user interface to allow the user to try a different method.
 
-{% callout type="warning" title="Warning" %}
+{% callout type="warning" title="Note:" %}
 resume_enabled must be set to "true" to allow a user to try a different method.
 {% /callout %}
 
