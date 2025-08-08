@@ -14,6 +14,12 @@ tags:
 
 The first step in the process is to create an applicant. An applicant will be a person whose face you want to search against. You can create multiple applicants, with each having one facial image added to it.
 
+{% code %}
+{% tab language="http" %}
+POST https://api.yoti.com/idverify/v1/applicants
+{% /tab %}
+{% /code %}
+
 {% table widths="" %}
 | Headers | Value | 
 | ---- | ---- | 
