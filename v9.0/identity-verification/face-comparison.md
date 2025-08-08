@@ -375,7 +375,7 @@ var createSessionResult *create.SessionResult
 {% /tab %}
 {% /code %}
 
-### Create a Face Capture resource
+## Create a Face Capture resource
 
 Before uploading the reference face image, you have to create a Face capture resource. To do this, a Requirement ID from the Face Capture requirements needs to retrieved. This can then be used to create a face capture resource. If successful, you will receive a Resource Id.
 
@@ -483,7 +483,7 @@ func main() {
 {% /tab %}
 {% /code %}
 
-### Upload a reference image
+## Upload a reference image
 
 To do accurate face comparison, a reference facial image of the user is required. You have to get the contents of this image which can then be uploaded using the Doc Scan Client. You also have to pass in the Resource Id retrieved earlier
 
