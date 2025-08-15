@@ -31,7 +31,7 @@ PUT https://api.yoti.com/idverify/v1/sessions/{sessionID}/resources/face-capture
 {% /code %}
 
 {% code %}
-{% tab language="javascript" title="NodeJS" %}
+{% tab language="javascript" title="Node.js" %}
 const { RequestBuilder, Payload } = require("yoti");
 
 const payload = {
