@@ -73,7 +73,7 @@ Now that a rule id has been generated, it can be used in the session creation co
     },
     "yoti_key": {
       "allowed": true,
-      "authentication": false
+      "authentication": true // true for Yoti key, false for Age token
     },
     "rule_id": "your_rule_id",
     "ttl": 900,
