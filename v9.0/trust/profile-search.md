@@ -149,5 +149,5 @@ Reference: [Check if a face exists in a group](/v9.0/trust-api/ref#postcheck-if-
 
 ## Next Steps
 
-- Explore the full Trust API documentation for detailed endpoint specifications.
+- Explore the full [Trust API Documentation](/v9.0/trust-api/ref) for detailed endpoint specifications.
 - Get help through support.yoti.com if you have any questions or need assistance.
