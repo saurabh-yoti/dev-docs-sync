@@ -173,8 +173,6 @@ If the user has reached their maximum attempts the session will end there.
 {% image url="https://res.cloudinary.com/developerhub/image/upload/v1623414895/v2_2762/ztxrkzwhyxxv3qsepktv.png" caption="End of in-session feedback" mode="600" height="1714" width="600" %}
 {% /image %}
 
-Coming soon: Ability to configure the retry attempts in the server side integration. This is already live in the API. 
-
 ---
 
 Reclassification
