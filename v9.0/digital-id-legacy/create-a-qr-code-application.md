@@ -12,16 +12,15 @@ tags:
 
 Here you will create your QR code page. 
 
-1. Create a Digital ID application and scenario in the hub. Instructions can be found [here](/digital-id/production-keys).
-1. You will select:
-
+1. Create a Digital ID application and scenario in the hub. Instructions can be found [here](/digital-id-legacy/production-keys).
+2. You will select:
     1. The [auto$](/digital-id-legacy/yoti-attributes) that you wish to retrieve from the user.
     2. Customisation ability to change the logo and background of the QR code page.
-    3. Please see detailed set up notes [here](https://app.developerhub.io/digital-id/production-keys). 
+    3. Please see detailed set up notes [here](/digital-id-legacy/production-keys).
 
-2. Please set the domain to: [www.yoti.com](http://www.yoti.com/)
-3. Please set the callback URL to: [www.yoti.com/connect/thankyou](http://www.yoti.com/connect/thankyou)
-4. Lastly to retrieve the URL of your page:
+3. Please set the domain to: [www.yoti.com](http://www.yoti.com/)
+4. Please set the callback URL to: [www.yoti.com/connect/thankyou](http://www.yoti.com/connect/thankyou)
+5. Lastly to retrieve the URL of your page:
     1. Head over to your scenario (Click **applications**, your application and you will see the **scenario** tab).
     2. Click the small arrow in the scenario and press **Edit**.
 
