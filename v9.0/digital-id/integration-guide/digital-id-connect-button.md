@@ -14,7 +14,7 @@ tags:
 
 The network is built by Yoti, Post Office and Lloyds Bank to make the digital world easier and safer for everybody.
 
-Digital ID Connect buttons and QR code styles use the client-side JavaScript library provided by Yoti and follow the same structure as described [here](/digital-id/render-qr-button-modal).
+Digital ID Connect buttons and QR code styles use the client-side JavaScript library provided by Yoti and follow the same structure as described [here](/digital-id/render-qr-button).
 
 The configuration of the element `skinId` determines the button and QR code styles. An example is shown below:
 
