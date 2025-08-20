@@ -36,22 +36,20 @@ The overview below sets out the entities and data flows involved.
 
 The diagram below describes the login process and how a backend integrated with the Yoti architecture.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1557841032/12870/j5aji8dciamlodmziekk.png" caption="Backend integration process diagram" mode="600" height="1504" width="1244" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1557841032/12870/j5aji8dciamlodmziekk.png" caption="Backend integration process diagram" mode="600" height="1504" width="600" %}
 {% /image %}
 
 Integrating with Yoti lets your users securely share specific details using their Digital ID app. We call these details attributes, the next page goes into detail on what the [auto$](/digital-id/yoti-attributes) are. 
 
-To get started, users need to click a [Yoti button](/digital-id/render-qr-button-modal) on your website or app. This button opens a full-page overlay on the webpage, showing the details users are about to share.
+To get started, users need to click a Yoti button on your website or app. This button opens a full-page overlay on the webpage, showing the details users are about to share.
 
 Once they confirm the share, their details are securely sent to your organisation. You can access them through a backend integration or from the [**Yoti Hub**.](https://hub.yoti.com/login)
 
 {% callout type="info" title="Good to know" %}
 Yoti offers a free "learn more" page which is included within the button. This will guide your users through on how to scan the QR code.
-
-[Enable this feature](/digital-id/render-qr-button-modal)
 {% /callout %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575299208/20473/kgramshxfo4qala15zar.jpg" caption="The steps users take on mobile and desktop." mode="600" height="1150" width="1294" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575299208/20473/kgramshxfo4qala15zar.jpg" caption="The steps users take on mobile and desktop." mode="600" height="1150" width="600" %}
 {% /image %}
 
 ---
@@ -60,7 +58,7 @@ Yoti offers a free "learn more" page which is included within the button. This w
 
 The Digital ID service is very adaptable, please see below for functionality offered.
 
-{% table %}
+{% table widths="" %}
 | Name | Description | 
 | ---- | ---- | 
 | QR codes | Yoti provides multiple QR code types for users to scan with their Digital ID app including our partnership QR codes. | 
@@ -92,7 +90,7 @@ Yoti offers translation of our Yoti app in the below languages:
 
 When your user clicks the Yoti button on your website or app, a full-page overlay appears. This tell them exactly what details they'll be sharing and who they'll be sharing them with.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575299278/20473/viciawwxgwqppmu9tujp.jpg" caption="A diagram of our overlay with numbered areas" mode="full" height="1298" width="1324" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575299278/20473/viciawwxgwqppmu9tujp.jpg" caption="A diagram of our overlay with numbered areas" mode="full" height="1298" width="1000" %}
 {% /image %}
 
 1. Your application's logo and name. Make sure they match what's on the website or app your user has come from.
@@ -103,7 +101,7 @@ When your user clicks the Yoti button on your website or app, a full-page overla
 
 Once your user has scanned the QR code on their desktop or tapped the Share details button on their mobile, the Digital ID app automatically presents a share request screen.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575299328/20473/tssxstmljcgo0egnqkdx.jpg" caption="A diagram of our share details screen in the Yoti app with numbered areas." mode="300" height="952" width="636" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575299328/20473/tssxstmljcgo0egnqkdx.jpg" caption="A diagram of our share details screen in the Yoti app with numbered areas." mode="300" height="952" width="300" %}
 {% /image %}
 
 1. Your application's logo and name. Make sure they match what's on the website or app your user has come from.
@@ -113,7 +111,7 @@ Once your user has scanned the QR code on their desktop or tapped the Share deta
 
 Yoti can be used in many different situations. It can be used in scenarios where someone would usually share personal, often private, information with an organisation or another person.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575299455/20473/mxiacan4oy2nzozyfbaz.jpg" caption="A diagram of a generic user flow using Yoti." mode="full" height="798" width="1458" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575299455/20473/mxiacan4oy2nzozyfbaz.jpg" caption="A diagram of a generic user flow using Yoti." mode="full" height="798" width="1000" %}
 {% /image %}
 
 {% callout type="info" title="Good to know" %}
@@ -134,7 +132,7 @@ You have control over what you want your users to see before they use Yoti. Plea
 
 ## Supported browsers
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1608728857/72625/rypdac67giybzfpxz5tg.png" caption="Supported browsers" mode="600" height="1256" width="1178" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1608728857/72625/rypdac67giybzfpxz5tg.png" caption="Supported browsers" mode="600" height="1256" width="600" %}
 {% /image %}
 
 ---
@@ -147,7 +145,7 @@ We pride ourselves on how we handle our users' data. We use tech for good and en
 - Only collect the information you actually need. Data minimisation is one of the main benefits of Yoti, so people don't have to provide more information than is actually necessary.
 - Make sure any information you export to your own systems is stored securely. Data security is at the heart of what we do and we think it should be important to every organisation.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575299497/20473/vwj6x1hjvfni5rzvlho3.jpg" mode="300" height="440" width="438" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575299497/20473/vwj6x1hjvfni5rzvlho3.jpg" mode="300" height="440" width="300" %}
 {% /image %}
 
 $plugin[19ag7p8lxst]
