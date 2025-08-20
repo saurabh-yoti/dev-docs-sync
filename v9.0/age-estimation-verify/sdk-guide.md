@@ -14,7 +14,7 @@ Once you've set up a verified organisation account on the [Yoti Hub](https://hub
 
 ## Face Capture
 
-For optimal face capture, Yoti provides the [auto$](/age-estimation-verify/face-capture-module-fcm)[,](https://app.developerhub.io/yoti-developer-documentation/v8.0/ai-services-terminals/face-c) which is designed to capture optimal images meeting the requirements of the API. This is available as a Native .Net package.
+For optimal face capture, Yoti provides the [auto$](/age-estimation-verify/face-capture-module-fcm) which is designed to capture optimal images meeting the requirements of the API. This is available as a Native .Net package.
 
 {% callout type="info" title="Native face capture" %}
 Capture your images by using our [auto$](/age-estimation-verify/face-capture-module-fcm).
