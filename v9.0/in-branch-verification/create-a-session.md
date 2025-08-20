@@ -54,7 +54,7 @@ POST POST&/sessions?sdkId=b88ad843-13cc-44ba-a3e0-053f71d89b1f&nonce=b88ad843-13
 
 The API Base URL is [https://api.yoti.com/idverify/v1](https://api.yoti.com/idverify/v1)
 
-{% table %}
+{% table widths="" %}
 | Parameter | Description | 
 | ---- | ---- | 
 | sdkId | UUID generated when producing your Yoti keys | 
@@ -233,7 +233,7 @@ POST https://api.yoti.com/idverify/v1/sessions
 {% /tab %}
 {% /code %}
 
-#### Example Payloads
+### Example Payloads
 
 {% code %}
 {% tab language="json" title="Claimed ID JSON" %}
@@ -548,7 +548,7 @@ POST https://api.yoti.com/idverify/v1/sessions
 {% /tab %}
 {% /code %}
 
-{% table %}
+{% table widths="" %}
 | Name | Description | Optional | 
 | ---- | ---- | ---- | 
 | session_deadline | This is in a datetime format. The user has up until this date and time to complete the session. The customer letter will only show the date, not the time, and therefore we recommend setting the time to 22:00 to ensure a candidate has the entire day to enter a Post Office branch.\n\n\n\nThis must be a minimum of 7 days. |  | 
@@ -557,7 +557,7 @@ POST https://api.yoti.com/idverify/v1/sessions
 | ibv_options | Outlines that an IBV session is being generated. |  | 
 {% /table %}
 
-### [Notifications](https://developers.yoti.com/in-branch-verification/create-a-session#notifications)
+#### [Notifications](https://developers.yoti.com/in-branch-verification/create-a-session#notifications)
 
 This service optionally posts an update notification every time the session state changes, based on the selected subscription topics.
 
@@ -571,9 +571,9 @@ This service optionally posts an update notification every time the session stat
 | SESSION_COMPLETION | Triggered when all tasks and all checks inside of a given session have been completed. | 
 {% /table %}
 
-#### Requested In Person Checks
+### Requested In Person Checks
 
-{% table %}
+{% table widths="" %}
 | Check | Description | 
 | ---- | ---- | 
 | PROFILE_DOCUMENT_MATCH | Checks the document the applicant brought with them matches the submitted applicant profile. | 
@@ -581,11 +581,11 @@ This service optionally posts an update notification every time the session stat
 | IBV_VISUAL_REVIEW_CHECK | A visual review of the document by the postmaster. | 
 {% /table %}
 
-#### Additional Optional Checks
+### Additional Optional Checks
 
 This service is highly configurable, if you would like assistance in using any of the checks below please get in touch with our client support team through [support.yoti.com](https://support.yoti.com).
 
-{% table %}
+{% table widths="" %}
 | Check | Description | 
 | ---- | ---- | 
 | Document authenticity | A request to assess the characteristics of a document, to determine the validity of the ID document. Yoti will perform multiple checks on a ID document. | 
@@ -691,7 +691,7 @@ If the request is successful and a session is generated the API will send a resp
 {% /tab %}
 {% /code %}
 
-{% table %}
+{% table widths="" %}
 | Name | Description | 
 | ---- | ---- | 
 | client_session_token_ttl | Time in seconds until the client session expires | 
