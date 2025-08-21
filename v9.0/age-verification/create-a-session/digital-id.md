@@ -49,7 +49,7 @@ To enable the Digital ID as an option to perform an age verification service.
      	 "threshold": 18,
      	 "allowed": true,
      	 "age_estimation_allowed": true,
-     	 "age_estimation_threshold": 23
+     	 "age_estimation_threshold": 21
 		},
     "ttl": 900,
     "reference_id": "over_18_example",
