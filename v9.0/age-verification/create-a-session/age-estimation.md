@@ -38,7 +38,7 @@ If you wish to enable the Age estimation service as an option to perform an age 
     "type": "OVER",
     "age_estimation": {
         "allowed": true,
-        "threshold": 25,
+        "threshold": 21,
         "level": "PASSIVE"
     },
     "ttl": 900,
@@ -54,7 +54,7 @@ If you wish to enable the Age estimation service as an option to perform an age 
 {% /tab %}
 {% /code %}
 
-{% table %}
+{% table widths="" %}
 | Parameter | Types | Description | 
 | ---- | ---- | ---- | 
 | allowed | true / false | Enable the verification method to be available for the user to use. | 
