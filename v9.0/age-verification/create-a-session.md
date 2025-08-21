@@ -62,7 +62,7 @@ Here you will provide which authentication method you would like, the allowed ag
     "type": "OVER",
     "age_estimation": {
         "allowed": true,
-        "threshold": 25,
+        "threshold": 21,
         "level": "PASSIVE",
         "retry_limit": 1
     },
