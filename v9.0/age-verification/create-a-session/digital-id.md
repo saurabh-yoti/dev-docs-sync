@@ -42,24 +42,7 @@ This works similar to a normal share, and allows the user to provide their estim
 To enable the Digital ID as an option to perform an age verification service.
 
 {% code %}
-{% tab language="json" title="Digital ID Age" %}
-{
-    "type": "OVER",
-    "digital_id": {
-        "allowed": true,
-        "threshold": 18
-    },
-    "ttl": 900,
-    "reference_id": "over_18_example",
-    "callback": {
-       "auto": true,
-       "url": "https://www.yoti.com"
-    },
-    "notification_url": "https://yourdomain.example/webhook",
-    "cancel_url": "https://www.yoti.com"
-}
-{% /tab %}
-{% tab language="json" title="Estimated Age" highlightLines="6,7" %}
+{% tab language="json" title="Estimated Age" highlightLines="" %}
 {
     "type": "OVER",
 		"digital_id": {
@@ -72,6 +55,23 @@ To enable the Digital ID as an option to perform an age verification service.
     "reference_id": "over_18_example",
     "callback": {
     	 "auto": true,
+       "url": "https://www.yoti.com"
+    },
+    "notification_url": "https://yourdomain.example/webhook",
+    "cancel_url": "https://www.yoti.com"
+}
+{% /tab %}
+{% tab language="json" title="Digital ID Age" %}
+{
+    "type": "OVER",
+    "digital_id": {
+        "allowed": true,
+        "threshold": 18
+    },
+    "ttl": 900,
+    "reference_id": "over_18_example",
+    "callback": {
+       "auto": true,
        "url": "https://www.yoti.com"
     },
     "notification_url": "https://yourdomain.example/webhook",
