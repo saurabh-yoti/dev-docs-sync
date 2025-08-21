@@ -69,6 +69,8 @@ Here you will provide which authentication method you would like, the allowed ag
     "digital_id": {
         "allowed": true,
         "threshold": 18,
+        "age_estimation_allowed": true,
+     	  "age_estimation_threshold": 21,
         "level": "NONE",
         "retry_limit": 1
     },
