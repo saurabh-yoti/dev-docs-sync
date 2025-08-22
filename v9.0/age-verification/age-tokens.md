@@ -54,7 +54,7 @@ Now that a rule id has been generated, it can be used in the session creation co
     "type": "OVER",
     "age_estimation": {
         "allowed": true,
-        "threshold": 25,
+        "threshold": 21,
         "level": "PASSIVE",
         "retry_limit": 1
     },
@@ -97,3 +97,7 @@ Now that a rule id has been generated, it can be used in the session creation co
 | allowed | true / false | Enable the verification method to be available for the user to use. | 
 | authentication | true / false | False:  When the Yoti user interface is launched we immediately check if the user has a token that matches the requirements set in the rule. If it matches, the user is immediately directed to the callback url.\n\n\n\nTrue: When users finish any of the Yoti age verification methods, they have the option to create a Yoti age key. They can then use this age key to quickly pass any future age verification sessions that they need to undergo. If authentication is set to true, The Yoti user interface will be shown, the user can then select the yoti_key method to verify their age, or they can use another method in the UI. | 
 {% /table %}
+
+{% callout type="info" title="Info" %}
+If integrating the Yoti UI within an Iframe setting authentication to false will not have the expected affect as the user needs to be directed to the Yoti domain. For this reason we would not recommend the use of an Iframe.
+{% /callout %}
