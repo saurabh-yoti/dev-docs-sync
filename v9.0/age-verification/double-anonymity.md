@@ -61,7 +61,7 @@ Below is an example of how to enable these features in your configuration:
   "type": "OVER",
   "age_estimation": {
     "allowed": true,
-    "threshold": 25, // Desired buffer for Age Estimation
+    "threshold": 21, // Desired buffer for Age Estimation
     "level": "PASSIVE",
     "retry_limit": 1
   },
