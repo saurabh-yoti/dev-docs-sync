@@ -85,14 +85,14 @@ The Age verification service is very adaptable, please see below for features av
 
 The user will be asked to prove their age and is taken through the Yoti verification steps where they will be presented with the options you have selected. You will then need to redirect them to a success or error URL, alternatively you can listen to post messaging from the iframe.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1632336092/v2_2762/f2s1by8zdu85fc6xcqzt.png" caption="Age verification options" mode="responsive" height="1148" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1632336092/v2_2762/f2s1by8zdu85fc6xcqzt.png" caption="Age verification options" mode="responsive" height="1148" width="1910" %}
 {% /image %}
 
 {% badge type="info" text="Hint" /%} Yoti offers customisation of this page. See [auto$](/age-verification/launch-the-user-view).
 
 Our product will walk the user through their chosen option of age verification. 
 
-{% image url="https://uploads.developerhub.io/prod/kvAX/15s7yteht954dqgrdh38brisd7kv5hbc13efku6n44pc2faqdm1pljqt8b3h1z00.png" mode="responsive" height="490" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/15s7yteht954dqgrdh38brisd7kv5hbc13efku6n44pc2faqdm1pljqt8b3h1z00.png" mode="responsive" height="490" width="1181" %}
 {% /image %}
 
 ---
@@ -105,6 +105,7 @@ Supported translations are:
 
 - Arabic (العربية) 🇸🇦
 - Brazilian Portuguese (Português Brasileiro) 🇧🇷
+- Bosnian (bosanski) 🇧🇦
 - Chinese (中文) 🇨🇳
 - Croatian (hrvatski) 
 - Danish (Dansk) 🇩🇰
@@ -113,17 +114,20 @@ Supported translations are:
 - German (Deutsch) 🇩🇪
 - Greek (Ελληνικά) 🇬🇷
 - Italian (Italiano) 🇮🇹
+- Indonesian (Bahasa Indonesia) 🇮🇩
 - Japanese (日本語) 🇯🇵
 - Korean (한국어) 🇰🇷
 - Latin-American Spanish (Español Latinoamericano)
 - Polish (Polski) 🇵🇱
 - Portuguese (Português) 🇵🇹
 - Russian (Русский) 🇷🇺
+- Serbian (српски) 🇷🇸
 - Spanish (Español) 🇪🇸
 - Swedish (Svenska) 🇸🇪
 - Tagalog 🇵🇭
 - Thai (ไทย) 🇹🇭
 - Turkish (Türkçe) 🇹🇷
+- Urdu (اُردُو)  🇵🇰
 - Vietnamese (Tiếng Việt) 🇻🇳
 
 Please note: Some age verification methods may not be available in all the languages listed above. For queries around supported languages, please contact us via [support.yoti.com](https://support.yoti.com).
