@@ -124,12 +124,13 @@ This is where you define what preference you want to set for the age of the user
 ### Configuration parameter
 
 {% table widths="0,251" %}
-| Parameter | Type | Description | 
+| Parameter | Type / Value | Description | 
 | ---- | ---- | ---- | 
 | reference_id | string | Reference ID is an optional string. Yoti returns this same string in the session result. | 
 | ttl | seconds | How long the session is valid for, the user will need to complete it before the ttl expires. This must be at least 60 seconds (1 minute). And can't be longer than 1 month. | 
-| callback_url | [https://yourdomain.example](https://yourdomain.example/) | Where to send your user after they have finished age verification. Redirects appending the sessionId as a query parameter.\n\nYou can enable this by, `auto: true` | 
-| notification_url | [https://yourdomain.example/updates](https://yourdomain.example/updates) | To state where the results of an age verification should be sent. This endpoint must be HTTPS and must accept a POST notification. | 
+| callback | object | The URL to redirect your user to after they complete age verification. The `sessionId` will be appended as a query parameter. Setting `auto` to `true` will automatically redirect users after verification.\n\n\n\nExample - { "auto": true, "url": "https://www.example.com" } | 
+| callback_url | string | Shorthand for specifying the URL where your user is redirected after age verification. By default, `auto` is `false`, so users are **not** automatically redirected.\n\n\n\nExample - https://www.example.com | 
+| notification_url | [https://example.com/updates](https://yourdomain.example/updates) | The URL where the results of an age verification should be sent. This endpoint must use HTTPS and accept POST requests for notifications. | 
 | block_biometric_consent | true / false | For several American states (currently Texas, Illinois and Washington US states*), the law mandates that you must collect the user’s specific consent to collect their biometric details for our liveness or face matching feature to be compliant with the US legislation.\n\n\n\n*and any other countries or states within countries\n\nIf you choose to only request specific consent in the above "territories" you must provide details of the effective geo location software you use to prevent any individuals located in one of these territories accessing the Yoti service without prior giving specific consent.\n\n\n\nSetting to true bypasses this screen. We recommend keeping this value to default (false) to enable consent for all users. | 
 | cancel_url | [https://yourdomain.example](https://yourdomain.example/) | You can specify a cancel URL, if the user opens AVS and decides that they don't want to continue then they can be taken to a specific place rather than going back in the browser.\n\nIf you would like to see how this looks please head over [here.](https://developers.yoti.com/age-verification/customisation#cancel-url) | 
 | retry_enabled | true / false | You can give the user the ability to retry verifying their age if an attempt fails. Webhooks are sent for each age verification attempt, so some could show up as "FAIL" even if the user eventually passes. | 
