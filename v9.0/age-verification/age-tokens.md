@@ -99,5 +99,5 @@ Now that a rule id has been generated, it can be used in the session creation co
 {% /table %}
 
 {% callout type="warning" title="Warning" %}
-If integrating the Yoti UI within an Iframe setting authentication to false will not have the expected affect as the user needs to be directed to the Yoti domain. For this reason we would not recommend the use of an Iframe.
+If integrating the Yoti UI within an Iframe setting authentication to false will not have the expected affect as the user needs to be directed to the Yoti domain. For this reason we would not recommend the use of an Iframe. Yoti keys are also not supported in the firefox browser.
 {% /callout %}
