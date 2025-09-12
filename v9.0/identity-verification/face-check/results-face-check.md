@@ -418,6 +418,10 @@ Within the **Familiar Face Search** check object you will details regarding the 
 | details | The details object will display the applicant id of the applicant that matched with the user as well as the pool id of which the matched applicant is a part of. | 
 {% /table %}
 
+{% callout type="warning" title="Important" %}
+Yoti recommends that you review any matches internally, to make sure you aren't rejecting genuine users who were incorrectly flagged.
+{% /callout %}
+
 ---
 
 ## Retrieve Face
