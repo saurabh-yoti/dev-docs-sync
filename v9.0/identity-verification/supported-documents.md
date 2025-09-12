@@ -95,7 +95,7 @@ Yoti will attempt to perform automated text extraction only on these documents a
 | Canada | CAN | X | X | X | X | X | X | 
 | Switzerland | CHE | X | X | X | X | X |  | 
 | Chile | CHL | X | X |  |  | X |  | 
-| China | CHN | X | X* | X* |  | X |  | 
+| China | CHN | X | X | X |  | X |  | 
 | Côte d'Ivoire | CIV | X | X | X |  | X |  | 
 | Cameroon | CMR | X | X | X |  | X |  | 
 | Congo, Democratic Republic of the | COD | X |  | X |  | X |  | 
@@ -115,7 +115,7 @@ Yoti will attempt to perform automated text extraction only on these documents a
 | Dominican Republic | DOM | X | X | X |  | X |  | 
 | Algeria | DZA | X | X | X |  | X |  | 
 | Ecuador | ECU | X | X | X |  | X |  | 
-| Egypt | EGY | X | X* |  | X* | X |  | 
+| Egypt | EGY | X | X |  | X | X |  | 
 | Eritrea | ERI | X |  |  |  | X |  | 
 | Spain | ESP | X | X | X | X | X |  | 
 | Estonia | EST | X | X | X | X | X |  | 
@@ -151,24 +151,24 @@ Yoti will attempt to perform automated text extraction only on these documents a
 | India | IND | X |  | X |  | X | X | 
 | Ireland | IRL | X | X | X | X | X |  | 
 | Iran, Islamic Republic of | IRN | X | X |  |  | X |  | 
-| Iraq | IRQ | X | X* | X* |  | X |  | 
+| Iraq | IRQ | X | X | X |  | X |  | 
 | Iceland | ISL | X | X | X | X | X |  | 
-| Israel | ISR | X | X* | X* |  | X |  | 
+| Israel | ISR | X | X | X |  | X |  | 
 | Italy | ITA | X | X | X | X | X |  | 
 | Jamaica | JAM | X |  | X |  | X |  | 
 | Jersey | JEY | X |  | X |  | X |  | 
 | Jordan | JOR | X | X | X |  | X |  | 
-| Japan | JPN | X | X* | X* | X* | X |  | 
-| Kazakhstan | KAZ | X | X* | X* |  | X |  | 
+| Japan | JPN | X | X | X | X | X |  | 
+| Kazakhstan | KAZ | X | X | X |  | X |  | 
 | Kenya | KEN | X | X |  |  | X |  | 
 | Kyrgyzstan | KGZ | X | X | X |  | X |  | 
 | Cambodia | KHM | X | X | X |  | X |  | 
 | Kiribati | KIR | X |  |  |  | X |  | 
 | Saint Kitts and Nevis | KNA | X |  |  |  | X |  | 
-| Korea, Republic of | KOR | X | X* | X* |  | X |  | 
+| Korea, Republic of | KOR | X | X | X |  | X |  | 
 | Kuwait | KWT | X | X | X |  | X |  | 
 | Lao People's Democratic Republic | LAO | X |  |  |  | X |  | 
-| Lebanon | LBN | X | X* | X* | X* | X |  | 
+| Lebanon | LBN | X | X | X | X | X |  | 
 | Liberia | LBR | X |  |  |  | X |  | 
 | Libya | LBY | X |  | X |  | X |  | 
 | Saint Lucia | LCA | X | X |  |  | X |  | 
@@ -223,9 +223,9 @@ Yoti will attempt to perform automated text extraction only on these documents a
 | Palestine, State of | PSE | X |  | X |  | X |  | 
 | Qatar | QAT | X | X | X | X | X |  | 
 | Romania | ROU | X | X | X | X | X |  | 
-| Russian Federation | RUS | X | X* | X* |  | X |  | 
+| Russian Federation | RUS | X | X | X |  | X |  | 
 | Rwanda | RWA | X | X | X |  | X |  | 
-| Saudi Arabia | SAU | X | X* | X* | X* | X |  | 
+| Saudi Arabia | SAU | X | X | X | X | X |  | 
 | Sudan | SDN | X |  |  |  | X |  | 
 | Senegal | SEN | X | X | X |  | X |  | 
 | Singapore | SGP | X | X | X | X | X |  | 
@@ -243,7 +243,7 @@ Yoti will attempt to perform automated text extraction only on these documents a
 | Sweden | SWE | X | X | X | X | X |  | 
 | Eswatini | SWZ | X |  |  |  | X |  | 
 | Seychelles | SYC | X |  |  |  | X |  | 
-| Syrian Arab Republic | SYR | X | X* | X* |  | X |  | 
+| Syrian Arab Republic | SYR | X | X | X |  | X |  | 
 | Turks and Caicos Islands | TCA | X |  |  |  | X |  | 
 | Chad | TCD | X | X |  |  | X |  | 
 | Togo | TGO | X |  | X |  | X |  | 
@@ -253,10 +253,10 @@ Yoti will attempt to perform automated text extraction only on these documents a
 | Timor-Leste | TLS | X | X |  |  | X |  | 
 | Tonga | TON | X |  |  |  | X |  | 
 | Trinidad and Tobago | TTO | X | X | X |  | X |  | 
-| Tunisia | TUN | X | X* | X* |  | X |  | 
+| Tunisia | TUN | X | X | X |  | X |  | 
 | Türkiye | TUR | X | X | X | X | X |  | 
 | Tuvalu | TUV | X |  |  |  | X |  | 
-| Taiwan, Province of China | TWN | X | X* |  | X* | X |  | 
+| Taiwan, Province of China | TWN | X | X |  | X | X |  | 
 | Tanzania, United Republic of | TZA | X | X | X |  | X |  | 
 | Uganda | UGA | X | X | X |  | X |  | 
 | Ukraine | UKR | X | X | X | X | X |  | 
