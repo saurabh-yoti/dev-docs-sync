@@ -56,8 +56,8 @@ Yoti will attempt to perform automated text extraction only on these documents a
 | Type | Countries | 
 | ---- | ---- | 
 | Driving Licence | China, Iraq, Japan, South Korea, Syria | 
-| National ID | China, Egypt, Iraq, Israel, Japan, Kazakhstan, Lebanon, Russia, Saudi Arabia, South Korea, Syria, Taiwan | 
-| Residence permit | Saudi Arabia | 
+| National ID | China, Egypt, Iran, Israel, Japan, Kazakhstan, Lebanon, Russia, Saudi Arabia, South Korea, Syria, Tunisia, Taiwan | 
+| Residence Permit | Saudi Arabia | 
 {% /table %}
 
 ## All documents
