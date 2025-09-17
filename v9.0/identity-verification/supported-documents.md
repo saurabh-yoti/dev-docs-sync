@@ -52,8 +52,13 @@ Yoti supports some non-latin character documents. These are not enabled by defau
 
 Yoti will attempt to perform automated text extraction only on these documents and a document authenticity check. We cannot perform manual data entry.
 
-{% synced id="non-latin-documents-table" %}
-{% /synced %}
+{% table widths="" %}
+| Type | Countries | 
+| ---- | ---- | 
+| Driving Licence | China, Iraq, Japan, South Korea, Syria | 
+| National ID | China, Egypt, Iraq, Israel, Japan, Kazakhstan, Lebanon, Russia, Saudi Arabia, South Korea, Syria, Taiwan | 
+| Residence permit | Saudi Arabia | 
+{% /table %}
 
 ## All documents
 
