@@ -55,7 +55,7 @@ $policy = (new PolicyBuilder())
     ->build();
 {% /tab %}
 {% tab language="csharp" %}
-YotiPolicy policy = new YotiPolicyBuilder()
+YotiPolicy policy = new PolicyBuilder()
   // using a predefined method to add an attribute
   .withFullName()
   .withEmail()
@@ -152,20 +152,18 @@ $shareSessionConfig = (new ShareSessionRequestBuilder())
     ->build();
 {% /tab %}
 {% tab language="csharp" %}
-var notification = new Notification
-{
-  Headers = { },
-  Url = "your-webhook-url",
-  Method = "POST",
-  VerifyTls = true
-};
+var notification = new NotificationBuilder()
+  .WithUrl("https://example.com/webhook")
+  .WithMethod("POST")
+  .WithVerifyTls(true)
+  .Build();
 
 var subject = new
 {
   subject_id = "some_subject_id_string"
 };
 
-ShareSessionConfiguration shareSessionConfig = new ShareSessionConfigurationBuilder()
+ShareSessionConfiguration shareSessionConfig = new ShareSessionRequestBuilder()
   .WithRedirectUri("/your-callback-url")
   .WithPolicy(policy)
   .WithSubject(subject)
@@ -240,3 +238,19 @@ shareSession, err := client.CreateShareSession(shareSessionConfig)
 shareSessionId := shareSession.Id
 {% /tab %}
 {% /code %}
+
+---
+
+## Error codes
+
+{% table widths="" %}
+| Error code | Description | 
+| ---- | ---- | 
+| 400 | Invalid request payload sent | 
+| 400 | One or more of the specified attributes are not known | 
+| 403 | Service is disabled | 
+| 403 | Service does not belong to an organisation | 
+| 403 | Organisation status must be PENDING or VERIFIED to perform shares | 
+| 403 | Service isn’t allowed to request the specified 3rd party attribute | 
+| 403 | Service isn’t allowed to issue the specified 3rd party attribute | 
+{% /table %}
