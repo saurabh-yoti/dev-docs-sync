@@ -96,7 +96,7 @@ $policy = (new PolicyBuilder())
 # Coming soon
 {% /tab %}
 {% tab language="csharp" %}
-YotiPolicy policy = new YotiPolicyBuilder()
+YotiPolicy policy = new PolicyBuilder()
   	// using predefined methods to request attributes
   	.withFullName()
     .withEmail()
