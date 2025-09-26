@@ -92,9 +92,6 @@ $policy = (new PolicyBuilder())
     ->withSelfieAuthentication()
     ->build();
 {% /tab %}
-{% tab language="python" %}
-# Coming soon
-{% /tab %}
 {% tab language="csharp" %}
 YotiPolicy policy = new PolicyBuilder()
   	// using predefined methods to request attributes
