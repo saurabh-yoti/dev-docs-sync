@@ -24,7 +24,7 @@ We strongly suggest you read the sections above and understand the user flow and
 
 A request to assess whether the user's face matches the face on the ID document. You will need:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636397080/v2_2762/du6pfe7lbng3knghy6dc.png" caption="Application &gt; Portal preferences" mode="responsive" height="134" width="1038" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/du6pfe7lbng3knghy6dc/1636397080.png" caption="Application &gt; Portal preferences" mode="responsive" height="134" width="1038" %}
 {% /image %}
 
 - A liveness check enabled

@@ -17,7 +17,7 @@ You will need to create an application in the hub to obtain your API keys. You c
 - Head to the left hand nav bar and **select application** &gt; **create an application.**
 - Or select the blue button labelled **CREATE**.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615399051/v2_2762/piv1akrmh2uvnuljsxbr.png" mode="responsive" height="548" width="3076" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/piv1akrmh2uvnuljsxbr/1615399051.png" mode="responsive" height="548" width="3076" %}
 {% /image %}
 
 - Then pick which product you are integrating, in this case - **Identity verification**. 
@@ -26,7 +26,7 @@ Each service has a different set up. Organisations at Yoti are set up in the fol
 
 You can create multiple applications within your organisation, each application refers to a domain and has its own user base.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615399266/v2_2762/qi7qmuk1a72ztga8tn6n.png" caption="Create a Identity verification application" mode="responsive" height="1180" width="2060" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/qi7qmuk1a72ztga8tn6n/1615399266.png" caption="Create a Identity verification application" mode="responsive" height="1180" width="2060" %}
 {% /image %}
 
 ---
@@ -35,14 +35,14 @@ You can create multiple applications within your organisation, each application 
 
 The next stage is to collect various IDs and the key pair for your application.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1576164519/20575/uzkoq8qltezeiokuoz5i.jpg" caption="Generating keys and PEM file" mode="responsive" height="1126" width="1884" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20575/uzkoq8qltezeiokuoz5i/1576164519.jpg" caption="Generating keys and PEM file" mode="responsive" height="1126" width="1884" %}
 {% /image %}
 
 If you want to enable seeing sessions in the portal then please ensure you click the box to enable the user of portal.
 
 If you do not want to view your sessions in the portal just tick the notes section.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1639922214/v2_2762/yvmik5hxlnrlhoxfcys8.png" caption="Generating keys and PEM file for portal too" mode="responsive" height="659" width="595" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/yvmik5hxlnrlhoxfcys8/1639922214.png" caption="Generating keys and PEM file for portal too" mode="responsive" height="659" width="595" %}
 {% /image %}
 
 {% table widths="147" %}
@@ -58,7 +58,7 @@ If you do not want to view your sessions in the portal just tick the notes secti
 
 Once you have completed the above steps, you will be able to activate your Yoti application by clicking the Activate button in the top right.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1572348772/20575/mcq7o1hln5owczn59kau.jpg" caption="Activating your application" mode="600" height="536" width="1748" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20575/mcq7o1hln5owczn59kau/1572348772.jpg" caption="Activating your application" mode="600" height="536" width="1748" %}
 {% /image %}
 
 ### Continue integration
@@ -71,7 +71,7 @@ Once you've onboarded your organisation in Yoti Hub and have generated your API 
 
 To delete your application go Application &gt; **Edit** button &gt; press **Delete**. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575294779/20476/er1ipudlofoajnrvny7t.jpg" caption="Deleting your application" mode="responsive" height="366" width="1628" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/er1ipudlofoajnrvny7t/1575294779.jpg" caption="Deleting your application" mode="responsive" height="366" width="1628" %}
 {% /image %}
 
 There is also an option to deactivate your application which will hold your integration as a paused state. Users will not be able use your integration until it gets activated again.

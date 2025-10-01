@@ -20,7 +20,7 @@ Reporting helps you track and analyse all of your test results. Head over to the
 
 {% badge type="info" text="Hint" /%} You must have **Export data and Reporting** permission to be able to view the reporting feature.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626957591/v2_2762/u6zmr41jqrqjpynhv8hc.png" caption="Admin &gt; Reporting" mode="responsive" height="453" width="1637" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/u6zmr41jqrqjpynhv8hc/1626957591.png" caption="Admin &gt; Reporting" mode="responsive" height="453" width="1637" %}
 {% /image %}
 
 You can download all the data
@@ -62,7 +62,7 @@ Opening a test result file will reveal the following information for each test r
 
 You can perform bulk actions on your reports, just select more than 2 of the entries and you will see a bulk actions button pop up:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1635498362/v2_2762/alwic9fl5qmo6ogfdiki.png" caption="Bulk actions" mode="responsive" height="116" width="332" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/alwic9fl5qmo6ogfdiki/1635498362.png" caption="Bulk actions" mode="responsive" height="116" width="332" %}
 {% /image %}
 
 ---
@@ -71,12 +71,12 @@ You can perform bulk actions on your reports, just select more than 2 of the ent
 
 If you have enabled home testing you will see a home testing view on your report section.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1639926262/v2_2762/ruxf49nfcv8dhcpmr8rk.jpg" caption="Home testing reporting" mode="responsive" height="982" width="2880" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ruxf49nfcv8dhcpmr8rk/1639926262.jpg" caption="Home testing reporting" mode="responsive" height="982" width="2880" %}
 {% /image %}
 
 You can then verify the test:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1639926322/v2_2762/gpezawzyzvd6kotomndl.jpg" caption="Verify the test" mode="300" height="1106" width="460" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/gpezawzyzvd6kotomndl/1639926322.jpg" caption="Verify the test" mode="300" height="1106" width="460" %}
 {% /image %}
 
 This will trigger an email to the customer with the certificate.

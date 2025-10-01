@@ -54,14 +54,14 @@ Customers use the Identity verification service to share ID documents or non-ID 
 
 The liveness process requires them to take a scan of their face in an 'anti-spoofing' liveness test. This is an automated process to make sure that it is a real person proving their identity and not a bot. This scan will be matched to the photo on their ID document to also ensure they are the owner of the ID document.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585254253/27269/ozuf3zrfpaex81ph7k1y.jpg" caption="Example of using Identity verification" mode="600" height="918" width="902" %}
+{% image url="https://image-archive.developerhub.io/image/upload/27269/ozuf3zrfpaex81ph7k1y/1585254253.jpg" caption="Example of using Identity verification" mode="600" height="918" width="902" %}
 {% /image %}
 
 ## Scenario 3: Identity verification + Liveness + App option
 
 You can also give users the option to verify their identity using the free Yoti app. This will also require the user to add an ID document and verify they’re a real person with a liveness test, but this will then create a reusable ID they can use at thousands of other websites and stores.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1600959970/29785/om0zicuhsommcktbakuu.jpg" caption="Example of using Identity verification with Digital ID" mode="full" height="1201" width="1700" %}
+{% image url="https://image-archive.developerhub.io/image/upload/29785/om0zicuhsommcktbakuu/1600959970.jpg" caption="Example of using Identity verification with Digital ID" mode="full" height="1201" width="1700" %}
 {% /image %}
 
 If you need any assistance with designs / flows  please do not hesitate to contact [clientsupport@yoti.com.](mailto:clientsupport@yoti.com)

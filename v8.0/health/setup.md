@@ -62,12 +62,12 @@ If you do not wish to set up your account with Yoti you can also use username an
 - Tick the terms and conditions
 - Press "**CREATE YOUR ACCOUNT".**
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615818907/v2_2762/rlw3lbeqhykjgyiprbgx.png" caption="Create your account" mode="600" height="1458" width="930" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/rlw3lbeqhykjgyiprbgx/1615818907.png" caption="Create your account" mode="600" height="1458" width="930" %}
 {% /image %}
 
 - After this you will need to check your emails for a verification link. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615818969/v2_2762/drub0ezl19xqx9mqa6jf.png" caption="Email verification" mode="600" height="610" width="1062" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/drub0ezl19xqx9mqa6jf/1615818969.png" caption="Email verification" mode="600" height="610" width="1062" %}
 {% /image %}
 
 Click the verification link in your inbox to open the portal. Here you will be asked to login to the system. 
@@ -80,7 +80,7 @@ Click the verification link in your inbox to open the portal. Here you will be a
 
 Type the same email address and password in and you be all logged in!
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615819219/v2_2762/czpmv8zfbap1fvrntrdk.png" caption="Login" mode="600" height="1210" width="914" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/czpmv8zfbap1fvrntrdk/1615819219.png" caption="Login" mode="600" height="1210" width="914" %}
 {% /image %}
 
 {% html %}
@@ -101,5 +101,5 @@ We strongly recommend that all users log in using their Yoti app. This ensures t
 
 If you have multi organisations set up with us you will be able to toggle between them:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1616706357/v2_2762/gzc9dieg76dzwjgok44c.png" caption="Home &gt; Org options" mode="responsive" height="1570" width="2880" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/gzc9dieg76dzwjgok44c/1616706357.png" caption="Home &gt; Org options" mode="responsive" height="1570" width="2880" %}
 {% /image %}

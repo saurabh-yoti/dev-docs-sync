@@ -12,7 +12,7 @@ tags:
 
 Within the data collection section you can add a supplementary questionnaire enabling a collector to record any symptoms that the customer wishes to disclose. This information does not affect the outcome of a customer’s test and a customer has the choice to skip it.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1633176061/v2_2762/cvjdbmkqu1pkc5neavw7.png" caption="Settings &gt; Data collection &gt; Symptom questionnaire" mode="responsive" height="558" width="770" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/cvjdbmkqu1pkc5neavw7/1633176061.png" caption="Settings &gt; Data collection &gt; Symptom questionnaire" mode="responsive" height="558" width="770" %}
 {% /image %}
 
 {% table %}

@@ -14,7 +14,7 @@ To add a user and enforce permissions to your portal:-
 
 - Go to the **portal users** tab
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623406826/v2_2762/zaesengamxv0dmz84k90.png" caption="Creating an application &gt; Portal Users" mode="responsive" height="648" width="1732" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/zaesengamxv0dmz84k90/1623406826.png" caption="Creating an application &gt; Portal Users" mode="responsive" height="648" width="1732" %}
 {% /image %}
 
 - Click add new user

@@ -14,7 +14,7 @@ You can control when you want to issue test results to your customers. A held re
 
 Under the results tab, there are two options available for issuing results:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1618428396/v2_2762/ain7hc1txsqts8jp78hb.png" caption="Settings &gt; Results" mode="responsive" height="472" width="1296" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ain7hc1txsqts8jp78hb/1618428396.png" caption="Settings &gt; Results" mode="responsive" height="472" width="1296" %}
 {% /image %}
 
 {% table %}
@@ -26,7 +26,7 @@ Under the results tab, there are two options available for issuing results:
 
 The last part of this section is to edit CQ value or add external results.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615827413/v2_2762/udlypzwghy92xvjcxoyu.png" caption="Settings &gt; Results" mode="responsive" height="458" width="610" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/udlypzwghy92xvjcxoyu/1615827413.png" caption="Settings &gt; Results" mode="responsive" height="458" width="610" %}
 {% /image %}
 
 {% html %}

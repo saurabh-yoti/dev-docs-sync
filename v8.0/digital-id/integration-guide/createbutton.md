@@ -289,7 +289,7 @@ ngOnDestroy(): void { this.YotiButton.destroy(); }
 
 The inline QR code option has a button which when clicked opens just the QR code. You will need to provide more context as to what Yoti is for this. See [auto$](/digital-id/scenario-examples) for more detail.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585935832/20477/vwoytddmqogp7sjjrblk.jpg" caption="Inline qr code" mode="300" height="312" width="468" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20477/vwoytddmqogp7sjjrblk/1585935832.jpg" caption="Inline qr code" mode="300" height="312" width="468" %}
 {% /image %}
 
 {% code %}
@@ -332,7 +332,7 @@ The inline QR code option has a button which when clicked opens just the QR code
 
 The instant QR code option is just the QR code with no button. You will need to provide more context as to what Yoti is for this. Example below:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1588180782/20477/bifs7i78su52yjcwsbyl.png" caption="Instant QR code" mode="300" height="365" width="296" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20477/bifs7i78su52yjcwsbyl/1588180782.png" caption="Instant QR code" mode="300" height="365" width="296" %}
 {% /image %}
 
 {% code %}
@@ -478,7 +478,7 @@ The important section of the URL is the string that follows https://code.yoti.co
 
 This URL must be transformed into a QR code before it can be scanned with the Yoti app. Yoti provides a simple API to transform this URL into an official Yoti QR - This is important to establish trust between your user base and Yoti.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603982953/72646/m7faajiso8zh5tjsccrf.png" caption="Static QR code example" mode="300" height="582" width="580" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72646/m7faajiso8zh5tjsccrf/1603982953.png" caption="Static QR code example" mode="300" height="582" width="580" %}
 {% /image %}
 
 {% code %}

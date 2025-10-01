@@ -26,7 +26,7 @@ A requested check to assess whether the document scan is being performed by a re
 
 You can allocate how many retries you want the user to complete. We recommend a maximum of 3.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636396972/v2_2762/thcsazhuwd84nrz4vnyg.png" caption="Application &gt; Portal preferences" mode="responsive" height="730" width="1076" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/thcsazhuwd84nrz4vnyg/1636396972.png" caption="Application &gt; Portal preferences" mode="responsive" height="730" width="1076" %}
 {% /image %}
 
 For several American states (currently Texas, Illinois and Washington US states*), the law mandates that you must collect the user’s specific consent to collect their biometric details for our liveness or face matching feature to be compliant with the US legislation.

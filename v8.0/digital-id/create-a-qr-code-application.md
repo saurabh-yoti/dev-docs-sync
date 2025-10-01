@@ -25,7 +25,7 @@ Here you will create your QR code page.
     1. Head over to your scenario (Click **applications**, your application and you will see the **scenario** tab).
     2. Click the small arrow in the scenario and press **Edit**.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1602102207/70977/h8ygkzddkcdiogn2rmcx.png" caption="Edit your scenario" mode="responsive" height="557" width="1253" %}
+{% image url="https://image-archive.developerhub.io/image/upload/70977/h8ygkzddkcdiogn2rmcx/1602102207.png" caption="Edit your scenario" mode="responsive" height="557" width="1253" %}
 {% /image %}
 
 5. The URL will be at the top of this page. Copy this URL as it will be the page that users will land on to scan the QR code.

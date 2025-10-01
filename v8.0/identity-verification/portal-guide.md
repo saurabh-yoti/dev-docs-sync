@@ -29,7 +29,7 @@ The below will guide you through step by step on how to get set up.
 
 ### Supported Browsers
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603187142/71142/rstg3qyxjlhzssaeqjfm.png" caption="Supported browsers" mode="600" height="216" width="688" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/rstg3qyxjlhzssaeqjfm/1603187142.png" caption="Supported browsers" mode="600" height="216" width="688" %}
 {% /image %}
 
 ---
@@ -64,7 +64,7 @@ Here you will to create an Identity verification application in your Yoti Hub. T
 - Click the **applications** tab in the side menu.
 - Choose which product you would like to integrate with, select **Identity verification:**
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623406298/v2_2762/celvi0kcxavscpr5sbkc.png" caption="Create an application" mode="responsive" height="1358" width="1734" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/celvi0kcxavscpr5sbkc/1623406298.png" caption="Create an application" mode="responsive" height="1358" width="1734" %}
 {% /image %}
 
 - After pressing **Proceed**
@@ -79,13 +79,13 @@ Here you will to create an Identity verification application in your Yoti Hub. T
 
 You will now see the following screen:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623406385/v2_2762/ztlnwpmvfn2wed1cfxdk.png" caption="Creating an application &gt; Keys" mode="responsive" height="1338" width="1788" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ztlnwpmvfn2wed1cfxdk/1623406385.png" caption="Creating an application &gt; Keys" mode="responsive" height="1338" width="1788" %}
 {% /image %}
 
 - Click on the **Keys** tab
 - Click the Generate keys button, you will be asked whether you want to store the keys.  Click this checkbox and the keys will automatically be managed by Yoti on your behalf. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636396903/v2_2762/ioqxjxe7akliwhm4ubbc.png" caption="Creating an application &gt; Keys &gt; Tick box" mode="responsive" height="1174" width="1054" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ioqxjxe7akliwhm4ubbc/1636396903.png" caption="Creating an application &gt; Keys &gt; Tick box" mode="responsive" height="1174" width="1054" %}
 {% /image %}
 
 If you ever decide that you no longer want Yoti to store your keys, you will be able to regenerate your keys and uncheck the checkbox.  This will prevent you or your users from being able to view existing data in the portal.
@@ -101,7 +101,7 @@ You will be provided with a list of checks that Identity verification provides.
 
 A session represents one end-to-end use of the ID verification service. Each time the ID verification service is initiated (regardless of which specific tasks/checks are required) a new session is created.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636396942/v2_2762/gxp0hzqjoiuo2zhpqvvd.png" caption="Creating an application &gt; Portal Preferences" mode="responsive" height="1158" width="1482" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/gxp0hzqjoiuo2zhpqvvd/1636396942.png" caption="Creating an application &gt; Portal Preferences" mode="responsive" height="1158" width="1482" %}
 {% /image %}
 
 Below describes the multiple checks Yoti provides for identity verification. We offer a manual check for most of the checks. If you require a manual check please select the following as part of your check:-

@@ -23,7 +23,7 @@ After you generate the keys and activate your application, it is necessary to ha
 
 To delete your application go Application &gt; **Edit** button &gt; press **Delete**. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575294779/20476/er1ipudlofoajnrvny7t.jpg" caption="Deleting your application" mode="responsive" height="366" width="1628" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/er1ipudlofoajnrvny7t/1575294779.jpg" caption="Deleting your application" mode="responsive" height="366" width="1628" %}
 {% /image %}
 
 There is also an option to deactivate your application which will keep an archive of your users receipts and integration as a paused state. Users will not be able use your integration until it gets activated again.

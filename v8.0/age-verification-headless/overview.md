@@ -45,5 +45,5 @@ We pride ourselves on how we handle our users' data. We use tech for good and en
 - Only collect the information you actually need. Data minimisation is one of the main benefits of Yoti, so people don't have to provide more information than is actually necessary.
 - Make sure any information you export to your own systems is stored securely. Data security is at the heart of what we do and we think it should be important to every organisation.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1604402402/72645/m4wu2a4v4d117o6ma00k.png" mode="300" height="376" width="384" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72645/m4wu2a4v4d117o6ma00k/1604402402.png" mode="300" height="376" width="384" %}
 {% /image %}

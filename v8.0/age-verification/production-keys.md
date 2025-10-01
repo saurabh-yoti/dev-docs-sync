@@ -17,12 +17,12 @@ You will need to create an application in the hub to obtain your API keys. You c
 - Head to the left hand nav bar and **select application** &gt; **create an application.**
 - Or select the blue button labelled **CREATE**.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615399051/v2_2762/piv1akrmh2uvnuljsxbr.png" mode="responsive" height="548" width="3076" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/piv1akrmh2uvnuljsxbr/1615399051.png" mode="responsive" height="548" width="3076" %}
 {% /image %}
 
 - Then pick which product you are integrating, in this case - **Age verification**.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1639911864/v2_2762/squv027ar50r7law0cdg.png" caption="Create an Age verification application" mode="responsive" height="988" width="1832" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/squv027ar50r7law0cdg/1639911864.png" caption="Create an Age verification application" mode="responsive" height="988" width="1832" %}
 {% /image %}
 
 ---
@@ -31,7 +31,7 @@ You will need to create an application in the hub to obtain your API keys. You c
 
 The next stage is to collect various IDs for your application.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1639911985/v2_2762/ppjjd7eniejekaveooeg.png" caption="Generating keys and settings" mode="responsive" height="931" width="940" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ppjjd7eniejekaveooeg/1639911985.png" caption="Generating keys and settings" mode="responsive" height="931" width="940" %}
 {% /image %}
 
 If you want to add premium services please tick the boxes in the blue box to enable. You can always change this later.
@@ -57,7 +57,7 @@ To delete your application go Application &gt; **Edit** button &gt; press **Dele
 
 There is also an option to deactivate your application which will hold your integration as a paused state. Users will not be able use your integration until it gets activated again.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575294779/20476/er1ipudlofoajnrvny7t.jpg" caption="Deleting your application" mode="responsive" height="366" width="1628" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/er1ipudlofoajnrvny7t/1575294779.jpg" caption="Deleting your application" mode="responsive" height="366" width="1628" %}
 {% /image %}
 
 {% badge type="info" text="Hint" /%} If you delete your application we cannot recover this for you.

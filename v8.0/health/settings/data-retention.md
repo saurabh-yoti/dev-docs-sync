@@ -28,5 +28,5 @@ Within the settings section you can choose how you manage how you store your cus
 
 There is an option to delete all customer personally identifiable information from Yoti’s server. This is not reversible, Yoti will not be able to recover the data.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1635497771/v2_2762/jdwlvu5midg7pbhwvimo.png" caption="Delete all data" mode="responsive" height="1546" width="2463" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/jdwlvu5midg7pbhwvimo/1635497771.png" caption="Delete all data" mode="responsive" height="1546" width="2463" %}
 {% /image %}

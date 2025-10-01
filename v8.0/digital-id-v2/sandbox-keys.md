@@ -24,7 +24,7 @@ We recommend familiarising yourself with the Yoti integrations to understand the
 
 Once logged in, choose '**Sandbox**' from the navigation bar.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585242548/27268/xqpdk2belqzeuxray6d2.jpg" caption="Login &gt; Sandbox" mode="300" height="992" width="580" %}
+{% image url="https://image-archive.developerhub.io/image/upload/27268/xqpdk2belqzeuxray6d2/1585242548.jpg" caption="Login &gt; Sandbox" mode="300" height="992" width="580" %}
 {% /image %}
 
 To create your sandbox application
@@ -33,7 +33,7 @@ To create your sandbox application
 - Select the blue button labelled CREATE and enter a sandbox application name.
 - Click on **SAVE** to generate a Sandbox ID and Key pair.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585242620/27268/pjm8aioymuidpojfhjis.jpg" caption="Login &gt; Sandbox &gt; Create &gt; Keys" mode="responsive" height="176" width="1632" %}
+{% image url="https://image-archive.developerhub.io/image/upload/27268/pjm8aioymuidpojfhjis/1585242620.jpg" caption="Login &gt; Sandbox &gt; Create &gt; Keys" mode="responsive" height="176" width="1632" %}
 {% /image %}
 
 Take note of your **Sandbox Client SDK ID** then:

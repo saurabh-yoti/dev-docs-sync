@@ -46,7 +46,7 @@ Here, you will have to create an Identity verification application in the Yoti H
 - Click the **applications** tab in the side menu.
 - Choose which product you would like to integrate with, select **Identity verification** here.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623406298/v2_2762/celvi0kcxavscpr5sbkc.png" caption="Create an application" mode="responsive" height="1358" width="1734" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/celvi0kcxavscpr5sbkc/1623406298.png" caption="Create an application" mode="responsive" height="1358" width="1734" %}
 {% /image %}
 
 - After this, press the **Continue** button**.**
@@ -61,13 +61,13 @@ Here, you will have to create an Identity verification application in the Yoti H
 
 - You will now see the following screen:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623406385/v2_2762/ztlnwpmvfn2wed1cfxdk.png" caption="Creating an application &gt; Keys" mode="responsive" height="1338" width="1788" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ztlnwpmvfn2wed1cfxdk/1623406385.png" caption="Creating an application &gt; Keys" mode="responsive" height="1338" width="1788" %}
 {% /image %}
 
 - Click on the **Keys** tab.
 - Click the 'Generate Key Pair' button, you will be asked whether you want to store the keys.  Click this checkbox and the keys will automatically be managed by Yoti on your behalf. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636396903/v2_2762/ioqxjxe7akliwhm4ubbc.png" caption="Creating an application &gt; Keys &gt; Tick box" mode="responsive" height="1174" width="1054" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ioqxjxe7akliwhm4ubbc/1636396903.png" caption="Creating an application &gt; Keys &gt; Tick box" mode="responsive" height="1174" width="1054" %}
 {% /image %}
 
 If you ever decide that you no longer want Yoti to store your keys, you will be able to regenerate your keys and uncheck the checkbox.  This will prevent you or your users from being able to view existing data in the portal.
@@ -102,7 +102,7 @@ Yoti recommends you keep the data only if necessary. By default we set the sessi
 
 Here you can configure the user view
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636397207/v2_2762/sm7ny10mvy8yercyehhk.png" caption="Portal &gt; Preferences" mode="responsive" height="1054" width="1052" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/sm7ny10mvy8yercyehhk/1636397207.png" caption="Portal &gt; Preferences" mode="responsive" height="1054" width="1052" %}
 {% /image %}
 
 {% table %}

@@ -33,7 +33,7 @@ If you would like to enhance security when sending across your document you can 
 
 When the signer opens their document they will need to provide a OTP:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624569030/v2_2762/pparhigzsdd4st3jeb1h.png" caption="OTP message" mode="300" height="686" width="898" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/pparhigzsdd4st3jeb1h/1624569030.png" caption="OTP message" mode="300" height="686" width="898" %}
 {% /image %}
 
 After they press continue they must enter the verification code to continue.

@@ -24,7 +24,7 @@ We strongly suggest you read the sections above and understand the user flow and
 
 To enable a request to assess the characteristics of a document, to determine the validity of the ID document. Yoti will perform multiple checks on a ID document.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636396994/v2_2762/dsmvreyojy5x6tbipnkq.png" caption="Application &gt; Portal preferences" mode="responsive" height="1078" width="1086" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/dsmvreyojy5x6tbipnkq/1636396994.png" caption="Application &gt; Portal preferences" mode="responsive" height="1078" width="1086" %}
 {% /image %}
 
 You can configure two options here:
@@ -34,5 +34,5 @@ You can configure two options here:
 
 If you would like to collect two ID documents please click request additional document click Request additional document. If you request your users to upload more than one document we offer the ability to cross check the data. You must have text extraction on both documents enabled.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636397042/v2_2762/smsqjrz2lkfztoz0sig3.png" caption="Application &gt; Portal preferences" mode="responsive" height="736" width="1068" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/smsqjrz2lkfztoz0sig3/1636397042.png" caption="Application &gt; Portal preferences" mode="responsive" height="736" width="1068" %}
 {% /image %}

@@ -17,7 +17,7 @@ Yoti allows you to issue your own 'attribute' to a Yoti user. This document will
 
 A verifiable credential​ is handled in the same way as all [auto$](/digital-id/yoti-attributes) but follows the same concept as the [W3C standard](https://www.w3.org/TR/vc-data-model/#what-is-a-verifiable-credential). The definition of an attribute is an assertion made about a user. It can be identity information, something that the user owns and can prove they are in control of.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1604061494/72661/k7rfslsm5vax0lgltljp.png" caption="Credential creation with Yoti" mode="full" height="3692" width="3311" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72661/k7rfslsm5vax0lgltljp/1604061494.png" caption="Credential creation with Yoti" mode="full" height="3692" width="3311" %}
 {% /image %}
 
 {% html %}
