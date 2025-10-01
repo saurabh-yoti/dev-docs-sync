@@ -20,7 +20,7 @@ Reporting helps you track and analyse all of your test results. Head over to the
 
 {% badge type="info" text="Hint" /%} You must have **Export data and Reporting** permission to be able to view the reporting feature.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626957591/v2_2762/u6zmr41jqrqjpynhv8hc.png" caption="Admin &gt; Reporting" mode="responsive" height="453" width="1637" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/u6zmr41jqrqjpynhv8hc/1626957591.png" caption="Admin &gt; Reporting" mode="responsive" height="453" width="1637" %}
 {% /image %}
 
 You can download all the data

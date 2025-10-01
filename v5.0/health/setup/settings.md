@@ -28,7 +28,7 @@ To go to your settings click on the hamburger menu, click **Admin** and **Settin
 
 Your organisation details will be on this tab. You shouldn't need to change anything here.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626954910/v2_2762/oh5gp30ucxayhfphub5z.png" caption="Settings &gt; General" mode="responsive" height="556" width="890" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/oh5gp30ucxayhfphub5z/1626954910.png" caption="Settings &gt; General" mode="responsive" height="556" width="890" %}
 {% /image %}
 
 {% table widths="232" %}
@@ -44,7 +44,7 @@ Your organisation details will be on this tab. You shouldn't need to change anyt
 
 You can also add your organisation logo to the portal.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1621278701/v2_2762/wf5q76u5tqkiwnw9rciu.png" caption="Settings &gt; General&gt; Logo upload" mode="responsive" height="295" width="553" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/wf5q76u5tqkiwnw9rciu/1621278701.png" caption="Settings &gt; General&gt; Logo upload" mode="responsive" height="295" width="553" %}
 {% /image %}
 
 ---
@@ -53,7 +53,7 @@ You can also add your organisation logo to the portal.
 
 Here you will manage how you store your customer testing data in the portal.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623419793/v2_2762/mkidozjdgm7giwpahev9.png" caption="Settings &gt; Data Retention" mode="responsive" height="686" width="1862" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/mkidozjdgm7giwpahev9/1623419793.png" caption="Settings &gt; Data Retention" mode="responsive" height="686" width="1862" %}
 {% /image %}
 
 {% table widths="294" %}
@@ -132,12 +132,12 @@ If Test and Release is selected, the customer will receive an email following PH
 
 If you toggle this feature, when you are in the collection flow you will see the option to click test and release. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626959458/v2_2762/zm9npugdgbfqyqcs3qny.png" caption="Test and release option on collection flow" mode="300" height="1520" width="822" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/zm9npugdgbfqyqcs3qny/1626959458.png" caption="Test and release option on collection flow" mode="300" height="1520" width="822" %}
 {% /image %}
 
 An example of the email sent to users is shown below:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626959718/v2_2762/vpxx9dlfoyfhdeack21u.png" caption="Example email for test and release" mode="responsive" height="559" width="1412" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/vpxx9dlfoyfhdeack21u/1626959718.png" caption="Example email for test and release" mode="responsive" height="559" width="1412" %}
 {% /image %}
 
 Head over here to see how to [send results. ](https://developers.yoti.com/health/results#issuing-results)
@@ -146,7 +146,7 @@ Head over here to see how to [send results. ](https://developers.yoti.com/health
 
 In order to expedite the Collection flow, you may choose to allow your customer to pre-register. If this option is enabled, you will be able to upload your customer's details via a csv file in the **Customer data** tab in **Admin**. You must have the **Customer data** permission to be able to access the **Customer data** area.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1612956284/v2_2762/uanaw7gbadtwmxih9zlq.png" mode="responsive" height="436" width="374" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/uanaw7gbadtwmxih9zlq/1612956284.png" mode="responsive" height="436" width="374" %}
 {% /image %}
 
 The csv should contain all the data you require from your customers, as per the [template](https://www.yoti.com/wp-content/uploads/Pre-registration-template.csv) displayed under. Once the customer has been tested, their details will be removed from the database where they were stored.
@@ -164,17 +164,17 @@ If you enable this feature you will need to provide your:
 - Privacy URL
 - Terms and conditions URL (optional)
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626960512/v2_2762/ahw4spw1cvgbl8yhjmlq.png" caption="Self registration toggle" mode="responsive" height="686" width="603" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ahw4spw1cvgbl8yhjmlq/1626960512.png" caption="Self registration toggle" mode="responsive" height="686" width="603" %}
 {% /image %}
 
 The custom made URL will look like this:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626960732/v2_2762/wuujh0xjgw2llmo68meb.png" caption="Self registration URL landing page" mode="responsive" height="805" width="954" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/wuujh0xjgw2llmo68meb/1626960732.png" caption="Self registration URL landing page" mode="responsive" height="805" width="954" %}
 {% /image %}
 
 The user will press **select** and will fill in their details and receive the following email:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626960975/v2_2762/yzdmbwqp5vmrd9sp6erq.png" mode="responsive" height="527" width="712" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/yzdmbwqp5vmrd9sp6erq/1626960975.png" mode="responsive" height="527" width="712" %}
 {% /image %}
 
 When the customer comes on site and you start collecting, after adding their Bag ID if you click **pre-registered**, you can enter their registration number and all their details should populate. 
@@ -191,7 +191,7 @@ You can control when you want to issue test results to your customers. A held re
 
 Under the results tab, there are two options available for issuing results:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1618428396/v2_2762/ain7hc1txsqts8jp78hb.png" caption="Settings &gt; Results" mode="responsive" height="472" width="1296" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ain7hc1txsqts8jp78hb/1618428396.png" caption="Settings &gt; Results" mode="responsive" height="472" width="1296" %}
 {% /image %}
 
 {% table %}
@@ -203,7 +203,7 @@ Under the results tab, there are two options available for issuing results:
 
 The last part of this section is to edit CQ value or add external results.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615827413/v2_2762/udlypzwghy92xvjcxoyu.png" caption="Settings &gt; Results" mode="responsive" height="458" width="610" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/udlypzwghy92xvjcxoyu/1615827413.png" caption="Settings &gt; Results" mode="responsive" height="458" width="610" %}
 {% /image %}
 
 {% html %}
@@ -227,7 +227,7 @@ The last part of this section is to edit CQ value or add external results.
 
 Here you will have the ability to send a printed certificate a PDF certificate by email. You can turn this feature on by using the toggle. When ON, you can select the fields they wish to display in the certificate. If any field selected isn't actually being collected as part of the collection flow the user will see a notification and can choose to add it in the Data Collection field or not. If not, this field will be displayed empty in the certificate.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1618428307/v2_2762/ar37rovpdn5om4guzdc8.png" caption="Settings &gt; Printed certificate" mode="responsive" height="283" width="679" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ar37rovpdn5om4guzdc8/1618428307.png" caption="Settings &gt; Printed certificate" mode="responsive" height="283" width="679" %}
 {% /image %}
 
 You will have the option to select fields to add to the certification and your organisation logo here too:
@@ -239,17 +239,17 @@ You will have the option to select fields to add to the certification and your o
 
 You can preview the certificate template and download a copy to see what your users will receive:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1627286690/v2_2762/w5ypghwgeyqwwq5ptfqs.png" caption="Download certificate." mode="responsive" height="316" width="1022" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/w5ypghwgeyqwwq5ptfqs/1627286690.png" caption="Download certificate." mode="responsive" height="316" width="1022" %}
 {% /image %}
 
 The certificate will be sent via email to all customers, indifferent if they have used the Yoti App or the webform to share their details.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626955493/v2_2762/udppmzho2amqavurymec.png" caption="Reporting &gt; Download print certificate" mode="responsive" height="800" width="1652" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/udppmzho2amqavurymec/1626955493.png" caption="Reporting &gt; Download print certificate" mode="responsive" height="800" width="1652" %}
 {% /image %}
 
 The certificate can also be downloaded by users with Reporting permissions by choosing the "Print certificate" option. The certificate will look along the lines of the document below:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1621353625/v2_2762/uvlo4fnjlktunjikxy9c.png" caption="Printed certificate" mode="responsive" height="860" width="1370" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/uvlo4fnjlktunjikxy9c/1621353625.png" caption="Printed certificate" mode="responsive" height="860" width="1370" %}
 {% /image %}
 
 This QR code can be verified using our scanning platform. Head over [here](https://developers.yoti.com/health/certificates) for more information.

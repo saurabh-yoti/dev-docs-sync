@@ -39,7 +39,7 @@ The overview below sets out the entities and data flows involved.
 
 The Anti-spoofing API is a low-friction passive liveness detection service that can be integrated seamlessly into a workflow. It’s a simple process for users, only requiring them to take a selfie. Yoti uses machine learning to train a deep neural network to recognise presentation attacks.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1612431880/v2_2762/nu6iojfl4v7cltyg0ih4.png" caption="Anti-spoofing API" mode="responsive" height="196" width="794" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/nu6iojfl4v7cltyg0ih4/1612431880.png" caption="Anti-spoofing API" mode="responsive" height="196" width="794" %}
 {% /image %}
 
 The user's image is securely transmitted to the Yoti API (hosted in the United Kingdom and secured by TLS 1.2 encryption). The checks employed can be triggered dynamically depending on the confidence score generated from successive checks.
@@ -97,7 +97,7 @@ Head over to our user experience section to create an optimal experiences for yo
 
 We pride ourselves on how we handle our users' data. We use tech for good and enable users to securely prove their identity or age, always being transparent about what happens to their details.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1604402428/72640/nuvgb0f6rqwwufibxklj.png" mode="300" height="376" width="384" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72640/nuvgb0f6rqwwufibxklj/1604402428.png" mode="300" height="376" width="384" %}
 {% /image %}
 
 - Be transparent about why you're collecting data and only use this data for those reasons.

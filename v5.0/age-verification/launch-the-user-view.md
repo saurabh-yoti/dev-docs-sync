@@ -35,7 +35,7 @@ https://age.yoti.com?sessionId=<sessionId>&sdkId=<sdkId>
 
 Once the Yoti Client has launched it will take the user through the age verification flow. The user will be redirected to the specified call back URL on completion of one of the age verification methods.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603979234/72728/pbpim3nnb57jegewbhno.png" caption="user view" mode="responsive" height="664" width="1060" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72728/pbpim3nnb57jegewbhno/1603979234.png" caption="user view" mode="responsive" height="664" width="1060" %}
 {% /image %}
 
 {% html %}
@@ -65,7 +65,7 @@ The following items can be customised:
 - Body buttons
 - Card buttons
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623857266/v2_2762/n5wifwictftx0oe3axro.png" caption="Theming" mode="responsive" height="1278" width="2846" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/n5wifwictftx0oe3axro/1623857266.png" caption="Theming" mode="responsive" height="1278" width="2846" %}
 {% /image %}
 
 Themes are assigned per SDK ID and cannot be dynamically changed at session creation.

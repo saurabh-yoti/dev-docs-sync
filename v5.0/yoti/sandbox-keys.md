@@ -46,7 +46,7 @@ Your account does not have to be approved for you to start using this service.
 
 Once logged in, choose '**Sandbox**' from the navigation bar.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585242548/27268/xqpdk2belqzeuxray6d2.jpg" caption="Login &gt; Sandbox" mode="300" height="992" width="580" %}
+{% image url="https://image-archive.developerhub.io/image/upload/27268/xqpdk2belqzeuxray6d2/1585242548.jpg" caption="Login &gt; Sandbox" mode="300" height="992" width="580" %}
 {% /image %}
 
 To create your sandbox application
@@ -55,7 +55,7 @@ To create your sandbox application
 - Enter a sandbox application name
 - Hit **SAVE** to generate a Sandbox ID and Key pair.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585242620/27268/pjm8aioymuidpojfhjis.jpg" caption="Login &gt; Sandbox &gt; Get started &gt; Keys" mode="responsive" height="176" width="1632" %}
+{% image url="https://image-archive.developerhub.io/image/upload/27268/pjm8aioymuidpojfhjis/1585242620.jpg" caption="Login &gt; Sandbox &gt; Get started &gt; Keys" mode="responsive" height="176" width="1632" %}
 {% /image %}
 
 Take note of your **Sandbox Client SDK ID** then 

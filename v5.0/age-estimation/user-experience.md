@@ -50,12 +50,12 @@ Emotional responses during age verification differ depending on a user’s surro
 
 In a **public** environment, there can be a decrease in user confidence that influences the speed at which someone will choose, or conversely not choose to complete age verification.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1583315347/20553/dkorjmhcvyztqmy4wxol.png" caption="Public Devices" mode="full" height="486" width="1444" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20553/dkorjmhcvyztqmy4wxol/1583315347.png" caption="Public Devices" mode="full" height="486" width="1444" %}
 {% /image %}
 
 In a **private** environment, users spend more time to read the information provided, resulting in a greater understanding of the service.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1583315365/20553/fwyuarpooujbiuojqsoc.png" caption="Private devices" mode="responsive" height="486" width="1444" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20553/fwyuarpooujbiuojqsoc/1583315365.png" caption="Private devices" mode="responsive" height="486" width="1444" %}
 {% /image %}
 
 Age estimation is available in a myriad of environments, on many device types. We highly recommend that you adjust contextual, guidance and reassurance content to best suit your target audience and their environment in which they use Age estimation.
@@ -64,7 +64,7 @@ Age estimation is available in a myriad of environments, on many device types. W
 
 We have provided a list of examples for contextual, guidance and reassurance content for many scenarios. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1584025978/20553/eusrnun0x12s9ybju9cb.png" mode="600" height="82" width="1274" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20553/eusrnun0x12s9ybju9cb/1584025978.png" mode="600" height="82" width="1274" %}
 {% /image %}
 
 {% html %}
@@ -135,7 +135,7 @@ To learn how to structure this content in your user journey, please view our sce
 
 We recognise three aspects that can affect the accuracy of an age estimation. That’s why we recommend providing the following before an age estimation, so that a user can ensure a successful scan of their face:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1583315383/20553/t1mnojeu6ykcelytlvb4.png" caption="Guidance images" mode="300" height="284" width="720" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20553/t1mnojeu6ykcelytlvb4/1583315383.png" caption="Guidance images" mode="300" height="284" width="720" %}
 {% /image %}
 
 Light of the face should be as evenly lit as possible, so ensuring a user is in a well lit area, helps to reduce the uncertainty of the age estimation.
@@ -148,7 +148,7 @@ Users wearing glasses have a tendency to believe removing eyewear will improve t
 
 We recognise three aspects that can affect a user’s confidence in using Age estimation technology. We recommend highlighting this content before an age estimation to alleviate these concerns:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1583315398/20553/riqvwux8xwsuzxm8kxxh.png" caption="Reassurance" mode="300" height="474" width="712" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20553/riqvwux8xwsuzxm8kxxh/1583315398.png" caption="Reassurance" mode="300" height="474" width="712" %}
 {% /image %}
 
 Ensure that you are being transparent with regards to what the photo is going to be used for and make sure that it gets permanently deleted from your system once the age estimation has been performed.
@@ -163,7 +163,7 @@ Users who choose Age estimation will be shown our persistent ‘Powered by Yoti�
 
 Please do not alter or create your own asset.  Please contact us with regards to assets at [clientsupport@yoti.com.](mailto:clientsupport@yoti.com) You will need to provide a powered by Yoti logo on your age estimation service.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1583315441/20553/xosrmewglvaurhcckjmg.png" caption="Yoti Logo" mode="600" height="224" width="900" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20553/xosrmewglvaurhcckjmg/1583315441.png" caption="Yoti Logo" mode="600" height="224" width="900" %}
 {% /image %}
 
 ## Assets

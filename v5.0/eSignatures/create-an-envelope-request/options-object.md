@@ -52,7 +52,7 @@ This service will send an email to the recipient prompting them through the Yoti
 {% /tab %}
 {% /code %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1616004720/v2_2762/pplgz6bqznglccaqlscz.png" caption="Body &gt; Email object" mode="600" height="542" width="614" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/pplgz6bqznglccaqlscz/1616004720.png" caption="Body &gt; Email object" mode="600" height="542" width="614" %}
 {% /image %}
 
 {% table %}

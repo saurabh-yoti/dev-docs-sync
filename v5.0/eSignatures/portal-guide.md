@@ -48,14 +48,14 @@ Once you have received your login details from our business representatives.  Yo
 - Yoti app. Add your email address to your Yoti and scan the QR code. 
 - Email address and password.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624549350/v2_2762/gzsvzvh7kktdkzstvo7l.png" caption="Login" mode="300" height="1574" width="1066" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/gzsvzvh7kktdkzstvo7l/1624549350.png" caption="Login" mode="300" height="1574" width="1066" %}
 {% /image %}
 
 - If you don't have an account click: Start your free trail today.
 
 Once you have logged in you will be automatically redirected to your portal home screen. If you are part more than one portal account you will then select which account you wish to log into:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624550060/v2_2762/tdifrtmtivsixrlzlvfo.png" caption="Login &gt; Select account" mode="300" height="1018" width="1030" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/tdifrtmtivsixrlzlvfo/1624550060.png" caption="Login &gt; Select account" mode="300" height="1018" width="1030" %}
 {% /image %}
 
 ---
@@ -73,13 +73,13 @@ To add a user:
 
 - Click on Manage users
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626794130/v2_2762/wr8ajgxeh2baak8hbxbt.png" caption="User page" mode="responsive" height="635" width="1653" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/wr8ajgxeh2baak8hbxbt/1626794130.png" caption="User page" mode="responsive" height="635" width="1653" %}
 {% /image %}
 
 - Press "ADD USER"
 - Add the users email address and role.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626794305/v2_2762/zgzablnufuw2nbbcc3mo.png" caption="User permission" mode="responsive" height="462" width="418" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/zgzablnufuw2nbbcc3mo/1626794305.png" caption="User permission" mode="responsive" height="462" width="418" %}
 {% /image %}
 
 - Press "ADD"
@@ -89,7 +89,7 @@ To add a user:
 
 If at a later date you would like to remove a user you can search and find their entry, click Remove. You will be presented with a confirmation screen as per below:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626794441/v2_2762/vdx7ek4fkpgcg7fsrmc3.png" caption="Remove user confirmation screen" mode="responsive" height="379" width="464" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/vdx7ek4fkpgcg7fsrmc3/1626794441.png" caption="Remove user confirmation screen" mode="responsive" height="379" width="464" %}
 {% /image %}
 
 ---
@@ -98,7 +98,7 @@ If at a later date you would like to remove a user you can search and find their
 
 Tap your email address in the top right hand corner. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624569794/v2_2762/ttc9oq9jlvybpw3es6hz.png" caption="Logout" mode="300" height="474" width="564" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ttc9oq9jlvybpw3es6hz/1624569794.png" caption="Logout" mode="300" height="474" width="564" %}
 {% /image %}
 
 Press **Log out.**

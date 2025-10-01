@@ -21,18 +21,18 @@ In order to set up a template you need to head over to the templates section. Cl
 - Click **TEMPLATES** on the left hand nav.
 - Press **NEW TEMPLATE.**
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1616082861/v2_2762/creymy1mcgzyg5clifk2.png" caption="Landing page &gt; Templates" mode="responsive" height="670" width="1652" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/creymy1mcgzyg5clifk2/1616082861.png" caption="Landing page &gt; Templates" mode="responsive" height="670" width="1652" %}
 {% /image %}
 
 - Upload your document
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1616083073/v2_2762/lebjjhbef69lrxjazvyc.png" caption="Landing page &gt; Templates &gt; Upload documents" mode="responsive" height="663" width="1258" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/lebjjhbef69lrxjazvyc/1616083073.png" caption="Landing page &gt; Templates &gt; Upload documents" mode="responsive" height="663" width="1258" %}
 {% /image %}
 
 - One you have uploaded your document press **NEXT**.
 - You then need to add your signers. You can add just the role at this point. The name and email are optional.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1616083468/v2_2762/txysa0uyznznc0dbuybd.png" caption="Landing page &gt; Templates &gt; Upload documents &gt; Add signee" mode="responsive" height="407" width="1235" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/txysa0uyznznc0dbuybd/1616083468.png" caption="Landing page &gt; Templates &gt; Upload documents &gt; Add signee" mode="responsive" height="407" width="1235" %}
 {% /image %}
 
 - Press **ADD** and **NEXT**
@@ -40,7 +40,7 @@ In order to set up a template you need to head over to the templates section. Cl
 - Press **NEXT**.
 - Press **SAVE.**
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1616083578/v2_2762/r3p3vtoh6fylceqt3c36.png" caption="Template saved" mode="responsive" height="456" width="547" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/r3p3vtoh6fylceqt3c36/1616083578.png" caption="Template saved" mode="responsive" height="456" width="547" %}
 {% /image %}
 
 {% badge type="info" text="Hint" /%} Yoti supports multiple documents with templates.
@@ -51,13 +51,13 @@ In your template section in the portal, find your template.
 
 - Click **USE TEMPLATE.**
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1616083714/v2_2762/uynwdatuiiur7sskxmss.png" caption="Templates" mode="responsive" height="422" width="1418" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/uynwdatuiiur7sskxmss/1616083714.png" caption="Templates" mode="responsive" height="422" width="1418" %}
 {% /image %}
 
 - This will automatically upload the template for you to then add signers.
 - If you want to export the template for your colleagues to use. Click the **...** on the template. Click **export**.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1616083814/v2_2762/lls2klohlq3v1dew1c5k.png" caption="Templates &gt; Export" mode="responsive" height="255" width="241" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/lls2klohlq3v1dew1c5k/1616083814.png" caption="Templates &gt; Export" mode="responsive" height="255" width="241" %}
 {% /image %}
 
 This will download a .JSON file which you can send to your colleagues and they can import by pressing IMPORT TEMPLATE on their portal view.

@@ -31,7 +31,7 @@ The new set of Yoti buttons and QR code styles use the client-side JavaScript li
 
 The addition of the element: **skinId.** The Different options are as follows:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1631884840/v2_2762/jj9qqt7qg8hc7wznuapq.png" caption="Button options" mode="responsive" height="600" width="890" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/jj9qqt7qg8hc7wznuapq/1631884840.png" caption="Button options" mode="responsive" height="600" width="890" %}
 {% /image %}
 
 {% table %}

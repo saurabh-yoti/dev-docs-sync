@@ -42,7 +42,7 @@ Yoti offers two API's to integrate this service:
 
 The user's image is securely transmitted to the Yoti API (hosted in the United Kingdom and uses TLS 1.3 encryption in transit). After the age estimation is performed, the captured facial image is discarded and Yoti returns a predicted age and uncertainty value.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1602180870/29764/hztzzbcgrvzedien5vsg.png" caption="Age estimation overview" mode="responsive" height="196" width="794" %}
+{% image url="https://image-archive.developerhub.io/image/upload/29764/hztzzbcgrvzedien5vsg/1602180870.png" caption="Age estimation overview" mode="responsive" height="196" width="794" %}
 {% /image %}
 
 Optionally you can use Anti-spoofing to add a layer of security to the service and ensure the user is using their own face for estimation. Yoti uses machine learning to train a deep neural network to recognise presentation attacks. This will help prevent malicious users trying to user a fake image to get a higher or lower age estimation than a legitimate attempt would produce.
@@ -100,5 +100,5 @@ We pride ourselves on how we handle our users' data. We use tech for good and en
 - Only collect the information you actually need. Data minimisation is one of the main benefits of Yoti, so people don't have to provide more information than is actually necessary.
 - Make sure any information you export to your own systems is stored securely. Data security is at the heart of what we do and we think it should be important to every organisation.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1604402428/72640/nuvgb0f6rqwwufibxklj.png" mode="300" height="376" width="384" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72640/nuvgb0f6rqwwufibxklj/1604402428.png" mode="300" height="376" width="384" %}
 {% /image %}

@@ -42,7 +42,7 @@ Have a look at our FAQs for more information.    </div>
 
 Here you will upload your document, you can also import a template. This feature is in Beta, so please do give us feedback. See templates section for more information.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615987055/v2_2762/uidkd3rkshindtzqw7ed.png" caption="Send a document &gt; Upload document" mode="responsive" height="1760" width="2762" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/uidkd3rkshindtzqw7ed/1615987055.png" caption="Send a document &gt; Upload document" mode="responsive" height="1760" width="2762" %}
 {% /image %}
 
 After you have uploaded the document you will get a visual notification that the upload is complete. At this point you can:
@@ -58,21 +58,21 @@ Carry on through the documentation for more information on these features.
 
 Once the document is uploaded you can delete the document if you do not wish to proceed by pressing the "bin".
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624567258/v2_2762/qunjhsrxsuul9hzmgzrj.png" caption="Send a document &gt; Upload document &gt; Delete" mode="responsive" height="774" width="1984" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/qunjhsrxsuul9hzmgzrj/1624567258.png" caption="Send a document &gt; Upload document &gt; Delete" mode="responsive" height="774" width="1984" %}
 {% /image %}
 
 ### Replace the document
 
 Once the document is uploaded you can replace the document if you have uploaded an incorrect document. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624567407/v2_2762/uuadnyummvt3kd07skgg.png" caption="Send a document &gt; Upload document &gt; Replace" mode="responsive" height="774" width="1984" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/uuadnyummvt3kd07skgg/1624567407.png" caption="Send a document &gt; Upload document &gt; Replace" mode="responsive" height="774" width="1984" %}
 {% /image %}
 
 ### Upload another document
 
 At this point you can upload more than one document to the same envelope. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624567502/v2_2762/srfr8zxssac9c24d1d8y.png" caption="Send a document &gt; Upload document &gt; Upload another document" mode="responsive" height="774" width="1984" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/srfr8zxssac9c24d1d8y/1624567502.png" caption="Send a document &gt; Upload document &gt; Upload another document" mode="responsive" height="774" width="1984" %}
 {% /image %}
 
 Please see video explainer:
@@ -100,12 +100,12 @@ Auto-tagging allows you to dynamically tag a document by including special ancho
 
 - Click **Options** and **Auto-tagging.**
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615987329/v2_2762/xhxgyatyb1kakitxe5vl.png" caption="Options &gt; Auto-tagging" mode="responsive" height="680" width="1932" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/xhxgyatyb1kakitxe5vl/1615987329.png" caption="Options &gt; Auto-tagging" mode="responsive" height="680" width="1932" %}
 {% /image %}
 
 - Press **apply**.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615987389/v2_2762/vureknbhass0galsrke0.png" caption="Options &gt; Auto-tagging &gt; Apply fields" mode="300" height="728" width="930" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/vureknbhass0galsrke0/1615987389.png" caption="Options &gt; Auto-tagging &gt; Apply fields" mode="300" height="728" width="930" %}
 {% /image %}
 
 - Now you can press **NEXT** and continue with the document set up.
@@ -120,7 +120,7 @@ Here you can add the signer details. Add the following attributes:
 - Email address - do not worry if you get this wrong. We will let you know and you can edit the details and resend.
 - Role
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615989921/v2_2762/egyj8yjduc0yyyckozx6.png" caption="Send a document &gt; Signers" mode="responsive" height="1644" width="1982" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/egyj8yjduc0yyyckozx6/1615989921.png" caption="Send a document &gt; Signers" mode="responsive" height="1644" width="1982" %}
 {% /image %}
 
 A unique feature for our eSignatures platform is the ability to add a Yoti verification on top the signature.
@@ -131,7 +131,7 @@ To add the Yoti authentication:-
 - Switch the toggle ON, you will see a list of attributes to select
 - Add which extra attributes you wish to have associated with the signature.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1616001929/v2_2762/xvfefwxbsaumizffelxi.png" caption="Send a document &gt; Signers &gt; Verify with Yoti." mode="responsive" height="1088" width="1948" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/xvfefwxbsaumizffelxi/1616001929.png" caption="Send a document &gt; Signers &gt; Verify with Yoti." mode="responsive" height="1088" width="1948" %}
 {% /image %}
 
 {% badge type="info" text="Hint" /%} You can add multiple people to sign the same document.
@@ -156,17 +156,17 @@ You can also upload a bulk send of signers. You will need a CSV ready! Yoti will
 
 - Press: Start bulk send
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1628071102/v2_2762/tlv8sl74zviwl5eya2ov.png" mode="responsive" height="709" width="1062" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/tlv8sl74zviwl5eya2ov/1628071102.png" mode="responsive" height="709" width="1062" %}
 {% /image %}
 
 - You will have the option to upload a CSV / Download the template to then add users. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1628071246/v2_2762/cydeysjtfiz6so9wtlvf.png" caption="Bulk / Download" mode="responsive" height="257" width="745" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/cydeysjtfiz6so9wtlvf/1628071246.png" caption="Bulk / Download" mode="responsive" height="257" width="745" %}
 {% /image %}
 
 - Once this upload is complete you will have the option to check errors and edit.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1628071423/v2_2762/s022kipoyaag2wyinzf8.png" caption="Confirm bulk upload" mode="responsive" height="444" width="958" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/s022kipoyaag2wyinzf8/1628071423.png" caption="Confirm bulk upload" mode="responsive" height="444" width="958" %}
 {% /image %}
 
 {% html %}
@@ -189,7 +189,7 @@ Add a non signer recipient
 
 You can add a non signing recipient, who will receive a copy of the completion pack. The non signing recipient (CC recipient) does not receive an invitation to the envelope, once the envelope is complete and all signers have signed then the completion pack email is triggered and is sent to all recipients including non signing recipients.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1628071299/v2_2762/zruk2qryjxmo1gifgzsf.png" caption="Non signer flow" mode="responsive" height="319" width="949" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/zruk2qryjxmo1gifgzsf/1628071299.png" caption="Non signer flow" mode="responsive" height="319" width="949" %}
 {% /image %}
 
 To enable a non signer recipient click: Receives a copy.
@@ -198,7 +198,7 @@ To enable a non signer recipient click: Receives a copy.
 
 The portal has the ability to do signing orders. This will you to mandate that a certain signee signs before/after the rest. If you wish to enable this feature toggle **ON** signing order.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1616082723/v2_2762/hzfdsb8fh0snwbpudbkv.png" caption="Signing order" mode="responsive" height="448" width="929" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/hzfdsb8fh0snwbpudbkv/1616082723.png" caption="Signing order" mode="responsive" height="448" width="929" %}
 {% /image %}
 
 - Press **ADD**
@@ -210,14 +210,14 @@ If you would like to enhance security when sending across your document you can 
 
 - Toggle the One time password on
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624568525/v2_2762/agkzrzkjwo5z1vjei7yg.png" caption="One time password" mode="responsive" height="1306" width="1958" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/agkzrzkjwo5z1vjei7yg/1624568525.png" caption="One time password" mode="responsive" height="1306" width="1958" %}
 {% /image %}
 
 - Enter a mobile number. 
 
 When the signer opens their document they will need to provide a OTP:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624569030/v2_2762/pparhigzsdd4st3jeb1h.png" caption="OTP message" mode="300" height="686" width="898" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/pparhigzsdd4st3jeb1h/1624569030.png" caption="OTP message" mode="300" height="686" width="898" %}
 {% /image %}
 
 After they press continue they must enter the verification code to continue. 
@@ -228,24 +228,24 @@ At this point, you have uploaded a document and added a signer. You can add a wi
 
 {% badge type="success" text="Hint" /%} If you add a witness, OTP will automatically be mandatory. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624568371/v2_2762/vcypb6s9vij9rztnlt53.png" mode="responsive" height="1034" width="1854" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/vcypb6s9vij9rztnlt53/1624568371.png" mode="responsive" height="1034" width="1854" %}
 {% /image %}
 
 When you send off this document, the signer will receive an email highlighting to them that a witness is required. We mention here that it is a legal requirement that the witness sees the signer applying the digital signature. 
 
 The signer will also receive a pop up before signing the document:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624569362/v2_2762/hbbdhzgttydmawok4rsr.png" caption="Witness explainer" mode="300" height="1210" width="1046" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/hbbdhzgttydmawok4rsr/1624569362.png" caption="Witness explainer" mode="300" height="1210" width="1046" %}
 {% /image %}
 
 The signer will complete their signing and will be asked to enter their witness details. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624569456/v2_2762/sojfihizlhy7h8dfcipk.png" caption="Witness details" mode="300" height="1018" width="802" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/sojfihizlhy7h8dfcipk/1624569456.png" caption="Witness details" mode="300" height="1018" width="802" %}
 {% /image %}
 
 The witness will now receive an email with full context of the signing ceremony for them. They will have to enter a OTP and they will have to confirm they were physically present when the document was signed. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624607980/v2_2762/nj09dcnyrvzfjecq36bs.png" caption="Witness agreement" mode="responsive" height="1182" width="2122" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/nj09dcnyrvzfjecq36bs/1624607980.png" caption="Witness agreement" mode="responsive" height="1182" width="2122" %}
 {% /image %}
 
 {% badge type="success" text="Hint" /%} The witness cannot move forward without confirming this.
@@ -263,18 +263,18 @@ The primary signer will receive an email asking them to sign their document. If 
 
 - On the email they receive they will need to click view document:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626799993/v2_2762/tsdzo6b9tkkbgqmrzzzh.png" caption="Primary signer email" mode="responsive" height="531" width="874" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/tsdzo6b9tkkbgqmrzzzh/1626799993.png" caption="Primary signer email" mode="responsive" height="531" width="874" %}
 {% /image %}
 
 - The primary signer will now see a screen explaining that they have signed the document
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626800086/v2_2762/g4ejozusekwp5dbbhzeh.png" caption="Primary signer already signed notification" mode="responsive" height="362" width="464" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/g4ejozusekwp5dbbhzeh/1626800086.png" caption="Primary signer already signed notification" mode="responsive" height="362" width="464" %}
 {% /image %}
 
 - They will need to click the available hyperlink. 
 - This will navigate them to input in new witness details.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626800169/v2_2762/o0mtntd8ye3bgfazxufl.png" caption="New witness details" mode="responsive" height="581" width="400" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/o0mtntd8ye3bgfazxufl/1626800169.png" caption="New witness details" mode="responsive" height="581" width="400" %}
 {% /image %}
 
 ---
@@ -291,7 +291,7 @@ Now you can add the following fields to your document:
 
 You simply drag the fields on the right hand side to the document on the left hand side.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615990646/v2_2762/l5ihk4f47oavx80aq2pr.png" caption="Add fields" mode="600" height="798" width="1284" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/l5ihk4f47oavx80aq2pr/1615990646.png" caption="Add fields" mode="600" height="798" width="1284" %}
 {% /image %}
 
 Please see this video on how to adjust text field sizes:
@@ -307,7 +307,7 @@ When you are done placing the fields press **NEXT**.
 
 If you have added a witness please ensure you add the fields you want the witness to complete too:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624569226/v2_2762/pbavqep0npcut7tksfl6.png" caption="Add fields to a witness" mode="responsive" height="1006" width="2780" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/pbavqep0npcut7tksfl6/1624569226.png" caption="Add fields to a witness" mode="responsive" height="1006" width="2780" %}
 {% /image %}
 
 ---
@@ -328,7 +328,7 @@ You have the ability to go back and change what you need to.
 
 At this point you can customise an email to send to the signer and set a reminder. You can also send a reminder manually. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624570693/v2_2762/ewd0mzq4amvfk1cyjc6p.png" caption="Send the document" mode="responsive" height="1646" width="3136" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ewd0mzq4amvfk1cyjc6p/1624570693.png" caption="Send the document" mode="responsive" height="1646" width="3136" %}
 {% /image %}
 
 Press **send**!
@@ -339,7 +339,7 @@ Press **send**!
 
 If at any point of the document upload you want to come back later, you just need to press **SAVE AND EXIT**.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615996564/v2_2762/su4tahgozekntouoag8g.png" caption="Save and exit button" mode="responsive" height="508" width="3040" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/su4tahgozekntouoag8g/1615996564.png" caption="Save and exit button" mode="responsive" height="508" width="3040" %}
 {% /image %}
 
 This will automatically create a draft document for you. Draft documents are ones that you haven't sent yet. They are saved automatically so you can easily pick up where you left off.

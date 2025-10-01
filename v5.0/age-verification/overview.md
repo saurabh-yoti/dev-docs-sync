@@ -54,7 +54,7 @@ The overview below sets out the entities and data flows involved.
 
 This section describes the API interactions for a web and mobile web integration. Data is exchanged securely between the relying party (your backend), Yoti and the client (the end user’s browser or mobile device).
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1618833038/v2_2762/jtm7qamhga1slicjpdz6.png" caption="Technical Flow" mode="responsive" height="1192" width="3242" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/jtm7qamhga1slicjpdz6/1618833038.png" caption="Technical Flow" mode="responsive" height="1192" width="3242" %}
 {% /image %}
 
 A **session** represents one end-to-end request of the age verification service. The session identifier is in the create session request's response. Every time a user elects a method of age verification on your relying business app or website, you will need to create a session with Yoti to perform the checks.
@@ -69,7 +69,7 @@ The session can be retrieved using the session ID. The response from this endpoi
 
 The user will be asked to prove their age and is taken through the Yoti verification steps where they will be presented with the options you have selected. You will then need to redirect them to a success or error URL, alternatively you can listen to post messaging from the iframe.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1608731982/72645/msuyaeqcjw0xpdx4cmml.png" caption="Three options" mode="responsive" height="707" width="1126" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72645/msuyaeqcjw0xpdx4cmml/1608731982.png" caption="Three options" mode="responsive" height="707" width="1126" %}
 {% /image %}
 
 {% badge type="info" text="Hint" /%} Yoti offers customisation of this page. See [](/age-verification/launch-the-user-view).
@@ -111,7 +111,7 @@ Supported translations are:
 
 ## Supported browsers
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1608731632/72645/qgn0rlp4llje2hmtuxpi.png" caption="Supported browsers" mode="600" height="940" width="1152" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72645/qgn0rlp4llje2hmtuxpi/1608731632.png" caption="Supported browsers" mode="600" height="940" width="1152" %}
 {% /image %}
 
 ---
@@ -124,5 +124,5 @@ We pride ourselves on how we handle our users' data. We use tech for good and en
 - Only collect the information you actually need. Data minimisation is one of the main benefits of Yoti, so people don't have to provide more information than is actually necessary.
 - Make sure any information you export to your own systems is stored securely. Data security is at the heart of what we do and we think it should be important to every organisation.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1604402402/72645/m4wu2a4v4d117o6ma00k.png" mode="300" height="376" width="384" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72645/m4wu2a4v4d117o6ma00k/1604402402.png" mode="300" height="376" width="384" %}
 {% /image %}

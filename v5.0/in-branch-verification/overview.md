@@ -62,7 +62,7 @@ The overview below details the entities and data flows.
 
 ## Technical overview
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1629398528/v2_2762/mqct1abhftldekbzwput.png" caption="Placeholder" mode="responsive" height="1304" width="1026" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/mqct1abhftldekbzwput/1629398528.png" caption="Placeholder" mode="responsive" height="1304" width="1026" %}
 {% /image %}
 
 ### Prerequisite flow
@@ -124,7 +124,7 @@ It's worth reading our Identity Verification documentation to understand how we 
 
 ## Supported browsers
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1596558309/29751/zvnjmdfwoalnpibennp4.jpg" caption="Supported browsers" mode="600" height="1168" width="1200" %}
+{% image url="https://image-archive.developerhub.io/image/upload/29751/zvnjmdfwoalnpibennp4/1596558309.jpg" caption="Supported browsers" mode="600" height="1168" width="1200" %}
 {% /image %}
 
 ---
@@ -133,7 +133,7 @@ It's worth reading our Identity Verification documentation to understand how we 
 
 We pride ourselves on how we handle our users' data. We use tech for good and enable users to securely prove their identity, always being transparent about what happens to their details. We ask that you follow these principles.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1608066716/72631/b05jrh7mspbwl2dym4so.png" caption="Use Yoti responsibly" mode="300" height="570" width="580" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72631/b05jrh7mspbwl2dym4so/1608066716.png" caption="Use Yoti responsibly" mode="300" height="570" width="580" %}
 {% /image %}
 
 - Be transparent about why you're collecting this data and only use the data for those reasons.

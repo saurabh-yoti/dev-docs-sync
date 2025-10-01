@@ -35,7 +35,7 @@ To do this you will need to:
 - Navigate to the correct session
 - Click through each media item and delete them individually at the moment. In the future we will allow you to delete it all in one go.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603128937/71142/qgl2wugzag7bbobcsxtl.png" caption="Session &gt; Session Details &gt; Delete image" mode="600" height="1420" width="2052" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/qgl2wugzag7bbobcsxtl/1603128937.png" caption="Session &gt; Session Details &gt; Delete image" mode="600" height="1420" width="2052" %}
 {% /image %}
 
 ---
@@ -51,5 +51,5 @@ To do this you will need to:-
 - Type DELETE
 - Press **DELETE SESSION**
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603128860/71142/gw3vqc3kvzjvqnw7u8ew.png" caption="Session details &gt; Delete session" mode="600" height="1284" width="2068" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/gw3vqc3kvzjvqnw7u8ew/1603128860.png" caption="Session details &gt; Delete session" mode="600" height="1284" width="2068" %}
 {% /image %}
