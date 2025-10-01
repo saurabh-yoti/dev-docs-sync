@@ -26,5 +26,5 @@ To do this you will need to:
 - Navigate to the correct session
 - Click through each media item and delete them individually at the moment. In the future we will allow you to delete it all in one go.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1634831046/v2_2762/qbs5gtkaodqf9vuctj1i.png" caption="Session &gt; Session Details &gt; Delete image" mode="600" height="1420" width="2052" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/qbs5gtkaodqf9vuctj1i/1634831046.png" caption="Session &gt; Session Details &gt; Delete image" mode="600" height="1420" width="2052" %}
 {% /image %}

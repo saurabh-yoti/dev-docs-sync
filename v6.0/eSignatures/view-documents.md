@@ -12,12 +12,12 @@ tags:
 
 Once you have sent your document it will appear in the active documents section of the portal.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615991172/v2_2762/qo3vxuzfb7tktpavsdqm.png" caption="Active document overview" mode="responsive" height="792" width="2896" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/qo3vxuzfb7tktpavsdqm/1615991172.png" caption="Active document overview" mode="responsive" height="792" width="2896" %}
 {% /image %}
 
 {% badge type="info" text="Hint" /%} If you have a witness you will see a log of this too.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624570582/v2_2762/awnmdsk9zpfxoqmfroqh.png" caption="Witness audit" mode="responsive" height="1266" width="2906" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/awnmdsk9zpfxoqmfroqh/1624570582.png" caption="Witness audit" mode="responsive" height="1266" width="2906" %}
 {% /image %}
 
 These documents will have different signing status depending on where they are in the process:
@@ -47,7 +47,7 @@ The portal has various features
 
 - Click on organisation
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626796529/v2_2762/dzu4o47uqnpmhhf8nc18.png" mode="responsive" height="1620" width="3254" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/dzu4o47uqnpmhhf8nc18/1626796529.png" mode="responsive" height="1620" width="3254" %}
 {% /image %}
 
 Here you will see a list of all your envelopes in order of when they were sent. You can filter and search here. 
@@ -58,7 +58,7 @@ Here you will see a list of all your envelopes in order of when they were sent. 
 
 You can click into the each entry and see a log of where the document is in the system. Press the arrow and view history.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624569982/v2_2762/xwyzk7jvk8nh4yl1rz9s.png" caption="Logs" mode="300" height="1468" width="904" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/xwyzk7jvk8nh4yl1rz9s/1624569982.png" caption="Logs" mode="300" height="1468" width="904" %}
 {% /image %}
 
 ---
@@ -69,7 +69,7 @@ If a signer has not signed the document yet, and you want to send a manual remin
 
 - Click the three dots
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624571033/v2_2762/cpxgt0ghhep323tynnhs.png" caption="Send reminder" mode="responsive" height="632" width="2934" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/cpxgt0ghhep323tynnhs/1624571033.png" caption="Send reminder" mode="responsive" height="632" width="2934" %}
 {% /image %}
 
 - An automatic reminder will be sent to the signer.
@@ -80,17 +80,17 @@ If a signer has not signed the document yet, and you want to send a manual remin
 
 This document was unsuccessful as the email bounced:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615995672/v2_2762/gcnrf5wy1jlu7r9a6z2m.png" caption="Active document &gt; Information" mode="responsive" height="1194" width="2862" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/gcnrf5wy1jlu7r9a6z2m/1615995672.png" caption="Active document &gt; Information" mode="responsive" height="1194" width="2862" %}
 {% /image %}
 
 If you would like to retry sending click the ...
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1617729076/v2_2762/t8cwxoylriao3nz8ixdi.png" caption="Active document &gt; Information&gt; Edit signer" mode="responsive" height="548" width="1232" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/t8cwxoylriao3nz8ixdi/1617729076.png" caption="Active document &gt; Information&gt; Edit signer" mode="responsive" height="548" width="1232" %}
 {% /image %}
 
 Update the email address and it will re-send:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1617729107/v2_2762/dmeaqygm1t3vmprml98y.png" caption="Active document &gt; Information&gt; Edit signer &gt; Update" mode="300" height="605" width="572" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/dmeaqygm1t3vmprml98y/1617729107.png" caption="Active document &gt; Information&gt; Edit signer &gt; Update" mode="300" height="605" width="572" %}
 {% /image %}
 
 ---
@@ -99,7 +99,7 @@ Update the email address and it will re-send:
 
 You can also export the document signing by pressing "Download Pack".
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624570134/v2_2762/wgpfq0kmzpxveopqbmxf.png" caption="Download pack" mode="responsive" height="588" width="2910" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/wgpfq0kmzpxveopqbmxf/1624570134.png" caption="Download pack" mode="responsive" height="588" width="2910" %}
 {% /image %}
 
 ---
@@ -108,7 +108,7 @@ You can also export the document signing by pressing "Download Pack".
 
 You can search for any field in the search tab. It will display the results of all entries related to the search.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615996935/v2_2762/xymxzdw3shuginotiofq.png" caption="Search envelopes" mode="responsive" height="820" width="3146" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/xymxzdw3shuginotiofq/1615996935.png" caption="Search envelopes" mode="responsive" height="820" width="3146" %}
 {% /image %}
 
 ---
@@ -117,7 +117,7 @@ You can search for any field in the search tab. It will display the results of a
 
 If you click on the document entry, click the blue arrow you should see **ARCHIVE**.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615996078/v2_2762/u9b4ehsgtph20g4vqd00.png" caption="Archive document" mode="300" height="422" width="518" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/u9b4ehsgtph20g4vqd00/1615996078.png" caption="Archive document" mode="300" height="422" width="518" %}
 {% /image %}
 
 This will remove the document from active documents and move to the archive section. We will log the date that the document was archived on.

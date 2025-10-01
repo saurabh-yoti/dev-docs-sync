@@ -12,7 +12,7 @@ tags:
 
 An envelope serves as a container for all Yoti Sign transactions. Inside an envelope is information about a specific transaction, including:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1589460567/28180/sdfqjgcrkv2smcxsrr8i.png" caption="Envelope" mode="responsive" height="258" width="1590" %}
+{% image url="https://image-archive.developerhub.io/image/upload/28180/sdfqjgcrkv2smcxsrr8i/1589460567.png" caption="Envelope" mode="responsive" height="258" width="1590" %}
 {% /image %}
 
 When you create an envelope the following elements are configurable:

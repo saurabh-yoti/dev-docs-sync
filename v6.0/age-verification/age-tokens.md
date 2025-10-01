@@ -14,7 +14,7 @@ When someone uses the portal to prove their age, an age token is added to their 
 
 This acts as a digital proof that they’ve been age checked by Yoti, and lets them freely access your site without having to prove their age every time.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1632336765/v2_2762/fgpmytyncxtc12vgeofj.png" caption="Age token" mode="responsive" height="414" width="1226" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/fgpmytyncxtc12vgeofj/1632336765.png" caption="Age token" mode="responsive" height="414" width="1226" %}
 {% /image %}
 
 Tokens are flexible and are accepted entirely at the discretion of the integrating party. You can define your own criteria for what type of age tokens you accept, depending on your regulatory requirements.

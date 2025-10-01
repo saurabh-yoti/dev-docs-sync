@@ -37,10 +37,10 @@ Yoti has two types of certificates:
 
 The certificate will look like the following: 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1627291216/v2_2762/aptqbuiywq6lbhhstlzb.png" caption="Certificate page 1" mode="responsive" height="1386" width="944" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/aptqbuiywq6lbhhstlzb/1627291216.png" caption="Certificate page 1" mode="responsive" height="1386" width="944" %}
 {% /image %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1627291226/v2_2762/vvlqtyrzbnn0ijjn2bfr.png" caption="Certificate page 2" mode="responsive" height="982" width="960" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/vvlqtyrzbnn0ijjn2bfr/1627291226.png" caption="Certificate page 2" mode="responsive" height="982" width="960" %}
 {% /image %}
 
 ### Verify your certificate
@@ -61,7 +61,7 @@ Scan the QR code on the printed certificate and you will see the users verified 
 
 The certificate will look like the following:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1635502190/v2_2762/x7aanppifwtkis7kjn1a.png" caption="EU Digital ID certificate" mode="responsive" height="1766" width="1501" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/x7aanppifwtkis7kjn1a/1635502190.png" caption="EU Digital ID certificate" mode="responsive" height="1766" width="1501" %}
 {% /image %}
 
 ### Verify your certificate

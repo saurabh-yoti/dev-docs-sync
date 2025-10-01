@@ -62,12 +62,12 @@ If you do not wish to set up your account with Yoti you can also use username an
 - Tick the terms and conditions
 - Press "**CREATE YOUR ACCOUNT".**
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615818907/v2_2762/rlw3lbeqhykjgyiprbgx.png" caption="Create your account" mode="600" height="1458" width="930" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/rlw3lbeqhykjgyiprbgx/1615818907.png" caption="Create your account" mode="600" height="1458" width="930" %}
 {% /image %}
 
 - After this you will need to check your emails for a verification link. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615818969/v2_2762/drub0ezl19xqx9mqa6jf.png" caption="Email verification" mode="600" height="610" width="1062" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/drub0ezl19xqx9mqa6jf/1615818969.png" caption="Email verification" mode="600" height="610" width="1062" %}
 {% /image %}
 
 Click the verification link in your inbox to open the portal. Here you will be asked to login to the system. 
@@ -80,7 +80,7 @@ Click the verification link in your inbox to open the portal. Here you will be a
 
 Type the same email address and password in and you be all logged in!
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615819219/v2_2762/czpmv8zfbap1fvrntrdk.png" caption="Login" mode="600" height="1210" width="914" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/czpmv8zfbap1fvrntrdk/1615819219.png" caption="Login" mode="600" height="1210" width="914" %}
 {% /image %}
 
 {% html %}
@@ -101,7 +101,7 @@ We strongly recommend that all users log in using their Yoti app. This ensures t
 
 If you have multi organisations set up with us you will be able to toggle between them:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1616706357/v2_2762/gzc9dieg76dzwjgok44c.png" caption="Home &gt; Org options" mode="responsive" height="1570" width="2880" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/gzc9dieg76dzwjgok44c/1616706357.png" caption="Home &gt; Org options" mode="responsive" height="1570" width="2880" %}
 {% /image %}
 
 ---
@@ -112,19 +112,19 @@ If you have multi organisations set up with us you will be able to toggle betwee
 
 Once you are in, the next step would be to add your users. Head over to the hamburger menu and press ADMIN. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615824096/v2_2762/vqsqbkkbq5nw6jnxemio.png" caption="Hamburger menu &gt; Admin" mode="responsive" height="224" width="428" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/vqsqbkkbq5nw6jnxemio/1615824096.png" caption="Hamburger menu &gt; Admin" mode="responsive" height="224" width="428" %}
 {% /image %}
 
 - Click **User management.**
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615824128/v2_2762/st4t8mhqviw3mwgqxigs.png" caption="User management &gt; Add a user" mode="responsive" height="213" width="1636" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/st4t8mhqviw3mwgqxigs/1615824128.png" caption="User management &gt; Add a user" mode="responsive" height="213" width="1636" %}
 {% /image %}
 
 - Click **Add user**
 - Enter the users email address. 
 - Select the permissions you want to give the user. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615824168/v2_2762/ne1s6mncecwqy6bnbnap.png" caption="User management &gt; Add user" mode="responsive" height="689" width="338" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ne1s6mncecwqy6bnbnap/1615824168.png" caption="User management &gt; Add user" mode="responsive" height="689" width="338" %}
 {% /image %}
 
 The different levels of access are described below:
@@ -155,7 +155,7 @@ Modifying user information and permissions is easy in User Management.
 - Click the ✏️ edit icon.
 - Make your changes and click **Update user** to finish.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615824280/v2_2762/afi2vdah1nyaulbf43i7.png" caption="User management &gt; Edit" mode="responsive" height="211" width="1633" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/afi2vdah1nyaulbf43i7/1615824280.png" caption="User management &gt; Edit" mode="responsive" height="211" width="1633" %}
 {% /image %}
 
 ### Disable a user
@@ -166,7 +166,7 @@ You can disable a user’s account to prevent them from using the portal:
 2. Find the user in the user list or search using their full email address.
 3. Click the 🚫 **Remove all permissions** icon found under the Permissions column.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615824440/v2_2762/nuaexujwmz5ggb0sre4i.png" caption="User management &gt; Disable" mode="responsive" height="216" width="1643" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/nuaexujwmz5ggb0sre4i/1615824440.png" caption="User management &gt; Disable" mode="responsive" height="216" width="1643" %}
 {% /image %}
 
 ### Delete a user
@@ -178,7 +178,7 @@ If you have a user that no longer needs access to the portal, we recommend that 
 3. Click the ✏️ edit icon.
 4. Select **Delete user** button.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615824558/v2_2762/f0hdbceqqw3h1wl8nvz5.png" caption="User management &gt; Click user &gt; Delete User" mode="responsive" height="706" width="334" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/f0hdbceqqw3h1wl8nvz5/1615824558.png" caption="User management &gt; Click user &gt; Delete User" mode="responsive" height="706" width="334" %}
 {% /image %}
 
 {% html %}
