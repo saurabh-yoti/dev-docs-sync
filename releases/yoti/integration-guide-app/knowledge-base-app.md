@@ -126,7 +126,7 @@ The important section of the URL is the string that follows https://code.yoti.co
 
 This URL must be transformed into a QR code before it can be scanned with the Yoti app. Yoti provides a simple API to transform this URL into an official Yoti QR - This is important to establish trust between your user base and Yoti. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1590073166/29780/wnhb38v4po2wjyilvv7v.png" caption="Example QR image" mode="300" height="500" width="500" %}
+{% image url="https://image-archive.developerhub.io/image/upload/29780/wnhb38v4po2wjyilvv7v/1590073166.png" caption="Example QR image" mode="300" height="500" width="500" %}
 {% /image %}
 
 {% code %}

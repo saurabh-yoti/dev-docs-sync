@@ -41,7 +41,7 @@ The integrations steps are as follows, see below or jump straight to the documen
 
 This section describes the SDK interactions for a web, mobile web and native mobile integration. Exchanges of data will occur securely between the relying party backend, Yoti and the client.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1592819888/29752/jegxh7iulszeq67wvtcn.jpg" caption="Yoti Doc Scan walkthrough" mode="responsive" height="3347" width="2626" %}
+{% image url="https://image-archive.developerhub.io/image/upload/29752/jegxh7iulszeq67wvtcn/1592819888.jpg" caption="Yoti Doc Scan walkthrough" mode="responsive" height="3347" width="2626" %}
 {% /image %}
 
 A **session** represents one end-to-end use of the ID verification service. Each time the ID verification service is initiated (regardless of which specific tasks/checks are required) a unique session identifier is assigned.
@@ -64,7 +64,7 @@ Every time a user elects to supply an ID document on the relying business app or
 
 Next you will define your session preferences to request from the user:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1592237892/29752/ty4tupweambyfrzbkvmt.png" caption="Session Diagram" mode="responsive" height="1126" width="1865" %}
+{% image url="https://image-archive.developerhub.io/image/upload/29752/ty4tupweambyfrzbkvmt/1592237892.png" caption="Session Diagram" mode="responsive" height="1126" width="1865" %}
 {% /image %}
 
 Once the Yoti Client SDK has launched it will take the end user through the ID document capture flow, followed by a liveness check (if requested when creating the session). Once this flow is completed the end user is redirected back to the relying business client so that they may continue their journey. These redirects are defined when generating the session.
@@ -141,12 +141,12 @@ Yoti Doc scan has extra features to enhance your users' experience.
 
 The user will be asked to prove their identity and are taken through the Yoti verification steps where they will have the option to upload or take a photo of their ID. You will then need to redirect them to a success or error URL, alternatively you can listen to post messaging from the iframe.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1578328573/20556/svmat5elvxufbtxd92bq.png" caption="Yoti Doc Scan flow" mode="full" height="1120" width="2526" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20556/svmat5elvxufbtxd92bq/1578328573.png" caption="Yoti Doc Scan flow" mode="full" height="1120" width="2526" %}
 {% /image %}
 
 It is up to you how you initiate the service, whether that's via a button or directly.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575454762/20556/tx9t9br3tjj5jw8thibm.jpg" caption="Yoti Doc Scan user flow" mode="responsive" height="424" width="1288" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20556/tx9t9br3tjj5jw8thibm/1575454762.jpg" caption="Yoti Doc Scan user flow" mode="responsive" height="424" width="1288" %}
 {% /image %}
 
 1. The user is asked to select the country and type of ID document they are submitting to Yoti Doc Scan. 
@@ -166,5 +166,5 @@ We pride ourselves on how we handle our users' data. We use tech for good and en
 - Only collect the information you actually need. Data minimisation is one of the main benefits of Yoti, giving people ownership of their data.
 - Make sure the data you collect is stored securely. Data security is at the heart of what we do and we think it should be important to every organisation.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575455138/20556/vablirkjbpsgtvngakyl.jpg" caption="Use Yoti responsibly" mode="300" height="584" width="572" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20556/vablirkjbpsgtvngakyl/1575455138.jpg" caption="Use Yoti responsibly" mode="300" height="584" width="572" %}
 {% /image %}

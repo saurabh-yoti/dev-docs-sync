@@ -41,14 +41,14 @@ Customers use the free Yoti app to securely share pre-verified details with your
 
 ### Structure
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575565774/23393/pgigt7mayoiujrcjiya6.jpg" mode="responsive" height="768" width="1354" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23393/pgigt7mayoiujrcjiya6/1575565774.jpg" mode="responsive" height="768" width="1354" %}
 {% /image %}
 
 ### Layouts
 
 It is recommended that the vertical order of the structure above is maintained. For desktop users where horizontal space exists, we recommend separating **How To** from other sections as shown below:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1574949430/23393/keoxefnbftjjdaozm5ra.jpg" caption="A diagram of our mobile and web best practice for proving the identity." mode="responsive" height="561" width="978" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23393/keoxefnbftjjdaozm5ra/1574949430.jpg" caption="A diagram of our mobile and web best practice for proving the identity." mode="responsive" height="561" width="978" %}
 {% /image %}
 
 ### Flows
@@ -57,7 +57,7 @@ You can choose what data you request from the user, to see what attributes we of
 
 The flow from your site would be similar to this for verify:-
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1593522000/29774/agqfwez2bri9eqnzbpnm.jpg" mode="600" height="714" width="633" %}
+{% image url="https://image-archive.developerhub.io/image/upload/29774/agqfwez2bri9eqnzbpnm/1593522000.jpg" mode="600" height="714" width="633" %}
 {% /image %}
 
 Please note: The technical flow has been simplified, for detail on how the SDK works please visit [here](https://developers.yoti.com/yoti/integration-guide-app#technical-overview).
@@ -70,14 +70,14 @@ Customers use the free Yoti app to securely share pre-verified details with your
 
 ### Structure
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575565300/23393/pgxbzqb84v3y6kk0db45.jpg" mode="responsive" height="762" width="1420" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23393/pgxbzqb84v3y6kk0db45/1575565300.jpg" mode="responsive" height="762" width="1420" %}
 {% /image %}
 
 ### Layouts
 
 It is recommended that the vertical order of the structure above is maintained. For desktop users where horizontal space exists, we recommend separating **How To** from other sections as shown below:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575565343/23393/llh0lofgatpobkkpebl9.jpg" caption="A diagram of our mobile and web best practice for proving age" mode="responsive" height="708" width="1226" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23393/llh0lofgatpobkkpebl9/1575565343.jpg" caption="A diagram of our mobile and web best practice for proving age" mode="responsive" height="708" width="1226" %}
 {% /image %}
 
 ### Flows
@@ -89,7 +89,7 @@ You can choose what data you request from the user, to see what attributes we of
 
 The flow from your site would be similar to this for Age verification:-
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1593522539/29774/fol6r88jhuvm2jn3rp4h.jpg" mode="600" height="885" width="633" %}
+{% image url="https://image-archive.developerhub.io/image/upload/29774/fol6r88jhuvm2jn3rp4h/1593522539.jpg" mode="600" height="885" width="633" %}
 {% /image %}
 
 Please note: The technical flow has been simplified,  for detail on how the SDK works please visit [here](https://developers.yoti.com/yoti/integration-guide-app#technical-overview).
@@ -102,14 +102,14 @@ Customers logging in with Yoti rely less on guidance to continue. Customers use 
 
 ### Structure
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575565522/23393/emxbfuv8ldtxkxxruo76.jpg" mode="responsive" height="418" width="1332" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23393/emxbfuv8ldtxkxxruo76/1575565522.jpg" mode="responsive" height="418" width="1332" %}
 {% /image %}
 
 ### Layouts
 
 It is recommended that the vertical order of the structure above is maintained across all devices.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575565557/23393/jvkwoveueul5ynfydng1.jpg" caption="A diagram of our mobile and web best practice for login." mode="responsive" height="698" width="1212" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23393/jvkwoveueul5ynfydng1/1575565557.jpg" caption="A diagram of our mobile and web best practice for login." mode="responsive" height="698" width="1212" %}
 {% /image %}
 
 ---
@@ -120,14 +120,14 @@ Customers registering using Yoti rely on guidance to continue. Customers only ne
 
 ### Structure
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575565617/23393/ux8bdir8tch8qkh930tt.jpg" mode="responsive" height="754" width="1372" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23393/ux8bdir8tch8qkh930tt/1575565617.jpg" mode="responsive" height="754" width="1372" %}
 {% /image %}
 
 ### Layouts
 
 It is recommended that the vertical order of the structure above is maintained. For desktop users where horizontal space exists, we recommend separating **How To** from other sections as shown below:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575565655/23393/wicccsmwtluwok8hghnf.jpg" caption="A diagram of our mobile and web best practice for registration" mode="responsive" height="688" width="1222" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23393/wicccsmwtluwok8hghnf/1575565655.jpg" caption="A diagram of our mobile and web best practice for registration" mode="responsive" height="688" width="1222" %}
 {% /image %}
 
 ### Flows (Register and Login)
@@ -136,7 +136,7 @@ You can choose what data you request from the user, to see what attributes we of
 
 The flow from your site would be similar to this for Age verification:-
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1593524320/29774/bvdfpal199jnudevjzzf.jpg" mode="responsive" height="1509" width="636" %}
+{% image url="https://image-archive.developerhub.io/image/upload/29774/bvdfpal199jnudevjzzf/1593524320.jpg" mode="responsive" height="1509" width="636" %}
 {% /image %}
 
 Please note: The technical flow has been simplified, for detail on how the SDK works please visit [here](https://developers.yoti.com/yoti/integration-guide-app#technical-overview).
