@@ -65,7 +65,7 @@ Yoti will provide:
 
 This section describes the API interactions for a web and mobile web integration. Data is exchanged securely between the relying party (your backend), Yoti and the client (the end user’s browser or mobile device).
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603120413/71150/ee3ofsbgr3brehh4zzm1.png" caption="Yoti Age Flow" mode="responsive" height="814" width="2086" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71150/ee3ofsbgr3brehh4zzm1/1603120413.png" caption="Yoti Age Flow" mode="responsive" height="814" width="2086" %}
 {% /image %}
 
 A **session** represents one end-to-end request of the age verification service. Each time the age verification service is initiated a unique session identifier is assigned from Yoti's backend. Every time a user elects a method of age verification on your relying business app or website, you will need to create a session with Yoti to perform the checks.
@@ -191,7 +191,7 @@ https://age.yoti.com?sessionId=<sessionId>&sdkId=<sdkId>
 
 Once the Yoti Client has launched it will take the user through the age verification flow. The user will be redirected to the specified call back URL. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603185729/71150/ord8w3bdsg5o83vmtios.png" caption="User View" mode="responsive" height="671" width="1064" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71150/ord8w3bdsg5o83vmtios/1603185729.png" caption="User View" mode="responsive" height="671" width="1064" %}
 {% /image %}
 
 {% html %}

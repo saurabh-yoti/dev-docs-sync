@@ -43,22 +43,22 @@ Yoti provides a sandbox for the [Yoti App](https://developers.yoti.com/yoti/gett
 
 To make a start log into the [Yoti Hub](https://hub.yoti.com/) and make sure you are within your verified organisation by clicking your organisation post login.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585242508/27268/yjlqzg82qdyeuz1syiay.jpg" caption="Click your organisation" mode="300" height="470" width="602" %}
+{% image url="https://image-archive.developerhub.io/image/upload/27268/yjlqzg82qdyeuz1syiay/1585242508.jpg" caption="Click your organisation" mode="300" height="470" width="602" %}
 {% /image %}
 
 Once logged in, choose '**Sandbox**' from the navigation bar.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585242548/27268/xqpdk2belqzeuxray6d2.jpg" caption="Login > Sandbox" mode="300" height="992" width="580" %}
+{% image url="https://image-archive.developerhub.io/image/upload/27268/xqpdk2belqzeuxray6d2/1585242548.jpg" caption="Login > Sandbox" mode="300" height="992" width="580" %}
 {% /image %}
 
 Select **GET STARTED** to create your Sandbox application, create the keys on the right tab, Yoti App or Yoti Doc Scan. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585242582/27268/stmkxnq15iyhz2aiuexq.jpg" caption="Login > Sandbox > Get started" mode="responsive" height="382" width="1194" %}
+{% image url="https://image-archive.developerhub.io/image/upload/27268/stmkxnq15iyhz2aiuexq/1585242582.jpg" caption="Login > Sandbox > Get started" mode="responsive" height="382" width="1194" %}
 {% /image %}
 
 Enter a sandbox application name and hit **SAVE** to generate a Sandbox ID and Keypair.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585242620/27268/pjm8aioymuidpojfhjis.jpg" caption="Login > Sandbox > Get started > Keys" mode="responsive" height="176" width="1632" %}
+{% image url="https://image-archive.developerhub.io/image/upload/27268/pjm8aioymuidpojfhjis/1585242620.jpg" caption="Login > Sandbox > Get started > Keys" mode="responsive" height="176" width="1632" %}
 {% /image %}
 
 Take note of your **Sandbox Client SDK ID**, and hit **GET KEYS** to generate your keypair. You will only need your private key (**privateKey.pem)** to use the Yoti app sandbox.

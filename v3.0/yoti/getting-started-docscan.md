@@ -77,7 +77,7 @@ The mobile integrations that we currently support are listed below. Please selec
 
 ## Supported Browsers
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1596558309/29751/zvnjmdfwoalnpibennp4.jpg" caption="Supported browsers" mode="600" height="1168" width="1200" %}
+{% image url="https://image-archive.developerhub.io/image/upload/29751/zvnjmdfwoalnpibennp4/1596558309.jpg" caption="Supported browsers" mode="600" height="1168" width="1200" %}
 {% /image %}
 
 ---

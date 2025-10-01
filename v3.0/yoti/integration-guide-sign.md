@@ -44,7 +44,7 @@ The roles of the Sender, Yoti and Recipient is described below:
 
 The diagram below describes the Yoti Sign process and how a backend can be integrated with the Yoti architecture.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1590497419/29754/xmpbfuxkvkcum5bcawxr.jpg" caption="Yoti Sign explained" mode="600" height="4080" width="2479" %}
+{% image url="https://image-archive.developerhub.io/image/upload/29754/xmpbfuxkvkcum5bcawxr/1590497419.jpg" caption="Yoti Sign explained" mode="600" height="4080" width="2479" %}
 {% /image %}
 
 ---
@@ -53,7 +53,7 @@ The diagram below describes the Yoti Sign process and how a backend can be integ
 
 The API consists of the following:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1588682332/20563/nxmb2wo35h8xkxm7u4dy.png" caption="YotiSign structure" mode="responsive" height="1076" width="1600" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20563/nxmb2wo35h8xkxm7u4dy/1588682332.png" caption="YotiSign structure" mode="responsive" height="1076" width="1600" %}
 {% /image %}
 
 {% table %}
@@ -79,7 +79,7 @@ A tag is an array of objects used to place signature fields on a given document.
 
 This defines an order in which recipients receive invitations to sign a document. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1589460216/20563/w0e4odsf85vciqb2huc0.jpg" caption="Signing order" mode="responsive" height="266" width="738" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20563/w0e4odsf85vciqb2huc0/1589460216.jpg" caption="Signing order" mode="responsive" height="266" width="738" %}
 {% /image %}
 
 For example, all recipients within sign group 1 will be the first to receive a document to sign. Once all recipients from sign group 1 have signed, the document will be sent to sign group 2. If no sign group is specified, a default of 1 will be assumed.

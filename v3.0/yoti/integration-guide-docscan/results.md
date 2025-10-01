@@ -24,7 +24,7 @@ This sections explains how to:
 
 The structure of the full response is shown below:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1595537494/30910/uyfa3ajl82gqkoeklkzk.jpg" caption="Results hierarchy" mode="full" height="2695" width="3516" %}
+{% image url="https://image-archive.developerhub.io/image/upload/30910/uyfa3ajl82gqkoeklkzk/1595537494.jpg" caption="Results hierarchy" mode="full" height="2695" width="3516" %}
 {% /image %}
 
 The report includes a  recommendation for each check. Please read this section and then head over to [understanding the report](https://developers.yoti.com/yoti/understanding-the-report) for more information.

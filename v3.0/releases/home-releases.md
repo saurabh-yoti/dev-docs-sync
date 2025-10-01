@@ -60,7 +60,7 @@ We have 7 SDK's for this product for information on their releases please click 
 
 Subscribe to our GitHub releases for backend release notes. Head over to the links below and press WATCH.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1596187917/35144/v0ow1pl5t2xywzlv04ha.jpg" caption="Watch releases" mode="300" height="112" width="308" %}
+{% image url="https://image-archive.developerhub.io/image/upload/35144/v0ow1pl5t2xywzlv04ha/1596187917.jpg" caption="Watch releases" mode="300" height="112" width="308" %}
 {% /image %}
 
 - [**Javascript (Node.js)**](https://github.com/getyoti/yoti-node-sdk/tree/master#running-the-examples)
@@ -100,7 +100,7 @@ We have 7 SDK's for this product for information on their releases please click 
 
 Subscribe to our GitHub releases for backend release notes. Head over to the links below and press WATCH.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1596187917/35144/v0ow1pl5t2xywzlv04ha.jpg" caption="Watch releases" mode="300" height="112" width="308" %}
+{% image url="https://image-archive.developerhub.io/image/upload/35144/v0ow1pl5t2xywzlv04ha/1596187917.jpg" caption="Watch releases" mode="300" height="112" width="308" %}
 {% /image %}
 
 - [Javascript (node.js)](https://github.com/getyoti/yoti-node-sdk/tree/master/examples/doc-scan)

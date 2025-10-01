@@ -737,7 +737,7 @@ CreateSessionResult createSessionResult = docScanClient.CreateSession(sessionSpe
 
 When creating a session you will need to configure the following functions within your session:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1592238006/29767/r9f5pdidbrwwqt8sty2z.png" mode="responsive" height="1126" width="1865" %}
+{% image url="https://image-archive.developerhub.io/image/upload/29767/r9f5pdidbrwwqt8sty2z/1592238006.png" mode="responsive" height="1126" width="1865" %}
 {% /image %}
 
 {% table %}

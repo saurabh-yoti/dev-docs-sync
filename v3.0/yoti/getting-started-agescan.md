@@ -62,5 +62,5 @@ data-postman-param="env%5BYoti%20Age%20Example%5D=W3sia2V5IjoiYmVhcmVyVG9rZW4iLC
 
 ## Supported browsers
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603193450/29750/uoeqtwghoffrxkx5cxmd.png" caption="Supported Browsers" mode="600" height="592" width="730" %}
+{% image url="https://image-archive.developerhub.io/image/upload/29750/uoeqtwghoffrxkx5cxmd/1603193450.png" caption="Supported Browsers" mode="600" height="592" width="730" %}
 {% /image %}

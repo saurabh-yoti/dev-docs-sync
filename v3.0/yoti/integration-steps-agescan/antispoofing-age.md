@@ -27,7 +27,7 @@ Explore how Yoti has developed to prevent relay attacks.
 
 This anti-spoofing method is useful for fixed camera installations (for example at an electronic point-of-sale terminal). It captures the empty background view from the camera, which can then be compared against all subsequent captured images for age estimation requests.  Yoti runs a check to confirm that the original background is still present in each subsequent capture, rejecting images where it does not.  
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1570456610/-1/eybzhrsonmevz3ubvcgu.jpg" caption="Background image technical process" mode="responsive" height="1200" width="1600" %}
+{% image url="https://image-archive.developerhub.io/image/upload/-1/eybzhrsonmevz3ubvcgu/1570456610.jpg" caption="Background image technical process" mode="responsive" height="1200" width="1600" %}
 {% /image %}
 
 There are 2 steps required to perform background image checks:
