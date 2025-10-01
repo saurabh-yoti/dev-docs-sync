@@ -120,7 +120,7 @@ Allows the user to WHITELIST or BLACKLIST by _country_ and _document type_ indep
 {% /tab %}
 {% /code %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1578930713/23602/vuiaacsoqcsbwn0qqaam.jpg" caption="Orthogonal restriction" mode="responsive" height="156" width="1036" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23602/vuiaacsoqcsbwn0qqaam/1578930713.jpg" caption="Orthogonal restriction" mode="responsive" height="156" width="1036" %}
 {% /image %}
 
 **2) DOCUMENT_RESTRICTION**  - Allows the _Relying Business_ to provide multiple restrictions that filter by _country_ and _document type_ together. Multiple restrictions are combined and the _Union_ of all restrictions is used as either a WHITELIST or a BLACKLIST. This filter allows greater precision but is more verbose to use.
@@ -146,7 +146,7 @@ Allows the user to WHITELIST or BLACKLIST by _country_ and _document type_ indep
 {% /tab %}
 {% /code %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1578930816/23602/u1czesnmeedv1p2jp5xi.jpg" caption="Document restriction" mode="responsive" height="166" width="1071" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23602/u1czesnmeedv1p2jp5xi/1578930816.jpg" caption="Document restriction" mode="responsive" height="166" width="1071" %}
 {% /image %}
 
 ---
@@ -235,10 +235,10 @@ Due to government restrictions Aadhaar numbers cannot be shared and it is mandat
 
 Example of masking of front and back of card:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585254592/23602/kvkz5sfxemcuzst0djrp.jpg" caption="Aadhaar - Front" mode="300" height="772" width="1228" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23602/kvkz5sfxemcuzst0djrp/1585254592.jpg" caption="Aadhaar - Front" mode="300" height="772" width="1228" %}
 {% /image %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585254605/23602/ourgxj9ze0zbe4mogr93.jpg" caption="Aadhaar - Back" mode="300" height="762" width="1198" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23602/ourgxj9ze0zbe4mogr93/1585254605.jpg" caption="Aadhaar - Back" mode="300" height="762" width="1198" %}
 {% /image %}
 
 There are many different formats for Aadhaar cards with the number possibly on the front and/or back. We will check both the back and the front of the card and mask any identified Aadhaar number. If there is no number detected then you will not be able to retrieve the images. The retrieval request will return 204 NO_CONTENT.

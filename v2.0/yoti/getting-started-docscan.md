@@ -84,5 +84,5 @@ The mobile integrations that we currently support are listed below for the Yoti 
 
 ## Supported Browsers
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1589453368/20555/qz20pd6jetcgy0tafuy6.png" mode="600" height="1146" width="1216" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20555/qz20pd6jetcgy0tafuy6/1589453368.png" mode="600" height="1146" width="1216" %}
 {% /image %}

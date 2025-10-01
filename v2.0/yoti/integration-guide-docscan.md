@@ -31,7 +31,7 @@ Yoti Doc Scan can be seamlessly integrated with your website, app or custom prod
 
 This section describes the API interactions for a web, mobile web and native mobile integration. Exchanges of data will occur securely between the relying party backend, Yoti API and the client.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1572633198/20556/irhbroquzgkiv15neklg.jpg" caption="Yoti Doc Scan API walkthrough" mode="600" height="3525" width="2479" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20556/irhbroquzgkiv15neklg/1572633198.jpg" caption="Yoti Doc Scan API walkthrough" mode="600" height="3525" width="2479" %}
 {% /image %}
 
 ---
@@ -131,14 +131,14 @@ This will respond with the media as either an object for data or a buffer string
 
 Yoti Doc Scan is an embedded identity verification solution powered by Yoti. The process is quick, simple and secure; your customers will be able to prove who they are without leaving your flow or system.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1578328573/20556/svmat5elvxufbtxd92bq.png" caption="Yoti Doc Scan flow" mode="full" height="1120" width="2526" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20556/svmat5elvxufbtxd92bq/1578328573.png" caption="Yoti Doc Scan flow" mode="full" height="1120" width="2526" %}
 {% /image %}
 
 The user will be asked to prove their identity and are taken through the Yoti verification steps where they will have the option to upload or take a photo of their ID. You will then need to redirect them to a success or error URL, alternatively you can listen to post messaging from the iframe.
 
 It is up to you how you initiate the service, whether that's via a button or directly.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575454762/20556/tx9t9br3tjj5jw8thibm.jpg" caption="Yoti Doc Scan user flow" mode="responsive" height="424" width="1288" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20556/tx9t9br3tjj5jw8thibm/1575454762.jpg" caption="Yoti Doc Scan user flow" mode="responsive" height="424" width="1288" %}
 {% /image %}
 
 1. The user is asked to select the country and type of ID document they are submitting to Yoti Doc Scan. Yoti can accept ID documents from 206 countries and states.
@@ -158,5 +158,5 @@ We pride ourselves on how we handle our users' data. We use tech for good and en
 - Only collect the information you actually need. Data minimisation is one of the main benefits of Yoti, giving people ownership of their data.
 - Make sure the data you collect is stored securely. Data security is at the heart of what we do and we think it should be important to every organisation.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575455138/20556/vablirkjbpsgtvngakyl.jpg" caption="Use Yoti responsibly" mode="300" height="584" width="572" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20556/vablirkjbpsgtvngakyl/1575455138.jpg" caption="Use Yoti responsibly" mode="300" height="584" width="572" %}
 {% /image %}

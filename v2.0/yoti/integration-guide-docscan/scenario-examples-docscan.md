@@ -40,10 +40,10 @@ In this section you’ll find visual examples of how to present the Yoti Doc Sca
 
 Customers use the Doc scan service to share ID documents with your business. Customers will need comfort and reassurance before, and after the process.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585254253/27269/ozuf3zrfpaex81ph7k1y.jpg" caption="Example of using doc scan" mode="600" height="918" width="902" %}
+{% image url="https://image-archive.developerhub.io/image/upload/27269/ozuf3zrfpaex81ph7k1y/1585254253.jpg" caption="Example of using doc scan" mode="600" height="918" width="902" %}
 {% /image %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585254291/27269/gwdq68lffrrwcspe2u3a.jpg" caption="Example of using doc scan with App" mode="responsive" height="1286" width="1942" %}
+{% image url="https://image-archive.developerhub.io/image/upload/27269/gwdq68lffrrwcspe2u3a/1585254291.jpg" caption="Example of using doc scan with App" mode="responsive" height="1286" width="1942" %}
 {% /image %}
 
 If you need any assistance with designs / flows  please do not hesitate to contact [sdksupport@yoti.com](mailto:sdksupport@yoti.com).

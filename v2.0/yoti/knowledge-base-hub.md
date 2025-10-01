@@ -29,7 +29,7 @@ Organisation > Applications > Scenarios
 - You can create multiple applications within your organisation, each application refers to a domain and has its own users.
 - Within each application you can create multiple scenarios for each of your use cases. These can be set up to request different attributes from your users and will direct the user to a chosen page within your domain.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1574956141/20476/lroo13mpocwm3p9surmu.jpg" caption="Application hierarchy" mode="600" height="508" width="831" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/lroo13mpocwm3p9surmu/1574956141.jpg" caption="Application hierarchy" mode="600" height="508" width="831" %}
 {% /image %}
 
 ---
@@ -318,26 +318,26 @@ No one at Yoti can never see your receipts - they are encrypted and we have no a
 
 To download the receipts there is an Export to CSV button - this will download all of the receipts in the selected time period. By default, we display receipts from the last month.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575293135/20476/etlppfcehkhf9v73yhjn.jpg" caption="Applications > Receipts" mode="responsive" height="652" width="1592" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/etlppfcehkhf9v73yhjn/1575293135.jpg" caption="Applications > Receipts" mode="responsive" height="652" width="1592" %}
 {% /image %}
 
 To filter receipts, you can use our date filter. This will display the receipts from this time period.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575293186/20476/b1jcberebhi07z52nqlz.jpg" caption="Applications > Receipts" mode="responsive" height="626" width="1620" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/b1jcberebhi07z52nqlz/1575293186.jpg" caption="Applications > Receipts" mode="responsive" height="626" width="1620" %}
 {% /image %}
 
 You can delete receipts for a certain time period or for a certain user.
 
 To delete receipts by time period, filter the list based on the date range that you want to remove and click the Delete button in the dropdown menu next to Export to CSV.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575293269/20476/mqu9lssoimdouko4sevh.jpg" caption="Applications > Receipts" mode="responsive" height="626" width="1618" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/mqu9lssoimdouko4sevh/1575293269.jpg" caption="Applications > Receipts" mode="responsive" height="626" width="1618" %}
 {% /image %}
 
 ### Source and verifiers in receipts
 
 To view further information about how Yoti has verified the user's details, you can click on the Show sources and verifiers tick box at the top of an individual receipt.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575293421/20476/rbtutsg5cpf63vupvqfm.jpg" caption="Applications > Receipts > Click Receipts > Show sources and verifiers" mode="responsive" height="494" width="654" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/rbtutsg5cpf63vupvqfm/1575293421.jpg" caption="Applications > Receipts > Click Receipts > Show sources and verifiers" mode="responsive" height="494" width="654" %}
 {% /image %}
 
 ---
@@ -348,7 +348,7 @@ The Settings page allows you to view your organisation details, update your bill
 
 We appreciate that your organisation details may not remain the same as when you first registered. If you need to change any information change, please contact us at [organisations@yoti.com](mailto:organisations@yoti.com) so we can update it. This ensures that we can verify any changes and keep information aligned.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575293606/20476/lsps5xzq7futdjsepxxr.jpg" caption="Hub -> Settings" mode="responsive" height="384" width="402" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/lsps5xzq7futdjsepxxr/1575293606.jpg" caption="Hub -> Settings" mode="responsive" height="384" width="402" %}
 {% /image %}
 
 ## Members and permissions
@@ -361,12 +361,12 @@ To add members, log in to your organisation and:
 
 - Go to the side menu and click Members
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575293721/20476/wilzqyihfo13prqulwn3.jpg" caption="Hub > Members" mode="300" height="782" width="590" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/wilzqyihfo13prqulwn3/1575293721.jpg" caption="Hub > Members" mode="300" height="782" width="590" %}
 {% /image %}
 
 - Click Add a member and fill in the details - please make sure the email address you use to invite a colleague to your organisation is the same as the email address they have added to their Yoti.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575293761/20476/zlfj2gm4f9ta9eavitse.jpg" caption="Members > Add a member" mode="responsive" height="638" width="1390" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/zlfj2gm4f9ta9eavitse/1575293761.jpg" caption="Members > Add a member" mode="responsive" height="638" width="1390" %}
 {% /image %}
 
 Once you have completed this the user will receive an email and will gain access to your Hub account when they scan the QR code sent to them.
@@ -390,7 +390,7 @@ You need to be an admin to assign organisation permissions to users.
 
 When a user gets invited to an organisation, they don't have any permissions by default. But they can still accept the invitation and access the organisation. An organisation admin is able to give permissions to a user from the Permissions tab on their profile page.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575293967/20476/k7c0d79xzwfdk361j7j5.jpg" caption="Organisation permissions" mode="responsive" height="742" width="1184" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/k7c0d79xzwfdk361j7j5/1575293967.jpg" caption="Organisation permissions" mode="responsive" height="742" width="1184" %}
 {% /image %}
 
 {% table %}
@@ -425,7 +425,7 @@ Once a user is added as a collaborator of an application or page they automatica
 
 To delete your application go Application > **Edit** button > press **Delete**.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575294779/20476/er1ipudlofoajnrvny7t.jpg" caption="Deleting your application" mode="responsive" height="366" width="1628" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/er1ipudlofoajnrvny7t/1575294779.jpg" caption="Deleting your application" mode="responsive" height="366" width="1628" %}
 {% /image %}
 
 There is also an option to deactivate your application which will keep an archive of your receipts and integration as a paused state. Users will not be able to scan the QR code on your integration until it gets activated again.
@@ -447,7 +447,7 @@ There is also an option to deactivate your application which will keep an archiv
 
 If you would like to support customers who have onboarded with Yoti using their Aadhaar card, you will need to make sure that the attributes (where applicable) are set to Allow unverified {attribute name}. As an example, please see a subset of the available attributes below where support for unverified has been selected:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575295000/20476/swxqbqtu1izhsa6bnk4q.jpg" caption="Aadhaar attributes" mode="responsive" height="1450" width="1154" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/swxqbqtu1izhsa6bnk4q/1575295000.jpg" caption="Aadhaar attributes" mode="responsive" height="1450" width="1154" %}
 {% /image %}
 
 Attributes supported from the Aadhaar card:

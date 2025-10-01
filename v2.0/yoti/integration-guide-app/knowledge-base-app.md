@@ -381,7 +381,7 @@ If you're looking at integrating Yoti with a 'Non-browser' client, one of the ta
 
 By using an official Yoti QR Code you will establish a sense of trust with your user base.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1591286248/23781/wlkyqqdl11rxjctvfjqo.jpg" caption="Example QR code" mode="300" height="502" width="502" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23781/wlkyqqdl11rxjctvfjqo/1591286248.jpg" caption="Example QR code" mode="300" height="502" width="502" %}
 {% /image %}
 
 **Endpoint**

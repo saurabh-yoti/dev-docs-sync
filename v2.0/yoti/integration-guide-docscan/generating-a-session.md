@@ -466,7 +466,7 @@ You must provide the max number of retries your users can have before the livene
 
 An "attempt" is a completed liveness check that is either rejected or approved. If the user does not complete the liveness check this does not count as an attempt and the user will be prompted to try again.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575460964/20557/vx9ombso8moob3g1yidm.jpg" caption="Liveness check" mode="600" height="770" width="776" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20557/vx9ombso8moob3g1yidm/1575460964.jpg" caption="Liveness check" mode="600" height="770" width="776" %}
 {% /image %}
 
 {% html %}
@@ -605,7 +605,7 @@ The method sdk_config is explained below. If not defined then they will be set t
 {% /tab %}
 {% /code %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575461026/20557/ssemb4dxbqggaagtwq1r.jpg" caption="Document capture" mode="600" height="790" width="840" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20557/ssemb4dxbqggaagtwq1r/1575461026.jpg" caption="Document capture" mode="600" height="790" width="840" %}
 {% /image %}
 
 {% table %}

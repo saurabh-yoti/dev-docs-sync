@@ -69,14 +69,14 @@ The modal QR code option has a button which when clicked opens a modal pop out w
 
 The inline QR code option has a button which when clicked opens just the QR code. You will need to provide more context as to what Yoti is for this. See [scenario example ](https://developers.yoti.com/yoti/scenario-examples-app)section for more detail.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585935832/20477/vwoytddmqogp7sjjrblk.jpg" mode="responsive" height="312" width="468" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20477/vwoytddmqogp7sjjrblk/1585935832.jpg" mode="responsive" height="312" width="468" %}
 {% /image %}
 
 ### Instant
 
 The instant QR code option is just the QR code with no button. You will need to provide more context as to what Yoti is for this. See [scenario example ](https://developers.yoti.com/yoti/scenario-examples-app)section for more detail. Example below:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1588180782/20477/bifs7i78su52yjcwsbyl.png" mode="responsive" height="365" width="296" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20477/bifs7i78su52yjcwsbyl/1588180782.png" mode="responsive" height="365" width="296" %}
 {% /image %}
 
 ---
