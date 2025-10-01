@@ -91,5 +91,5 @@ Here you can create your own rules for the signer.
 
 If you have added a witness please ensure you add the fields you want the witness to complete too:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624569226/v2_2762/pbavqep0npcut7tksfl6.png" caption="Add fields to a witness" mode="responsive" height="1006" width="2780" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/pbavqep0npcut7tksfl6/1624569226.png" caption="Add fields to a witness" mode="responsive" height="1006" width="2780" %}
 {% /image %}

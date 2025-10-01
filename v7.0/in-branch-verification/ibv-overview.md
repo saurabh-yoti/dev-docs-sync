@@ -64,7 +64,7 @@ The aim is to go into the branch with your documents and instructions:
 
 ## Technical overview
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1629398528/v2_2762/mqct1abhftldekbzwput.png" caption="Placeholder" mode="responsive" height="1304" width="1026" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/mqct1abhftldekbzwput/1629398528.png" caption="Placeholder" mode="responsive" height="1304" width="1026" %}
 {% /image %}
 
 ### At Home flow

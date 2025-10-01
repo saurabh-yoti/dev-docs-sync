@@ -309,15 +309,15 @@ To optimise results Yoti has implemented a mobile handoff feature. This allows a
 
 The flow is documented below:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1635263364/v2_2762/psmkgqibahxlzjiv4jny.png" caption="Mobile handoff screen 1" mode="responsive" height="1166" width="1826" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/psmkgqibahxlzjiv4jny/1635263364.png" caption="Mobile handoff screen 1" mode="responsive" height="1166" width="1826" %}
 {% /image %}
 
 At this point the user can still continue on computer. If they press continue they will see this screen:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1635263441/v2_2762/p5gvjfyoithqpacznszo.png" caption="Mobile handoff screen 2" mode="responsive" height="1170" width="1818" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/p5gvjfyoithqpacznszo/1635263441.png" caption="Mobile handoff screen 2" mode="responsive" height="1170" width="1818" %}
 {% /image %}
 
 The user still has the option to use the desktop. If they scan the QR code the session will be continued on their mobile. If they scan the QR code and continue their session correctly the below screen will show on web until the session is completed:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1635266147/v2_2762/kqyqume7uxnud8ulbz7w.png" caption="Mobile handoff screen 3" mode="responsive" height="1196" width="1866" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/kqyqume7uxnud8ulbz7w/1635266147.png" caption="Mobile handoff screen 3" mode="responsive" height="1196" width="1866" %}
 {% /image %}

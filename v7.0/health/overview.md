@@ -35,7 +35,7 @@ The overview below sets out the entities and data flows involved.
 
 ### Supported browsers
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615974256/v2_2762/kflkqvip7po9tkohzh6v.png" caption="Supported browsers" mode="600" height="972" width="1154" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/kflkqvip7po9tkohzh6v/1615974256.png" caption="Supported browsers" mode="600" height="972" width="1154" %}
 {% /image %}
 
 - Please ensure your devices have cameras. 
@@ -89,12 +89,12 @@ There are 4 personas:
 
 The process flows for sample collection is shown below:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1618430123/v2_2762/dfbruu4fjcygqlqkxfza.png" caption="Technical overview" mode="600" height="574" width="863" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/dfbruu4fjcygqlqkxfza/1618430123.png" caption="Technical overview" mode="600" height="574" width="863" %}
 {% /image %}
 
 The process flows for test results is shown below:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1618430177/v2_2762/vvka8eolzg0e1bu9gymd.png" caption="Technical overview" mode="600" height="574" width="663" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/vvka8eolzg0e1bu9gymd/1618430177.png" caption="Technical overview" mode="600" height="574" width="663" %}
 {% /image %}
 
 ---
@@ -103,7 +103,7 @@ The process flows for test results is shown below:
 
 Below details the end to end customer flow for RT-PCR & RT-LAMP testing.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615974452/v2_2762/v7b2bqiyv7m5gkoiwth9.png" caption="RT-PCR & RT-LAMP testing customer flow" mode="responsive" height="604" width="1014" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/v7b2bqiyv7m5gkoiwth9/1615974452.png" caption="RT-PCR & RT-LAMP testing customer flow" mode="responsive" height="604" width="1014" %}
 {% /image %}
 
 1. The collector links a customer to a testing bag via Yoti or email.
@@ -116,7 +116,7 @@ Below details the end to end customer flow for RT-PCR & RT-LAMP testing.
 
 Below details the end to end customer flow for lateral testing.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615974600/v2_2762/ffap1wg3zhjvx3dczmhq.png" caption="Lateral testing customer flow" mode="responsive" height="610" width="992" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ffap1wg3zhjvx3dczmhq/1615974600.png" caption="Lateral testing customer flow" mode="responsive" height="610" width="992" %}
 {% /image %}
 
 1. The collector links a customer to a testing bag via Yoti or email.
@@ -137,5 +137,5 @@ We pride ourselves on how we handle our users' data. We use tech for good and en
 - Only collect the information you actually need. Data minimisation is one of the main benefits of Yoti, so people don't have to provide more information than is actually necessary.
 - Make sure any information you export to your own systems is stored securely. Data security is at the heart of what we do and we think it should be important to every organisation.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575299497/20473/vwj6x1hjvfni5rzvlho3.jpg" mode="300" height="440" width="438" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20473/vwj6x1hjvfni5rzvlho3/1575299497.jpg" mode="300" height="440" width="438" %}
 {% /image %}

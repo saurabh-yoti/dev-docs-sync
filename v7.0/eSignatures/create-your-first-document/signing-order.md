@@ -24,7 +24,7 @@ You will need to have added a document to the portal and one signer.   </div>
 
 You can add signing orders to your documents. This will you to mandate that a certain signee signs before / after the rest. If you wish to enable this feature toggle **ON** signing order.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1616082723/v2_2762/hzfdsb8fh0snwbpudbkv.png" caption="Signing order" mode="responsive" height="448" width="929" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/hzfdsb8fh0snwbpudbkv/1616082723.png" caption="Signing order" mode="responsive" height="448" width="929" %}
 {% /image %}
 
 - Press **ADD**

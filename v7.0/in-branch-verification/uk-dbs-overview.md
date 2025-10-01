@@ -102,5 +102,5 @@ Coming soon:
 
 ## The user flow
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1639660764/v2_2762/o0ev0dkutbqy1gormfee.jpg" mode="responsive" height="2513" width="1634" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/o0ev0dkutbqy1gormfee/1639660764.jpg" mode="responsive" height="2513" width="1634" %}
 {% /image %}

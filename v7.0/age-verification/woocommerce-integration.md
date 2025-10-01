@@ -50,7 +50,7 @@ Head to your WooCommerce set up.
 - Click on Plugins
 - Click ‘Add New’
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1638282525/v2_2762/v4l4dubosotugzyhf6vt.png" caption="Settings &gt; Plugins &gt; Add new" mode="responsive" height="1368" width="2878" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/v4l4dubosotugzyhf6vt/1638282525.png" caption="Settings &gt; Plugins &gt; Add new" mode="responsive" height="1368" width="2878" %}
 {% /image %}
 
 - Click ‘Upload Plugin’
@@ -82,7 +82,7 @@ Head to your WooCommerce set up.
 
 - Head to the settings page
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1638377952/v2_2762/jdmd3v8jax8hwjvlw6s8.png" mode="responsive" height="200" width="1520" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/jdmd3v8jax8hwjvlw6s8/1638377952.png" mode="responsive" height="200" width="1520" %}
 {% /image %}
 
 - Add the sdkID and Bearer token
@@ -99,7 +99,7 @@ Congratulations - the setup is complete.
 
 Now that the plugin is installed head to your products.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1638282764/v2_2762/vgqfczqwivj7wtfshsrw.png" caption="All products" mode="responsive" height="1046" width="2204" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/vgqfczqwivj7wtfshsrw/1638282764.png" caption="All products" mode="responsive" height="1046" width="2204" %}
 {% /image %}
 
 - Now select the products you wish to age verify for.

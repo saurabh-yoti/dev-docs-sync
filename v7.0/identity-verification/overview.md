@@ -61,7 +61,7 @@ This product is designed for Identity Verification, if you need an Age Verficati
 
 This section describes the SDK interactions for a web, mobile web and native mobile integration. Data Exchanges will occur securely between the relying party (your backend), Yoti and the client (the end user’s browser or mobile device).
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1608066500/72631/sjpf6er8nekr9boxyv10.png" caption="Identity verification walkthrough" mode="responsive" height="1334" width="1032" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72631/sjpf6er8nekr9boxyv10/1608066500.png" caption="Identity verification walkthrough" mode="responsive" height="1334" width="1032" %}
 {% /image %}
 
 A **session** represents one end-to-end use of the ID verification service. Each time the ID verification service is initiated (regardless of which specific tasks/checks are required) a unique session identifier is assigned by Yoti's backend.
@@ -130,12 +130,12 @@ For information on how to integrate this please go to the [](/identity-verificat
 
 The user will be asked to prove their identity and is taken through the Yoti verification steps where they will have the option to upload or take a photo of their ID. You will then need to redirect them to a success or error URL, alternatively you can listen to post messaging from the iframe.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1608066673/72631/yfc2udzwk6nyjvjvq592.png" caption="Identity verification user flow" mode="responsive" height="734" width="1646" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72631/yfc2udzwk6nyjvjvq592/1608066673.png" caption="Identity verification user flow" mode="responsive" height="734" width="1646" %}
 {% /image %}
 
 It is up to you how you initiate the service, whether that's via a button or directly.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575454762/20556/tx9t9br3tjj5jw8thibm.jpg" caption="Identity verification user flow" mode="responsive" height="424" width="1288" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20556/tx9t9br3tjj5jw8thibm/1575454762.jpg" caption="Identity verification user flow" mode="responsive" height="424" width="1288" %}
 {% /image %}
 
 1. The user is asked to select the country and type of ID document they are submitting.
@@ -153,7 +153,7 @@ Passing a ‘liveness test’ in this way gives us a high confidence that the us
 
 ## Supported browsers
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1596558309/29751/zvnjmdfwoalnpibennp4.jpg" caption="Supported browsers" mode="600" height="1168" width="1200" %}
+{% image url="https://image-archive.developerhub.io/image/upload/29751/zvnjmdfwoalnpibennp4/1596558309.jpg" caption="Supported browsers" mode="600" height="1168" width="1200" %}
 {% /image %}
 
 ---
@@ -162,7 +162,7 @@ Passing a ‘liveness test’ in this way gives us a high confidence that the us
 
 We pride ourselves on how we handle our users' data. We use tech for good and enable users to securely prove their identity, always being transparent about what happens to their details. We ask that you follow these principles.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1608066716/72631/b05jrh7mspbwl2dym4so.png" caption="Use Yoti responsibly" mode="300" height="570" width="580" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72631/b05jrh7mspbwl2dym4so/1608066716.png" caption="Use Yoti responsibly" mode="300" height="570" width="580" %}
 {% /image %}
 
 - Be transparent about why you're collecting this data and only use the data for those reasons.

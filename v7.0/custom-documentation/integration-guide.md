@@ -591,5 +591,5 @@ GET https://api.yoti.com/sessions/{sessionId}/instructions/pdf
 
 #### PDF example
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1644259411/v2_2762/ehbjvbyy77qoqzhzimt6.png" caption="PDF example" mode="responsive" height="1372" width="958" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ehbjvbyy77qoqzhzimt6/1644259411.png" caption="PDF example" mode="responsive" height="1372" width="958" %}
 {% /image %}

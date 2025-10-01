@@ -24,7 +24,7 @@ To go to your settings click on the hamburger menu, click **Admin** and **Settin
 
 Your organisation details will be on this tab. You shouldn't need to change anything here.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626954910/v2_2762/oh5gp30ucxayhfphub5z.png" caption="Settings &gt; General" mode="responsive" height="556" width="890" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/oh5gp30ucxayhfphub5z/1626954910.png" caption="Settings &gt; General" mode="responsive" height="556" width="890" %}
 {% /image %}
 
 {% table widths="232" %}
@@ -40,17 +40,17 @@ Your organisation details will be on this tab. You shouldn't need to change anyt
 
 You can also add your organisation logo to the portal.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1621278701/v2_2762/wf5q76u5tqkiwnw9rciu.png" caption="Settings &gt; General&gt; Logo upload" mode="responsive" height="295" width="553" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/wf5q76u5tqkiwnw9rciu/1621278701.png" caption="Settings &gt; General&gt; Logo upload" mode="responsive" height="295" width="553" %}
 {% /image %}
 
 ## Delete your organisation
 
 Yoti gives you the option to delete your organisation you can select "delete organisation". This is a permanent request and Yoti cannot recover the data for you.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1635499883/v2_2762/fky6ouziblglpdbdkr8o.png" caption="Delete your organisation" mode="responsive" height="537" width="738" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/fky6ouziblglpdbdkr8o/1635499883.png" caption="Delete your organisation" mode="responsive" height="537" width="738" %}
 {% /image %}
 
 You will need admin organisation settings to do this.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1635501131/v2_2762/tnjtrhfa74isrlq7kzu0.png" caption="Delete organisation" mode="responsive" height="1685" width="2904" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/tnjtrhfa74isrlq7kzu0/1635501131.png" caption="Delete organisation" mode="responsive" height="1685" width="2904" %}
 {% /image %}

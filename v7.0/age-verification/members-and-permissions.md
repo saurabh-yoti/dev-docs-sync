@@ -16,12 +16,12 @@ Permissions let users perform certain actions within organisations, applications
 
 To add members, log in to your organisation and go to the side menu and click Members:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575293721/20476/wilzqyihfo13prqulwn3.jpg" caption="Hub &gt; Members" mode="300" height="782" width="590" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/wilzqyihfo13prqulwn3/1575293721.jpg" caption="Hub &gt; Members" mode="300" height="782" width="590" %}
 {% /image %}
 
 Click **Add a member** and fill in the details - please make sure the email address you use to invite a colleague to your organisation is the same as the email address they have added to their Yoti.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615323161/v2_2762/kkm30pfoobmmqtpqkqbq.png" caption="Members -&gt; Add a member" mode="responsive" height="630" width="1380" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/kkm30pfoobmmqtpqkqbq/1615323161.png" caption="Members -&gt; Add a member" mode="responsive" height="630" width="1380" %}
 {% /image %}
 
 Once you have completed this the user will receive an email and will gain access to your Hub account when they scan the QR code sent to them.
@@ -36,7 +36,7 @@ When a user gets invited to an organisation, they don't have any permissions by 
 
 An organisation admin is able to give permissions to a user from the Permissions tab on their profile page.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575293967/20476/k7c0d79xzwfdk361j7j5.jpg" caption="Organisation permissions" mode="responsive" height="742" width="1184" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/k7c0d79xzwfdk361j7j5/1575293967.jpg" caption="Organisation permissions" mode="responsive" height="742" width="1184" %}
 {% /image %}
 
 {% table %}

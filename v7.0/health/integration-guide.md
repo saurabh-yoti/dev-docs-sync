@@ -50,7 +50,7 @@ The health API uses an HTTP authentication scheme called ‘bearer authenticatio
 
 Once you are onboard with us, login to your portal &gt;&gt; Head to "**Settings**" &gt;&gt; Type in an API key name with permissions enabled &gt;&gt; **GENERATE KEY.**
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623420631/v2_2762/tg6t9o7ezy2tlt0lsgc4.png" caption="API settings" mode="responsive" height="1110" width="1716" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/tg6t9o7ezy2tlt0lsgc4/1623420631.png" caption="API settings" mode="responsive" height="1110" width="1716" %}
 {% /image %}
 
 {% table %}

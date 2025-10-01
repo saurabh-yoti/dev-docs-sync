@@ -36,7 +36,7 @@ You have the ability to go back and change what you need to.
 
 At this point you can customise an email to send to the signer and set a reminder. You can also send a reminder manually.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624570693/v2_2762/ewd0mzq4amvfk1cyjc6p.png" caption="Send the document" mode="responsive" height="1646" width="3136" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ewd0mzq4amvfk1cyjc6p/1624570693.png" caption="Send the document" mode="responsive" height="1646" width="3136" %}
 {% /image %}
 
 Press **send**!

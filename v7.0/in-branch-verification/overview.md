@@ -47,7 +47,7 @@ Yoti also provide a UK DBS check service.
 
 We pride ourselves on how we handle our users' data. We use tech for good and enable users to securely prove their identity, always being transparent about what happens to their details. We ask that you follow these principles.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1637600322/v2_2762/pgb0oo4whnxcxnmbdeod.png" caption="Use Yoti responsibly" mode="300" height="438" width="444" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/pgb0oo4whnxcxnmbdeod/1637600322.png" caption="Use Yoti responsibly" mode="300" height="438" width="444" %}
 {% /image %}
 
 - Be transparent about why you're collecting this data and only use the data for those reasons.

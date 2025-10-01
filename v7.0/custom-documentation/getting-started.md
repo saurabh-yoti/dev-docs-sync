@@ -43,7 +43,7 @@ If you don't have this to hand, don't worry you can return anytime to continue w
 
 {% badge type="info" text="Hint" /%} Yoti Hub is only supported on web.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1596559758/29755/xlxxpnqoeqlnb8oy77lx.jpg" mode="600" height="268" width="898" %}
+{% image url="https://image-archive.developerhub.io/image/upload/29755/xlxxpnqoeqlnb8oy77lx/1596559758.jpg" mode="600" height="268" width="898" %}
 {% /image %}
 
 ---
@@ -106,19 +106,19 @@ There is a short form to fill out, please see description of the information req
 
 Congratulations your account is set up and you should see the screen below! At this point you will also receive an email from Yoti welcoming you onboard.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623357857/v2_2762/yyjgijtlbk2l82p95vgu.png" caption="Set up complete screen" mode="responsive" height="820" width="1672" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/yyjgijtlbk2l82p95vgu/1623357857.png" caption="Set up complete screen" mode="responsive" height="820" width="1672" %}
 {% /image %}
 
 If you wish to complete the your onboarding application then head over to the **Settings** section.
 
 - Click Settings.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623358139/v2_2762/shelfafduezmr9xhcbyk.png" caption="Home &gt; Go to settings" mode="responsive" height="817" width="1654" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/shelfafduezmr9xhcbyk/1623358139.png" caption="Home &gt; Go to settings" mode="responsive" height="817" width="1654" %}
 {% /image %}
 
 Fill out the remaining details in the tabs highlighted red.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623358236/v2_2762/ru4afjdsdr4xiyuqg2pt.png" caption="Home &gt; Go to settings &gt; Organisation" mode="responsive" height="834" width="1019" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ru4afjdsdr4xiyuqg2pt/1623358236.png" caption="Home &gt; Go to settings &gt; Organisation" mode="responsive" height="834" width="1019" %}
 {% /image %}
 
 {% table widths="188" %}
@@ -134,7 +134,7 @@ After you have filled in the above details:
 
 - Click **VERIFY MY ORGANISATION.**
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623358634/v2_2762/dsi9spg2oczziz5a5k6k.png" caption="Home &gt; Onboarding &gt; Verify my organisation" mode="responsive" height="394" width="835" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/dsi9spg2oczziz5a5k6k/1623358634.png" caption="Home &gt; Onboarding &gt; Verify my organisation" mode="responsive" height="394" width="835" %}
 {% /image %}
 
 If we have any questions about your application we will email you. You will receive an email if all approved. 

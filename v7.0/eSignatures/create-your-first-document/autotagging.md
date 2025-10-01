@@ -40,12 +40,12 @@ Auto-tagging allows you to dynamically tag a document by including special ancho
 
 - Click **Options** and **Auto-tagging.**
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615987329/v2_2762/xhxgyatyb1kakitxe5vl.png" caption="Options &gt; Auto-tagging" mode="responsive" height="680" width="1932" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/xhxgyatyb1kakitxe5vl/1615987329.png" caption="Options &gt; Auto-tagging" mode="responsive" height="680" width="1932" %}
 {% /image %}
 
 - Press **apply**.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615987389/v2_2762/vureknbhass0galsrke0.png" caption="Options &gt; Auto-tagging &gt; Apply fields" mode="300" height="728" width="930" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/vureknbhass0galsrke0/1615987389.png" caption="Options &gt; Auto-tagging &gt; Apply fields" mode="300" height="728" width="930" %}
 {% /image %}
 
 - Now you can press **NEXT** and continue with the document set up.

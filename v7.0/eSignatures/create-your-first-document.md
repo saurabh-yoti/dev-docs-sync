@@ -47,7 +47,7 @@ Here you will upload your document, you can also import a template. See [templat
 
 - Click "UPLOAD DOCUMENTS"
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615987055/v2_2762/uidkd3rkshindtzqw7ed.png" caption="Send a document &gt; Upload document" mode="responsive" height="1760" width="2762" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/uidkd3rkshindtzqw7ed/1615987055.png" caption="Send a document &gt; Upload document" mode="responsive" height="1760" width="2762" %}
 {% /image %}
 
 After you have uploaded the document you will get a visual notification that the upload is complete. At this point you can:
@@ -65,7 +65,7 @@ Carry on through the documentation for more information on these features.
 
 Once the document is uploaded you can delete the document if you do not wish to proceed by pressing the "bin".
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624567258/v2_2762/qunjhsrxsuul9hzmgzrj.png" caption="Send a document &gt; Upload document &gt; Delete" mode="responsive" height="774" width="1984" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/qunjhsrxsuul9hzmgzrj/1624567258.png" caption="Send a document &gt; Upload document &gt; Delete" mode="responsive" height="774" width="1984" %}
 {% /image %}
 
 ---
@@ -74,7 +74,7 @@ Once the document is uploaded you can delete the document if you do not wish to 
 
 Once the document is uploaded you can replace the document if you have uploaded an incorrect document. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624567407/v2_2762/uuadnyummvt3kd07skgg.png" caption="Send a document &gt; Upload document &gt; Replace" mode="responsive" height="774" width="1984" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/uuadnyummvt3kd07skgg/1624567407.png" caption="Send a document &gt; Upload document &gt; Replace" mode="responsive" height="774" width="1984" %}
 {% /image %}
 
 ---
@@ -83,7 +83,7 @@ Once the document is uploaded you can replace the document if you have uploaded 
 
 At this point you can upload more than one document to the same envelope. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624567502/v2_2762/srfr8zxssac9c24d1d8y.png" caption="Send a document &gt; Upload document &gt; Upload another document" mode="responsive" height="774" width="1984" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/srfr8zxssac9c24d1d8y/1624567502.png" caption="Send a document &gt; Upload document &gt; Upload another document" mode="responsive" height="774" width="1984" %}
 {% /image %}
 
 ## Video explainer

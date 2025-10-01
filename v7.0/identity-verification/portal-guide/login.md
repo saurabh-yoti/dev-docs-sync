@@ -16,7 +16,7 @@ Log in URL: [https://identity.yoti.com/](https://identity.yoti.com/)
 
 Create an account or scan the QR code. Your email address should be the same as what you inputted in your application.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603127218/71142/sn6k0zmktb7wettxfkyc.png" caption="Login Screen" mode="600" height="1478" width="2106" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/sn6k0zmktb7wettxfkyc/1603127218.png" caption="Login Screen" mode="600" height="1478" width="2106" %}
 {% /image %}
 
 All users are required to set up 2 factor authentication to access the portal, This can either be done as part of one step when using the Yoti app or a popular authentication app such as Google Authenticator or Authy.
@@ -27,5 +27,5 @@ Your home page will be a list of applications, click the relevant Identity verif
 
 To log out of the portal click the menu button in the top right corner of the page and click on the log out button. If you do not log out your account will stay logged in for 24 hours until it auto logs you out.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603129016/71142/ng8bxnqbncfg1o8kawqb.png" caption="Logout" mode="300" height="518" width="428" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/ng8bxnqbncfg1o8kawqb/1603129016.png" caption="Logout" mode="300" height="518" width="428" %}
 {% /image %}

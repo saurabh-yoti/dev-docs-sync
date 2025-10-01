@@ -41,7 +41,7 @@ If you wish to customise your integration please fill out the form below. </div>
 
 As a default this is grey. The background can be a [linear](https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2Flinear-gradient()&amp;data=04%7C01%7Cjakob.rosenfeldt.hansen%40LEGO.com%7C6246242e773a42380fef08d96b8a7411%7C1d0635156cad41959486ea65df456faa%7C0%7C0%7C637659064662192881%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=scs%2FLNexPWzjm74PPveMcqtSjHEf143lv4THqjuKU%2FE%3D&amp;reserved=0) or [radial](https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2Fradial-gradient()&amp;data=04%7C01%7Cjakob.rosenfeldt.hansen%40LEGO.com%7C6246242e773a42380fef08d96b8a7411%7C1d0635156cad41959486ea65df456faa%7C0%7C0%7C637659064662192881%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=3oLIft5b8fcTRUUfgk8V2zaIp5nR4P2Yk3bcxwCJXzQ%3D&amp;reserved=0) gradient pattern consisting of one or two colours. This will apply across all screens.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1632393660/v2_2762/cfyg2qll8fnarfbny8mv.png" caption="Background colour change" mode="responsive" height="1278" width="2846" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/cfyg2qll8fnarfbny8mv/1632393660.png" caption="Background colour change" mode="responsive" height="1278" width="2846" %}
 {% /image %}
 
 ---
@@ -79,19 +79,19 @@ Another great feature is you can choose which order to display the cards.
 
 Yoti recommends if you have more than 3 cards to go for this option:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1632744849/v2_2762/ij7nij26ehgyr34nttuh.png" caption="List menu configuration" mode="responsive" height="744" width="1060" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ij7nij26ehgyr34nttuh/1632744849.png" caption="List menu configuration" mode="responsive" height="744" width="1060" %}
 {% /image %}
 
 ### Card
 
 Yoti recommends you keep this view if you have 3 or less cards.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1632414561/v2_2762/iop3l8l2jcfg5ghn92ow.png" caption="Card menu configuration" mode="responsive" height="664" width="1060" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/iop3l8l2jcfg5ghn92ow/1632414561.png" caption="Card menu configuration" mode="responsive" height="664" width="1060" %}
 {% /image %}
 
 ### Hybrid
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1632417597/v2_2762/pkporqtgaypkujscdq1o.png" caption="Hybrid menu configuration" mode="responsive" height="1003" width="700" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/pkporqtgaypkujscdq1o/1632417597.png" caption="Hybrid menu configuration" mode="responsive" height="1003" width="700" %}
 {% /image %}
 
 ---

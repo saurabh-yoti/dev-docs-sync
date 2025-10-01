@@ -29,7 +29,7 @@ The below will guide you through step by step on how to get set up.
 
 ### Supported Browsers
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603187142/71142/rstg3qyxjlhzssaeqjfm.png" caption="Supported browsers" mode="600" height="216" width="688" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/rstg3qyxjlhzssaeqjfm/1603187142.png" caption="Supported browsers" mode="600" height="216" width="688" %}
 {% /image %}
 
 ---
@@ -75,7 +75,7 @@ Here you will to create an Identity verification application in your Yoti hub. T
 - Click the **applications** tab in the side menu.
 - Choose which product you would like to integrate with, select **Identity verification:**
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623406298/v2_2762/celvi0kcxavscpr5sbkc.png" caption="Create an application" mode="responsive" height="1358" width="1734" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/celvi0kcxavscpr5sbkc/1623406298.png" caption="Create an application" mode="responsive" height="1358" width="1734" %}
 {% /image %}
 
 - After pressing **Proceed**
@@ -90,13 +90,13 @@ Here you will to create an Identity verification application in your Yoti hub. T
 
 You will now see the following screen:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623406385/v2_2762/ztlnwpmvfn2wed1cfxdk.png" caption="Creating an application &gt; Keys" mode="responsive" height="1338" width="1788" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ztlnwpmvfn2wed1cfxdk/1623406385.png" caption="Creating an application &gt; Keys" mode="responsive" height="1338" width="1788" %}
 {% /image %}
 
 - Click on the **Keys** tab
 - Click the Generate keys button, you will be asked whether you want to store the keys.  Click this checkbox and the keys will automatically be managed by Yoti on your behalf. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636396903/v2_2762/ioqxjxe7akliwhm4ubbc.png" caption="Creating an application &gt; Keys &gt; Tick box" mode="responsive" height="1174" width="1054" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ioqxjxe7akliwhm4ubbc/1636396903.png" caption="Creating an application &gt; Keys &gt; Tick box" mode="responsive" height="1174" width="1054" %}
 {% /image %}
 
 If you ever decide that you no longer want Yoti to store your keys, you will be able to regenerate your keys and uncheck the checkbox.  This will prevent you or your users from being able to view existing data in the portal.
@@ -112,7 +112,7 @@ You will be provided with a list of checks that Identity verification provides.
 
 A session represents one end-to-end use of the ID verification service. Each time the ID verification service is initiated (regardless of which specific tasks/checks are required) a new session is created.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636396942/v2_2762/gxp0hzqjoiuo2zhpqvvd.png" caption="Creating an application &gt; Portal Preferences" mode="responsive" height="1158" width="1482" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/gxp0hzqjoiuo2zhpqvvd/1636396942.png" caption="Creating an application &gt; Portal Preferences" mode="responsive" height="1158" width="1482" %}
 {% /image %}
 
 Below describes the multiple checks Yoti provides for identity verification. We offer a manual check for most of the checks. If you require a manual check please select the following as part of your check:-
@@ -150,7 +150,7 @@ A requested check to assess whether the document scan is being performed by a re
 
 You can allocate how many retries you want the user to complete. We recommend a maximum of 3. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636396972/v2_2762/thcsazhuwd84nrz4vnyg.png" caption="Application &gt; Portal preferences" mode="responsive" height="730" width="1076" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/thcsazhuwd84nrz4vnyg/1636396972.png" caption="Application &gt; Portal preferences" mode="responsive" height="730" width="1076" %}
 {% /image %}
 
 If you are collecting data from the US we highlight recommend you collect biometric consent and add a privacy policy. This is a small tick box in the Verification flow that the user has to click. 
@@ -159,7 +159,7 @@ If you are collecting data from the US we highlight recommend you collect biomet
 
 A request to assess the characteristics of a document, to determine the validity of the ID document. Yoti will perform multiple checks on a ID document.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636396994/v2_2762/dsmvreyojy5x6tbipnkq.png" caption="Application &gt; Portal preferences" mode="responsive" height="1078" width="1086" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/dsmvreyojy5x6tbipnkq/1636396994.png" caption="Application &gt; Portal preferences" mode="responsive" height="1078" width="1086" %}
 {% /image %}
 
 You can configure two options here:
@@ -167,7 +167,7 @@ You can configure two options here:
 1. Decide on capture mode. Users can either upload / take an image of their photo. You can configure which setting you want by ticking the box above.
 2. Filter out document types you want to accept. Click on the small arrow under Document 1 and choose your preferences. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636397042/v2_2762/smsqjrz2lkfztoz0sig3.png" caption="Application &gt; Portal preferences" mode="responsive" height="736" width="1068" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/smsqjrz2lkfztoz0sig3/1636397042.png" caption="Application &gt; Portal preferences" mode="responsive" height="736" width="1068" %}
 {% /image %}
 
 If you would like to collect two ID documents please click request additional document click Request additonial document.
@@ -179,14 +179,14 @@ A request to assess whether the user's face matches the face on the ID document.
 - A liveness check
 - A document check
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636397080/v2_2762/du6pfe7lbng3knghy6dc.png" caption="Application &gt; Portal preferences" mode="responsive" height="134" width="1038" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/du6pfe7lbng3knghy6dc/1636397080.png" caption="Application &gt; Portal preferences" mode="responsive" height="134" width="1038" %}
 {% /image %}
 
 ### Request Text extraction task
 
 A request to obtain the data printed visually on a document, in structured form.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636397092/v2_2762/rwjoclpanfa37zjokwan.png" caption="Application &gt; Portal preferences" mode="responsive" height="140" width="1034" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/rwjoclpanfa37zjokwan/1636397092.png" caption="Application &gt; Portal preferences" mode="responsive" height="140" width="1034" %}
 {% /image %}
 
 ### Request supporting documents
@@ -200,7 +200,7 @@ Yoti offers the ability to request additional documents to enhance the verificat
 
 Yoti does not perform a verification of the document. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636397115/v2_2762/xxwvqxah6eyucuwnjuoe.png" caption="Application &gt; Portal preferences" mode="responsive" height="680" width="1076" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/xxwvqxah6eyucuwnjuoe/1636397115.png" caption="Application &gt; Portal preferences" mode="responsive" height="680" width="1076" %}
 {% /image %}
 
 You can configure two options here:
@@ -230,26 +230,26 @@ Yoti will need to capture the following user attributes:
 - Date of birth
 - Country ISO code
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636397136/v2_2762/zremsx5ethl6t80epm4d.png" caption="Application &gt; Portal preferences &gt;AML check" mode="responsive" height="508" width="1090" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/zremsx5ethl6t80epm4d/1636397136.png" caption="Application &gt; Portal preferences &gt;AML check" mode="responsive" height="508" width="1090" %}
 {% /image %}
 
 ### Settings
 
 Here you can configure how long you want the session to be valid for, and how long you want to keep the images / results for. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636397173/v2_2762/ocnzkgalkrjgavzxpbj4.png" caption="Portal &gt; Preferences" mode="responsive" height="372" width="1060" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ocnzkgalkrjgavzxpbj4/1636397173.png" caption="Portal &gt; Preferences" mode="responsive" height="372" width="1060" %}
 {% /image %}
 
 Yoti recommends you keep the data only if necessary. By default we set the session time to live for 1 week and the retention period to 3 months.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636397191/v2_2762/wynyzzgp0kkbn8dixzvm.png" caption="Portal &gt; Preferences" mode="responsive" height="614" width="880" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/wynyzzgp0kkbn8dixzvm/1636397191.png" caption="Portal &gt; Preferences" mode="responsive" height="614" width="880" %}
 {% /image %}
 
 ### Client view
 
 Here you can configure the user view
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636397207/v2_2762/sm7ny10mvy8yercyehhk.png" caption="Portal &gt; Preferences" mode="responsive" height="1054" width="1052" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/sm7ny10mvy8yercyehhk/1636397207.png" caption="Portal &gt; Preferences" mode="responsive" height="1054" width="1052" %}
 {% /image %}
 
 {% table %}
@@ -287,7 +287,7 @@ To add a user and enforce permissions to your portal:-
 
 - Go to the **portal users** tab
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623406826/v2_2762/zaesengamxv0dmz84k90.png" caption="Creating an application &gt; Portal Users" mode="responsive" height="648" width="1732" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/zaesengamxv0dmz84k90/1623406826.png" caption="Creating an application &gt; Portal Users" mode="responsive" height="648" width="1732" %}
 {% /image %}
 
 - Click add new user 
@@ -296,7 +296,7 @@ To add a user and enforce permissions to your portal:-
 
 By default people that are added to the portal will have the ‘View sessions’ permission.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603126796/71142/gusdqmglmj2luv5003ik.png" caption="Creating an application &gt; Users &gt; Permissions" mode="300" height="1290" width="830" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/gusdqmglmj2luv5003ik/1603126796.png" caption="Creating an application &gt; Users &gt; Permissions" mode="300" height="1290" width="830" %}
 {% /image %}
 
 {% html %}
