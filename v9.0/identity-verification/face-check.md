@@ -5,7 +5,7 @@ listed: true
 slug: face-check
 description: 
 index_title: Face Check
-hidden: 1
+hidden: 
 keywords: 
 tags: 
 ---

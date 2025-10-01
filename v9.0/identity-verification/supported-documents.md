@@ -10,6 +10,7 @@ keywords:
 tags: 
 ---
 
+
 Please see below for supported documents for our IDV service.
 
 This list can also be requested by API through the following endpoint:
@@ -19,6 +20,7 @@ This list can also be requested by API through the following endpoint:
 GET https://api.yoti.com/idverify/v1/supported-documents?includeNonLatin=true
 {% /tab %}
 {% /code %}
+
 
 ## Supported Document Types
 
@@ -52,7 +54,7 @@ Yoti supports some non-latin character documents. These are not enabled by defau
 
 Yoti will attempt to perform automated text extraction only on these documents and a document authenticity check. We cannot perform manual data entry.
 
-{% table widths="" %}
+{% table %}
 | Type | Countries | 
 | ---- | ---- | 
 | Driving Licence | China, Iraq, Japan, South Korea, Syria | 
@@ -60,9 +62,10 @@ Yoti will attempt to perform automated text extraction only on these documents a
 | Residence Permit | Saudi Arabia | 
 {% /table %}
 
+
 ## All documents
 
-{% table widths="" %}
+{% table %}
 | Issuing Country | Country Code | Passport | National ID | Driving Licence | Residence Permit | Travel Document | Other document type(s) | 
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
 | Afghanistan | AFG | X | X | X |  | X |  | 

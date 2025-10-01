@@ -158,7 +158,7 @@ In session feedback should help:
 
 By default Yoti will allow 1 extra attempt. The screen that will be shown to the user on unsuccessful attempts is:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623415101/v2_2762/jdrxfixfuvrgtskhd5h3.png" caption="In session feedback example screen" mode="600" height="1142" width="600" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/jdrxfixfuvrgtskhd5h3/1623415101.png" caption="In session feedback example screen" mode="600" height="1142" width="600" %}
 {% /image %}
 
 The user flow is as follows:
@@ -170,7 +170,7 @@ The user flow is as follows:
 
 If the user has reached their maximum attempts the session will end there.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623414895/v2_2762/ztxrkzwhyxxv3qsepktv.png" caption="End of in-session feedback" mode="600" height="1714" width="600" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ztxrkzwhyxxv3qsepktv/1623414895.png" caption="End of in-session feedback" mode="600" height="1714" width="600" %}
 {% /image %}
 
 ---

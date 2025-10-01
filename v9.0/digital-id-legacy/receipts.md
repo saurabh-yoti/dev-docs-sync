@@ -20,7 +20,7 @@ No one at Yoti can ever see your receipts - they are encrypted and we have no ac
 
 To download the receipts there is an Export to CSV button - this will download all of the receipts in the selected time period. By default, we display receipts from the last month.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575293135/20476/etlppfcehkhf9v73yhjn.jpg" caption="Applications &gt; Receipts" mode="responsive" height="652" width="1592" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/etlppfcehkhf9v73yhjn/1575293135.jpg" caption="Applications &gt; Receipts" mode="responsive" height="652" width="1592" %}
 {% /image %}
 
 ---
@@ -29,7 +29,7 @@ To download the receipts there is an Export to CSV button - this will download a
 
 To filter receipts, you can use our date filter. This will display the receipts from this time period.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575293186/20476/b1jcberebhi07z52nqlz.jpg" caption="Applications &gt; Receipts" mode="responsive" height="626" width="1620" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/b1jcberebhi07z52nqlz/1575293186.jpg" caption="Applications &gt; Receipts" mode="responsive" height="626" width="1620" %}
 {% /image %}
 
 ## Delete receipts
@@ -38,7 +38,7 @@ You can delete receipts for a certain time period or for a certain user.
 
 To delete receipts by time period, filter the list based on the date range that you want to remove and click the Delete button in the dropdown menu next to Export to CSV.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575293269/20476/mqu9lssoimdouko4sevh.jpg" caption="Applications &gt; Receipts" mode="responsive" height="626" width="1618" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/mqu9lssoimdouko4sevh/1575293269.jpg" caption="Applications &gt; Receipts" mode="responsive" height="626" width="1618" %}
 {% /image %}
 
 ---
@@ -47,5 +47,5 @@ To delete receipts by time period, filter the list based on the date range that 
 
 To view further information about how Yoti has verified the user's details, you can click on the Show sources and verifiers tick box at the top of an individual receipt.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575293421/20476/rbtutsg5cpf63vupvqfm.jpg" caption="Applications &gt; Receipts &gt; Click Receipts &gt; Show sources and verifiers" mode="responsive" height="494" width="654" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/rbtutsg5cpf63vupvqfm/1575293421.jpg" caption="Applications &gt; Receipts &gt; Click Receipts &gt; Show sources and verifiers" mode="responsive" height="494" width="654" %}
 {% /image %}

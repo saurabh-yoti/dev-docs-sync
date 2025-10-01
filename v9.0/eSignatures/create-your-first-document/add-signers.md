@@ -83,12 +83,12 @@ You can also upload a bulk send of signers. You will need a CSV ready! Yoti will
 
 - You will have the option to upload a CSV / Download the template to then add users.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1628071246/v2_2762/cydeysjtfiz6so9wtlvf.png" caption="Bulk / Download" mode="responsive" height="257" width="745" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/cydeysjtfiz6so9wtlvf/1628071246.png" caption="Bulk / Download" mode="responsive" height="257" width="745" %}
 {% /image %}
 
 - Once this upload is complete you will have the option to check errors and edit.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1628071423/v2_2762/s022kipoyaag2wyinzf8.png" caption="Confirm bulk upload" mode="responsive" height="444" width="958" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/s022kipoyaag2wyinzf8/1628071423.png" caption="Confirm bulk upload" mode="responsive" height="444" width="958" %}
 {% /image %}
 
 {% html %}

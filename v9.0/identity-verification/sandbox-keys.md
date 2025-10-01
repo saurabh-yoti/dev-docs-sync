@@ -51,7 +51,7 @@ To create your sandbox application
 - Enter a sandbox application name
 - Hit **SAVE** to generate a Sandbox ID and Key pair.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585242620/27268/pjm8aioymuidpojfhjis.jpg" caption="Login &gt; Sandbox &gt; Get started &gt; Keys" mode="responsive" height="176" width="1632" %}
+{% image url="https://image-archive.developerhub.io/image/upload/27268/pjm8aioymuidpojfhjis/1585242620.jpg" caption="Login &gt; Sandbox &gt; Get started &gt; Keys" mode="responsive" height="176" width="1632" %}
 {% /image %}
 
 Take note of your **Sandbox Client SDK ID** then 

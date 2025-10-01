@@ -35,12 +35,12 @@ If you wish to enable this please follow the steps below:
 2. Find your application
 3. Press REGISTER YOUR KEY PAIR
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1639920110/v2_2762/oihchihv8hg0vzlwozjx.png" caption="Hub &gt; Application &gt; Keys" mode="responsive" height="807" width="912" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/oihchihv8hg0vzlwozjx/1639920110.png" caption="Hub &gt; Application &gt; Keys" mode="responsive" height="807" width="912" %}
 {% /image %}
 
 After this you will have to add your current PEM file to the pop up and give consent.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1639920165/v2_2762/afhrf3sl2zfheotmen2l.png" caption="Hub &gt; Application &gt; Keys &gt; Register your key" mode="600" height="1000" width="1048" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/afhrf3sl2zfheotmen2l/1639920165.png" caption="Hub &gt; Application &gt; Keys &gt; Register your key" mode="600" height="1000" width="1048" %}
 {% /image %}
 
 {% badge type="info" text="Hint" /%} You will not be able to review old sessions. 
@@ -57,7 +57,7 @@ If you havent used the portal at all you will need to continue with the followin
 1. [Log in](/identity-verification/login) to the portal
 2. You will now see the home screen has enabled view API sessions.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1639922790/v2_2762/wcrdgjtnlpocuu9ho00i.png" caption="Login portal &gt; Select application" mode="responsive" height="356" width="376" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/wcrdgjtnlpocuu9ho00i/1639922790.png" caption="Login portal &gt; Select application" mode="responsive" height="356" width="376" %}
 {% /image %}
 
 3. The layout and results will follow the same as described in our portal[ session results section.](/identity-verification/portal-session-results)

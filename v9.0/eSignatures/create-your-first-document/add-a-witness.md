@@ -33,17 +33,17 @@ When you send off this document, the signer will receive an email highlighting t
 
 The signer will also receive a pop up before signing the document:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624569362/v2_2762/hbbdhzgttydmawok4rsr.png" caption="Witness explainer" mode="300" height="1210" width="1046" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/hbbdhzgttydmawok4rsr/1624569362.png" caption="Witness explainer" mode="300" height="1210" width="1046" %}
 {% /image %}
 
 The signer will complete their signing and will be asked to enter their witness details.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624569456/v2_2762/sojfihizlhy7h8dfcipk.png" caption="Witness details" mode="300" height="1018" width="802" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/sojfihizlhy7h8dfcipk/1624569456.png" caption="Witness details" mode="300" height="1018" width="802" %}
 {% /image %}
 
 The witness will now receive an email with full context of the signing ceremony for them. They will have to enter a OTP and they will have to confirm they were physically present when the document was signed.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1624607980/v2_2762/nj09dcnyrvzfjecq36bs.png" caption="Witness agreement" mode="responsive" height="1182" width="2122" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/nj09dcnyrvzfjecq36bs/1624607980.png" caption="Witness agreement" mode="responsive" height="1182" width="2122" %}
 {% /image %}
 
 {% badge type="success" text="Hint" /%} The witness cannot move forward without confirming this.
@@ -64,16 +64,16 @@ The primary signer will receive an email asking them to sign their document. If 
 
 - On the email they receive they will need to click view document:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626799993/v2_2762/tsdzo6b9tkkbgqmrzzzh.png" caption="Primary signer email" mode="responsive" height="531" width="874" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/tsdzo6b9tkkbgqmrzzzh/1626799993.png" caption="Primary signer email" mode="responsive" height="531" width="874" %}
 {% /image %}
 
 - The primary signer will now see a screen explaining that they have signed the document
 - They will need to click the available hyperlink.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626800086/v2_2762/g4ejozusekwp5dbbhzeh.png" caption="Primary signer already signed notification" mode="responsive" height="362" width="464" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/g4ejozusekwp5dbbhzeh/1626800086.png" caption="Primary signer already signed notification" mode="responsive" height="362" width="464" %}
 {% /image %}
 
 - This will navigate them to input in new witness details.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626800169/v2_2762/o0mtntd8ye3bgfazxufl.png" caption="New witness details" mode="responsive" height="581" width="400" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/o0mtntd8ye3bgfazxufl/1626800169.png" caption="New witness details" mode="responsive" height="581" width="400" %}
 {% /image %}

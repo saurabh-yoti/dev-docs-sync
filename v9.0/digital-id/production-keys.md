@@ -17,7 +17,7 @@ You will then need to create an application to obtain your API keys. You can do 
 - Head to the left side nav-bar and select **Applications** &gt; **Create an Application**.
 - Or select the blue button labelled **CREATE** in the Applications page. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615399051/v2_2762/piv1akrmh2uvnuljsxbr.png" mode="responsive" height="548" width="3076" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/piv1akrmh2uvnuljsxbr/1615399051.png" mode="responsive" height="548" width="3076" %}
 {% /image %}
 
 - Then pick which service you are integrating, in this case - **Digital ID**. 
@@ -48,7 +48,7 @@ Once you have selected a service, you can create the application you will need t
 
 The next stage is to generate SDK ID and the key pair for your application.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1576164519/20575/uzkoq8qltezeiokuoz5i.jpg" caption="Generating Keys and PEM file" mode="responsive" height="1126" width="1884" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20575/uzkoq8qltezeiokuoz5i/1576164519.jpg" caption="Generating Keys and PEM file" mode="responsive" height="1126" width="1884" %}
 {% /image %}
 
 {% table widths="147" %}
@@ -64,7 +64,7 @@ The next stage is to generate SDK ID and the key pair for your application.
 
 Once you have completed the above steps, you will be able to activate your Yoti application by clicking the Activate button in the top right.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1572348772/20575/mcq7o1hln5owczn59kau.jpg" caption="Activating your application" mode="600" height="536" width="1748" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20575/mcq7o1hln5owczn59kau/1572348772.jpg" caption="Activating your application" mode="600" height="536" width="1748" %}
 {% /image %}
 
 ### Continue integration
@@ -77,7 +77,7 @@ Once you've onboarded your organisation in Yoti Hub and have generated your API 
 
 To delete your application go Application &gt; **Edit** button &gt; press **Delete**. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575294779/20476/er1ipudlofoajnrvny7t.jpg" caption="Deleting your application" mode="responsive" height="366" width="1628" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/er1ipudlofoajnrvny7t/1575294779.jpg" caption="Deleting your application" mode="responsive" height="366" width="1628" %}
 {% /image %}
 
 There is also an option to deactivate your application which will keep an archive of your users receipts and integration as a paused state. Users will not be able use your integration until it gets activated again.

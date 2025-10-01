@@ -18,12 +18,12 @@ Collect the results file of the completed test from the independent test centre 
 
 Select **Upload test results** from the homepage.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615832733/v2_2762/owxotxwyjqdieyjmsayb.png" caption="Home page &gt; Upload machine results" mode="responsive" height="836" width="1316" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/owxotxwyjqdieyjmsayb/1615832733.png" caption="Home page &gt; Upload machine results" mode="responsive" height="836" width="1316" %}
 {% /image %}
 
 Select the test results file and select **Upload**.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605565884/72692/lugwyxgwnjs35zwltzqn.png" caption="Home page &gt; Upload machine results &gt; Upload file" mode="responsive" height="420" width="360" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72692/lugwyxgwnjs35zwltzqn/1605565884.png" caption="Home page &gt; Upload machine results &gt; Upload file" mode="responsive" height="420" width="360" %}
 {% /image %}
 
 Once the file has been uploaded,
@@ -35,7 +35,7 @@ Once the file has been uploaded,
 - Yoti and online form customers will automatically receive their test result.
 - If the held results feature is set to ON, results are sent to the held results area before customers can receive their test result.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615832821/v2_2762/upmyznnvipyg0igbkaya.png" caption="Home page &gt; Upload machine results &gt; Upload file&gt; Upload complete" mode="responsive" height="349" width="336" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/upmyznnvipyg0igbkaya/1615832821.png" caption="Home page &gt; Upload machine results &gt; Upload file&gt; Upload complete" mode="responsive" height="349" width="336" %}
 {% /image %}
 
 ---
@@ -48,7 +48,7 @@ You can edit the test result and the CQ value.
 
 #### Edit test results
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1635502459/v2_2762/x62m1ygbsexg5c5mwqxc.png" caption="Edit results" mode="responsive" height="1230" width="3311" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/x62m1ygbsexg5c5mwqxc/1635502459.png" caption="Edit results" mode="responsive" height="1230" width="3311" %}
 {% /image %}
 
 #### Edit CQ value
@@ -57,14 +57,14 @@ You can edit the test result and the CQ value.
 
 Once this is activated, the ability to edit results will be available as part of the normal **Upload** flow. You must have the **Run machine and upload results** permission to be able to upload result files from your testing machine software and have access to **Edit results**.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1616596603/v2_2762/zhsl9wr9xodvbkuhcgvt.png" caption="Settings &gt; Pre-registered flow &gt; ON" mode="600" height="1076" width="1656" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/zhsl9wr9xodvbkuhcgvt/1616596603.png" caption="Settings &gt; Pre-registered flow &gt; ON" mode="600" height="1076" width="1656" %}
 {% /image %}
 
 After the upload is complete, a table will be displayed with all results in that batch, displaying all Cq values and results in an anonymised form.
 
 You will be able to edit the Cq value by clicking on the pen at the end of the row and update the Cq value for that specific well. You have the option to select a reason for editing the result. This information will be kept for audit purposes.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1616597054/v2_2762/gzpjor8bqunp1wjzhngk.png" caption="Upload complete &gt; ... &gt; Edit" mode="responsive" height="642" width="1398" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/gzpjor8bqunp1wjzhngk/1616597054.png" caption="Upload complete &gt; ... &gt; Edit" mode="responsive" height="642" width="1398" %}
 {% /image %}
 
 Given the impact that this type of change might have, a confirmation screen is displayed to ensure that:
@@ -73,7 +73,7 @@ Given the impact that this type of change might have, a confirmation screen is d
 2. The new Cq value is accurate; and
 3. The new Cq value was verified by a medical professional with the expertise to interpret the results of the tests.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1616597103/v2_2762/tdynatinv2ons8l4wgti.png" caption="Upload complete &gt; ... &gt; Edit &gt; Update" mode="300" height="606" width="344" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/tdynatinv2ons8l4wgti/1616597103.png" caption="Upload complete &gt; ... &gt; Edit &gt; Update" mode="300" height="606" width="344" %}
 {% /image %}
 
 The upload will complete after you press **YES**.
@@ -88,17 +88,17 @@ Once the file has been uploaded, Yoti and online customers will receive their re
 - Email
 - Contact them
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1615974794/v2_2762/mrmhfjmuwt1lgp6onnmt.png" caption="Results issuing methods" mode="600" height="674" width="986" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/mrmhfjmuwt1lgp6onnmt/1615974794.png" caption="Results issuing methods" mode="600" height="674" width="986" %}
 {% /image %}
 
 Customers who have linked their Yoti will automatically receive their COVID-19 status in their secure, tamper proof Yoti app. Negative, positive and invalid results will look like this:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605566496/72693/szmjiebyqhevzuhh1ste.png" caption="Example of results on mobile" mode="full" height="860" width="1600" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72693/szmjiebyqhevzuhh1ste/1605566496.png" caption="Example of results on mobile" mode="full" height="860" width="1600" %}
 {% /image %}
 
 Customers who have provided an email address via the online form will automatically receive their COVID-19 status in an email. Negative, positive and unclear results look like this:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626958092/v2_2762/hhacvdfk2brjol3ede3z.png" caption="Email examples" mode="responsive" height="644" width="1383" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/hhacvdfk2brjol3ede3z/1626958092.png" caption="Email examples" mode="responsive" height="644" width="1383" %}
 {% /image %}
 
 The void test results looks like the following:
@@ -136,7 +136,7 @@ Go to **Admin** and then select **Held results.**
 
 This is where you will see a list of held results in a table.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626956694/v2_2762/rednxziajkcudixzfenz.png" caption="Admin &gt; Held results" mode="responsive" height="513" width="1637" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/rednxziajkcudixzfenz/1626956694.png" caption="Admin &gt; Held results" mode="responsive" height="513" width="1637" %}
 {% /image %}
 
 Click on the **Send** icon for a held result. This will open a modal showing additional details on this test result.
@@ -145,7 +145,7 @@ This is where you can find the customer’s available contact details. You can a
 
 To send the result to the customer, select **Send result**. You will be asked to confirm this action because it will automatically send this test result to a Yoti app or online form customer.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626956738/v2_2762/kmicx0cx9okrpmbcjvqi.png" caption="Admin &gt; Held results &gt; Send results" mode="responsive" height="696" width="960" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/kmicx0cx9okrpmbcjvqi/1626956738.png" caption="Admin &gt; Held results &gt; Send results" mode="responsive" height="696" width="960" %}
 {% /image %}
 
 To go back to the table, select **Cancel**. You have the option to make the result as notified.
@@ -156,19 +156,19 @@ You can filter on these results by:
 - Notified / Not notified 
 - Sample updated / Reported on.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1635499704/v2_2762/hhs12wxvcwnzc35yaumh.png" caption="Filter on held results" mode="responsive" height="622" width="2052" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/hhs12wxvcwnzc35yaumh/1635499704.png" caption="Filter on held results" mode="responsive" height="622" width="2052" %}
 {% /image %}
 
 ### Move held results
 
 If you would like to remove results from the queue without sending the results please click the **...** and **press Move row to reporting.**
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626957293/v2_2762/b7ofpfdcq9fj2y1g2tzf.png" caption="Admin &gt; Held results &gt; Move Row" mode="responsive" height="566" width="1600" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/b7ofpfdcq9fj2y1g2tzf/1626957293.png" caption="Admin &gt; Held results &gt; Move Row" mode="responsive" height="566" width="1600" %}
 {% /image %}
 
 You will be prompted with are confirmation screen:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1616706510/v2_2762/zk3uzudrip79l3ndlmjk.png" caption="Admin &gt; Held results &gt; Move row &gt; Confirm" mode="responsive" height="862" width="944" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/zk3uzudrip79l3ndlmjk/1616706510.png" caption="Admin &gt; Held results &gt; Move row &gt; Confirm" mode="responsive" height="862" width="944" %}
 {% /image %}
 
 Once this action is done, you cannot send a result out to the customer.
@@ -188,12 +188,12 @@ Clicking the three dots at the end of that customer's row and selecting the **Ed
 
 1. clicking the **Update customer details** button when you are seeing the customers details.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626957418/v2_2762/dx4s4ouux7xlnejmtclu.png" caption="Admin &gt; Held results &gt; Edit details" mode="responsive" height="606" width="1613" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/dx4s4ouux7xlnejmtclu/1626957418.png" caption="Admin &gt; Held results &gt; Edit details" mode="responsive" height="606" width="1613" %}
 {% /image %}
 
 Changing customer details will not send the results to the customer. In order to send the results to that customer you will still need to select the **Send test result** option.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1626957477/v2_2762/q7fyyybzznqbx7tfymth.png" caption="Edit customer details" mode="responsive" height="789" width="329" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/q7fyyybzznqbx7tfymth/1626957477.png" caption="Edit customer details" mode="responsive" height="789" width="329" %}
 {% /image %}
 
 {% html %}

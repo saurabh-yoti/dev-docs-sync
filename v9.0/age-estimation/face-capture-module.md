@@ -1,10 +1,10 @@
 ---
 type: page
-title: Face capture
+title: Integrate face capture module (FCM)
 listed: false
 slug: face-capture-module
 description: 
-index_title: Face capture
+index_title: Integrate face capture module (FCM)
 hidden: 
 keywords: 
 tags: 

@@ -12,7 +12,7 @@ tags:
 
 Yoti supports several machines and tests ranging from RT-PCR/LAMP to Lateral Flow Testing. You can select which machines your organisation will be using for testing by simply heading over to the "Test management" section, scroll through the machines and press ADD.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1635503130/v2_2762/czgnnk7b0vxm06gygsaa.png" caption="Settings &gt; Machine management" mode="responsive" height="721" width="1420" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/czgnnk7b0vxm06gygsaa/1635503130.png" caption="Settings &gt; Machine management" mode="responsive" height="721" width="1420" %}
 {% /image %}
 
 When starting a test session, users will be asked to choose the machine they will be using from your selected testing machines.

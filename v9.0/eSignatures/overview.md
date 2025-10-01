@@ -48,7 +48,7 @@ Yoti Sign has 3 personas:-  Sender, Yoti and Recipient is described below.
 
 The diagram below describes the process and how a backend can be integrated with the Yoti architecture.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1590497419/29754/xmpbfuxkvkcum5bcawxr.jpg" caption="eSignatures explained" mode="600" height="4080" width="2479" %}
+{% image url="https://image-archive.developerhub.io/image/upload/29754/xmpbfuxkvkcum5bcawxr/1590497419.jpg" caption="eSignatures explained" mode="600" height="4080" width="2479" %}
 {% /image %}
 
 ---
@@ -81,7 +81,7 @@ Below describes a list of features our service offers:
 
 Yoti Sign consists of the following concepts:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1588682332/20563/nxmb2wo35h8xkxm7u4dy.png" caption="eSignatures structure" mode="600" height="1076" width="1600" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20563/nxmb2wo35h8xkxm7u4dy/1588682332.png" caption="eSignatures structure" mode="600" height="1076" width="1600" %}
 {% /image %}
 
 {% table widths="136" %}
@@ -104,5 +104,5 @@ We pride ourselves on how we handle our users' data. We use tech for good and en
 - Only collect the information you actually need. Data minimisation is one of the main benefits of Yoti, so people don't have to provide more information than is actually necessary.
 - Make sure any information you export to your own systems is stored securely.  Data security is at the heart of what we do and we think it should be important to every organisation.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1604402472/72634/v6aoulx2jig4gnxmio0r.png" mode="300" height="376" width="384" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72634/v6aoulx2jig4gnxmio0r/1604402472.png" mode="300" height="376" width="384" %}
 {% /image %}

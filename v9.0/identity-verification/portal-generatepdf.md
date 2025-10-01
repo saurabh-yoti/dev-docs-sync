@@ -35,17 +35,17 @@ You can chose the quality of the images to help reduce the overall size of the P
 
 To see PDF report please click [here](https://www.yoti.com/wp-content/uploads/IDV-portal.pdf) or see below:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623770552/v2_2762/tix1hdgx9uviduzzetm8.png" caption="Report page 1" mode="responsive" height="1660" width="1150" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/tix1hdgx9uviduzzetm8/1623770552.png" caption="Report page 1" mode="responsive" height="1660" width="1150" %}
 {% /image %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623770629/v2_2762/sqkxop71uxtkzjswpjzq.png" caption="Report page 2" mode="responsive" height="1664" width="1164" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/sqkxop71uxtkzjswpjzq/1623770629.png" caption="Report page 2" mode="responsive" height="1664" width="1164" %}
 {% /image %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623770679/v2_2762/enf0fqqacf7ttcj1cqcn.png" caption="Report page 3" mode="responsive" height="1648" width="1148" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/enf0fqqacf7ttcj1cqcn/1623770679.png" caption="Report page 3" mode="responsive" height="1648" width="1148" %}
 {% /image %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623770696/v2_2762/wu2edlm461xakp9jpbhj.png" caption="Report page 4" mode="responsive" height="1654" width="1160" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/wu2edlm461xakp9jpbhj/1623770696.png" caption="Report page 4" mode="responsive" height="1654" width="1160" %}
 {% /image %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623770795/v2_2762/vsgn4k9n1zhc9oqsh5vw.png" caption="Report page 5" mode="responsive" height="1646" width="1138" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/vsgn4k9n1zhc9oqsh5vw/1623770795.png" caption="Report page 5" mode="responsive" height="1646" width="1138" %}
 {% /image %}

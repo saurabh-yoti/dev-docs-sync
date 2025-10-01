@@ -15,7 +15,7 @@ Once the session and all the checks have been completed, you can download a repo
 - Click on the session you wish to download.
 - Click the three dots next to the session name:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623769481/v2_2762/fvi2ncki9vm9xy5s2g25.png" caption="Session details &gt; 3 dots" mode="responsive" height="828" width="1656" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/fvi2ncki9vm9xy5s2g25/1623769481.png" caption="Session details &gt; 3 dots" mode="responsive" height="828" width="1656" %}
 {% /image %}
 
 - Click "Download PDF".
