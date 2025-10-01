@@ -34,14 +34,14 @@ If a user doesn't have the Yoti app, they'll be redirected to a mobile website w
 
 Once they confirm the share, their details are securely sent to your organisation. You can access them through a backend integration or from your Yoti Hub. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1565952702/17868/wdg2ae9knxoggbpo6s5e.jpg" mode="responsive" height="1004" width="1152" %}
+{% image url="https://image-archive.developerhub.io/image/upload/17868/wdg2ae9knxoggbpo6s5e/1565952702.jpg" mode="responsive" height="1004" width="1152" %}
 {% /image %}
 
 ### What your users will see on their desktop browser
 
 When your user clicks the Yoti button on your website or app, a full-page overlay appears. This tells them exactly what details they'll be sharing and who they'll be sharing them with. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1565952756/17868/nzqwg9d0vnoewkjshxaw.jpg" mode="responsive" height="1118" width="1160" %}
+{% image url="https://image-archive.developerhub.io/image/upload/17868/nzqwg9d0vnoewkjshxaw/1565952756.jpg" mode="responsive" height="1118" width="1160" %}
 {% /image %}
 
 1. Your application's logo and name. Make sure they match what's on the website or app your user has come from.
@@ -54,7 +54,7 @@ When your user clicks the Yoti button on your website or app, a full-page overla
 
 Once your user has scanned the Yoti QR code on their desktop or tapped the Share details button on their mobile, the Yoti app automatically presents a share request screen. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1565952853/17868/owm2mfvcsil0ejsojljx.jpg" mode="responsive" height="1172" width="832" %}
+{% image url="https://image-archive.developerhub.io/image/upload/17868/owm2mfvcsil0ejsojljx/1565952853.jpg" mode="responsive" height="1172" width="832" %}
 {% /image %}
 
 1. Your application's logo and name. Make sure they match what's on the website or app your user has come from.
@@ -70,7 +70,7 @@ We pride ourselves on how we handle our users' data. We use tech for good and en
 - Only collect the information you actually need. Data minimisation is one of the main benefits of Yoti, giving people ownership of their data. 
 - Make sure the data you collect is stored safely. Data security is at the heart of what we do and we think it should be important to every organisation. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1565952938/17868/mmxwms4rofth6ecqdyc7.jpg" mode="300" height="506" width="524" %}
+{% image url="https://image-archive.developerhub.io/image/upload/17868/mmxwms4rofth6ecqdyc7/1565952938.jpg" mode="300" height="506" width="524" %}
 {% /image %}
 
 ---
@@ -81,22 +81,22 @@ Yoti applies to many different situations. It can be used in scenarios where som
 
 ### Use case example 1: Enabling KYC checks and identity verification
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1565953003/17868/e5s8o0p2sebs0e5z00gl.jpg" mode="responsive" height="1024" width="1870" %}
+{% image url="https://image-archive.developerhub.io/image/upload/17868/e5s8o0p2sebs0e5z00gl/1565953003.jpg" mode="responsive" height="1024" width="1870" %}
 {% /image %}
 
 ### Use case example 2: Proving age to access age-restricted websites
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1565953177/17868/mabjku2vuzjtmapxku5z.jpg" mode="responsive" height="1002" width="1858" %}
+{% image url="https://image-archive.developerhub.io/image/upload/17868/mabjku2vuzjtmapxku5z/1565953177.jpg" mode="responsive" height="1002" width="1858" %}
 {% /image %}
 
 ### Use case example 3: Proving age for age-restricted goods online
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1565953207/17868/ndp9q7da2vzbshbl8158.jpg" mode="responsive" height="1014" width="1888" %}
+{% image url="https://image-archive.developerhub.io/image/upload/17868/ndp9q7da2vzbshbl8158/1565953207.jpg" mode="responsive" height="1014" width="1888" %}
 {% /image %}
 
 ### Use case example 4: Creating verified user accounts to enhance trust and safety
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1565953264/17868/zqhziinqzv57sxnhso7c.jpg" mode="responsive" height="988" width="1856" %}
+{% image url="https://image-archive.developerhub.io/image/upload/17868/zqhziinqzv57sxnhso7c/1565953264.jpg" mode="responsive" height="988" width="1856" %}
 {% /image %}
 
 ---
@@ -111,14 +111,14 @@ Let's take a look at how to create a clear and simple experience for your users.
 
 We recommend you follow these basic guidelines when you integrate the Yoti app. This is so you can reduce friction, provide your users with valuable information and create a seamless user experience. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1563459707/17868/xrzs5va66fouply5vey5.png" mode="300" height="678" width="1240" %}
+{% image url="https://image-archive.developerhub.io/image/upload/17868/xrzs5va66fouply5vey5/1563459707.png" mode="300" height="678" width="1240" %}
 {% /image %}
 
 1. Clearly say what the Yoti button is for. There's a reason you're integrating with Yoti and we'd like you to communicate that with your customers. Sharing identity online, especially using new technology, can make people nervous.
 2. The Yoti button prominently. The button should be in clear view. Ideally, you won't need to scroll to see it.
 3. Link to the Yoti website.  This provides people with more information about what Yoti is; everything is explained on our own website. There should be a link wherever the Yoti button is. It should direct people to: [https://www.yoti.com](https://www.yoti.com)
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1563459865/17868/e9lyfvf9ykn9idxu03jj.png" mode="300" height="1830" width="1408" %}
+{% image url="https://image-archive.developerhub.io/image/upload/17868/e9lyfvf9ykn9idxu03jj/1563459865.png" mode="300" height="1830" width="1408" %}
 {% /image %}
 
 1. Add an explanation about what our partnership means for your customers. For example, if you’ve partnered with Yoti for secure ID verification, let your customers know. It will be difficult to build trust if they don’t know who we are. Find the best medium to inform customers about how Yoti is used within your service. This can be a paragraph of text, imagery, a list or even an explainer video (please contact [sdksupport@yoti.com](mailto:sdksupport@yoti.com) for assets).
@@ -132,7 +132,7 @@ Users know and trust the Yoti button. So, it should always be easy to recognise 
 
 The frontend code snippet we provide must be used as shown in the developer documentation. Don't modify the code or how the button should work. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1563460350/17868/gu43bhubjmuuhcbz3jah.png" mode="responsive" height="2058" width="1722" %}
+{% image url="https://image-archive.developerhub.io/image/upload/17868/gu43bhubjmuuhcbz3jah/1563460350.png" mode="responsive" height="2058" width="1722" %}
 {% /image %}
 
 ### Yoti button: contextual labels
@@ -144,7 +144,7 @@ You should always use a relevant, contextual label with a Yoti button. You can u
 - Log in with Yoti/Sign up with Yoti - Whenever Yoti is being used for online authentication or as an alternative to an email and password or social login.
 - Use Yoti - Fallback option for generic uses.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1563460446/17868/xusvwto11ulxqaslrbni.png" mode="responsive" height="1904" width="1714" %}
+{% image url="https://image-archive.developerhub.io/image/upload/17868/xusvwto11ulxqaslrbni/1563460446.png" mode="responsive" height="1904" width="1714" %}
 {% /image %}
 
 ---
@@ -198,7 +198,7 @@ Lead with positivity- Start a sentence off in a positive way when talking about 
 
 Please use the following text snippets when you want to share more information about Yoti. Don't rephrase the information already provided.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1563461363/17868/apr8tzywm1m9etkhhs0d.png" mode="responsive" height="1358" width="1884" %}
+{% image url="https://image-archive.developerhub.io/image/upload/17868/apr8tzywm1m9etkhhs0d/1563461363.png" mode="responsive" height="1358" width="1884" %}
 {% /image %}
 
 ---

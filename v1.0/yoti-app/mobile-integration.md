@@ -14,7 +14,7 @@ Please view the [auto$](/yoti-app/web-integration) documentation first. The mobi
 
 The image below describes the login process and how your back-end integrates with the Yoti architecture.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1562781975/12871/arruzqv0xbmsm5y76hah.png" mode="600" height="1718" width="1312" %}
+{% image url="https://image-archive.developerhub.io/image/upload/12871/arruzqv0xbmsm5y76hah/1562781975.png" mode="600" height="1718" width="1312" %}
 {% /image %}
 
 For a detailed explanation please visit our GitHub pages. The SDKs we support for mobile are:

@@ -21,7 +21,7 @@ Organisation > Applications > Scenarios
 - You can create multiple applications within your organisation, each application refers to a domain and has its own users.
 - Within each application you can create multiple scenarios for each of your use cases. These can be set up to request different attributes from your users and will direct the user to a chosen page within your domain.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1564391359/12869/dssbiymkhjr6ygcgmsot.png" mode="600" height="473" width="806" %}
+{% image url="https://image-archive.developerhub.io/image/upload/12869/dssbiymkhjr6ygcgmsot/1564391359.png" mode="600" height="473" width="806" %}
 {% /image %}
 
 ## Sign up to Hub

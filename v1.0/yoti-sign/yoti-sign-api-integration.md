@@ -52,14 +52,14 @@ Both roles are technically explained below:
 
 A user makes a call to the Yoti Sign sign_request endpoint with the appropriate data (detailed in the integration steps below). This data contains information about the signee of the document, and where the signee should sign on the page.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1564055966/17288/w5wlchnlj8tvw0oihf25.png" mode="responsive" height="1200" width="1600" %}
+{% image url="https://image-archive.developerhub.io/image/upload/17288/w5wlchnlj8tvw0oihf25/1564055966.png" mode="responsive" height="1200" width="1600" %}
 {% /image %}
 
 ### Signee
 
 A user clicks on an email and is taken through the usual Yoti Sign flow and once complete, a post message is sent to the webhook URI with the URL of the completed document.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1564056013/17288/enwm0wfiznlqvzcw6wg5.png" mode="responsive" height="1200" width="1600" %}
+{% image url="https://image-archive.developerhub.io/image/upload/17288/enwm0wfiznlqvzcw6wg5/1564056013.png" mode="responsive" height="1200" width="1600" %}
 {% /image %}
 
 ---

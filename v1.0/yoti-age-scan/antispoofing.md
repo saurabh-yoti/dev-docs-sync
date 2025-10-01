@@ -12,7 +12,7 @@ tags:
 
 Anti-spoofing is achieved by capturing the background image that does not contain any human faces. This background image is then compared to all future age estimation requests and ensures that the photo cannot be taken at another location. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1564055807/17672/xpwsr88cxkvw7eebgozl.png" mode="responsive" height="1200" width="1600" %}
+{% image url="https://image-archive.developerhub.io/image/upload/17672/xpwsr88cxkvw7eebgozl/1564055807.png" mode="responsive" height="1200" width="1600" %}
 {% /image %}
 
 This functionality will require two invocations of the API:

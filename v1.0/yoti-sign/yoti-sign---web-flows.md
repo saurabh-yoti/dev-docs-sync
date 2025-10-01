@@ -77,7 +77,7 @@ You can specify only certain individuals who need to provide a higher level of a
 
 Simply drag and drop the fields that map to the attributes you're requesting from Yoti onto page, making sure to align each of them with the corresponding fields. All of the available attributes will be provided to you on the right hand side of the page. For example:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1564133896/17891/kyklihmcpkqwcqobysvv.png" caption="Placing fields onto the document" mode="responsive" height="811" width="1297" %}
+{% image url="https://image-archive.developerhub.io/image/upload/17891/kyklihmcpkqwcqobysvv/1564133896.png" caption="Placing fields onto the document" mode="responsive" height="811" width="1297" %}
 {% /image %}
 
 ## Review and sending your document

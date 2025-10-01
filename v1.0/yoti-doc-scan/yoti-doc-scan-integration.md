@@ -16,7 +16,7 @@ Yoti is an identity checking platform that allows organisations to verify who pe
 
 2) **The Yoti Doc Scan integration**, allowing the user to take a photo of their ID, we then verify this instantly and prepare a response, which your system can then retrieve on your hosted site.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1564055850/12868/cb8vus81lr3ebsvvhf1y.png" mode="responsive" height="1200" width="1600" %}
+{% image url="https://image-archive.developerhub.io/image/upload/12868/cb8vus81lr3ebsvvhf1y/1564055850.png" mode="responsive" height="1200" width="1600" %}
 {% /image %}
 
 ### Yoti App Integration vs Yoti Doc Scan
@@ -83,7 +83,7 @@ The below diagram details the interaction with the Yoti API, Yoti client, relyin
 
 A session is always initiated programmatically from the relying party backend to the Yoti API service. The Yoti client is then able to launch, requesting the appropriate configuration from the Yoti API, using the newly created session.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1565625363/12868/ddxuzri4fz7uivsplpxk.jpg" mode="600" height="1200" width="1601" %}
+{% image url="https://image-archive.developerhub.io/image/upload/12868/ddxuzri4fz7uivsplpxk/1565625363.jpg" mode="600" height="1200" width="1601" %}
 {% /image %}
 
 Here are the main client/server interactions for the ID verification flow:

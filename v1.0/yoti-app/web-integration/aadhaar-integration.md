@@ -46,7 +46,7 @@ Once you have created your organisation, the next step is to create an applicati
 
 If you would like to support customers who may have on-boarded for Yoti using their Aadhaar card, you will need to make sure that the attributes (where applicable) are set to Allow unverified {attribute name}. As an example, please see a subset of available attributes below where support for unverified has been selected:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1567084209/18168/idoxf6vir2lbkh4dwszq.jpg" mode="responsive" height="408" width="506" %}
+{% image url="https://image-archive.developerhub.io/image/upload/18168/idoxf6vir2lbkh4dwszq/1567084209.jpg" mode="responsive" height="408" width="506" %}
 {% /image %}
 
 Attributes supported from the Aadhaar card:

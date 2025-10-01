@@ -22,7 +22,7 @@ Yoti is an identity checking platform that allows organisations to verify who pe
 
 This document will guide you through the configuration and implementation steps that are necessary in order for your back-end to be able to retrieve a user profile and complete a Yoti share flow. The image below describes the login process and how your back-end integrates with the Yoti architecture.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1557841032/12870/j5aji8dciamlodmziekk.png" mode="responsive" height="1504" width="1244" %}
+{% image url="https://image-archive.developerhub.io/image/upload/12870/j5aji8dciamlodmziekk/1557841032.png" mode="responsive" height="1504" width="1244" %}
 {% /image %}
 
 Yoti provides a set of SDKs that take care of fetching user profiles from our servers. After a user scans your app’s QR code, Yoti provides a one time use token to your back-end. Your back-end can use that token with the SDK to fetch the user profile from the Yoti servers.
