@@ -10,7 +10,7 @@ keywords:
 tags: 
 ---
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605806642/73685/ez31k34cnzqi2zw3hoqn.png" caption="The new Applied Biosystems™ QuantStudio™ 1 Real-Time
+{% image url="https://image-archive.developerhub.io/image/upload/73685/ez31k34cnzqi2zw3hoqn/1605806642.png" caption="The new Applied Biosystems™ QuantStudio™ 1 Real-Time
 PCR System makes quality and reliability the practical
 choice." mode="responsive" height="450" width="532" %}
 {% /image %}

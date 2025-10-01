@@ -18,7 +18,7 @@ Reporting helps you track and analyse all of your test results. Yoti Testing Pla
 - Number of inconclusive test results
 - Timestamp of report generated on-screen
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605567993/72695/vl2apmczcmqnifwy8xsm.png" mode="responsive" height="1800" width="2880" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72695/vl2apmczcmqnifwy8xsm/1605567993.png" mode="responsive" height="1800" width="2880" %}
 {% /image %}
 
 You must have the **Export data and Reporting** permission to be able to view the reporting feature in the Yoti Testing Platform.

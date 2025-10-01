@@ -12,7 +12,7 @@ tags:
 
 Customers being tested using Yoti Testing Platform can choose their preferred method of receiving their test result:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1612888952/v2_2762/na2kxkjlsmkre5wjqqhj.jpg" mode="responsive" height="1960" width="1233" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/na2kxkjlsmkre5wjqqhj/1612888952.jpg" mode="responsive" height="1960" width="1233" %}
 {% /image %}
 
 **1.** Customer is welcomed by a collector and introduced to the service.
@@ -68,5 +68,5 @@ We’ve created a helpful guide that you can send to your customers prior to arr
 3. At the bottom of the page, select the **Download onboarding guide** button.
 4. This will download the PDF to your local machine, which you can share out to all of your customers before they arrive to be tested.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605733859/72686/injhpmxx8oqtsb9kih3s.png" caption="Yoti onboarding PDF for your customers" mode="responsive" height="565" width="397" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72686/injhpmxx8oqtsb9kih3s/1605733859.png" caption="Yoti onboarding PDF for your customers" mode="responsive" height="565" width="397" %}
 {% /image %}

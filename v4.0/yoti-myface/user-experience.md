@@ -22,7 +22,7 @@ These aspects can be averted if the right information is provided at the right t
 
 We recognise three aspects that can affect the accuracy of an age estimation. That’s why we recommend providing the following before a photo capture, so that a user can ensure a successful scan of their face:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1583315383/20553/t1mnojeu6ykcelytlvb4.png" caption="Guidance images" mode="300" height="284" width="720" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20553/t1mnojeu6ykcelytlvb4/1583315383.png" caption="Guidance images" mode="300" height="284" width="720" %}
 {% /image %}
 
 Light of the face should be as evenly lit as possible, so ensuring a user is in a well lit area, helps to reduce the uncertainty of the age estimation.
@@ -33,7 +33,7 @@ Only hats that create significant shadow across the face can cause uncertainty. 
 
 We recommend highlighting this content before a photo capture to alleviate these concerns:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1583315398/20553/riqvwux8xwsuzxm8kxxh.png" caption="Reassurance" mode="300" height="474" width="712" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20553/riqvwux8xwsuzxm8kxxh/1583315398.png" caption="Reassurance" mode="300" height="474" width="712" %}
 {% /image %}
 
 Ensure that you are being transparent with regards to what the photo is going to be used for and make sure that it gets permanently deleted from your system once the age estimation has been performed.
@@ -46,7 +46,7 @@ Build confidence by letting them know a camera will be used and that they need t
 
 Users who choose to MyFace will be shown our persistent ‘Powered by Yoti’ mark. This should remain on-screen for the duration of the photo capture.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1583315441/20553/xosrmewglvaurhcckjmg.png" caption="Yoti Logo" mode="600" height="224" width="900" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20553/xosrmewglvaurhcckjmg/1583315441.png" caption="Yoti Logo" mode="600" height="224" width="900" %}
 {% /image %}
 
 Please do not alter or create your own asset. Please contact us with regards to assets at [sdksupport@yoti.com](mailto:sdksupport@yoti.com). You will need to provide a powered by Yoti logo on your liveness service.

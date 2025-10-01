@@ -43,7 +43,7 @@ Technical overview
 
 The diagram below describes the mobile process and how your backend integrates with the Yoti architecture.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575301553/23576/akys1ikcxqqtt2q0saoq.jpg" caption="Mobile integration process diagram" mode="600" height="1360" width="1106" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23576/akys1ikcxqqtt2q0saoq/1575301553.jpg" caption="Mobile integration process diagram" mode="600" height="1360" width="1106" %}
 {% /image %}
 
 ---

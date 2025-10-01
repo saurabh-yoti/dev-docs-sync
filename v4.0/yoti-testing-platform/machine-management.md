@@ -14,12 +14,12 @@ The Yoti Testing Platform supports several machines and tests ranging from RT-PC
 
 You must have the **Settings** permission to be able to manage machines in the Yoti Testing Platform.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1612970471/v2_2762/fcoo6x6nr1x1dpq6l90n.png" mode="responsive" height="900" width="1440" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/fcoo6x6nr1x1dpq6l90n/1612970471.png" mode="responsive" height="900" width="1440" %}
 {% /image %}
 
 When starting a test session, users will be asked to choose the machine they will be using from your selected testing machines.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1612970947/v2_2762/qvbvxaldqkkcnkrwego0.png" mode="responsive" height="900" width="1440" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/qvbvxaldqkkcnkrwego0/1612970947.png" mode="responsive" height="900" width="1440" %}
 {% /image %}
 
 ## Machines and tests currently supported

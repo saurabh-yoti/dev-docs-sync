@@ -52,7 +52,7 @@ The overview below sets out the entities and data flows involved.
 
 The diagram below describes the login process and how a backend integrated with the Yoti architecture.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1557841032/12870/j5aji8dciamlodmziekk.png" caption="Backend integration process diagram" mode="600" height="1504" width="1244" %}
+{% image url="https://image-archive.developerhub.io/image/upload/12870/j5aji8dciamlodmziekk/1557841032.png" caption="Backend integration process diagram" mode="600" height="1504" width="1244" %}
 {% /image %}
 
 Integrating with Yoti lets your users securely share specific details using their Yoti app. We call these details **attributes**.
@@ -73,7 +73,7 @@ If a user doesn't have the Yoti app, they'll be redirected to a mobile website w
 
 Once they confirm the share, their details are securely sent to your organisation. You can access them through a backend integration or from your **Yoti Hub**.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575299208/20473/kgramshxfo4qala15zar.jpg" caption="The steps users take on mobile and desktop." mode="600" height="1150" width="1294" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20473/kgramshxfo4qala15zar/1575299208.jpg" caption="The steps users take on mobile and desktop." mode="600" height="1150" width="1294" %}
 {% /image %}
 
 ---
@@ -82,7 +82,7 @@ Once they confirm the share, their details are securely sent to your organisatio
 
 When your user clicks the Yoti button on your website or app, a full-page overlay appears. This tell them exactly what details they'll be sharing and who they'll be sharing them with.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575299278/20473/viciawwxgwqppmu9tujp.jpg" caption="A diagram of our overlay with numbered areas" mode="full" height="1298" width="1324" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20473/viciawwxgwqppmu9tujp/1575299278.jpg" caption="A diagram of our overlay with numbered areas" mode="full" height="1298" width="1324" %}
 {% /image %}
 
 1. Your application's logo and name. Make sure they match what's on the website or app your user has come from.
@@ -93,7 +93,7 @@ When your user clicks the Yoti button on your website or app, a full-page overla
 
 Once your user has scanned the Yoti QR code on their desktop or tapped the Share details button on their mobile, the Yoti app automatically presents a share request screen.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575299328/20473/tssxstmljcgo0egnqkdx.jpg" caption="A diagram of our share details screen in the Yoti app with numbered areas." mode="300" height="952" width="636" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20473/tssxstmljcgo0egnqkdx/1575299328.jpg" caption="A diagram of our share details screen in the Yoti app with numbered areas." mode="300" height="952" width="636" %}
 {% /image %}
 
 1. Your application's logo and name. Make sure they match what's on the website or app your user has come from.
@@ -103,7 +103,7 @@ Once your user has scanned the Yoti QR code on their desktop or tapped the Share
 
 Yoti can be used in many different situations. It can be used in scenarios where someone would usually share personal, often private, information with an organisation or another person.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575299455/20473/mxiacan4oy2nzozyfbaz.jpg" caption="A diagram of a generic user flow using Yoti." mode="full" height="798" width="1458" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20473/mxiacan4oy2nzozyfbaz/1575299455.jpg" caption="A diagram of a generic user flow using Yoti." mode="full" height="798" width="1458" %}
 {% /image %}
 
 {% html %}
@@ -124,7 +124,7 @@ Yoti can be used in many different situations. It can be used in scenarios where
 
 ## Supported Browsers
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1608728857/72625/rypdac67giybzfpxz5tg.png" caption="Supported browsers" mode="responsive" height="1256" width="1178" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72625/rypdac67giybzfpxz5tg/1608728857.png" caption="Supported browsers" mode="responsive" height="1256" width="1178" %}
 {% /image %}
 
 ---
@@ -137,7 +137,7 @@ We pride ourselves on how we handle our users' data. We use tech for good and en
 - Only collect the information you actually need. Data minimisation is one of the main benefits of Yoti, so people don't have to provide more information than is actually necessary.
 - Make sure any information you export to your own systems is stored securely. Data security is at the heart of what we do and we think it should be important to every organisation.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575299497/20473/vwj6x1hjvfni5rzvlho3.jpg" mode="300" height="440" width="438" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20473/vwj6x1hjvfni5rzvlho3/1575299497.jpg" mode="300" height="440" width="438" %}
 {% /image %}
 
 $plugin[19ag7p8lxst]

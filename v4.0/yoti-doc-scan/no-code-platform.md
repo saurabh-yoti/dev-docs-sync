@@ -25,7 +25,7 @@ The below will guide you through step by step on how to get set up.
 
 ### Supported Browsers
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603187142/71142/rstg3qyxjlhzssaeqjfm.png" caption="Supported browsers" mode="600" height="216" width="688" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/rstg3qyxjlhzssaeqjfm/1603187142.png" caption="Supported browsers" mode="600" height="216" width="688" %}
 {% /image %}
 
 ---
@@ -70,7 +70,7 @@ Here you will to create a Yoti Doc Scan application in your Yoti hub. To create 
 
 Here you can choose which product you would like to integrate with, select Doc Scan:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1602164366/71142/zkwlb0vfrarvqhwc1mfb.png" caption="Create an application" mode="responsive" height="732" width="974" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/zkwlb0vfrarvqhwc1mfb/1602164366.png" caption="Create an application" mode="responsive" height="732" width="974" %}
 {% /image %}
 
 After pressing **Proceed,** fill in the **Details** tab - including your application name and logo, then click **Create**.
@@ -83,17 +83,17 @@ After pressing **Proceed,** fill in the **Details** tab - including your applica
 | Technical contact | This is the contact Yoti can contact you for changes, updates and feedback. | 
 {% /table %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1602164398/71142/idyccev8qr7dxusqwd2v.png" caption="Example of Yoti Doc Scan application details" mode="responsive" height="730" width="1058" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/idyccev8qr7dxusqwd2v/1602164398.png" caption="Example of Yoti Doc Scan application details" mode="responsive" height="730" width="1058" %}
 {% /image %}
 
 You will now see the following screen:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603126068/71142/q19shyankutumbjy5tsg.png" caption="Creating an application > Keys" mode="responsive" height="339" width="569" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/q19shyankutumbjy5tsg/1603126068.png" caption="Creating an application > Keys" mode="responsive" height="339" width="569" %}
 {% /image %}
 
 When you are on the **Keys** tab and click the **Generate keys** button, you will be asked whether you want to store the keys.  Click this **checkbox** and the keys will automatically be managed by Yoti on your behalf. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603126137/71142/ffqyux4zfj6icqxoyakp.png" caption="Creating an application > Keys > Tick box" mode="600" height="842" width="994" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/ffqyux4zfj6icqxoyakp/1603126137.png" caption="Creating an application > Keys > Tick box" mode="600" height="842" width="994" %}
 {% /image %}
 
 If you ever decide that you no longer want Yoti to store your keys, you will be able to regenerate your keys and uncheck the checkbox.  This will prevent you or your users from being able to view existing data in the portal.
@@ -102,7 +102,7 @@ If you ever decide that you no longer want Yoti to store your keys, you will be 
 
 You will be provided with a list of checks that Yoti Doc Scan provides. Please tick which checks and tasks you wish to have as part of your user sessions. A session represents one end-to-end use of the ID verification service. Each time the ID verification service is initiated (regardless of which specific tasks/checks are required) a new session is created.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603126274/71142/hskdbeydobn9zmrqsbpv.png" caption="Creating an application > Preferences" mode="responsive" height="466" width="874" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/hskdbeydobn9zmrqsbpv/1603126274.png" caption="Creating an application > Preferences" mode="responsive" height="466" width="874" %}
 {% /image %}
 
 A summary of the checks are:
@@ -135,14 +135,14 @@ After you have decided what checks you want save your settings and **activate**.
 
 To add a user and enforce permissions to your portal go to the **users** tab when creating a Doc Scan application. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603126375/71142/yg3iw8mvia7gd7srdqey.png" caption="Creating an application > Users" mode="responsive" height="348" width="672" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/yg3iw8mvia7gd7srdqey/1603126375.png" caption="Creating an application > Users" mode="responsive" height="348" width="672" %}
 {% /image %}
 
 Click **add new user** and type in the person’s email address. Once you add a user, they will get emailed a link to the portal and will need to create an account on the portal. 
 
 By default people that are added to the portal will have the ‘View sessions’ permission.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603126796/71142/gusdqmglmj2luv5003ik.png" caption="Creating an application > Users > Permissions" mode="300" height="1290" width="830" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/gusdqmglmj2luv5003ik/1603126796.png" caption="Creating an application > Users > Permissions" mode="300" height="1290" width="830" %}
 {% /image %}
 
 {% html %}
@@ -172,7 +172,7 @@ Log in URL: [https://identity.yoti.com/](https://identity.yoti.com/)
 
 Create an account or scan the QR code. Your email address should be the same as what you inputted in your application. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603127218/71142/sn6k0zmktb7wettxfkyc.png" caption="Login Screen" mode="600" height="1478" width="2106" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/sn6k0zmktb7wettxfkyc/1603127218.png" caption="Login Screen" mode="600" height="1478" width="2106" %}
 {% /image %}
 
 All users are required to set up 2 factor authentication to access the portal,  This can either be done as part of one step when using the Yoti app or a popular authentication app such as Google Authenticator or Authy.
@@ -194,17 +194,17 @@ For each session you will need to provide:
 
 Press **Create**.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603127429/71142/z5imgttqy9fj92bwtbl7.png" caption="Create a session" mode="600" height="1080" width="1466" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/z5imgttqy9fj92bwtbl7/1603127429.png" caption="Create a session" mode="600" height="1080" width="1466" %}
 {% /image %}
 
 You will need to enter the user's name and email address.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603127519/71142/sel89qojj7dg2ykjtepo.png" caption="'Create a session > Enter user details" mode="600" height="924" width="1452" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/sel89qojj7dg2ykjtepo/1603127519.png" caption="'Create a session > Enter user details" mode="600" height="924" width="1452" %}
 {% /image %}
 
 When you have created a session, you will be see a button on a sessions details page to copy the session link. This link will need to be sent to your user.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603127561/71142/og8redaadk4cfbnbn3s6.png" caption="Session has started" mode="600" height="1050" width="1472" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/og8redaadk4cfbnbn3s6/1603127561.png" caption="Session has started" mode="600" height="1050" width="1472" %}
 {% /image %}
 
 This must be completed by the user, if you wish to change any of the tasks and checks you must do this within the session preferences created in the hub. 
@@ -224,17 +224,17 @@ A user will need to have specific permissions to perform these actions that can 
 
 If you would like to see progress on your session you can search by email, name or select the session you are interested in.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603127921/71142/xqmz37hgle0mxrvoprgm.png" caption="Session" mode="responsive" height="780" width="1476" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/xqmz37hgle0mxrvoprgm/1603127921.png" caption="Session" mode="responsive" height="780" width="1476" %}
 {% /image %}
 
  Click the session you are interested in:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603127757/71142/sbvdhoou7rzoxagmkp61.png" caption="Session > Session details" mode="responsive" height="778" width="1480" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/sbvdhoou7rzoxagmkp61/1603127757.png" caption="Session > Session details" mode="responsive" height="778" width="1480" %}
 {% /image %}
 
 You can then expand each of the checks to see the overall results. For example:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603127826/71142/ufmbbfj5e8yv3nyx9ztf.png" caption="Session > Session details > Passport" mode="600" height="1292" width="1476" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/ufmbbfj5e8yv3nyx9ztf/1603127826.png" caption="Session > Session details > Passport" mode="600" height="1292" width="1476" %}
 {% /image %}
 
 ## Results from the session
@@ -259,7 +259,7 @@ Once the session has been started the state of the session will be in progress. 
 The above will explain the check recommendations
 that Yoti returns. It is at your discretion if you want to overall APPROVE / REJECT a user. Hence at the top of each session there will be an option for you to make a decision on the client session once the session has been completed. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603128781/71142/xdzq5omtdprkvblwd4ft.png" caption="Session > Decision" mode="300" height="622" width="1480" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/xdzq5omtdprkvblwd4ft/1603128781.png" caption="Session > Decision" mode="300" height="622" width="1480" %}
 {% /image %}
 
 This session will be overall marked with your decision.
@@ -290,7 +290,7 @@ By deleting the media associated with the session, you can remove all of you cus
 
 To do this you will need to find the correct session and click through each media item and delete them individually at the moment.  In the future we will allow you to delete it all in one go.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603128937/71142/qgl2wugzag7bbobcsxtl.png" caption="Session > Session Details > Delete image" mode="600" height="1420" width="2052" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/qgl2wugzag7bbobcsxtl/1603128937.png" caption="Session > Session Details > Delete image" mode="600" height="1420" width="2052" %}
 {% /image %}
 
 ### Deleting the session
@@ -299,7 +299,7 @@ By deleting the session, you will be deleting all records of the session.  This 
 
 To do this you will need to find the correct session and click delete. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603128860/71142/gw3vqc3kvzjvqnw7u8ew.png" caption="Session details > Delete session" mode="600" height="1284" width="2068" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/gw3vqc3kvzjvqnw7u8ew/1603128860.png" caption="Session details > Delete session" mode="600" height="1284" width="2068" %}
 {% /image %}
 
 ---
@@ -308,5 +308,5 @@ To do this you will need to find the correct session and click delete.
 
 To log out of the portal click the menu button in the top right corner of the page and click on the log out button. If you do not log out your account will stay logged in for 24 hours until it auto logs you out. 
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603129016/71142/ng8bxnqbncfg1o8kawqb.png" caption="Logout" mode="300" height="518" width="428" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/ng8bxnqbncfg1o8kawqb/1603129016.png" caption="Logout" mode="300" height="518" width="428" %}
 {% /image %}

@@ -10,7 +10,7 @@ keywords:
 tags: 
 ---
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605806381/72698/iwu9pgdl5guemgwljmr1.jpg" caption="The MyGo Pro real-time PCR instrument provides unmatched performance in a convenient format." mode="responsive" height="632" width="512" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72698/iwu9pgdl5guemgwljmr1/1605806381.jpg" caption="The MyGo Pro real-time PCR instrument provides unmatched performance in a convenient format." mode="responsive" height="632" width="512" %}
 {% /image %}
 
 ## Retrieving results from a MyGo Pro

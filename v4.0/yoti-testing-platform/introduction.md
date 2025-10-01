@@ -36,7 +36,7 @@ A customer can use their smartphone to link their Yoti account to their test. Th
 
 Test types such as FRANKD, require a machine to process the collected sample. Below is an overview of the steps required to collect, test and issue a test result to a customer.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605617287/72684/kpw65sc1ccagzrad9aao.jpg" mode="responsive" height="900" width="1440" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72684/kpw65sc1ccagzrad9aao/1605617287.jpg" mode="responsive" height="900" width="1440" %}
 {% /image %}
 
 1. The collector links a customer to a testing bag via Yoti or email.
@@ -63,7 +63,7 @@ Results can also be held by an organisation, allowing manual intervention before
 
 Lateral Flow Tests (LFT) are simple devices intended to detect the presence of a target substance in a liquid sample without the need for a test machine or other device. Below is an overview of the steps required to collect, test and issue a test result to a customer using a LFT.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605728889/72684/m5fn68hbwozl1pulo53g.jpg" mode="responsive" height="900" width="1440" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72684/m5fn68hbwozl1pulo53g/1605728889.jpg" mode="responsive" height="900" width="1440" %}
 {% /image %}
 
 1. The collector links a customer to a testing bag via Yoti or email.

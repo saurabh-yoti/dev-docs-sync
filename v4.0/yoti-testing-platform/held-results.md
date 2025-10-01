@@ -22,7 +22,7 @@ You must have the **Settings** and **Held results** permissions to be able to se
 
 Under the results tab, there are two options available for issuing results:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605568094/72696/okqn10tn8zxhxdgmdgo1.png" mode="responsive" height="1858" width="2880" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72696/okqn10tn8zxhxdgmdgo1/1605568094.png" mode="responsive" height="1858" width="2880" %}
 {% /image %}
 
 ---

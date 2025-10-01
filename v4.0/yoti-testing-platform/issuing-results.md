@@ -16,12 +16,12 @@ Once the file has been uploaded, Yoti and online customers will receive their re
 
 Customers who have linked their Yoti will automatically receive their COVID-19 status in their secure, tamper proof Yoti app. Negative, positive and invalid results will look like this:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605566496/72693/szmjiebyqhevzuhh1ste.png" mode="full" height="860" width="1600" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72693/szmjiebyqhevzuhh1ste/1605566496.png" mode="full" height="860" width="1600" %}
 {% /image %}
 
 ## Email
 
 Customers who have provided an email address via the online form will automatically receive their COVID-19 status in an email. Negative, positive and inconclusive results look like this:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605566749/72693/iqocrphzrsi5xwabc8nl.png" mode="responsive" height="1331" width="2104" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72693/iqocrphzrsi5xwabc8nl/1605566749.png" mode="responsive" height="1331" width="2104" %}
 {% /image %}

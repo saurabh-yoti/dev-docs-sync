@@ -29,14 +29,14 @@ With pooling set to ON, collectors will be asked if a customer can be added to a
 
 The collector is also told how many customers can be added to this pooled test bag.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605866800/73686/jbhi3evdl1tfoxpukeya.png" mode="responsive" height="438" width="304" %}
+{% image url="https://image-archive.developerhub.io/image/upload/73686/jbhi3evdl1tfoxpukeya/1605866800.png" mode="responsive" height="438" width="304" %}
 {% /image %}
 
 Collectors see this for every customer they collect, to ensure a returning customer requiring an individual test is not added to a pool test.
 
 The confirmation collection screen provide different actions for pooling:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605870246/73686/kw0rvf8ijrveeqai8twg.png" mode="responsive" height="702" width="345" %}
+{% image url="https://image-archive.developerhub.io/image/upload/73686/kw0rvf8ijrveeqai8twg/1605870246.png" mode="responsive" height="702" width="345" %}
 {% /image %}
 
 ### Confirm collection

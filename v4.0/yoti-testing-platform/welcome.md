@@ -31,7 +31,7 @@ Our COVID-19 Testing Primer can be found here:
 
 This user guide presents an overview of the application’s features and gives step-by-step instructions for completing a variety of tasks.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605105471/72681/ze6xtya8huus6e2uzuzk.png" mode="responsive" height="1800" width="2880" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72681/ze6xtya8huus6e2uzuzk/1605105471.png" mode="responsive" height="1800" width="2880" %}
 {% /image %}
 
 _Yoti Testing Platform user guide version 2.0.0_

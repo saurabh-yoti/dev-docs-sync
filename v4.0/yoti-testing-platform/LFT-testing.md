@@ -20,12 +20,12 @@ Use your Yoti app or email address and password to log in. Note: It is always mo
 
 From the dashboard, select **Start testing** to begin a testing session.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605622791/73687/ir2sels0akkshawkti0p.png" mode="300" height="297" width="268" %}
+{% image url="https://image-archive.developerhub.io/image/upload/73687/ir2sels0akkshawkti0p/1605622791.png" mode="300" height="297" width="268" %}
 {% /image %}
 
 ## 2. Select LFT test type
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1609936508/73687/dqbbszn1r1tk28sanebt.png" mode="responsive" height="903" width="1435" %}
+{% image url="https://image-archive.developerhub.io/image/upload/73687/dqbbszn1r1tk28sanebt/1609936508.png" mode="responsive" height="903" width="1435" %}
 {% /image %}
 
 ## 3. Set up your testing session
@@ -53,7 +53,7 @@ Yoti Testing Platform provides an optimised LFT testing experience to increase c
 | How many tests can fit in your physical testing area? | Every LFT testing scenario is different. Defining the maximum number of tests that can be processed in parallel, helps the user administer results using a more sustainable and manageable approach. This also ensures that users are not overwhelmed with the number of tests to check at a similar time, minimising the chances of human error. | 
 {% /table %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605622956/73687/rb60wswwovlfvuygwfdl.png" mode="responsive" height="1800" width="2880" %}
+{% image url="https://image-archive.developerhub.io/image/upload/73687/rb60wswwovlfvuygwfdl/1605622956.png" mode="responsive" height="1800" width="2880" %}
 {% /image %}
 
 ## 4. Start session
@@ -61,7 +61,7 @@ Yoti Testing Platform provides an optimised LFT testing experience to increase c
 1. Select **Start testing** from the bottom-right corner of the screen.
 2. Scan a LFT using the device's camera, referring to the scanning window positioned in the bottom-right corner of the screen.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605623057/73687/mxanwhcf6nyi6gjnhdtt.png" mode="responsive" height="1800" width="2880" %}
+{% image url="https://image-archive.developerhub.io/image/upload/73687/mxanwhcf6nyi6gjnhdtt/1605623057.png" mode="responsive" height="1800" width="2880" %}
 {% /image %}
 
 ## 5. Add test to session
@@ -72,7 +72,7 @@ Place the physical LFT test in the space reserved for that allocation number, an
 
 Continue to add tests as they arrive at your testing station. Test cards will stack in chronological order, with the most recent added test placed at the bottom of the stack.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605623022/73687/e8k0awxjmbo7tk4ahilk.png" mode="responsive" height="1800" width="2880" %}
+{% image url="https://image-archive.developerhub.io/image/upload/73687/e8k0awxjmbo7tk4ahilk/1605623022.png" mode="responsive" height="1800" width="2880" %}
 {% /image %}
 
 ## 6. Checking test result
@@ -81,7 +81,7 @@ When a test reaches the recommended time to check for a result. The Yoti Testing
 
 When a test appears blue (shown below), please check to see if a result has appeared on that test.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605623148/73687/js0j1qjf2wnoakgxfofl.png" mode="responsive" height="1800" width="2880" %}
+{% image url="https://image-archive.developerhub.io/image/upload/73687/js0j1qjf2wnoakgxfofl/1605623148.png" mode="responsive" height="1800" width="2880" %}
 {% /image %}
 
 ## 7. Issuing a result
@@ -90,7 +90,7 @@ When a test appears blue (shown below), please check to see if a result has appe
 2. Select whether it is a Negative, Inconclusive or Positive result.
 3. The result you select will be sent to that customer's Yoti app or email.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605623099/73687/xh8uhwznbfrnhre7dzip.png" mode="responsive" height="1800" width="2880" %}
+{% image url="https://image-archive.developerhub.io/image/upload/73687/xh8uhwznbfrnhre7dzip/1605623099.png" mode="responsive" height="1800" width="2880" %}
 {% /image %}
 
 ## Expired tests
@@ -102,15 +102,15 @@ Customer's are automatically sent an inconclusive result when the test expires. 
 1. To dismiss an expired test, select its card.
 2. Select **OK** on the confirmation modal.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605623200/73687/qi5gmixohysevzbyn4lb.jpg" mode="responsive" height="1800" width="2880" %}
+{% image url="https://image-archive.developerhub.io/image/upload/73687/qi5gmixohysevzbyn4lb/1605623200.jpg" mode="responsive" height="1800" width="2880" %}
 {% /image %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605623220/73687/n3llkmywnsg7evnjbi0b.png" mode="responsive" height="1800" width="2880" %}
+{% image url="https://image-archive.developerhub.io/image/upload/73687/n3llkmywnsg7evnjbi0b/1605623220.png" mode="responsive" height="1800" width="2880" %}
 {% /image %}
 
 ## Filling your testing area
 
 When you reach the maximum number of parallel tests, you are no longer able to scan test bags and the Yoti Testing Platform notifies you to complete tests in progress before scanning new tests.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605623246/73687/o2rskx8xjt2wrnvotvs3.png" mode="responsive" height="1800" width="2880" %}
+{% image url="https://image-archive.developerhub.io/image/upload/73687/o2rskx8xjt2wrnvotvs3/1605623246.png" mode="responsive" height="1800" width="2880" %}
 {% /image %}

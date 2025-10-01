@@ -115,5 +115,5 @@ Once your organisation has been created, our onboarding team will aim to review 
 
 ## Supported Browsers
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1596559758/29755/xlxxpnqoeqlnb8oy77lx.jpg" mode="responsive" height="268" width="898" %}
+{% image url="https://image-archive.developerhub.io/image/upload/29755/xlxxpnqoeqlnb8oy77lx/1596559758.jpg" mode="responsive" height="268" width="898" %}
 {% /image %}

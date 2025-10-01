@@ -23,10 +23,10 @@ You can edit the customer details by:
 
 Changing customer details will not send the results to the customer. In order to send the results to that customer you will still need to select the **Send test result** option.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1614940010/v2_2762/zcyizeoqcgpsnfbm12dx.png" mode="responsive" height="909" width="1440" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/zcyizeoqcgpsnfbm12dx/1614940010.png" mode="responsive" height="909" width="1440" %}
 {% /image %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1614940121/v2_2762/mxqxemddzyxphgr1tnim.png" mode="responsive" height="1608" width="400" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/mxqxemddzyxphgr1tnim/1614940121.png" mode="responsive" height="1608" width="400" %}
 {% /image %}
 
 ## 2. Edit customer details via Reporting
@@ -38,8 +38,8 @@ You can edit the customer details by:
 
 Changing customer details will not alter results previously sent to the customer. In order to send the results to the customer including the updated details, you will need to select the **Re-send test result** option.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1614939369/v2_2762/w14qylziagrlahl6ubu0.png" mode="responsive" height="1054" width="1440" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/w14qylziagrlahl6ubu0/1614939369.png" mode="responsive" height="1054" width="1440" %}
 {% /image %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1614939647/v2_2762/fgfgmn3txpzm9ja2oyiw.png" mode="responsive" height="1612" width="400" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/fgfgmn3txpzm9ja2oyiw/1614939647.png" mode="responsive" height="1612" width="400" %}
 {% /image %}

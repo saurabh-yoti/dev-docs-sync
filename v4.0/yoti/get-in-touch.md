@@ -16,7 +16,7 @@ If you have any other questions please do not hesitate to contact [sdksupport@yo
 
 _Once we have answered your question we may contact you again to discuss Yoti products and services. If you’d prefer us not to do this, please let us know when you e-mail._
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585249061/20549/hrnn0wuvwrzjjew8tcxf.jpg" mode="300" height="180" width="718" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20549/hrnn0wuvwrzjjew8tcxf/1585249061.jpg" mode="300" height="180" width="718" %}
 {% /image %}
 
 ---

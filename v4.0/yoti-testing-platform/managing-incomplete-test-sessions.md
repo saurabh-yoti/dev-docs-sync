@@ -16,7 +16,7 @@ If you leave a session in progress, the Yoti Testing Platform saves tests that y
 
 When you start a new testing session that uses testing plates, you will be notified if you have an incomplete test plate:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1606382816/-1/r4onpynhwx9wenojwrru.png" mode="responsive" height="447" width="349" %}
+{% image url="https://image-archive.developerhub.io/image/upload/-1/r4onpynhwx9wenojwrru/1606382816.png" mode="responsive" height="447" width="349" %}
 {% /image %}
 
 Select **Continue incomplete plate** to load the plate into your testing session.
@@ -27,7 +27,7 @@ Select **Start a new plate** if you want to ignore the incomplete plate and star
 
 When you start a new LFT testing session, you will be notified if you have an incomplete session:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1606383462/-1/d5hfaxkownu6mkfybavl.png" mode="responsive" height="444" width="346" %}
+{% image url="https://image-archive.developerhub.io/image/upload/-1/d5hfaxkownu6mkfybavl/1606383462.png" mode="responsive" height="444" width="346" %}
 {% /image %}
 
 Select **Continue incomplete cards** to load the incomplete LFT cards into your testing session.
@@ -38,5 +38,5 @@ Select **Start a new card session** if you want to ignore the incomplete LFT car
 
 If you have access to multiple testing devices, they will show you if there is a session in progress.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1606382914/-1/ujfi8fet9a1ozxuk2rqw.png" mode="responsive" height="456" width="248" %}
+{% image url="https://image-archive.developerhub.io/image/upload/-1/ujfi8fet9a1ozxuk2rqw/1606382914.png" mode="responsive" height="456" width="248" %}
 {% /image %}

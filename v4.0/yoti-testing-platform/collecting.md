@@ -19,7 +19,7 @@ Open your web browser and go to [**https://frankd.yoti.com/iam/login**](https://
 
 Note:  It is always more secure to log in using your Yoti app.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605108636/72691/ew8a0dlmfek6blfd56ca.png" mode="responsive" height="565" width="415" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72691/ew8a0dlmfek6blfd56ca/1605108636.png" mode="responsive" height="565" width="415" %}
 {% /image %}
 
 ## 2. Start collection session
@@ -28,14 +28,14 @@ From the dashboard, select **Start collecting** to start your collection session
 
 A session enables you to capture customer test samples one at a time. You can collect as many test samples as you want during your session.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605109638/72691/rf5yvibr9kfbbdvyuh1z.png" mode="responsive" height="375" width="360" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72691/rf5yvibr9kfbbdvyuh1z/1605109638.png" mode="responsive" height="375" width="360" %}
 {% /image %}
 
 ## 3. Scan the QR code on the test bag
 
 Scan the QR code on the front of the sample collection bag to link the bag to the Yoti Testing Platform. Please select **Allow** when the Yoti Testing Platform asks permission to access your device’s camera.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605109767/72691/xovprff5vqo9y4d9oyib.png" mode="responsive" height="508" width="362" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72691/xovprff5vqo9y4d9oyib/1605109767.png" mode="responsive" height="508" width="362" %}
 {% /image %}
 
 ## 4. Options for issuing result
@@ -52,7 +52,7 @@ Go to **Step 6** for _Submit online form_ (email).
 
 Go to **Step 10** for _Fill in paper form_ (business contact).
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1612888840/v2_2762/rfwxol3nho5psdcivyuf.png" mode="responsive" height="610" width="360" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/rfwxol3nho5psdcivyuf/1612888840.png" mode="responsive" height="610" width="360" %}
 {% /image %}
 
 ## 5. Use Yoti app
@@ -61,7 +61,7 @@ For results to be delivered to the Yoti app, select **Use Yoti app** and ask the
 
 Go to **Step 8** to continue.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605109952/72691/z0glxslfgyryks5wiybp.png" mode="responsive" height="461" width="360" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72691/z0glxslfgyryks5wiybp/1605109952.png" mode="responsive" height="461" width="360" %}
 {% /image %}
 
 ## 6. Submit online form
@@ -70,7 +70,7 @@ For results to be delivered via email, select **Online form**. You will need to 
 
 Go to **Step 7** to continue.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605110041/72691/vqkozrw5aqil20hdnlet.png" mode="responsive" height="612" width="386" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72691/vqkozrw5aqil20hdnlet/1605110041.png" mode="responsive" height="612" width="386" %}
 {% /image %}
 
 ## 7. Confirm online form details (Email)
@@ -79,7 +79,7 @@ A summary of the customer details is presented in a larger text size. Please sho
 
 Go to **Step 8** to continue.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605110089/72691/w11avds66o5ypb1e0kpe.png" mode="responsive" height="623" width="383" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72691/w11avds66o5ypb1e0kpe/1605110089.png" mode="responsive" height="623" width="383" %}
 {% /image %}
 
 ## 8.  Symptom questionnaire
@@ -88,7 +88,7 @@ If a customer has chosen **Yoti app** or **Online form**, and the **Symptom ques
 
 Go to **Step 9** to continue.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605110315/72691/rbcajgil4l1ekkakvr2f.png" mode="responsive" height="913" width="385" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72691/rbcajgil4l1ekkakvr2f/1605110315.png" mode="responsive" height="913" width="385" %}
 {% /image %}
 
 ## 9. Collect sample (Yoti / Online form)
@@ -103,7 +103,7 @@ Linking a new bag to a Yoti or online form will replace any previously linked te
 
 Go to **Step 11** to continue.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605110212/72691/jama2ueguijvdj4boyzq.png" mode="responsive" height="593" width="359" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72691/jama2ueguijvdj4boyzq/1605110212.png" mode="responsive" height="593" width="359" %}
 {% /image %}
 
 ## 10. Filling in a paper form
@@ -118,7 +118,7 @@ There is also the option to cancel the collection if a problem arises, in which 
 
 Go to **Step 11** to continue.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1605110406/72691/c1hlyrzphzcj10yuumaw.png" mode="responsive" height="677" width="354" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72691/c1hlyrzphzcj10yuumaw/1605110406.png" mode="responsive" height="677" width="354" %}
 {% /image %}
 
 ## 11. Collection complete

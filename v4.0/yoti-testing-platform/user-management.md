@@ -14,7 +14,7 @@ Users in the Yoti Testing Platform can be managed manually via user management. 
 
 You must have the **Settings** and **User Management** permission to be able to manage users in the Yoti Testing Platform.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1612958118/v2_2762/pvwhpeqeehas9ygrcqlr.jpg" mode="responsive" height="1800" width="2880" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/pvwhpeqeehas9ygrcqlr/1612958118.jpg" mode="responsive" height="1800" width="2880" %}
 {% /image %}
 
 ---
@@ -27,7 +27,7 @@ You must have the **Settings** and **User Management** permission to be able to 
 4. Select what permissions you want to give to this user (see Permissions below for more details).
 5. Click the **Add user** button.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1612957669/v2_2762/ohn7hpxsdc2ra3ccyr9e.png" mode="responsive" height="718" width="400" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ohn7hpxsdc2ra3ccyr9e/1612957669.png" mode="responsive" height="718" width="400" %}
 {% /image %}
 
 After the user is created, you’ll be brought to a screen where you can view the user in the users table. The user will receive an invitation email that directs them to the create account screen in the Yoti Testing Platform. They can use their Yoti app or create a password to get access to the application.

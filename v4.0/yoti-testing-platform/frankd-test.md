@@ -12,7 +12,7 @@ tags:
 
 Below shows what’s included in a FRANKD testing kit:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603725112/-1/t6awosqyx4m2zg18uxo5.png" caption="FRANKD testing kit" mode="responsive" height="696" width="1182" %}
+{% image url="https://image-archive.developerhub.io/image/upload/-1/t6awosqyx4m2zg18uxo5/1603725112.png" caption="FRANKD testing kit" mode="responsive" height="696" width="1182" %}
 {% /image %}
 
 ## Useful links

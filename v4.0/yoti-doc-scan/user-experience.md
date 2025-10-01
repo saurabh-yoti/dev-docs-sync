@@ -48,7 +48,7 @@ As a third party company, it's important that your customers trust your faith in
 
 ## Key user experience touchpoints
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575457104/23614/xfylyp8e1qwjhapnulyi.jpg" caption="Key touchpoints" mode="responsive" height="590" width="1490" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23614/xfylyp8e1qwjhapnulyi/1575457104.jpg" caption="Key touchpoints" mode="responsive" height="590" width="1490" %}
 {% /image %}
 
 ### Before they start
@@ -61,7 +61,7 @@ Through multiple rounds of testing, we’ve found some easy ways to reassure peo
 - If you're doing a liveness check, let them know in advance that you'll need access to their camera to capture their face.
 - Mention that you're using a trusted third party to perform the verification checks.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575457277/23614/xme9hf2at0vkdpvyqj3v.jpg" caption="Before they start" mode="300" height="508" width="530" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23614/xme9hf2at0vkdpvyqj3v/1575457277.jpg" caption="Before they start" mode="300" height="508" width="530" %}
 {% /image %}
 
 ### During the process
@@ -72,7 +72,7 @@ Sending your personal details through a third party service can be an unnerving 
 - If you're embedding Yoti Doc Scan in a page, hide or remove any content around the iframe that might distract someone. Things like adverts could also unnerve users and affect their level of trust.
 - Handle any errors correctly and consistently. We explain more about errors in detail in a couple of chapters.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575457461/23614/lsvgekiygmtual28ufdb.jpg" caption="During the process" mode="300" height="498" width="528" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23614/lsvgekiygmtual28ufdb/1575457461.jpg" caption="During the process" mode="300" height="498" width="528" %}
 {% /image %}
 
 ### Waiting for approval
@@ -83,7 +83,7 @@ There will be a period of time after your customers submit their application whe
 - Give them an area where they can check the status of their application.
 - When possible, allow them to continue using your service.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575457542/23614/uenrwieidy4ejmj82jy3.jpg" caption="Waiting for approval" mode="300" height="552" width="570" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23614/uenrwieidy4ejmj82jy3/1575457542.jpg" caption="Waiting for approval" mode="300" height="552" width="570" %}
 {% /image %}
 
 ### Getting the report
@@ -93,7 +93,7 @@ Once we’ve reviewed your customer’s application, you’ll be able to see the
 - If your customer has passed the check then let them know. This is best done either through email or via notifications if you use them.
 - For customers who fail the check, give them an option to either try again or go through an alternative method.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575457622/23614/u8s4hnysaohenla8q8a1.jpg" caption="Getting the report" mode="300" height="482" width="488" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23614/u8s4hnysaohenla8q8a1/1575457622.jpg" caption="Getting the report" mode="300" height="482" width="488" %}
 {% /image %}
 
 ---
@@ -102,7 +102,7 @@ Once we’ve reviewed your customer’s application, you’ll be able to see the
 
 We have designed every screen within Yoti Doc Scan to work seamlessly across browser windows of any size.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575457784/23614/zxe6phzse4kiexw3v6jl.jpg" caption="Yoti Doc scan layouts - Web and Mobile" mode="responsive" height="604" width="1316" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23614/zxe6phzse4kiexw3v6jl/1575457784.jpg" caption="Yoti Doc scan layouts - Web and Mobile" mode="responsive" height="604" width="1316" %}
 {% /image %}
 
 **Desktop browser layouts**
@@ -113,7 +113,7 @@ The common template is used for most screens. The main content takes up the full
 
 The activity template is reserved for specifications that require more focus. For example, the document capture process is performed using this template. The main actionable area is found on the right-hand side; supporting guidance and helpful links are on the left-hand side.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575457995/23614/zwz551ctyjd71bxbdn6x.jpg" caption="Web layout" mode="300" height="856" width="618" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23614/zwz551ctyjd71bxbdn6x/1575457995.jpg" caption="Web layout" mode="300" height="856" width="618" %}
 {% /image %}
 
 Depending on the size of the browser window, the Yoti Doc Scan frame will adapt to the space in a variety of ways.
@@ -122,12 +122,12 @@ For windows of width ≤628 px the view on desktop will change the mobile web la
 
 For windows of width ≥ 934 px the frame will remain a fixed size.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575458185/23614/tyniaij8kjoqjsjor0iu.jpg" caption="Breakpoints on desktop" mode="responsive" height="480" width="1460" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23614/tyniaij8kjoqjsjor0iu/1575458185.jpg" caption="Breakpoints on desktop" mode="responsive" height="480" width="1460" %}
 {% /image %}
 
 We have a minimum size for desktop view: 604 px. If the frame is made larger than this then the modal will still only be 604 px in height. If the frame height is made smaller than 604 px, the contents become scrollable and the bar stays fixed to the bottom of the frame. Shadows are used to show that the content underneath the bar can be scrolled.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1582140261/23614/a1i9mqizom0vhvtswvtq.png" caption="Sticky button" mode="responsive" height="393" width="1048" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23614/a1i9mqizom0vhvtswvtq/1582140261.png" caption="Sticky button" mode="responsive" height="393" width="1048" %}
 {% /image %}
 
 **Mobile browser layout**
@@ -136,14 +136,14 @@ On mobile browsers we can only display content in a single column. This common t
 
 This screen will sit within the browser window. Your customer will still be able to navigate using the native controls (eg, go back, close tab). The primary action button can usually be found at the bottom of the window; otherwise, it will be clearly visible within the page content.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575458062/23614/xq59mdypmzfxg8915uhf.jpg" caption="Mobile layout" mode="300" height="650" width="406" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23614/xq59mdypmzfxg8915uhf/1575458062.jpg" caption="Mobile layout" mode="300" height="650" width="406" %}
 {% /image %}
 
 Sticky buttons on mobile devices make actions clear to users no matter their screen size. The content in the main window area will remain scrollable behind the button. The button area is a fixed height of 84 px and is fixed to the bottom of the frame.
 
 If there is content above the iframe in the window, the content in the frame will be pushed into a smaller vertical space as the button stays fixed to the bottom of the frame. If you have content overlaying the iframe, the button may be covered or obscured. Please make sure that your site’s content does not obscure the iframe’s space.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1582140373/23614/uageqqcu6p1lvpjxhbzi.png" caption="Sticky button - Mobile" mode="responsive" height="447" width="1052" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23614/uageqqcu6p1lvpjxhbzi/1582140373.png" caption="Sticky button - Mobile" mode="responsive" height="447" width="1052" %}
 {% /image %}
 
 {% html %}
@@ -176,7 +176,7 @@ On this page, we suggest you provide the following:
 
 **Generic errors**
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575458496/23614/ivd3dhkqlwqhwsdrrns6.jpg" caption="Generic errors" mode="responsive" height="908" width="1492" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23614/ivd3dhkqlwqhwsdrrns6/1575458496.jpg" caption="Generic errors" mode="responsive" height="908" width="1492" %}
 {% /image %}
 
 {% table %}
@@ -192,7 +192,7 @@ On this page, we suggest you provide the following:
 
 **Document capture errors**
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575458875/23614/pvp1xif5mhemrcb2vrcn.jpg" caption="Document capture check" mode="300" height="712" width="384" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23614/pvp1xif5mhemrcb2vrcn/1575458875.jpg" caption="Document capture check" mode="300" height="712" width="384" %}
 {% /image %}
 
 There are some specific errors that can only be thrown during the document capture process:
@@ -207,7 +207,7 @@ There are some specific errors that can only be thrown during the document captu
 
 **Liveness check errors**
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575459355/23614/ilu7umlim0dsys2gceik.jpg" caption="Liveness check" mode="300" height="730" width="386" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23614/ilu7umlim0dsys2gceik/1575459355.jpg" caption="Liveness check" mode="300" height="730" width="386" %}
 {% /image %}
 
 There are some specific errors that can only be thrown during the liveness process:
