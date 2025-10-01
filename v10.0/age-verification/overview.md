@@ -85,7 +85,7 @@ The Age verification service is very adaptable, please see below for features av
 
 The user will be asked to prove their age and is taken through the Yoti verification steps where they will be presented with the options you have selected. You will then need to redirect them to a success or error URL, alternatively you can listen to post messaging from the iframe.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1632336092/v2_2762/f2s1by8zdu85fc6xcqzt.png" caption="Age verification options" mode="responsive" height="1148" width="1910" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/f2s1by8zdu85fc6xcqzt/1632336092.png" caption="Age verification options" mode="responsive" height="1148" width="1910" %}
 {% /image %}
 
 {% badge type="info" text="Hint" /%} Yoti offers customisation of this page. See [auto$](/age-verification/launch-the-user-view).
@@ -136,7 +136,7 @@ Please note: Some age verification methods may not be available in all the langu
 
 ## Supported browsers
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1608731632/72645/qgn0rlp4llje2hmtuxpi.png" caption="Supported browsers" mode="600" height="940" width="600" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72645/qgn0rlp4llje2hmtuxpi/1608731632.png" caption="Supported browsers" mode="600" height="940" width="600" %}
 {% /image %}
 
 ---
@@ -149,5 +149,5 @@ We pride ourselves on how we handle our users' data. We use tech for good and en
 - Only collect the information you actually need. Data minimisation is one of the main benefits of Yoti, so people don't have to provide more information than is actually necessary.
 - Make sure any information you export to your own systems is stored securely. Data security is at the heart of what we do and we think it should be important to every organisation.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1604402402/72645/m4wu2a4v4d117o6ma00k.png" mode="300" height="376" width="300" %}
+{% image url="https://image-archive.developerhub.io/image/upload/72645/m4wu2a4v4d117o6ma00k/1604402402.png" mode="300" height="376" width="300" %}
 {% /image %}

@@ -4,7 +4,7 @@ title: New Page
 listed: true
 slug: new-page
 description: 
-index_title: New Page
+index_title: Introduction
 hidden: 
 keywords: 
 tags: 

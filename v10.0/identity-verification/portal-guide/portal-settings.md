@@ -12,19 +12,19 @@ tags:
 
 Here you can configure how long you want the session to be valid for, and how long you want to keep the images for.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636397173/v2_2762/ocnzkgalkrjgavzxpbj4.png" caption="Portal &gt; Preferences" mode="responsive" height="372" width="1060" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ocnzkgalkrjgavzxpbj4/1636397173.png" caption="Portal &gt; Preferences" mode="responsive" height="372" width="1060" %}
 {% /image %}
 
 Yoti recommends you keep the data only if necessary. By default we set the session time to live for 1 week and the retention period to 3 months.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636397191/v2_2762/wynyzzgp0kkbn8dixzvm.png" caption="Portal &gt; Preferences" mode="responsive" height="614" width="880" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/wynyzzgp0kkbn8dixzvm/1636397191.png" caption="Portal &gt; Preferences" mode="responsive" height="614" width="880" %}
 {% /image %}
 
 ### Client view
 
 Here you can configure the user view
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636397207/v2_2762/sm7ny10mvy8yercyehhk.png" caption="Portal &gt; Preferences" mode="responsive" height="1054" width="1052" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/sm7ny10mvy8yercyehhk/1636397207.png" caption="Portal &gt; Preferences" mode="responsive" height="1054" width="1052" %}
 {% /image %}
 
 {% table %}

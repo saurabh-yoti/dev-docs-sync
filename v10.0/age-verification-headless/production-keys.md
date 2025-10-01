@@ -31,7 +31,7 @@ You will need to create an service in the hub to obtain your API keys. You can d
 
 The next stage is to collect various IDs for your service.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1639911985/v2_2762/ppjjd7eniejekaveooeg.png" caption="Generating keys and settings" mode="responsive" height="931" width="940" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/ppjjd7eniejekaveooeg/1639911985.png" caption="Generating keys and settings" mode="responsive" height="931" width="940" %}
 {% /image %}
 
 If you want to add premium services please tick the boxes in the blue box to enable. You can always change this later.
@@ -57,7 +57,7 @@ To delete your service go Service &gt; **Edit** button &gt; press **Delete**.
 
 There is also an option to deactivate your service which will hold your integration as a paused state. Users will not be able use your integration until it gets activated again.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575294779/20476/er1ipudlofoajnrvny7t.jpg" caption="Deleting your service" mode="responsive" height="366" width="1628" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20476/er1ipudlofoajnrvny7t/1575294779.jpg" caption="Deleting your service" mode="responsive" height="366" width="1628" %}
 {% /image %}
 
 {% badge type="info" text="Hint" /%} If you delete your service we cannot recover this for you.

@@ -29,7 +29,7 @@ The below will guide you through step by step on how to get set up.
 
 ### Supported Browsers
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603187142/71142/rstg3qyxjlhzssaeqjfm.png" caption="Supported browsers" mode="600" height="216" width="688" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/rstg3qyxjlhzssaeqjfm/1603187142.png" caption="Supported browsers" mode="600" height="216" width="688" %}
 {% /image %}
 
 ---
@@ -97,7 +97,7 @@ You will be provided with a list of checks that Identity verification provides.
 
 A session represents one end-to-end use of the ID verification service. Each time the ID verification service is initiated (regardless of which specific tasks/checks are required) a new session is created.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1636396942/v2_2762/gxp0hzqjoiuo2zhpqvvd.png" caption="Creating a service &gt; Portal Preferences" mode="responsive" height="1158" width="1482" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/gxp0hzqjoiuo2zhpqvvd/1636396942.png" caption="Creating a service &gt; Portal Preferences" mode="responsive" height="1158" width="1482" %}
 {% /image %}
 
 Below describes the multiple checks Yoti provides for identity verification. We offer a manual check for most of the checks. If you require a manual check please select the following as part of your check:-

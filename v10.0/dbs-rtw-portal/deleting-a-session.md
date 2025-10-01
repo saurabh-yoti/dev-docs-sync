@@ -34,7 +34,7 @@ To do this you will need to:-
 - Type 'CONFIRM DELETE' in the dialog box.
 - Press the **DELETE SESSION** button.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1603128860/71142/gw3vqc3kvzjvqnw7u8ew.png" caption="Session details &gt; Delete session" mode="600" height="1284" width="2068" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/gw3vqc3kvzjvqnw7u8ew/1603128860.png" caption="Session details &gt; Delete session" mode="600" height="1284" width="2068" %}
 {% /image %}
 
 ---
