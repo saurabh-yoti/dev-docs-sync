@@ -43,7 +43,7 @@ To create your application, click the **applications** tab in the side menu.
 
 Here you can choose which product you would like to integrate with:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1576162733/20575/wdycnnndkbdu8q1ur16m.jpg" caption="Creating an application" mode="responsive" height="1462" width="2138" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20575/wdycnnndkbdu8q1ur16m/1576162733.jpg" caption="Creating an application" mode="responsive" height="1462" width="2138" %}
 {% /image %}
 
 {% html %}
@@ -72,12 +72,12 @@ After pressing **Proceed,** fill in the **Details** tab - including your applica
 
 ### Yoti App application creation example
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1576164103/20575/m3tedobmgssao3zv5hom.jpg" caption="Example of Yoti App application creation" mode="responsive" height="1622" width="2022" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20575/m3tedobmgssao3zv5hom/1576164103.jpg" caption="Example of Yoti App application creation" mode="responsive" height="1622" width="2022" %}
 {% /image %}
 
 ### Yoti Doc Scan & Yoti Age Scan application creation example
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1576163732/20575/wwpno1djugoqv1xtswg0.jpg" caption="Example of Yoti Doc Scan or Yoti Age Scan application details" mode="responsive" height="1500" width="2060" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20575/wwpno1djugoqv1xtswg0/1576163732.jpg" caption="Example of Yoti Doc Scan or Yoti Age Scan application details" mode="responsive" height="1500" width="2060" %}
 {% /image %}
 
 ---
@@ -130,7 +130,7 @@ Find out how View Yoti attributes work.
 </div>
 {% /html %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1572348655/20575/t58vskimgzkzuflxqkhp.jpg" caption="Creating a scenario" mode="600" height="1538" width="1752" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20575/t58vskimgzkzuflxqkhp/1572348655.jpg" caption="Creating a scenario" mode="600" height="1538" width="1752" %}
 {% /image %}
 
 Give your scenario a useful name, describing your use case and click **Proceed**. You will then be asked to select which attributes (personal details) you want to receive from your users.
@@ -149,7 +149,7 @@ If you lose or corrupt your PEM file you will be able to generate a new one. Reg
 
 ### Yoti App integration collecting keys
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1572348706/20575/ywd60qbv0ragynm2pssz.jpg" caption="Generating keys and PEM File Yoti Digital ID" mode="600" height="1130" width="1790" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20575/ywd60qbv0ragynm2pssz/1572348706.jpg" caption="Generating keys and PEM File Yoti Digital ID" mode="600" height="1130" width="1790" %}
 {% /image %}
 
 The next stage is to collect various IDs and the key pair for your application.
@@ -162,7 +162,7 @@ The next stage is to collect various IDs and the key pair for your application.
 
 ### Yoti Doc Scan & Yoti Age Scan collecting keys
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1576164519/20575/uzkoq8qltezeiokuoz5i.jpg" caption="Generating keys and PEM file Yoti Doc Scan or Yoti Age Scan" mode="responsive" height="1126" width="1884" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20575/uzkoq8qltezeiokuoz5i/1576164519.jpg" caption="Generating keys and PEM file Yoti Doc Scan or Yoti Age Scan" mode="responsive" height="1126" width="1884" %}
 {% /image %}
 
 The next stage is to collect various IDs and the key pair for your application.
@@ -175,7 +175,7 @@ The next stage is to collect various IDs and the key pair for your application.
 
 Once you have completed the above steps, you will be able to activate your Yoti application by clicking the Activate button in the top right.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1572348772/20575/mcq7o1hln5owczn59kau.jpg" caption="Activating your application" mode="600" height="536" width="1748" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20575/mcq7o1hln5owczn59kau/1572348772.jpg" caption="Activating your application" mode="600" height="536" width="1748" %}
 {% /image %}
 
 ---

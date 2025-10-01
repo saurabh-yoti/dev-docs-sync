@@ -25,7 +25,7 @@ Production POST https://api.yotisign.com/sign-requests
 
 This service will send an email to the signee prompting them through the Yoti Sign flow. There is a configurable option to customise the signing request message that gets sent.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1572534062/22175/joyepbj3s5pz0hzq4llf.jpg" caption="Document received to sign" mode="600" height="596" width="745" %}
+{% image url="https://image-archive.developerhub.io/image/upload/22175/joyepbj3s5pz0hzq4llf/1572534062.jpg" caption="Document received to sign" mode="600" height="596" width="745" %}
 {% /image %}
 
 ## Example email object

@@ -31,7 +31,7 @@ The below will guide you through the configuration and implementation steps that
 
 The user's image is securely transmitted to the Yoti API (hosted in the United Kingdom and secured by TLS 1.2 encryption). After the age estimation is performed, the captured facial image is deleted from Yoti’s servers and Yoti returns a predicted age and uncertainty value.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575305084/23577/a9x040wyz3d2vevqn4m6.jpg" caption="Yoti Age Scan overview" mode="responsive" height="348" width="1226" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23577/a9x040wyz3d2vevqn4m6/1575305084.jpg" caption="Yoti Age Scan overview" mode="responsive" height="348" width="1226" %}
 {% /image %}
 
 {% html %}

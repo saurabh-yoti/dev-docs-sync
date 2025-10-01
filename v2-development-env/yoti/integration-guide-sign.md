@@ -35,7 +35,7 @@ There are two types of users in the Yoti Sign flow:
 - **The Sender** - This user will be sending out the PDF and requesting a signed document back.
 - **The Signee** - This user will be receiving the PDF and sending the digitally signed document to the sender.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1572532255/20563/h97ql7n0ovqcqzpucm7n.jpg" caption="Yoti Sign API walkthrough" mode="600" height="4080" width="2479" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20563/h97ql7n0ovqcqzpucm7n/1572532255.jpg" caption="Yoti Sign API walkthrough" mode="600" height="4080" width="2479" %}
 {% /image %}
 
 ---

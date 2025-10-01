@@ -36,7 +36,7 @@ See Integration guide
 
 The Yoti button that comes with our SDKs is easy to integrate and includes built-in education that ensures a consistent design and experience. It should look like this:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575300153/23575/xefmooh8y1cplmqsh4e2.jpg" caption="Yoti button" mode="300" height="104" width="378" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23575/xefmooh8y1cplmqsh4e2/1575300153.jpg" caption="Yoti button" mode="300" height="104" width="378" %}
 {% /image %}
 
 ### Recommended labels
@@ -51,7 +51,7 @@ You should always provide context in a Yoti button, here are our best performing
 - Register with Yoti
 - Sign up with Yoti
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1578387940/23575/pcirimzqlkjblfmutivc.jpg" caption="A contextual button label makes the action easy for users to understand." mode="responsive" height="920" width="690" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23575/pcirimzqlkjblfmutivc/1578387940.jpg" caption="A contextual button label makes the action easy for users to understand." mode="responsive" height="920" width="690" %}
 {% /image %}
 
 ### Placement
@@ -60,14 +60,14 @@ You should display the Yoti button in a highly visible location on your website.
 
 If Yoti is offered with other options, ensure you make all options the same width and height for a consistent layout.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575300275/23575/kxk5sbrhmixlzqeyx9sw.jpg" caption="Placement of Yoti" mode="responsive" height="654" width="1068" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23575/kxk5sbrhmixlzqeyx9sw/1575300275.jpg" caption="Placement of Yoti" mode="responsive" height="654" width="1068" %}
 {% /image %}
 
 ## Size and shape
 
 The Yoti button should be easily recognisable on your website. Please use the provided button design without making any visual changes.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575300336/23575/khrda0hcx13qgyyzakeq.jpg" caption="Size and shapes of the Yoti button" mode="responsive" height="1226" width="1198" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23575/khrda0hcx13qgyyzakeq/1575300336.jpg" caption="Size and shapes of the Yoti button" mode="responsive" height="1226" width="1198" %}
 {% /image %}
 
 ---
@@ -89,14 +89,14 @@ You can customise content like the links in the steps and the names, but you can
 
 We recommend you use the following:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575300425/23575/zu4pozjs4m80ydvrcorj.jpg" caption="Example of expectations" mode="responsive" height="860" width="1682" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23575/zu4pozjs4m80ydvrcorj/1575300425.jpg" caption="Example of expectations" mode="responsive" height="860" width="1682" %}
 {% /image %}
 
 ### Time expectations
 
 Don’t be too specific about how long the process can take. Give generic time estimations instead.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575300483/23575/tiowlniau2rl8oey5u4k.jpg" caption="Time expectations" mode="600" height="538" width="1106" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23575/tiowlniau2rl8oey5u4k/1575300483.jpg" caption="Time expectations" mode="600" height="538" width="1106" %}
 {% /image %}
 
 ### In context messaging
@@ -105,7 +105,7 @@ Including messaging next to your button can add more context and clarity on what
 
 Some examples:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575300556/23575/mulhnyaeao9tfgzeftw7.jpg" caption="Context descriptions" mode="600" height="172" width="972" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23575/mulhnyaeao9tfgzeftw7/1575300556.jpg" caption="Context descriptions" mode="600" height="172" width="972" %}
 {% /image %}
 
 ### Learn more link
@@ -114,5 +114,5 @@ This provides users with the extra information they might need. There should be 
 
 **[https://www.yoti.com](https://www.yoti.com)**
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1575300635/23575/cmlvoc1apgh7y9qexzrl.jpg" caption="Learn more link" mode="300" height="516" width="780" %}
+{% image url="https://image-archive.developerhub.io/image/upload/23575/cmlvoc1apgh7y9qexzrl/1575300635.jpg" caption="Learn more link" mode="300" height="516" width="780" %}
 {% /image %}
