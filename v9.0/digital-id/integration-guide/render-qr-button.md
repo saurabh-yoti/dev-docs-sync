@@ -10,7 +10,7 @@ keywords:
 tags: 
 ---
 
-Yoti provides a QR/button generation script to be included in your HTML file. In the examples below, this script has been added to the head of the HTML document.
+Yoti provides a QR/button generation script to be included in your HT_M_L file. In the examples below, this script has been added to the head of the HT_M_L document. 
 
 To render the Yoti QR or button,  please take a look at our range of options below and pick a configuration.
 
@@ -32,7 +32,7 @@ The Yoti button requires the hosting page to be accessed via HTTPS, so please ma
 | skinId | The theme to be used for the webshare rendering. | ❌ | 
 {% /table %}
 
-Finally, the domain and port pair where the button is deployed (i.e. [https://localhost:8000](https://localhost:8000/)) must match the one that you have configured in Yoti Hub. This prevents other web sites from embedding your Yoti button.
+Finally, the domain and port pair where the button is deployed (i.e. [https://localhost:8000](https://localhost:8000/)) must match the one that you have configured in Yoti Hub. This prevents other websites from embedding your Yoti button.
 
 ---
 
@@ -51,7 +51,7 @@ Yoti offers the ability to specify a language locale for the front-end webshare 
 
 ### Modal QR
 
-The Modal QR code option has a button which when clicked opens a modal pop out window with the QR code present. There are three tabs, describing how to scan the QR code, The QR code & attributes to be shared and about Yoti.
+The Modal QR code option has a button which when clicked opens a modal pop out window with the QR code present. There are three tabs, describing how to scan the QR code, the QR code & attributes to be shared and about Yoti.
 
 {% image url="https://uploads.developerhub.io/prod/kvAX/srcrelbu4df0veellze7cuu1g96r1srnf78yxw2bvh9z74oes6exu7o8x9gq3xie.png" caption="Modal QR button" mode="responsive" height="260" width="560" %}
 {% /image %}
@@ -122,7 +122,7 @@ The Modal QR code option has a button which when clicked opens a modal pop out w
 
 ### Inline QR
 
-The Inline QR code option has a button which when clicked opens just the QR code. You will need to provide more context on your page as to what the Digital ID button is for. See the example below:
+The Inline QR code option has a button which, when clicked, opens just the QR code. You will need to provide more context on your page as to what the Digital ID button is for. See the example below:
 
 {% image url="https://uploads.developerhub.io/prod/kvAX/6uo16ynh3bo901rrgcle5irsgjiz0d8opouidduitbn8qv3550ffko8fwvlvdoj3.png" caption="Inline QR code" mode="600" height="852" width="600" %}
 {% /image %}
@@ -284,17 +284,17 @@ We aim to get your QR code to you in 3-4 working days.
 
 ### Non-Browser QR
 
-If you're looking to integrating Yoti with a 'Non-browser' client, one of the tasks you will need to do is request a Yoti QR code URI from Yoti's servers. This URI must be transformed into a Yoti QR before it can be scanned with the Yoti app. Yoti provides a simple API to render an official Yoti QR image.
+If you're looking to integrate Yoti with a 'Non-browser' client, one of the tasks you will need to do is request a Yoti QR code URI from Yoti's servers. This URI must be transformed into a Yoti QR before it can be scanned with the Yoti app. Yoti provides a simple API to render an official Yoti QR image.
 
-It is possible to manually construct this QR code as this can be necessary in cases where you do not have access to a Web browser on your front end, for example using a kiosk GUI.
+It is possible to manually construct this QR code, as this can be necessary in cases where you do not have access to a Web browser on your front end, for example, using a kiosk GUI.
 
 Requesting a Yoti QR is broken down into the following steps:
 
 1. Creating a Share session
 2. Requesting a QR code from the session
 3. Rendering the Yoti QR
-4. Receiving the receipt id via the webhook
-5. Using the receipt id to retrieve the profile
+4. Receiving the receipt ID via the webhook
+5. Using the receipt ID to retrieve the profile
 
 #### Create a share session
 
@@ -340,7 +340,7 @@ Uri qrCodeUri = shareQrCode.GetUri();
 {% /tab %}
 {% /code %}
 
-A Yoti QR code contains an ID and URI and is returned in following form:
+A Yoti QR code contains an ID and URI and is returned in the following form:
 
 {% code %}
 {% tab language="markup" %}
@@ -353,7 +353,7 @@ A Yoti QR code contains an ID and URI and is returned in following form:
 
 #### Render the Yoti QR
 
-The above QR code URI must be transformed into a Yoti QR before it can be scanned with the Yoti app. Yoti provides a simple API endpoint to transform this URI into an official Yoti QR image - This is important to establish trust between your user base and Yoti.
+The above QR code URI must be transformed into a Yoti QR before it can be scanned with the Yoti app. Yoti provides a simple API endpoint to transform this URI into an official Yoti QR image - this is important to establish trust between your user base and Yoti.
 
 {% image url="https://uploads.developerhub.io/prod/kvAX/kcclkyn6ay2lu2lhwuzyvcq4rvgs4uuc900yr0ajh1bspry0hki64n86s0agzvif.png" mode="300" height="477" width="300" %}
 {% /image %}
@@ -380,6 +380,7 @@ The request body should be formed as JSON, specifying a URL (mandatory) and an i
 {
 	"url": "https://code.yoti.com/<YotiCode>"
   "size": 200 // Optional
+  "skinId": "yoti"// Optional
 }
 {% /tab %}
 {% /code %}
@@ -389,8 +390,10 @@ The request body should be formed as JSON, specifying a URL (mandatory) and an i
 | ---- | ---- | ---- | 
 | url | string | This is the URI returned from requesting a Yoti QR | 
 | size | number | This is an optional parameter for specifying QR size | 
-| skinId | yoti / digital-id-uk | Allows the QR to be displayed in either a Yoti only theme, or Digital ID Connect brand. "digital-id-uk" is only applicable for UK usage. | 
+| skinId | yoti/digital-id-uk | Allows the QR to be displayed in either the Yoti only theme, or the Digital ID Connect brand. "digital-id-uk" is only applicable for UK usage. | 
 {% /table %}
+
+The image data will be returned in binary format. This should be converted to base64 to render for your users.
 
 **Error codes**
 
@@ -402,19 +405,19 @@ The request body should be formed as JSON, specifying a URL (mandatory) and an i
 | 406 | An Accept header was sent with an invalid return type | Ensure the Accept header is one of\n\n\n\n- image/svg+xml\n- image/png | 
 {% /table %}
 
-#### Receive the Receipt id
+#### Receive the Receipt ID
 
-After the user scans a Yoti QR and completes the share, a **webhook notification** is sent to the endpoint specified in the Share session. This will be trigged in the case of either a Completed or Failed share. The JSON notification will contain the receipt id and an optional error code. Example of these are provided [here](https://developers.yoti.com/digital-id/retrieve-the-profile#webhook-notifications).
+After the user scans a Yoti QR and completes the share, a **webhook notification** is sent to the endpoint specified in the Share session. This will be triggered in the case of either a Completed or Failed share. The JSON notification will contain the receipt ID and an optional error code. Examples of these are provided [here](https://developers.yoti.com/digital-id/retrieve-the-profile#webhook-notifications).
 
 #### Retrieve the profile
 
-Now, you can use the receipt id to decrypt the user share in your backend and retrieve the profile attributes. This process is explained on [this page](/digital-id/retrieve-the-profile).
+Now, you can use the receipt ID to decrypt the user share in your backend and retrieve the profile attributes. This process is explained on [this page](/digital-id/retrieve-the-profile).
 
 ---
 
 ### Completion handler
 
-Yoti webshare provides a way to avoid automatic redirection on share completion by using a hook function. This can also be used to retrieve the Receipt ID and run your own code logic. For example - you can send the Receipt ID to your backend and use it to decrypt the share receipt. Based on the shared user attributes, you can also render your own UI which is especially helpful for non-browser integrations.
+Yoti webshare provides a way to avoid automatic redirection on share completion by using a hook function. This can also be used to retrieve the Receipt ID and run your own code logic. For example, you can send the Receipt ID to your backend and use it to decrypt the share receipt. Based on the shared user attributes, you can also render your own UI, which is especially helpful for non-browser integrations.
 
 {% code %}
 {% tab language="javascript" %}
@@ -434,7 +437,7 @@ hooks: {
 
 You can append query params to the landing page URL that displays the Yoti button. These will be added to the callback URL.
 
-For example if you load the landing page containing the Yoti button as follows:
+For example, if you load the landing page containing the Yoti button as follows:
 
 [https://example.com/?iso=test&user_id=6667](https://example.com/?iso=test&amp;user_id=6667)
 
