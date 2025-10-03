@@ -19,8 +19,8 @@ You should migrate to a supported version before the end of its deprecation peri
 The following table lists the available versions and their support cycle:
 
 {% table widths="" %}
-| Version | Deprecation Date | End of life | 
-| ---- | ---- | ---- | 
-| V1-beta-2 | 2025-05-13 | 2025-05-13 | 
-| V1 | 2025-10-28 | 2025-10-28 | 
+| Version |  | Deprecation Date | End of life | 
+| ---- | ---- | ---- | ---- | 
+| V1 |  | 2025-10-28 | 2026-10-28 | 
+| V1-beta-2 |  | 2025-05-13 | 2025-05-13 | 
 {% /table %}
