@@ -215,7 +215,7 @@ Jump to
 </div>
 {% /html %}
 
-{% badge type="info" text="Hint" /%} See the next page for information on integrating our native SDK's.
+{% badge type="info" text="Hint" /%} See [this page](/identity-verification/mobile-quick-start) for information on integrating our native SDKs.
 
 ---
 
