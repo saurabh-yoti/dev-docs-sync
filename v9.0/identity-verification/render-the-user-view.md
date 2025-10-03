@@ -253,5 +253,5 @@ Jump to
 | 6003 | Mobile | Face capture dependency could not be found. Only applicable to Native SDK. | Yes, with dependency installed | 
 | 7000 | Web | The user did not have the required documents. | No | 
 | 7001 | Web | The user tried to update an address with invalid values more than 3 times. | Yes | 
-| 7002 | Web | The user has failed liveness session in a identity profile session. | No | 
+| 7002 | Web | The user has failed liveness in a identity profile session. | No | 
 {% /table %}
