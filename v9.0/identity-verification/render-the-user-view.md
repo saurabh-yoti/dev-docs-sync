@@ -238,20 +238,20 @@ Jump to
 | 5000 | Mobile/Web | No camera.\n\n(When user's camera was not found and file upload is not allowed) | No | 
 | 5001 | Web | Unsupported browser/platform by the liveness flow. | No | 
 | 5002 | Mobile/Web | No more local tries for the liveness flow. | Yes | 
-| 5003 | Mobile | SDK is out-of-date - please update the SDK to the latest version - (see [github](https://github.com/getyoti/) pages). | No | 
+| 5003 | Mobile | SDK is out-of-date - please update the SDK to the latest version - (see [GitHub](https://github.com/getyoti/) pages). | No | 
 | 5004 | Mobile/Web | Unexpected internal error. | No | 
 | 5005 | Mobile | Unexpected document scanning error. | No | 
 | 5006 | Mobile/Web | Unexpected liveness error. | No | 
 | 5007 | Web | iOS browser in use other than Safari. Only Safari on iOS may access camera. | No | 
-| 5008 | Mobile/Web | Unsupported configuration | No | 
-| 5009 | Mobile | There was not enough storage available to write to the device | No | 
-| 5010 | Web | Camera access failed and no alternative capture method available | No | 
-| 5011 | Web | The camera does not meet the minimum required resolution | No | 
-| 6000 | Mobile | Document Capture dependency not found error | No | 
-| 6001 | Mobile | Liveness dependency not found error | No | 
-| 6002 | Mobile | Supplementary Document capture dependency not found error | No | 
-| 6003 | Mobile | Face capture dependency could not be found. Only applicable to Native SDK | Yes, with dependency installed | 
-| 7000 | Web | The user did not have the required documents | No | 
-| 7001 | Web | The user tried to update an address with invalid values more than 3 times | Yes | 
-| 7002 | Web | The user has failed liveness session in a identity profile session | No | 
+| 5008 | Mobile/Web | Unsupported configuration. | No | 
+| 5009 | Mobile | There was not enough storage available to write to the device. | No | 
+| 5010 | Web | Camera access failed and no alternative capture method available. | No | 
+| 5011 | Web | The camera does not meet the minimum required resolution. | No | 
+| 6000 | Mobile | Document Capture dependency not found error. | No | 
+| 6001 | Mobile | Liveness dependency not found error. | No | 
+| 6002 | Mobile | Supplementary Document capture dependency not found error. | No | 
+| 6003 | Mobile | Face capture dependency could not be found. Only applicable to Native SDK. | Yes, with dependency installed | 
+| 7000 | Web | The user did not have the required documents. | No | 
+| 7001 | Web | The user tried to update an address with invalid values more than 3 times. | Yes | 
+| 7002 | Web | The user has failed liveness session in a identity profile session. | No | 
 {% /table %}
