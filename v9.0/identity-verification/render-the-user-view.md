@@ -233,7 +233,7 @@ Jump to
 | 3000 | Mobile/Web | Yoti's services are down or unable to process the request. | Yes | 
 | 3001 | Mobile | An error occurred during a network request. | Yes | 
 | 3002 | Mobile/Web | User has no network. | Yes | 
-| 4000 | Mobile/Web | The user did not grant permissions to the camera. | Yes\n\nThe end-user will be asked again to grant permissions to the camera. | 
+| 4000 | Mobile/Web | The user did not grant permissions to the camera. | Yes, the end-user will be asked again to grant permissions to the camera. | 
 | 4001 | Web | The user has submitted a document that does not match the selection, or the user has exceed attempts to submit an in date document. | Yes, a new session is required. | 
 | 5000 | Mobile/Web | No camera.\n\n(When user's camera was not found and file upload is not allowed) | No | 
 | 5001 | Web | Unsupported browser/platform by the liveness flow. | No | 
@@ -252,4 +252,6 @@ Jump to
 | 6002 | Mobile | Supplementary Document capture dependency not found error | No | 
 | 6003 | Mobile | Face capture dependency could not be found. Only applicable to Native SDK | Yes, with dependency installed | 
 | 7000 | Web | The user did not have the required documents | No | 
+| 7001 | Web | The user tried to update an address with invalid values more than 3 times | Yes | 
+| 7002 | Web | The user has failed liveness session in a identity profile session | No | 
 {% /table %}
