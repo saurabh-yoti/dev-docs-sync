@@ -39,9 +39,9 @@ You will need to create an service in the hub to obtain your API keys. You can d
 
 ## Key generation
 
-The next stage is to collect various IDs for your application.
+The next stage is to collect various IDs for your service.
 
-{% image url="https://uploads.developerhub.io/prod/kvAX/i4sn3u0hp3qubdo3b04jfbcn3bg8xll2z87c68nre4xn998s12mwrgf2bl7exrso.png" caption="Generating keys and settings" mode="set" height="931" width="749" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/5d8hnu6dot8n5g7t2bpzuf6t3c17o1hwmbs1ifexmrulrvdyh7oex34ocj71z6d3.png" mode="responsive" height="976" width="796" %}
 {% /image %}
 
 If you want to add premium services please tick the boxes in the blue box to enable. You can always change this later.
@@ -67,7 +67,7 @@ Once you've onboarded your organisation in Yoti Hub and have generated your API 
 
 ## Deleting your service
 
-To delete your service go Service &gt; **Edit** button &gt; press **Delete**.
+To delete your service go Service &gt; **Arrow** icon &gt; press **Delete**.
 
 There is also an option to deactivate your service which will hold your integration as a paused state. Users will not be able use your integration until it gets activated again.
 
