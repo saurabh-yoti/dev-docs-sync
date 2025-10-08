@@ -71,7 +71,7 @@ To delete your service go Service &gt; **Arrow** icon &gt; press **Delete**.
 
 There is also an option to deactivate your service which will hold your integration as a paused state. Users will not be able use your integration until it gets activated again.
 
-{% image url="https://uploads.developerhub.io/prod/kvAX/5ref8rr4frt15xd2xkx2zowbnsrxwe0kc2po3wqwjeya6huimt7wftywxcyr2u81.jpg" caption="Deleting your application" mode="responsive" height="366" width="1628" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/5ref8rr4frt15xd2xkx2zowbnsrxwe0kc2po3wqwjeya6huimt7wftywxcyr2u81.jpg" caption="Deleting your service" mode="responsive" height="366" width="1628" %}
 {% /image %}
 
 {% badge type="info" text="Hint" /%} If you delete your service we cannot recover this for you.
