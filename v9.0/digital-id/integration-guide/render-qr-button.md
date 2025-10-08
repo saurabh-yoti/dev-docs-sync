@@ -23,7 +23,7 @@ The Yoti button requires the hosting page to be accessed via HTTPS, so please ma
 | ---- | ---- | ---- | 
 | name | Identifies the Yoti share on the page. | ✅ | 
 | domID | Specifies the ID of the DOM node where Yoti webshare has to be rendered. | ✅ | 
-| clientSdkId | Identifies your Yoti Hub application. This value can be found in the Hub, within your application section, in the keys tab. | ✅ | 
+| sdkId | Identifies your Yoti Hub application. This value can be found in the Hub, within your application section, in the keys tab. | ✅ | 
 | hooks | Object for specifying the functions hooks to be called by Yoti webshare. | ✅ | 
 | hooks - sessionIdResolver | Hook Function to resolve the Session ID generated from the creating a Share session using the Yoti backend SDK. | ✅ | 
 | hooks - errorListener | Allows you to listen to error messages from the Webshare QR/button. | ❌ | 
@@ -195,7 +195,7 @@ The Inline QR code option has a button which, when clicked, opens just the QR co
 
 The Instant QR code option is just the QR code with no button. You will need to provide more context on your page as to what the Digital ID QR is for. See the example below:
 
-{% image url="https://uploads.developerhub.io/prod/kvAX/ocl4rgr6lm3y8rnwjq7tdd0h8um9npm37vgst0j77qofk99klhxb8swhl9v5n1qf.png" caption="Instant QR code" mode="responsive" height="846" width="614" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/ocl4rgr6lm3y8rnwjq7tdd0h8um9npm37vgst0j77qofk99klhxb8swhl9v5n1qf.png" caption="Instant QR code" mode="responsive" height="846" %}
 {% /image %}
 
 {% code %}
