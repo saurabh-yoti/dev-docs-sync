@@ -53,7 +53,7 @@ Yoti offers the ability to specify a language locale for the front-end webshare 
 
 The Modal QR code option has a button which when clicked opens a modal pop out window with the QR code present. There are three tabs, describing how to scan the QR code, the QR code & attributes to be shared and about Yoti.
 
-{% image url="https://uploads.developerhub.io/prod/kvAX/srcrelbu4df0veellze7cuu1g96r1srnf78yxw2bvh9z74oes6exu7o8x9gq3xie.png" caption="Modal QR button" mode="responsive" height="260" width="560" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/srcrelbu4df0veellze7cuu1g96r1srnf78yxw2bvh9z74oes6exu7o8x9gq3xie.png" caption="Modal QR button" mode="set" height="183.84375" width="396" %}
 {% /image %}
 
 {% code %}
@@ -195,7 +195,7 @@ The Inline QR code option has a button which, when clicked, opens just the QR co
 
 The Instant QR code option is just the QR code with no button. You will need to provide more context on your page as to what the Digital ID QR is for. See the example below:
 
-{% image url="https://uploads.developerhub.io/prod/kvAX/ocl4rgr6lm3y8rnwjq7tdd0h8um9npm37vgst0j77qofk99klhxb8swhl9v5n1qf.png" caption="Instant QR code" mode="responsive" height="846" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/ocl4rgr6lm3y8rnwjq7tdd0h8um9npm37vgst0j77qofk99klhxb8swhl9v5n1qf.png" caption="Instant QR code" mode="set" height="413.34375" width="300" %}
 {% /image %}
 
 {% code %}
