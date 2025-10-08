@@ -1235,6 +1235,8 @@ try {
 
 Once you have your share URL, you can send it to the frontend for it to be rendered in a Yoti QR code. You can provide the `shareUrl` directly, or use `shareUrlProvider` to fetch it dynamically from your backend. Please see the examples below using the modal QR code. You can add it to your site using either the JavaScript approach or the NPM module method.
 
+#### Webshare Module
+
 {% code %}
 {% tab language="html" %}
 <!-- QR Generation with Share URL -->
