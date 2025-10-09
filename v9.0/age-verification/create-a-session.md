@@ -60,11 +60,12 @@ Here you will provide which authentication method you would like, the allowed ag
 {% tab language="json" %}
 {
     "type": "OVER",
+  	"ttl": 900,
     "age_estimation": {
         "allowed": true,
         "threshold": 21,
         "level": "PASSIVE",
-        "retry_limit": 1
+        "retry_limit": 1 //number of total attempts for this method
     },
     "digital_id": {
         "allowed": true,
@@ -92,7 +93,6 @@ Here you will provide which authentication method you would like, the allowed ag
         "level": "NONE",
         "retry_limit": 1
     },
-    "ttl": 900,
     "reference_id": "over_18_example",
     "callback": {
        "auto": true,
@@ -126,10 +126,10 @@ This is where you define what preference you want to set for the age of the user
 {% table widths="0,251" %}
 | Parameter | Type / Value | Description | 
 | ---- | ---- | ---- | 
-| reference_id | string | Reference ID is an optional string. Yoti returns this same string in the session result. | 
-| ttl | seconds | How long the session is valid for, the user will need to complete it before the ttl expires. This must be at least 60 seconds (1 minute). And can't be longer than 1 month. | 
-| callback | object | The URL to redirect your user to after they complete age verification. The `sessionId` will be appended as a query parameter. Setting `auto` to `true` will automatically redirect users after verification.\n\n\n\nExample - { "auto": true, "url": "https://www.example.com" } | 
-| callback_url | string | Shorthand for specifying the URL where your user is redirected after age verification. By default, `auto` is `false`, so users are **not** automatically redirected.\n\n\n\nExample - https://www.example.com | 
+| reference_id | string | Reference ID is an optional string for your internal reference. Yoti does not use it, but returns this same string in the session result. | 
+| ttl | seconds | Required field for how long the session is valid for, the user will need to complete it before the ttl expires. This must be at least 60 seconds (1 minute) and cannot be longer than 1 month. | 
+| callback | object | The URL to redirect your user to after they complete age verification. The `sessionId` will be appended as a query parameter. Setting `auto` to `true` will automatically redirect users after verification.\n\n\n\nExample - { "auto": true, "url": "[https://www.example.com"](https://www.example.com&quot;) } | 
+| callback_url | string | Shorthand for specifying the URL where your user is redirected after age verification. By default, `auto` is `false`, so users are **not** automatically redirected.\n\n\n\nExample - [https://www.example.com](https://www.example.com) | 
 | notification_url | [https://example.com/updates](https://yourdomain.example/updates) | The URL where the results of an age verification should be sent. This endpoint must use HTTPS and accept POST requests for notifications. | 
 | block_biometric_consent | true / false | For several American states (currently Texas, Illinois and Washington US states*), the law mandates that you must collect the user’s specific consent to collect their biometric details for our liveness or face matching feature to be compliant with the US legislation.\n\n\n\n*and any other countries or states within countries\n\nIf you choose to only request specific consent in the above "territories" you must provide details of the effective geo location software you use to prevent any individuals located in one of these territories accessing the Yoti service without prior giving specific consent.\n\n\n\nSetting to true bypasses this screen. We recommend keeping this value to default (false) to enable consent for all users. | 
 | cancel_url | [https://yourdomain.example](https://yourdomain.example/) | You can specify a cancel URL, if the user opens AVS and decides that they don't want to continue then they can be taken to a specific place rather than going back in the browser.\n\nIf you would like to see how this looks please head over [here.](https://developers.yoti.com/age-verification/customisation#cancel-url) | 
@@ -137,9 +137,38 @@ This is where you define what preference you want to set for the age of the user
 | resume_enabled | true / false | Allows the user to resume a session (if the link is re-accessed). The user can be re sent the link if for instance the IDV session fails, so that they can retry. | 
 | rule_id | string | Allows an age token rule ID to be specified. If a user has previously passed a Yoti age verification and did so by meeting the age threshold configured in your rule, the user will automatically redirect to the callback.\n\n\n\nTo create an age token rule, see [auto$](/age-verification/age-tokens)\n\n\n\nThe login method must be enabled for this to take affect. | 
 | synchronous_checks | true / false | If set to true, ensures that all methods have a result ready before the user is redirected to the callback URL.\n\n\n\nDefault is false, this primarily affects document checks and credit card checks as these are async. | 
+| retry_limit | integer | The total number of tries that a user will be allowed to attempt each method | 
 {% /table %}
 
 {% badge type="error" text="Important" /%} We will charge for each individual verification check performed, this will apply to the retry attempts if "`retry_enabled`" and/or "`resume_enabled`" are set as true.
+
+### Allow users to try again
+
+Some users look younger than their real age, e.g. an 18-year-old who looks 17 or a 20-year-old who looks 18. These users might fail the age estimation check even though they meet the legal age. 
+
+You can enable retries and give your users another chance to pass an age check. You will need to set some parameters at the session and method levels.
+
+**At the session level**
+
+You will need to set:
+
+{% code %}
+{% tab language="json" %}
+"retry_enabled": true,
+    "resume_enabled": true,
+    "synchronous_checks": true
+{% /tab %}
+{% /code %}
+
+**At the method level**
+
+You will need to specify how many tries are allowed for each check individually, e.g. 2 tries for Age Estimation, 1 try for Identity Verification, and 1 try for Digital ID.
+
+{% code %}
+{% tab language="json" %}
+"retry_limit": 1 // | 2 | 3...
+{% /tab %}
+{% /code %}
 
 ---
 
