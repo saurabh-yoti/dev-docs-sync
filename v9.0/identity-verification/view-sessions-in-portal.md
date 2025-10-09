@@ -40,14 +40,14 @@ If you wish to enable this please follow the steps below:
 
 After this you will have to add your current PEM file to the pop up and give consent.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/afhrf3sl2zfheotmen2l/1639920165.png" caption="Hub &gt; Application &gt; Keys &gt; Register your key" mode="600" height="1000" width="1048" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/afhrf3sl2zfheotmen2l/1639920165.png" caption="Hub &gt; Application &gt; Keys &gt; Register your key" mode="600" height="1000" width="600" %}
 {% /image %}
 
 {% badge type="info" text="Hint" /%} You will not be able to review old sessions. 
 
 If you havent used the portal at all you will need to continue with the following steps:
 
-1. Adding a [collaborator](/identity-verification/portal-guide#add-users)
+1. Adding a [collaborator](/identity-verification/add-users)
 2. Logging on to the [portal.](https://developers.yoti.com/identity-verification/login)
 
 ---
