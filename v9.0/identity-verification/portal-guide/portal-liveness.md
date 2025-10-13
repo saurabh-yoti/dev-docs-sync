@@ -28,7 +28,7 @@ You can choose the liveness type used in the flow. For more details on the diffe
 
 You can allocate how many retries you want the user to complete. We recommend a maximum of 3.
 
-{% image url="https://uploads.developerhub.io/prod/kvAX/e3azzk684ptqp0kazrcm7zgwdyith23aqtj8366gwz80xwn57p8c0cugyj24s02y.png" caption="Application &gt; Portal preferences" mode="responsive" height="938" width="1076" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/e3azzk684ptqp0kazrcm7zgwdyith23aqtj8366gwz80xwn57p8c0cugyj24s02y.png" caption="Service &gt; Portal preferences" mode="responsive" height="938" width="1302" %}
 {% /image %}
 
 For several American states (currently Texas, Illinois and Washington US states*), the law mandates that you must collect the user’s specific consent to collect their biometric details for our liveness or face matching feature to be compliant with the US legislation.
