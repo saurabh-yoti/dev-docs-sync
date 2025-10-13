@@ -34,5 +34,5 @@ You can configure two options here:
 
 If you would like to collect two ID documents please click request additional document click Request additional document. If you request your users to upload more than one document we offer the ability to cross check the data. You must have text extraction on both documents enabled.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/smsqjrz2lkfztoz0sig3/1636397042.png" caption="Application &gt; Portal preferences" mode="responsive" height="736" width="1068" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/smsqjrz2lkfztoz0sig3/1636397042.png" caption="Service &gt; Portal preferences" mode="responsive" height="736" width="1068" %}
 {% /image %}
