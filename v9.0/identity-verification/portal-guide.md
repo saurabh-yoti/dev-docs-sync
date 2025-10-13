@@ -18,7 +18,7 @@ To get set up you will need to follow these steps:
 
 1. Set up an account on the [Hub](https://hub.yoti.com/)
 2. Register an organisation and get verified.
-3. [Create an application](/identity-verification/portal-guide#create-an-application) and choose your configuration setup.
+3. [Create an application](/identity-verification/portal-guide#create-an-application) service and choose your configuration setup.
 4. Log on to the [portal](https://identity.yoti.com/iam/login)
 
 The below will guide you through step by step on how to get set up.
@@ -29,7 +29,7 @@ The below will guide you through step by step on how to get set up.
 
 ### Supported Browsers
 
-{% image url="https://image-archive.developerhub.io/image/upload/71142/rstg3qyxjlhzssaeqjfm/1603187142.png" caption="Supported browsers" mode="600" height="216" width="688" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/rstg3qyxjlhzssaeqjfm/1603187142.png" caption="Supported browsers" mode="600" height="216" width="600" %}
 {% /image %}
 
 ---
