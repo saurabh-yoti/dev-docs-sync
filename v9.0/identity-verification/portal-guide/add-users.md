@@ -23,7 +23,7 @@ To add a user and enforce permissions to your portal:-
 
 By default people that are added to the portal will have the ‘View sessions’ permission.
 
-{% image url="https://uploads.developerhub.io/prod/kvAX/x3crmobjxfaxdhgdxv585ofx5wtvx71xur155yxcc4pdbavofjhs8r07mdh25iwf.png" caption="Creating an application &gt; Users &gt; Permissions" mode="responsive" height="706" width="452" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/x3crmobjxfaxdhgdxv585ofx5wtvx71xur155yxcc4pdbavofjhs8r07mdh25iwf.png" caption="Creating a service &gt; Users &gt; Permissions" mode="responsive" height="706" width="452" %}
 {% /image %}
 
 {% html %}
