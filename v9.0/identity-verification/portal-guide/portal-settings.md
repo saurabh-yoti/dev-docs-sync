@@ -27,7 +27,7 @@ Here you can configure the user view
 {% image url="https://image-archive.developerhub.io/image/upload/v2_2762/sm7ny10mvy8yercyehhk/1636397207.png" caption="Portal &gt; Preferences" mode="responsive" height="1054" width="1052" %}
 {% /image %}
 
-{% table %}
+{% table widths="" %}
 | Configuration | Description | 
 | ---- | ---- | 
 | Primary colour | Colour of the button on the user session view. | 
@@ -40,7 +40,7 @@ Here you can configure the user view
 
 ### Mobile Handoff
 
-You can enable a mobile handoff feature which will allow users to complete the session using their mobile devices. This can be toggled on or off and will be on as default for newly created applications.
+You can enable a mobile handoff feature which will allow users to complete the session using their mobile devices. This can be toggled on or off and will be on as default for newly created services.
 
 {% image url="https://uploads.developerhub.io/prod/kvAX/mexpnk8rnidllrt8j9hqb6bni79ppbpbfy60pzya7qmdm1adounsjae3uoc0f3o5.png" mode="responsive" height="288" width="1396" %}
 {% /image %}
