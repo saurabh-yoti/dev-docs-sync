@@ -30,7 +30,7 @@ Yoti will need to capture the following user attributes:
 - Date of birth
 - Country ISO code
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/zremsx5ethl6t80epm4d/1636397136.png" caption="Application &gt; Portal preferences &gt;AML check" mode="responsive" height="508" width="1090" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/zremsx5ethl6t80epm4d/1636397136.png" caption="Service &gt; Portal preferences &gt;AML check" mode="responsive" height="508" width="1090" %}
 {% /image %}
 
 ###
