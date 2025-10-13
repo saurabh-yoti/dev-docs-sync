@@ -24,5 +24,5 @@ We strongly suggest you read the sections above and understand the user flow and
 
 To enable a request to obtain the data printed visually on a document, in structured form.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/rwjoclpanfa37zjokwan/1636397092.png" caption="Application &gt; Portal preferences" mode="responsive" height="140" width="1034" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/rwjoclpanfa37zjokwan/1636397092.png" caption="Service &gt; Portal preferences" mode="responsive" height="140" width="1034" %}
 {% /image %}
