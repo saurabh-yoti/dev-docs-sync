@@ -219,7 +219,6 @@ await startYotiModalShare({
   domId: 'xxx',
   controls: {
     scenarioId: 'xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
-    shareUrlProvider
   }
 });
 
