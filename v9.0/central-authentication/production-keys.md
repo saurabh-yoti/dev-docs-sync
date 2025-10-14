@@ -16,20 +16,5 @@ AE Synced block for now...
 
 Waiting for Hub update maybe?
 
-{% cards view="grid" %}
-{% card title="Title" link="" %}
-Description
-{% /card %}
-{% card title="Title" link="" %}
-Description
-{% /card %}
-{% card title="Title" link="" %}
-Description
-{% /card %}
-{% card title="Title" link="" %}
-Description
-{% /card %}
-{% /cards %}
-
 {% synced id="age-onboarding-production-keys" %}
 {% /synced %}
