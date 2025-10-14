@@ -10,11 +10,11 @@ keywords:
 tags: 
 ---
 
-Yoti provides a QR/button generation script to be included in your HT_M_L file. In the examples below, this script has been added to the head of the HT_M_L document. 
+Yoti provides a QR/button generation script to be included in your html __file_._ In the examples below, this script has been added to the head of the __html document. 
 
 To render the Yoti QR or button,  please take a look at our range of options below and pick a configuration.
 
-The JavaScript library called Webshare needs to be invoked – you can do this by calling Yoti.createWebShare() in the body of your HTML document. For the config, you will need to specify a ‘domId’ so the script knows where to add the Yoti button on your page.
+The JavaScript library called Webshare needs to be invoked – you can do this by calling Yoti.createWebShare() in the body of your html document. For the config, you will need to specify a ‘domId’ so the script knows where to add the Yoti button on your page.
 
 The Yoti button requires the hosting page to be accessed via HTTPS, so please make sure that your web application has HTTPS enabled.
 
@@ -53,7 +53,7 @@ Yoti offers the ability to specify a language locale for the front-end webshare 
 
 The Modal QR code option has a button which when clicked opens a modal pop out window with the QR code present. There are three tabs, describing how to scan the QR code, the QR code & attributes to be shared and about Yoti.
 
-{% image url="https://uploads.developerhub.io/prod/kvAX/srcrelbu4df0veellze7cuu1g96r1srnf78yxw2bvh9z74oes6exu7o8x9gq3xie.png" caption="Modal QR button" mode="set" height="183.84375" width="396" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/srcrelbu4df0veellze7cuu1g96r1srnf78yxw2bvh9z74oes6exu7o8x9gq3xie.png" caption="Modal QR button" mode="set" height="260" width="396" %}
 {% /image %}
 
 {% code %}
