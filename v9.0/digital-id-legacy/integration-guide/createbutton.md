@@ -1313,7 +1313,7 @@ await startYotiModalShare({
     },
   },
   options: {
-    skin: 'digital-id-uk', // or other skin as needed
+    skinId: 'digital-id-uk', // or other skin as needed
     button: {
       width: 'full',
     },
