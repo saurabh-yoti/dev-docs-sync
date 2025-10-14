@@ -71,7 +71,7 @@ await startYotiModalShare({
     scenarioId: 'xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
   },
   options: {
-    skin: 'digital-id-uk',
+    skinId: 'digital-id-uk',
     displayLearnMoreLink: true,
     button: {
       width: 'full'
