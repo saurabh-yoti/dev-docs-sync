@@ -15,7 +15,7 @@ Once the session has been started, the state of this session will be 'in progres
 {% image url="https://image-archive.developerhub.io/image/upload/v2_2762/slz7dofehnsmf2yjqhzn/1623412501.png" caption="Session details" mode="responsive" height="700" width="2100" %}
 {% /image %}
 
-{% table %}
+{% table widths="" %}
 | Value | Description | 
 | ---- | ---- | 
 | IN PROGRESS | Yoti is still working on tasks and checks for the user's ID. | 
@@ -88,7 +88,7 @@ If the user has been unsuccessful in their session and Yoti has rejected the che
 
 If you have more than one document and you complete a document comparison check, the first document will be compared with the rest. An example result is shown below:
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/jhze1xqrinbgmpul9gyc/1623417224.png" caption="Example of document comparison check" mode="300" height="428" width="548" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/jhze1xqrinbgmpul9gyc/1623417224.png" caption="Example of document comparison check" mode="300" height="428" width="300" %}
 {% /image %}
 
 A full list of the rejection reasons are located at [Document report](/identity-verification/document) with recommended next steps. 
@@ -150,7 +150,7 @@ The above will explain the check recommendations that Yoti returns. It is at you
 
 Hence at the top of each session there will be an option for you to make a decision on the client session once the session has been completed.
 
-{% image url="https://image-archive.developerhub.io/image/upload/71142/xdzq5omtdprkvblwd4ft/1603128781.png" caption="Session &gt; Decision" mode="300" height="622" width="1480" %}
+{% image url="https://image-archive.developerhub.io/image/upload/71142/xdzq5omtdprkvblwd4ft/1603128781.png" caption="Session &gt; Decision" mode="300" height="622" width="300" %}
 {% /image %}
 
 This session will be overall marked with your decision and cannot be changed.
@@ -162,22 +162,20 @@ This session will be overall marked with your decision and cannot be changed.
 Once the session and all the checks have been completed, you can download a report version of the report. 
 
 - Click on the session you wish to download.
-- Click the three dots next to the session name:
+- Click on the Download PDF button:
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/fvi2ncki9vm9xy5s2g25/1623769481.png" caption="Session details &gt; 3 dots" mode="responsive" height="828" width="1656" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/fwh259y79sfi6bcr4oxts12meumgqkheg165mjat6o7csc4tnhldwclnqi7x09vp.png" mode="responsive" height="428" width="1282" %}
 {% /image %}
-
-- Click "Download PDF".
 
 De-select if you do not want image or the users data. 
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/egtezd66o1jtuduq9ue0/1623769563.png" caption="Session details &gt; 3 dots &gt; Download PDF" mode="600" height="600" width="1020" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/egtezd66o1jtuduq9ue0/1623769563.png" caption="Session details &gt; 3 dots &gt; Download PDF" mode="600" height="600" width="600" %}
 {% /image %}
 
 - Press "GENERATE."
 - Once completed press "DOWNLOAD."
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/t8fttgyfgvywsotonvsc/1623769638.png" caption="Session details &gt; 3 dots &gt; Download PDF&gt; Download" mode="600" height="524" width="990" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/t8fttgyfgvywsotonvsc/1623769638.png" caption="Session details &gt; 3 dots &gt; Download PDF&gt; Download" mode="600" height="524" width="600" %}
 {% /image %}
 
 To see PDF report please click [here](https://www.yoti.com/wp-content/uploads/IDV-portal.pdf) or see below:
