@@ -267,7 +267,7 @@ string apiKey = "someComplyAdvanceApiKey";
 string clientRef = "someClientRef";
 bool monitoring = true;
 bool removeDeceased = true;
-bool shareUrl = false;
+bool shareUrl = true;
   
 var customConfig = new RequestedCustomAccountWatchlistAdvancedCaConfigBuilder()
                        .WithRemoveDeceased(removeDeceased)
