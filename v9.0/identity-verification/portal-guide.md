@@ -49,7 +49,7 @@ Register with the Yoti Hub
       For a step by step guide on how to onboard with the hub head over to the Getting started section.
    </div>
    <div class="alert-links"> 
-      <a  target="_self" href="https://developers.yoti.com/yoti/getting-started
+      <a  target="_self" href="https://developers.yoti.com/identity-verification/getting-started
                                "> Onboarding with Yoti </a>
    </div>
 </div>
@@ -97,7 +97,7 @@ You will be provided with a list of checks that Identity verification provides.
 
 A session represents one end-to-end use of the ID verification service. Each time the ID verification service is initiated (regardless of which specific tasks/checks are required) a new session is created.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/gxp0hzqjoiuo2zhpqvvd/1636396942.png" caption="Creating a service &gt; Portal Preferences" mode="responsive" height="1158" width="1482" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_2762/gxp0hzqjoiuo2zhpqvvd/1636396942.png" caption="Creating a service &gt; Portal Preferences" mode="responsive" height="1158" %}
 {% /image %}
 
 Below describes the multiple checks Yoti provides for identity verification. We offer a manual check for most of the checks. If you require a manual check please select the following as part of your check:-
