@@ -10,17 +10,9 @@ keywords:
 tags: 
 ---
 
-{% html %}
-<div class="alert-BYS">
-   <div class="alert-title" id="BYS">
-      Before you start
-   </div>
-   <div class="alert-text" >
-We strongly suggest you read the sections above and understand the user flow and checks you want to enable.    </div>
-   <div class="alert-links"> 
-   </div>
-</div>
-{% /html %}
+{% callout type="warning" title="Before you start" %}
+We strongly suggest you read the **Features** section from the left hand menu and understand the user flow and checks you want to enable.
+{% /callout %}
 
 You will be provided with a list of checks that Identity verification provides.
 
@@ -35,7 +27,7 @@ A session represents one end-to-end use of the ID verification service. Each tim
 
 Described below are the multiple checks Yoti provides for identity verification. We offer a manual check for most of the checks. If you require a manual check please select the following as part of your check:-
 
-{% table %}
+{% table widths="" %}
 | Check type | Description | 
 | ---- | ---- | 
 | Always | The requested check will always get manually check regardless of the success of the automated check. | 
@@ -47,7 +39,7 @@ You can select your preference from within each tick box check.
 
 If you know what checks you want, you can skip this section.
 
-{% table %}
+{% table widths="" %}
 | Name | Manual check available | 
 | ---- | ---- | 
 | Liveness check | ❌ | 
