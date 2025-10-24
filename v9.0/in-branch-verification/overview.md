@@ -94,7 +94,7 @@ For 'Supplementary Document' support, refer to the table provided below.
 | Education letter | EDUCATION_LETTER | Supplementary doc | 
 | DVLA V5 or V5C/2 | DVLA_FORM | Supplementary doc | 
 | Veteran Card | VETERAN_CARD | Supplementary doc | 
-| Health Insurance Card | HEALTH_INSURANCE___CARD | Supplementary doc | 
+| Health Insurance Card | HEALTH_INSURANCE_CARD | Supplementary doc | 
 | Tax Notification | TAX_NOTIFICATION | Supplementary doc | 
 {% /table %}
 
