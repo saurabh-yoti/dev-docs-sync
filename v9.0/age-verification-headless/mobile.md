@@ -108,7 +108,7 @@ POST https://age.yoti.com/api/v1/mobile/check
 #### Example response
 
 {% code %}
-{% tab language="http" title="Success" %}
+{% tab language="json" title="Success" %}
 {
     "method": "MOBILE",
     "type": "OVER",
@@ -119,7 +119,7 @@ POST https://age.yoti.com/api/v1/mobile/check
     "evidence_id": "ef4846dd-10fa-4c1b-ba81-f9046c698c8a"
 }
 {% /tab %}
-{% tab language="http" title="Error" %}
+{% tab language="json" title="Error" %}
 {
     "method": "MOBILE",
     "type": "OVER",
