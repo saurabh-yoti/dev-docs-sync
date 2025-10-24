@@ -27,7 +27,7 @@ POST https://age.yoti.com/api/v1/mobile/otp
 {% /tab %}
 {% /code %}
 
-{% table %}
+{% table widths="" %}
 | Header | Description | 
 | ---- | ---- | 
 | Authorization | API Key to call the Yoti Age API. Should be sent as a Bearer token. | 
@@ -46,7 +46,7 @@ POST https://age.yoti.com/api/v1/mobile/otp
 {% /tab %}
 {% /code %}
 
-{% table %}
+{% table widths="" %}
 | Parameter | Types | Description | 
 | ---- | ---- | ---- | 
 | phone_number | String | This should be the target phone number to receive an OTP, including the country prefix. | 
@@ -56,12 +56,12 @@ POST https://age.yoti.com/api/v1/mobile/otp
 #### Example response
 
 {% code %}
-{% tab language="http" title="Success" %}
+{% tab language="json" title="Success" %}
 {
     "success": true
 }
 {% /tab %}
-{% tab language="http" title="Failure" %}
+{% tab language="json" title="Failure" %}
 {
     "message": "Unauthorised",
     "error_code": "E200008"
@@ -77,7 +77,7 @@ POST https://age.yoti.com/api/v1/mobile/check
 {% /tab %}
 {% /code %}
 
-{% table %}
+{% table widths="" %}
 | Header | Description | 
 | ---- | ---- | 
 | Authorization | API Key to call the Yoti Age API. Should be sent as a Bearer token. | 
@@ -146,7 +146,7 @@ POST https://age.yoti.com/api/v1/mobile/check
 
 ## Error codes
 
-{% table %}
+{% table widths="" %}
 | Error Code | Description | 
 | ---- | ---- | 
 | E200001 | Internal server error | 
