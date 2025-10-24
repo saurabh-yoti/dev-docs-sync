@@ -65,7 +65,7 @@ Please note that our in-branch service might not support all document types and 
 For 'Supplementary Document' support, refer to the table provided below.
 {% /callout %}
 
-{% table widths="" %}
+{% table widths="202,346" %}
 | Document | Backend name | Yoti type | 
 | ---- | ---- | ---- | 
 | Passport | PASSPORT | ID | 
@@ -79,7 +79,7 @@ For 'Supplementary Document' support, refer to the table provided below.
 | HM Forces ID Card | MILITARY_CARD | Supplementary doc | 
 | PASS Card | SUPPLEMENTARY_PASS_CARD | Supplementary doc | 
 | Firearms Licence | FIREARMS_LICENCE | Supplementary doc | 
-| Birth Certificate (within 12 months of DOB) | BIRTH_CERTIFICATE_ISSUED_WITHIN_12_MONTHS_OF_BIRTH | Supplementary doc | 
+| Birth Certificate (within 12 months of DOB) | BIRTH_CERTIFICATE___ISSUED_WITHIN _12_MONTHS_OF_BIRTH | Supplementary doc | 
 | Birth Certificate (issued after 12 months from DOB) | BIRTH_CERTIFICATE | Supplementary doc | 
 | Adoption Certificate | ADOPTION_CERTIFICATE | Supplementary doc | 
 | Paper Driving Licence | PAPER_DRIVING_LICENCE | Supplementary doc | 
@@ -93,13 +93,16 @@ For 'Supplementary Document' support, refer to the table provided below.
 | Immigration Document/Visa/Work Permit | IMMIGRATION_DOCUMENT | Supplementary doc | 
 | Education letter | EDUCATION_LETTER | Supplementary doc | 
 | DVLA V5 or V5C/2 | DVLA_FORM | Supplementary doc | 
+| Veteran Card | VETERAN_CARD | Supplementary doc | 
+| Health Insurance Card | HEALTH_INSURANCE___CARD | Supplementary doc | 
+| Tax Notification | TAX_NOTIFICATION | Supplementary doc | 
 {% /table %}
 
 ---
 
 ### User Journey (Diagram)
 
-{% image url="https://uploads.developerhub.io/prod/kvAX/qikgilulq51rzhaozgsyqb36v6nsj70wnzrbdb2waowcgmukgrlai4914jtvozl5.jpeg" mode="responsive" height="2513" %}
+{% image url="https://uploads.developerhub.io/prod/kvAX/qikgilulq51rzhaozgsyqb36v6nsj70wnzrbdb2waowcgmukgrlai4914jtvozl5.jpeg" mode="responsive" height="2513" width="1634" %}
 {% /image %}
 
 ---
